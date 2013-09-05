@@ -1,0 +1,1224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Mecha Elephant / sch_wizard</title>
+
+<script type="text/javascript" src="js/rgbcolor.js"></script> 
+<script type="text/javascript" src="js/StackBlur.js"></script>
+<script type="text/javascript" src="js/canvg.js"></script> 
+
+<script type='text/javascript' src='js/jquery-1.9.1.js'></script>
+<script type='text/javascript' src='js/jquery.mousewheel.js'></script>
+<!-- <script type='text/javascript' src='js/SVGPan.js'></script> -->
+
+<script type='text/javascript' src='js/svg.js'></script>
+
+<link href="css/buttons.css" rel="stylesheet" type="text/css" />
+
+<!--
+<link href="css/grids-core.css" rel="stylesheet" type="text/css" />
+<link href="css/grids-r.css" rel="stylesheet" type="text/css" />
+<link href="css/grids-units.css" rel="stylesheet" type="text/css" />
+-->
+
+<link href="css/forms.css" rel="stylesheet" type="text/css" />
+<link href="css/tables.css" rel="stylesheet" type="text/css" />
+<link href="css/cleanlooks.css" rel="stylesheet" type="text/css" />
+</head>
+
+<script type="text/javascript">
+
+  /* KNOWN BUG: when in quad layout mode and a refresh is done ('F5'), top
+     and bottom pin names and numbers don't render.
+     I don't know why.  console.log tells me variables are set when refreshing.
+     */
+
+center_x = 2500;
+center_y = 2500;
+scale_factor = 0.25;
+viewport_engaged = 0;
+viewport_scale = 10.0;
+viewport_x = 150.0;
+viewport_y = 150.0;
+
+var dip_headroom = 100;
+var sil_headroom = 100;
+var qfp_headroom = 400;
+
+viewport_matrix = 
+[ 
+  [1.0, 0.0, 0.0], 
+  [0.0, 1.0, 0.0], 
+  [0.0, 0.0, 1.0] 
+];
+
+var svg_scene;
+
+function mmul(a, b)
+{
+  var i, j, k;
+
+  var tm = [ [0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0] ];
+
+  for (i=0; i<3; i++) {
+    for (j=0; j<3; j++) {
+      tm[i][j] = 0.0;
+      for (k=0; k<3; k++) {
+        tm[i][j] += a[i][k]*b[k][j];
+      }
+    }
+  }
+
+  return tm;
+
+}
+
+function draw_pin_r(scene, x, y, pin_num, pin_name, pin_num_font_sz, pin_name_font_sz, pin_format) 
+{
+  var t_r = 6;
+  var pin_l = 300;
+  var pin_h = 100;
+
+  cx = center_x;
+  cy = center_y;
+  f = scale_factor;
+
+  var ex = x + f*pin_l;
+  var ey = y;
+  var inv_circle_r = 8;
+
+  if ( /C/g.exec(pin_format) )
+  {
+    l = scene.polyline( [ [ex, ey + f*40], [ex + f*40, ey], [ex, ey-f*40] ]).fill('none');
+    l.stroke({ width: 1, color: '#a00000' });
+  }
+  if ( /V/g.exec(pin_format) )
+  {
+    l = scene.polyline( [ [ex - f*80, ey ], [ex, ey - f*40], [ex, ey] ]).fill('none');
+    l.stroke({ width: 1, color: '#a00000' });
+  }
+  if ( /L/g.exec(pin_format) )
+  {
+    l = scene.polyline( [ [ex - f*80, ey ], [ex - f*80, ey - f*40], [ex, ey] ]).fill('none');
+    l.stroke({ width: 1, color: '#a00000' });
+  }
+  if ( /I/g.exec(pin_format) )
+  {
+    ex -= inv_circle_r;
+    c = scene.circle(inv_circle_r).x(ex ).y(y - inv_circle_r/2).fill('none');
+    c.stroke( { width: 1, color: '#a00000' } );
+  }
+
+  if ( $.trim(pin_num).length == 0)  { pin_num = '~'; } 
+  if ( $.trim(pin_name).length == 0) { pin_name = '~'; } 
+
+
+  var pin_num_h = pin_num_font_sz;
+  var pin_num_w = pin_num_font_sz * pin_num.length * 0.6;
+
+  var pin_name_h = pin_name_font_sz;
+  var pin_name_w = pin_name_font_sz * pin_name.length * 0.6;
+
+
+  scene.line( x, y, ex, y).stroke( { width: 1, color: '#a00000' } );
+  scene.circle(t_r).x(x-t_r/2).y(y-t_r/2).fill('none').stroke( { width: 0.5, color: '#a00000' } );
+
+  t = scene.text(pin_num).x( x + f*pin_l/2 - pin_num_w/2 ).y( y - .5*pin_num_h - f*75 );
+  t.font({ size: pin_num_h, family: 'monospace'  }).fill({ color: '#a00000' });
+
+  t = scene.text(pin_name).x( x + f*pin_l + f*100).y(y - 1.5*pin_name_h/2.0);
+  t.font({ size: pin_name_h, family: 'monospace'  }).fill({ color: '#00a0a0' });
+
+}
+
+function draw_pin_l(scene, x, y, pin_num, pin_name, pin_num_font_sz, pin_name_font_sz) 
+{
+  cx = center_x;
+  cy = center_y;
+  f = scale_factor;
+
+  var t_r = 6;
+  var pin_l = 300;
+  var pin_h = 100;
+  var inv_circle_r = 8;
+
+  var ex = x - f*pin_l;
+  var ey = y;
+
+  if ( /C/g.exec(pin_format) )
+  {
+    l = scene.polyline( [ [ex, ey + f*40], [ex - f*40, ey], [ex, ey-f*40] ]).fill('none');
+    l.stroke({ width: 1, color: '#a00000' });
+  }
+  if ( /V/g.exec(pin_format) )
+  {
+    l = scene.polyline( [ [ex + f*80, ey ], [ex, ey - f*40], [ex, ey] ]).fill('none');
+    l.stroke({ width: 1, color: '#a00000' });
+  }
+  if ( /L/g.exec(pin_format) )
+  {
+    l = scene.polyline( [ [ex + f*80, ey ], [ex + f*80, ey - f*40], [ex, ey] ]).fill('none');
+    l.stroke({ width: 1, color: '#a00000' });
+  }
+  if ( /I/g.exec(pin_format) )
+  {
+    ex += inv_circle_r;
+    c = scene.circle(inv_circle_r).x(ex - inv_circle_r).y(y - inv_circle_r/2).fill('none');
+    c.stroke( { width: 1, color: '#a00000' } );
+  }
+
+  if ( $.trim(pin_num).length == 0)  { pin_num = '~'; } 
+  if ( $.trim(pin_name).length == 0) { pin_name = '~'; } 
+
+
+  var pin_num_h = pin_num_font_sz;
+  var pin_num_w = pin_num_font_sz * pin_num.length * 0.6;
+
+  var pin_name_h = pin_name_font_sz;
+  var pin_name_w = pin_name_font_sz * pin_name.length * 0.6;
+
+  //scene.line( x, y, x - f*pin_l, y).stroke( { width: 1, color: '#a00000' } );
+  scene.line( x, y, ex, y).stroke( { width: 1, color: '#a00000' } );
+  scene.circle(t_r).x(x-t_r/2).y(y-t_r/2).fill('none').stroke( { width: 0.5, color: '#a00000' } );
+
+  t = scene.text(pin_num).x( x - f*pin_l/2 - pin_num_w/2 ).y( y - 0.5*pin_num_h  - f*75);
+  t.font({ size: pin_num_h, family: 'monospace'  }).fill({ color: '#a00000' });
+
+  t = scene.text(pin_name).x( x - f*pin_l - f*100 - pin_name_w ).y(y - 1.5*pin_name_h/2.0);
+  t.font({ size: pin_name_h, family: 'monospace'  }).fill({ color: '#00a0a0' });
+
+}
+
+function draw_pin_u(scene, x, y, pin_num, pin_name, pin_num_font_sz, pin_name_font_sz) 
+{
+  cx = center_x;
+  cy = center_y;
+  f = scale_factor;
+
+  var t_r = 6;
+  var pin_l = 300;
+  var inv_circle_d = 8;
+
+  var ex = x;
+  var ey = y - f*pin_l;
+
+  var bound_x = ex;
+  var bound_y = ey;
+
+  // clock (arrow)
+  if ( /C/g.exec(pin_format) )
+  {
+    //l = scene.polyline( [ [ex - f*40 , ey ], [ex , ey + f*40], [ex + f*40 , ey] ]).fill('none');
+    l = scene.polyline( [ [ex - f*40 , ey ], [ex , ey - f*40], [ex + f*40 , ey] ]).fill('none');
+    l.stroke({ width: 1, color: '#a00000' });
+  }
+
+  // low out
+  if ( /V/g.exec(pin_format) )
+  {
+    l = scene.polyline( [ [ex , ey ], [ex - f*40 , ey ], [ex , ey + 80*f ] ]).fill('none');
+    l.stroke({ width: 1, color: '#a00000' });
+  }
+
+  // low in
+  if ( /L/g.exec(pin_format) )
+  {
+    l = scene.polyline( [ [ex , ey ], [ex - f*40, ey + 80*f], [ex, ey + 80*f] ]).fill('none');
+    l.stroke({ width: 1, color: '#a00000' });
+  }
+
+  // invert (circle)
+  if ( /I/g.exec(pin_format) )
+  {
+    ey += inv_circle_d;
+    c = scene.circle(inv_circle_d).x(ex - inv_circle_d/2).y(ey - inv_circle_d).fill('none');
+    c.stroke( { width: 1, color: '#a00000' } );
+  }
+
+  if ( $.trim(pin_num).length == 0)  { pin_num = '~'; } 
+  if ( $.trim(pin_name).length == 0) { pin_name = '~'; } 
+
+
+  var pin_num_h = pin_num_font_sz;
+  var pin_num_w = pin_num_font_sz * pin_num.length * 0.6;
+
+  var pin_name_h = pin_name_font_sz;
+  var pin_name_w = pin_name_font_sz * pin_name.length * 0.6;
+
+  scene.line( x, y, ex, ey).stroke( { width: 1, color: '#a00000' } );
+  scene.circle(t_r).x(x-t_r/2).y(y-t_r/2).fill('none').stroke( { width: 0.5, color: '#a00000' } );
+
+  // still can't quite seem to get this right.  Not sure what I'm doing wrong
+  t = scene.text(pin_num);
+  t.x( x - 0.5*pin_num_h - f*50 ).y( y -  f*pin_l/2 + (pin_num_w)/2 );
+  t.transform({ rotation: -90 });
+  t.font({ size: pin_num_h, family: 'monospace'  }).fill({ color: '#a00000' });
+
+  var tt = scene.text(pin_name);
+  //t.x( x - 0.5*pin_name_h - f*50 ).y( bound_y - pin_name_w/2 - pin_name_font_sz ); //- pin_name_w/2 );
+  tt.x( x - 0.5*pin_name_h - f*50 );
+  tt.y( bound_y - pin_name_w/2 - f*150); 
+  tt.font({ size: pin_name_h, family: 'monospace'  }).fill({ color: '#00a0a0' });
+  tt.transform({ rotation: -90 });
+
+}
+
+function draw_pin_d(scene, x, y, pin_num, pin_name, pin_num_font_sz, pin_name_font_sz) 
+{
+  cx = center_x;
+  cy = center_y;
+  f = scale_factor;
+
+  var t_r = 6;
+  var pin_l = 300;
+  var inv_circle_d = 8;
+
+  var ex = x;
+  var ey = y + f*pin_l;
+
+  var bound_x = ex;
+  var bound_y = ey;
+
+  // clock (arrow)
+  if ( /C/g.exec(pin_format) )
+  {
+    l = scene.polyline( [ [ex - f*40 , ey ], [ex , ey + f*40], [ex + f*40 , ey] ]).fill('none');
+    l.stroke({ width: 1, color: '#a00000' });
+  }
+
+  // low out
+  if ( /V/g.exec(pin_format) )
+  {
+    l = scene.polyline( [ [ex , ey ], [ex - f*40 , ey ], [ex , ey - 80*f ] ]).fill('none');
+    l.stroke({ width: 1, color: '#a00000' });
+  }
+
+  // low in
+  if ( /L/g.exec(pin_format) )
+  {
+    l = scene.polyline( [ [ex , ey ], [ex - f*40, ey - 80*f], [ex, ey - 80*f] ]).fill('none');
+    l.stroke({ width: 1, color: '#a00000' });
+  }
+
+  // invert (circle)
+  if ( /I/g.exec(pin_format) )
+  {
+    ey -= inv_circle_d;
+    c = scene.circle(inv_circle_d).x(ex - inv_circle_d/2).y(ey ).fill('none');
+    c.stroke( { width: 1, color: '#a00000' } );
+  }
+
+    
+  if ( $.trim(pin_num).length == 0)  { pin_num = '~'; } 
+  if ( $.trim(pin_name).length == 0) { pin_name = '~'; } 
+
+
+  var pin_num_h = pin_num_font_sz;
+  var pin_num_w = pin_num_font_sz * pin_num.length * 0.6;
+
+  var pin_name_h = pin_name_font_sz;
+  var pin_name_w = pin_name_font_sz * pin_name.length * 0.6;
+
+  scene.line( x, y, ex, ey).stroke( { width: 1, color: '#a00000' } );
+  scene.circle(t_r).x(x-t_r/2).y(y-t_r/2).fill('none').stroke( { width: 0.5, color: '#a00000' } );
+
+  // still can't quite seem to get this right.  Not sure what I'm doing wrong
+  t = scene.text(pin_num);
+  //t.x( x - 1.3*pin_num_h ).y( y +  f*pin_l/2 - pin_num_w/2.0);
+  t.x( x - 0.5*pin_num_h - f*50).y( y +  f*pin_l/2 - pin_num_w/2.0);
+  t.transform({ rotation: -90 });
+  t.font({ size: pin_num_h, family: 'monospace'  }).fill({ color: '#a00000' });
+
+  var tt = scene.text(pin_name);
+  tt.x( x - 0.5*pin_name_h - f*50);
+  tt.y( bound_y + pin_name_w/2 + f*100); 
+  tt.transform({ rotation: -90 });
+  tt.font({ size: pin_name_h, family: 'monospace'  });
+  tt.fill({ color: '#00a0a0' });
+
+}
+
+
+function draw_scene() {
+  var cx = center_x;
+  var cy = center_y;
+
+  var f = scale_factor;
+
+  svg_scene.clear();
+
+  var ref_txt = document.getElementById('reference').value;
+  if ( $.trim(ref_txt).length == 0 ) { ref_txt = '~'; }
+
+  var nam_txt = document.getElementById('name').value;
+  if ( $.trim(nam_txt).length == 0) { nam_txt = '~'; } 
+
+  var w = parseInt(document.getElementById('width').value, 10);
+  var w_f = f * parseInt(document.getElementById('width').value, 10);
+  var h = parseInt(document.getElementById('height').value, 10);
+  var h_f = f * parseInt(document.getElementById('height').value, 10);
+  //var num_font_size = f * parseInt(document.getElementById('num_font_size').value, 10);
+  //var name_font_size = f * parseInt(document.getElementById('name_font_size').value, 10);
+
+  var num_font_size = 0.4 * parseInt(document.getElementById('num_font_size').value, 10);
+  var name_font_size = 0.4 * parseInt(document.getElementById('name_font_size').value, 10);
+
+  num_h = num_font_size;
+  num_w = num_font_size * 0.6;
+
+  ref_h = name_font_size ;
+  ref_w = name_font_size * ref_txt.length * 0.6;
+
+  name_h = name_font_size;
+  name_w = name_font_size * nam_txt.length * 0.6;
+
+
+  n = parseInt(document.getElementById('n').value, 10);
+
+  var pin_l = 300 ;
+  var pin_h = 100 ;
+
+
+  // DIP style
+
+  layout_type = $('input[name="layout_type"]:checked').val();
+
+  if (layout_type == "D")
+  {
+
+    t = svg_scene.text(ref_txt).x( cx - ref_w/2 ).y( cy - .5*ref_h - f*100).fill( { color: '#00a0a0' } );
+    t.font({ size: ref_h, family: 'monospace'  });
+    t = svg_scene.text(nam_txt).x( cx - name_w/2 ).y( cy - .5*name_h + f*100 ).fill( { color: '#00a0a0' } );
+    t.font({ size: name_h , family: 'monospace' });
+
+
+    /*
+    t = svg_scene.text(ref_txt).x( cx - ref_w/2 ).y( cy - ref_h ).fill( { color: '#00a0a0' } );
+    t.font({ size: ref_h, family: 'monospace'  });
+    t = svg_scene.text(nam_txt).x( cx - name_w/2 ).y( cy + name_h ).fill( { color: '#00a0a0' } );
+    t.font({ size: name_h , family: 'monospace' });
+    */
+
+    rect = svg_scene.rect( w_f, h_f ).x(cx - w_f/2).y(cy - h_f/2).fill('none');
+    rect.stroke( { width: 2, color:'#a00000' }) ;
+
+    //var base_y = -Math.floor(n/4)*100;
+    //if (((n/2)%2) == 0) { base_y += 50; }
+    var base_y = -Math.floor((n-1)/2)*50;
+
+    for (var i=0; i<n; i++) {
+
+      pin_name = document.getElementById("pin_name" + (i+1)).value;
+      pin_num = document.getElementById("pin_num" + (i+1)).value;
+      pin_format = document.getElementById("pin_format" + (i+1)).value;
+
+      if (i < n/2) 
+      {
+        x = cx - f * (w/2 + pin_l);
+        y = cy + f * (base_y + i*pin_h);
+        draw_pin_r(svg_scene, x, y, pin_num, pin_name, num_font_size, name_font_size, pin_format);
+      }
+      else
+      {
+        x = cx + f * (w/2 + pin_l);
+        y = cy - f * (base_y + (i - n/2)*pin_h);
+        draw_pin_l(svg_scene, x, y, pin_num, pin_name, num_font_size, name_font_size, pin_format);
+      }
+
+    }
+  }
+  else if (layout_type == "S")
+  {
+
+    inset = 50;
+    inset_f = inset * f;
+    t = ref_w;
+    if ( t < name_w) { t = name_w; }
+
+    mid_text_x = w_f/2.0 - inset_f - t/2.0;
+    start_name_x = mid_text_x - name_w/2.0;
+    start_ref_x = mid_text_x - ref_w/2.0;
+
+    t = svg_scene.text(ref_txt).x( cx + start_ref_x ).y( cy - 0.5*ref_h - 100*f ).fill( { color: '#00a0a0' } );
+    t.font({ size: ref_h, family: 'monospace'  });
+    t = svg_scene.text(nam_txt).x( cx + start_name_x ).y( cy - 0.5*name_h + 50*f).fill( { color: '#00a0a0' } );
+    t.font({ size: name_h , family: 'monospace' });
+
+    /*
+    t = svg_scene.text(ref_txt).x( cx - ref_w/2 ).y( cy - .5*ref_h - f*100).fill( { color: '#00a0a0' } );
+    t.font({ size: ref_h, family: 'monospace'  });
+    t = svg_scene.text(nam_txt).x( cx - name_w/2 ).y( cy - .5*name_h + f*100 ).fill( { color: '#00a0a0' } );
+    t.font({ size: name_h , family: 'monospace' });
+    */
+
+
+    /*
+    t = svg_scene.text(ref_txt).x( cx + start_ref_x ).y( cy - ref_h ).fill( { color: '#00a0a0' } );
+    t.font({ size: ref_h, family: 'monospace'  });
+    //t = svg_scene.text(nam_txt).x( cx + start_name_x ).y( cy + name_h ).fill( { color: '#00a0a0' } );
+    t = svg_scene.text(nam_txt).x( cx + start_name_x ).y( cy + name_h).fill( { color: '#00a0a0' } );
+    t.font({ size: name_h , family: 'monospace' });
+    */
+
+    rect = svg_scene.rect( w_f, h_f ).x(cx - w_f/2).y(cy - h_f/2).fill('none');
+    rect.stroke( { width: 2, color:'#a00000' }) ;
+
+    var base_y = -((n-1)/2)*100;
+
+    for (var i=0; i<n; i++) {
+
+      pin_name = document.getElementById("pin_name" + (i+1)).value;
+      pin_num = document.getElementById("pin_num" + (i+1)).value;
+      pin_format = document.getElementById("pin_format" + (i+1)).value;
+
+      x = cx - f * (w/2 + pin_l);
+      y = cy + f * (base_y + i*pin_h);
+      draw_pin_r(svg_scene, x, y, pin_num, pin_name, num_font_size, name_font_size, pin_format);
+
+    }
+  }
+  else if (layout_type == "Q")
+  {
+    headroom = 200;
+    h_top =  h/2 - headroom;
+    h_bot = -h/2 + headroom;
+
+    w_left = -w/2 + headroom;
+    w_right = w/2 - headroom;
+
+    n_left  = Math.floor((n+3)/4);
+    n_bot   = Math.floor((n+2)/4);
+    n_right = Math.floor((n+1)/4);
+    n_top   = Math.floor(n/4);
+
+    t = svg_scene.text(ref_txt).x( cx - ref_w/2 ).y( cy - .5*ref_h - f*100).fill( { color: '#00a0a0' } );
+    t.font({ size: ref_h, family: 'monospace'  });
+    t = svg_scene.text(nam_txt).x( cx - name_w/2 ).y( cy - .5*name_h + f*100 ).fill( { color: '#00a0a0' } );
+    t.font({ size: name_h , family: 'monospace' });
+
+
+    /*
+    //t = svg_scene.text(ref_txt).x( cx - ref_w/2 ).y( cy - 0.5*ref_h - 50*f ).fill( { color: '#00a0a0' } );
+    t = svg_scene.text(ref_txt).x( cx - ref_w/2 ).y( cy - 50*f ).fill( { color: '#00a0a0' } );
+    t.font({ size: ref_h, family: 'monospace'  });
+    //t = svg_scene.text(nam_txt).x( cx - name_w/2 ).y( cy + 0.5*name_h + 50*f).fill( { color: '#00a0a0' } );
+    t = svg_scene.text(nam_txt).x( cx - name_w/2 ).y( cy + 50*f).fill( { color: '#00a0a0' } );
+    t.font({ size: name_h , family: 'monospace' });
+    */
+
+    rect = svg_scene.rect( w_f, h_f ).x(cx - w_f/2).y(cy - h_f/2).fill('none');
+    rect.stroke( { width: 2, color:'#a00000' }) ;
+
+    cur_pin_pos = 1;
+
+    if (n_left > 0) 
+    {
+      base_y = -(n_left-1) * pin_h / 2;
+
+      for (i=0; i<n_left; i++)
+      {
+        pin_name = document.getElementById("pin_name" + (cur_pin_pos)).value;
+        pin_num = document.getElementById("pin_num" + (cur_pin_pos)).value;
+        pin_format = document.getElementById("pin_format" + (cur_pin_pos)).value;
+
+        x = cx - f * (w/2 + pin_l);
+        y = cy + f * (base_y + i*pin_h);
+        draw_pin_r(svg_scene, x, y, pin_num, pin_name, num_font_size, name_font_size, pin_format);
+
+        cur_pin_pos++;
+      }
+    }
+
+    if (n_bot > 0)
+    {
+      base_x = -(n_bot-1) * pin_h / 2;
+
+      for (i=0; i<n_bot; i++)
+      {
+        pin_name = document.getElementById("pin_name" + (cur_pin_pos)).value;
+        pin_num = document.getElementById("pin_num" + (cur_pin_pos)).value;
+        pin_format = document.getElementById("pin_format" + (cur_pin_pos)).value;
+
+        x = cx + f * (base_x + i*pin_h);
+          ;
+        y = cy + f * (h/2 + pin_l);
+        draw_pin_u(svg_scene, x, y, pin_num, pin_name, num_font_size, name_font_size, pin_format);
+
+        cur_pin_pos++;
+      }
+    }
+
+    if (n_right > 0)
+    {
+      base_y = (n_right-1) * pin_h / 2;
+
+      for (i=0; i<n_right; i++)
+      {
+        pin_name = document.getElementById("pin_name" + (cur_pin_pos)).value;
+        pin_num = document.getElementById("pin_num" + (cur_pin_pos)).value;
+        pin_format = document.getElementById("pin_format" + (cur_pin_pos)).value;
+
+        x = cx + f * (w/2 + pin_l);
+        y = cy + f * (base_y - i*pin_h);
+        draw_pin_l(svg_scene, x, y, pin_num, pin_name, num_font_size, name_font_size, pin_format);
+
+        cur_pin_pos++;
+      }
+    }
+
+    if (n_top > 0)
+    {
+      base_x = (n_top-1) * pin_h / 2;
+
+      for (i=0; i<n_top; i++)
+      {
+        pin_name = document.getElementById("pin_name" + (cur_pin_pos)).value;
+        pin_num = document.getElementById("pin_num" + (cur_pin_pos)).value;
+        pin_format = document.getElementById("pin_format" + (cur_pin_pos)).value;
+
+        x = cx + f * (base_x - i*pin_h);
+        y = cy - f * (h/2 + pin_l);
+        draw_pin_d(svg_scene, x, y, pin_num, pin_name, num_font_size, name_font_size, pin_format);
+
+        cur_pin_pos++;
+      }
+    }
+
+  }
+
+}
+
+jQuery.fn.exists = function() { return this.length>0; }
+
+var pin_row_template = " <tr id='pin_row##N##' > \
+<td><input type='text' size='2' name='pin_num##N##' id='pin_num##N##' value='##N##'></td>  \
+<td><input type='text' size='10' name='pin_name##N##' id='pin_name##N##' value='PIN##N##'></td>  \
+<td>  \
+<select name='pin_type##N##' id='pin_type##N##'>  \
+<option select value='I' selected='selected'>Input</option>  \
+<option select value='O'>Outpu</option>  \
+<option select value='B'>Bidir</option>  \
+<option select value='T'>Tri state</option>  \
+<option select value='P'>Passive</option>  \
+<option select value='U'>Upecified</option>  \
+<option select value='W'>Power Inp</option>  \
+<option select value='w'>Power Out</option>  \
+<option select value='C'>Open Col</option>  \
+<option select value='E'>Open Emm</option>  \
+</select>  \
+</td>  \
+  \
+<td>  \
+<select name='pin_format##N##' id='pin_format##N##'>  \
+<option select value='.' selected='selected'>Normal</option>  \
+<option select value='N'>Not Conn.</option>  \
+<option select value='I'>Inv.</option>  \
+<option select value='C'>Clock</option>  \
+<option select value='IC'>Inv., clock</option>  \
+<option select value='L'>Low in</option>  \
+<option select value='CL'>Clock, low in</option>  \
+<option select value='V'>Low out</option>  \
+</select>  \
+  \
+</td>  \
+</tr>  \
+"; 
+
+
+function pin_shuffle() {
+  n = parseInt(document.getElementById("n").value);
+
+  for (i=0; i<n; i++)
+  {
+    // omg, jQuery has a knownn bug that they refuse
+    // to fix.  Brute force work around.
+
+    selected_pin_type = document.getElementById("pin_type" + String(i+1)).value;
+    selected_pin_format = document.getElementById("pin_format" + String(i+1)).value;
+
+    var tr = $("#pin_row" + String(i+1)).clone();
+
+    $("#pin_row" + String(i+1)).remove();
+
+    if (i<(n/2)) { $('#pin_table_left').append( tr );  }
+    else         { $('#pin_table_right').append( tr ); }
+
+    document.getElementById("pin_type" + String(i+1)).value = selected_pin_type;
+    document.getElementById("pin_format" + String(i+1)).value = selected_pin_format;
+
+  }
+
+  for (i=0; i<n; i++)
+  {
+    ind = (i+1);
+    $('#pin_num' + ind).bind('input', function() { draw_scene(); });
+    $('#pin_name' + ind).bind('input', function() { draw_scene(); });
+    $('#pin_type' + ind).bind('input', function() { draw_scene(); });
+    $('#pin_format' + ind).bind('input', function() { draw_scene(); });
+    $('#pin_format' + ind).bind('change', function() { draw_scene(); });
+
+    // change default tab option
+
+    var input_field = ['pin_num', 'pin_name', 'pin_type', 'pin_format' ];
+    for ( j= 0; j < 4; j++ )
+    {
+
+      var next_tab = input_field[j] + (i+2);
+
+
+      if ( i == (n-1) ) { 
+        if (j < 3) { next_tab = input_field[j+1] + "1"; }
+        else { next_tab = "name"; }
+      }
+
+      var s = "#" + input_field[j] + ind;
+
+      // damn closures
+      /*
+      (function(val) {
+        $(s).keyup( function(e) {
+          var code = e.keyCode || e.which;
+          if (code == '9') {
+            document.getElementById( val ).focus();
+            return false;
+          }
+        })
+      })(next_tab);
+      */
+
+      (function(val) {
+        $(s).keydown( function(e) {
+          var code = e.keyCode || e.which;
+          if (code == '9') {
+            ele = document.getElementById(val);
+            ele.focus();
+            if (ele.type == "text") { ele.select(); }
+            return false;
+          }
+        });
+      })(next_tab);
+
+    }
+
+  }
+
+}
+
+function update_params()
+{
+  n = parseInt( document.getElementById("n").value );
+  m = Math.floor(n/2);
+  mm = Math.floor(n/4);
+  if (n%2) { m++; }
+
+  layout_type = $('input[name="layout_type"]:checked').val();
+  is_height_locked = $('#height_lock').is(':checked');
+  is_width_locked = $('#width_lock').is(':checked');
+
+  if (layout_type == "D")
+  {
+    if (! is_width_locked)
+    {
+      w = 1100;
+      document.getElementById("width").value = w;
+    }
+
+    if (! is_height_locked)
+    {
+      h = 100*m + 2.0*dip_headroom;
+      document.getElementById("height").value = h;
+    }
+  }
+
+  else if (layout_type == "S")
+  {
+    if (! is_width_locked)
+    {
+      w = 800;
+      document.getElementById("width").value = w;
+    }
+
+    if (! is_height_locked)
+    {
+      h = 100*n + 2.0*sil_headroom;
+      document.getElementById("height").value = h;
+    }
+  }
+
+  else if (layout_type == "Q")
+  {
+
+    if (! is_width_locked)
+    {
+      w = 100*mm + 2.0*qfp_headroom;
+      document.getElementById("width").value = w;
+    }
+
+    if (! is_height_locked)
+    {
+      h = 100*mm + 2.0*qfp_headroom;
+      document.getElementById("height").value = h;
+    }
+  }
+
+
+}
+
+function pin_incr() {
+  n = parseInt( document.getElementById("n").value );
+  if (n >= 99) { return }
+
+  n++;
+
+  if ( $('#pin_row' + (n)).exists() )
+  {
+    $('#pin_row' + (n)).show();
+  }
+  else
+  {
+    var s = pin_row_template.replace(/##N##/g, String(n) );
+    $('#pin_table_right tr:last').after( s );
+  }
+
+  document.getElementById("n").value = n;
+
+  pin_shuffle();
+  update_params();
+  draw_scene();
+}
+
+function pin_decr() {
+  n = parseInt(document.getElementById("n").value );
+
+  if ( $('#pin_row' + String(n)).exists() )
+  {
+    $('#pin_row' + String(n)).hide();
+  }
+
+  if ( n > 0 ) { n -= 1 }
+  document.getElementById("n").value = n;
+
+  pin_shuffle();
+  update_params();
+  draw_scene();
+}
+
+function pin_num_change() {
+  n = parseInt(document.getElementById("n").value );
+
+  for (i=n; i<100; i++)
+  {
+    if ( $('#pin_row' + String(i+1)).exists() )
+    {
+      $('#pin_row' + String(i+1)).hide();
+    }
+  }
+
+  for (i=0; i<n; i++)
+  {
+    if ( $('#pin_row' + String(i+1)).exists() )
+    {
+      $('#pin_row' + String(i+1)).show();
+    }
+    else
+    {
+      var s = pin_row_template.replace(/##N##/g, String(i+1) );
+      $('#pin_table_right tr:last').after( s );
+    }
+
+  }
+
+  pin_shuffle();
+  update_params();
+  draw_scene();
+}
+
+
+$( document ).ready(function() {
+
+  var i, j, k;
+  var ta = [ [ 1.0, 2,0, 3.0], [2.0, 4.0, 6.0], [7.0, 10.0, 11.0] ];
+  var tb = [ [ -1.0, 2,0, 3.0], [2.0, -4.0, 6.0], [7.0, 10.0, -11.0] ];
+
+  var tc = mmul(ta, tb);
+
+  $("#viewport").mouseenter(function() { viewport_engaged = 1; });
+  $("#viewport").mouseleave(function() { viewport_engaged = 0; });
+
+  $('#viewport').mousemove(function(e) {
+    var off = $("#viewport_container").offset();
+    var x = e.pageX - off.left;
+    var y = e.pageY - off.top;
+
+    viewport_x = x;
+    viewport_y = y
+  });
+
+  $("#viewport").click(function(e) { 
+    return false;
+  });
+
+  $('#viewport').bind('mousewheel', function(event, delta, deltaX, deltaY) {
+
+    if (viewport_engaged)
+    {
+      ele = document.getElementById("viewport_transform");
+      if (deltaY > 0) { 
+        //viewport_scale = 1.05; 
+        viewport_scale *= 1.05; 
+      }
+      else if (deltaY < 0) { 
+        //viewport_scale *= 1/1.05; 
+        viewport_scale *= 1/1.05; 
+      }
+
+      var ts = [ [viewport_scale, 0.0, 0.0], 
+                 [0.0, viewport_scale, 0.0], 
+                 [0.0, 0.0, 1.0] ];
+
+      viewport_matrix = mmul(ts, viewport_matrix);
+      var s = "matrix(" + viewport_matrix[0][0] + "," + viewport_matrix[1][0] + ","
+                        + viewport_matrix[0][1] + "," + viewport_matrix[1][1] + ","
+                        + viewport_matrix[0][2] + "," + viewport_matrix[1][2] + ")" ;
+
+
+      s = " translate(" + center_x + "," + center_y + ") scale(" + viewport_scale + 
+          ") translate(" + (-center_x) + "," + (-center_y) + ") ";
+      //ele.setAttribute("transform" , "matrix(3.0, 0, 0, 3.0, 0, 0)" );
+      ele.setAttribute("transform" , s );
+    }
+
+    return false;
+  });
+
+  svg_scene = SVG('viewport_scene').size('100%', '100%');
+
+  $('#name').bind('input', function() { draw_scene(); });
+  $('#reference').bind('input', function() { draw_scene(); });
+  $('#width').bind('input', function() { draw_scene(); });
+  $('#height').bind('input', function() { draw_scene(); });
+
+  $('#num_font_size').bind('input', function() { draw_scene(); });
+  $('#name_font_size').bind('input', function() { draw_scene(); });
+
+  $('#n').bind('input', function() { pin_num_change(); });
+
+  $('#n_incr').click(function() { pin_incr(); });
+  $('#n_decr').click(function() { pin_decr(); });
+
+  $("input[name=layout_type]:radio").change( function() { 
+    update_params();
+    draw_scene(); 
+  });
+
+  n = parseInt( document.getElementById("n").value );
+  for (i=0; i<n; i++)
+  {
+    ind = (i+1);
+    $('#pin_num' + ind).bind('input', function() { draw_scene(); });
+    $('#pin_name' + ind).bind('input', function() { draw_scene(); });
+    //$('#pin_type' + ind).bind('input', function() { draw_scene(); });
+    //$('#pin_format' + ind).bind('input', function() { draw_scene(); });
+    $('#pin_format' + ind).bind('change', function() { draw_scene(); });
+
+    // change default tab option
+
+    var input_field = ['pin_num', 'pin_name', 'pin_type', 'pin_format' ];
+    for ( j= 0; j < 4; j++ )
+    {
+
+      var next_tab = input_field[j] + (i+2);
+
+
+      if ( i == (n-1) ) { 
+        if (j < 3) { next_tab = input_field[j+1] + "1"; }
+        else { next_tab = "name"; }
+      }
+
+      var s = "#" + input_field[j] + ind;
+
+      // damn closures
+      /*
+      (function(val) {
+        $(s).keyup( function(e) {
+          var code = e.keyCode || e.which;
+          if (code == '9') {
+            document.getElementById( val ).focus();
+            return false;
+          }
+        })
+      })(next_tab);
+      */
+
+      (function(val) {
+        $(s).keydown( function(e) {
+          var code = e.keyCode || e.which;
+          if (code == '9') {
+            ele = document.getElementById(val);
+            ele.focus();
+            if (ele.type == "text") { ele.select(); }
+            return false;
+          }
+        });
+      })(next_tab);
+
+    }
+
+  }
+
+
+  ele = document.getElementById("viewport_transform");
+  s = " translate(" + center_x + "," + center_y + ") scale(" + viewport_scale + 
+    ") translate(" + (-center_x) + "," + (-center_y) + ") ";
+  ele.setAttribute("transform" , s );
+
+  pin_num_change();
+  pin_shuffle();
+  update_params();
+  draw_scene();
+
+
+
+});
+
+</script>
+
+
+
+<body>
+<div id="container">
+  <div id="header">
+    <h1>Mecha Elephant / sch_wizard</h1>
+      <br />
+      <hr />
+
+  </div> <!-- end header -->
+
+
+  ###LEFT###
+
+
+  <div id="main">
+    <div id="maincontent">
+
+      <form name='sch_wizard' method='post' action='/sch_wizard_gen' class="pure-form">
+
+        <table width="100%">
+          <tr>
+            <td width="35%" align='left'>
+
+
+        <!-- <table width="75%" border="0" cellspacing="2" cellpadding="0" > -->
+          <table width="100%" class="pure-table-dense">
+
+
+            <tr>
+              <td width="35%" align="right">Name</td>
+              <td width="65%" align="left">
+                <input type="text" name="name" id='name' value="NAME" class='pure-input-1' 
+
+                />
+              </th>
+            </tr>
+
+            <tr>
+              <td align="right">Reference</td>
+              <td align="left">
+                <input type="text" name="reference" id='reference' value="U" class='pure-input-1' />
+              </td>
+            </tr>
+
+
+            <tr>
+              <div>
+                <td align='right'># Pins</td>
+                <td align='left'>
+                  <input type="text" size='3' name="n" id='n' value="###NPIN###" class='pure-input-1-4'  />
+                  <button type='button' id='n_decr' class='pure-button pure-button-small' >&#60</button>
+                  <button type='button' id='n_incr' class='pure-button pure-button-small' >&#62</button>
+                </td>
+              </div>
+            </tr>
+
+            <tr>
+              <td align="right">Width</td>
+              <td align="left">
+                <input type="text" size='5' name="width" id='width' value="800" class='pure-input-1-3' />
+                <label for='sch_wizard'>lock</label>
+                <input  type='checkbox' name='width_lock' id='width_lock' align='right' />
+              </td>
+
+            </tr>
+
+            <tr>
+              <td align="right">Height</td>
+              <td align="left">
+                <input type="text" size='5' name="height" id='height' value="###HEIGHT###" class='pure-input-1-3'  />
+                <label for='sch_wizard'>lock</label>
+                <input  type='checkbox' name='height_lock' id='height_lock' />
+              </td>
+
+            </tr>
+
+            <tr>
+              <td align="right">Pin Num Font Size</td>
+              <td align="left">
+                <input type="text" name="num_font_size" id='num_font_size' value="60" class='pure-input-1-4' />
+              </td>
+
+            </tr>
+
+            <tr>
+              <td align="right">Pin Name Font Size</td>
+              <td align="left">
+                <input type="text" name="name_font_size" id='name_font_size' value="60" class='pure-input-1-4' />
+              </td>
+            </tr>
+
+            <tr>
+              <td></td>
+                <td align="left">
+                  <button type='submit' name='action' value='Generate lib' 
+                    class='pure-button pure-button-primary' >Generate Library</button>
+                </td>
+              </td>
+            </tr>
+
+        </table>
+
+        </td>
+
+
+        <td width="30%" align='left'>
+          <div id='viewport_container'>
+            <svg id="viewport" xmlns="http://www.w3.org/2000/svg" width="250" height="250"  
+              viewBox="0 0 5000 5000" >
+            <g id='viewport_transform' > 
+            <g id='viewport_scene' >
+
+            </g>
+            </g>
+          </svg>
+          <!-- <canvas id='canvas' width='300px' height='300px' align='right'></canvas> -->
+          </div>
+        </td>
+
+
+        <td width='30%'>
+
+          <table class='pure-table-dense' align='left'>
+
+            <thead>
+              <tr>
+                <th width="30%">Layout</th>
+              </tr>
+            </thead>
+
+            <tr>
+              <td>
+                <label for='radio-opt' class='pure-radio'>
+                  <input type='radio' name='layout_type' id='layout_type_sil' value='S' />Single In-Line (SIL)
+                </label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for='radio-opt' class='pure-radio'>
+                  <input type='radio' name='layout_type' id='layout_type_dip' value='D' checked='checked'/>Dual In-Line (DIP)
+                </label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for='radio-opt' class='pure-radio'>
+                  <input type='radio' name='layout_type' id='layout_type_qfp' value='Q' />Quad Pack (QFP/QFN)
+                </label>
+              </td>
+            </tr>
+
+            <!-- ?? why doesn't it cap the bottom without this? -->
+            <tr></tr>
+
+          </table>
+
+        </td>
+
+        </tr>
+      </table>
+
+      <div align='right'>
+        *note, schematic as it appears might have font size and placement differences from generated library
+      </div>
+
+
+        <table width='100%' class='pure-table-noborder' border='0'>
+
+          <tbody>
+
+          <tr>
+            <td valign='top'>
+              <!-- <table width="75%" border="0" cellspacing="2" cellpadding="10"> -->
+              <table width="50%" class="pure-table-dense" id='pin_table_left'>
+
+                <tbody>
+                <thead>
+                  <tr>
+                    <th>Pin</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Format</th>
+                  </tr>
+                </thead>
+
+                ###PINL###
+
+
+              </tbody>
+
+              </table>
+            </td>
+
+            <td valign='top'>
+              <table width="50%" class="pure-table-dense" id='pin_table_right'>
+                <tbody>
+                <thead>
+                  <tr>
+                    <th>Pin</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Format</th>
+                  </tr>
+                </thead>
+
+                ###PINR###
+
+              </tbody>
+              </table>
+
+            </td>
+          </tr>
+
+
+        </tbody>
+        </table>
+
+
+
+      </form>
+     
+
+    </div> <!-- end main content section -->
+  </div> 
+
+  <div id="footer"><div class="spacer"></div>
+    <hr />
+    <p class="left">| <a href="http://jigsaw.w3.org/css-validator/">CSS</a> | 
+    <a href="http://validator.w3.org/check?uri=referer">XHTML 1.1</a> </p>
+  </div> <!-- end footer -->
+
+</div> <!-- end container -->
+</body>
+</html>

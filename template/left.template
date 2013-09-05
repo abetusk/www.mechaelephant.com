@@ -1,0 +1,38 @@
+
+
+  <div id="left">
+
+    <div id="leftcontent">
+
+      <ul>
+        <!-- <li>Navigation</li> -->
+          <li><a href="/">Home</a></li>
+          <!-- <li><a href="/sch">sch</a></li> -->
+          <li><a href="/sch_wizard">/sch_wizard</a></li>
+          <!-- <li><a href="/sch_lib">/sch_lib</a></li> -->
+          <!-- <li><a href="/sch_list">/sch_list</a></li> -->
+          <li><a href="/grb_png">/grb_png</a></li>
+      </ul>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <h3>Info</h3>
+      <p class="news">
+        abetusk
+        <br />
+        @gmail.com
+        <br />
+        <br />
+        <a href="http://github.com/abetusk">github</a>
+        <br />
+        <br />
+        Unless specifically stated otherwise,
+        <br />
+        all code is under GPLv3
+        <br />
+        all else under CC-BY-SA
+      </p>
+    </div> <!-- end left content -->
+  </div> <!-- end left division -->
+
+
