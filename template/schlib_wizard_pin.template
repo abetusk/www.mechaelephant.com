@@ -1,0 +1,35 @@
+
+  <tr id='pin_row##N##' >
+    <td><input type='text' size='2' name='pin_num##N##' id='pin_num##N##' value='##N##'></td>
+    <td><input type='text' size='10' name='pin_name##N##' id='pin_name##N##' value='PIN##N##'></td>
+    <td>
+      <select name='pin_type##N##' id='pin_type##N##'>
+        <option select value='I' selected='selected'>Input</option>
+        <option select value='O'>Outpu</option>
+        <option select value='B'>Bidir</option>
+        <option select value='T'>Tri state</option>
+        <option select value='P'>Passive</option>
+        <option select value='U'>Upecified</option>
+        <option select value='W'>Power Inp</option>
+        <option select value='w'>Power Out</option>
+        <option select value='C'>Open Col</option>
+        <option select value='E'>Open Emm</option>
+      </select>
+    </td>
+
+    <td>
+      <select name='pin_format##N##' id='pin_format##N##'>
+        <option select value='.' selected='selected'>Normal</option>
+        <option select value='N'>Not Conn.</option>
+        <option select value='I'>Inv.</option>
+        <option select value='C'>Clock</option>
+        <option select value='IC'>Inv., clock</option>
+        <option select value='L'>Low in</option>
+        <option select value='CL'>Clock, low in</option>
+        <option select value='V'>Low out</option>
+      </select>
+
+    </td>
+  </tr>
+
+
