@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<svg height="115" width="115"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 57.5,57.5 ) scale( 0.15,0.15 )">
+  <g transform="translate(-50,125) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   RV
+  </text> </g> 
+  <g transform="translate(-75,25) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   POT
+  </text> </g> 
+  <rect x="-150" y="-50" height="100"
+    width="300" style="fill:none;stroke:#800;stroke-width:10" />
+<polygon points=" 0,-50 -20,-70 20,-70" 
+style="fill:#800;stroke:#800;stroke-width:10"/>
+  <line x1="-250" y1="0" x2="-150" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-228,-6) rotate(0)" > <text font-size="66.6666666667" fill="#800" font-family="monospace"  >
+   1
+  </text> </g> 
+  <circle cx="-250" cy="0" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="0" y1="-150" x2="0" y2="-70" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-10,-100) rotate(-90)" > <text font-size="66.6666666667" fill="#800" font-family="monospace"  >
+   2
+  </text> </g> 
+  <circle cx="0" cy="-150" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="250" y1="0" x2="150" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(171,-6) rotate(0)" > <text font-size="66.6666666667" fill="#800" font-family="monospace"  >
+   3
+  </text> </g> 
+  <circle cx="250" cy="0" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+ </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<svg height="118" width="106"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 53.25,59.25 ) scale( 0.15,0.15 )">
+  <g transform="translate(-80,90) rotate(0)" > <text font-size="66.6666666667" fill="#088" font-family="monospace"  >
+   DGND
+  </text> </g> 
+  <line x1="-50" y1="0" x2="0" y2="50" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="0" y1="50" x2="50" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="50" y1="0" x2="-50" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-10,10) rotate(-90)" > <text font-size="66.6666666667" fill="#888" font-family="monospace"  >
+   1
+  </text> </g> 
+  <g transform="translate(5,-33) rotate(-90)" > <text font-size="66.6666666667" fill="#888" font-family="monospace"  >
+   DGND
+  </text> </g> 
+  <circle cx="0" cy="0" r="10"
+    style="fill:none;stroke:#888;stroke-width:2"  />
+ </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg height="161" width="132"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 66.25,80.875 ) scale( 0.15,0.15 )">
+  <g transform="translate(-225,145) rotate(0)" > <text font-size="150.0" fill="#088" font-family="monospace"  >
+   FBOX1
+  </text> </g> 
+<polygon points=" -100,50 -100,-50 100,-50 100,50 -100,50" 
+style="fill:#800;stroke:#800;stroke-width:10"/>
+ </g>
+</svg>

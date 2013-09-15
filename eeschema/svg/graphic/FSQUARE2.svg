@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg height="236" width="200"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 100.0,118.375 ) scale( 0.15,0.15 )">
+  <g transform="translate(-360,145) rotate(0)" > <text font-size="150.0" fill="#088" font-family="monospace"  >
+   FSQUARE2
+  </text> </g> 
+<polygon points=" -100,100 -100,-100 100,-100 100,100 -100,100" 
+style="fill:#800;stroke:#800;stroke-width:10"/>
+ </g>
+</svg>

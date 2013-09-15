@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<svg height="65" width="50"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 25.0,32.5 ) scale( 0.15,0.15 )">
+  <g transform="translate(-30,30) rotate(0)" > <text font-size="100.0" fill="#088" font-family="monospace"  >
+   U
+  </text> </g> 
+  <g transform="translate(-60,30) rotate(0)" > <text font-size="100.0" fill="#088" font-family="monospace"  >
+   C1
+  </text> </g> 
+  <circle cx="0" cy="0" r="40"
+    style="fill:none;stroke:#800;stroke-width:10"  />
+ </g>
+</svg>

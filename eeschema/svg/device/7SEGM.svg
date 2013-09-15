@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<svg height="384" width="347"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 173.875,192.25 ) scale( 0.15,0.15 )">
+  <g transform="translate(-30,-620) rotate(0)" > <text font-size="100.0" fill="#088" font-family="monospace"  >
+   S
+  </text> </g> 
+  <g transform="translate(-150,680) rotate(0)" > <text font-size="100.0" fill="#088" font-family="monospace"  >
+   7SEGM
+  </text> </g> 
+  <rect x="-500" y="-600" height="1200"
+    width="1050" style="fill:none;stroke:#800;stroke-width:10" />
+  <line x1="0" y1="0" x2="450" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="-50" y1="550" x2="50" y2="-550" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="50" y1="-550" x2="500" y2="-550" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="500" y1="-550" x2="400" y2="550" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="400" y1="550" x2="-50" y2="550" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="-750" y1="100" x2="-500" y2="100" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-660,94) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   1
+  </text> </g> 
+  <g transform="translate(-482,135) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   Segm_E
+  </text> </g> 
+  <circle cx="-750" cy="100" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-750" y1="0" x2="-500" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-660,-6) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   2
+  </text> </g> 
+  <g transform="translate(-482,35) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   Segm_D
+  </text> </g> 
+  <circle cx="-750" cy="0" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-750" y1="-400" x2="-500" y2="-400" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-660,-406) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   3
+  </text> </g> 
+  <g transform="translate(-482,-365) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   K
+  </text> </g> 
+  <circle cx="-750" cy="-400" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-750" y1="-100" x2="-500" y2="-100" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-660,-106) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   4
+  </text> </g> 
+  <g transform="translate(-482,-65) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   Segm_C
+  </text> </g> 
+  <circle cx="-750" cy="-100" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-750" y1="400" x2="-500" y2="400" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-660,394) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   5
+  </text> </g> 
+  <g transform="translate(-482,435) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   SegmDP
+  </text> </g> 
+  <circle cx="-750" cy="400" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-750" y1="-200" x2="-500" y2="-200" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-660,-206) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   6
+  </text> </g> 
+  <g transform="translate(-482,-165) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   Segm_B
+  </text> </g> 
+  <circle cx="-750" cy="-200" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-750" y1="-300" x2="-500" y2="-300" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-660,-306) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   7
+  </text> </g> 
+  <g transform="translate(-482,-265) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   Segm_A
+  </text> </g> 
+  <circle cx="-750" cy="-300" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-750" y1="500" x2="-500" y2="500" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-660,494) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   8
+  </text> </g> 
+  <g transform="translate(-482,535) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   K
+  </text> </g> 
+  <circle cx="-750" cy="500" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-750" y1="200" x2="-500" y2="200" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-660,194) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   9
+  </text> </g> 
+  <g transform="translate(-482,235) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   Segm_F
+  </text> </g> 
+  <circle cx="-750" cy="200" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-750" y1="300" x2="-500" y2="300" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-695,294) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   10
+  </text> </g> 
+  <g transform="translate(-482,335) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   Segm_G
+  </text> </g> 
+  <circle cx="-750" cy="300" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+ </g>
+</svg>

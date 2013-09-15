@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<svg height="129" width="82"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 41.25,64.5 ) scale( 0.15,0.15 )">
+  <g transform="translate(-200,-100) rotate(0)" > <text font-size="66.6666666667" fill="#088" font-family="monospace"  >
+   EP
+  </text> </g> 
+  <g transform="translate(-180,160) rotate(0)" > <text font-size="66.6666666667" fill="#088" font-family="monospace"  >
+   P_10A
+  </text> </g> 
+  <line x1="1" y1="79" x2="14" y2="78" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="14" y1="78" x2="26" y2="75" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="26" y1="75" x2="38" y2="69" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="38" y1="69" x2="49" y2="62" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="49" y1="62" x2="59" y2="53" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="59" y1="53" x2="67" y2="43" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="67" y1="43" x2="73" y2="31" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="73" y1="31" x2="77" y2="19" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="77" y1="19" x2="79" y2="6" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="79" y1="6" x2="79" y2="-6" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="79" y1="-6" x2="77" y2="-19" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="77" y1="-19" x2="73" y2="-31" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="73" y1="-31" x2="67" y2="-43" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="67" y1="-43" x2="59" y2="-53" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="59" y1="-53" x2="49" y2="-62" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="49" y1="-62" x2="38" y2="-69" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="38" y1="-69" x2="26" y2="-75" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="26" y1="-75" x2="14" y2="-78" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="14" y1="-78" x2="1" y2="-79" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="200" y1="200" x2="200" y2="200" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="200" y1="0" x2="80" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <circle cx="200" cy="0" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+ </g>
+</svg>

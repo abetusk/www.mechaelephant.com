@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<svg height="319" width="190"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 95.125,159.625 ) scale( 0.15,0.15 )">
+  <g transform="translate(-315,145) rotate(0)" > <text font-size="150.0" fill="#088" font-family="monospace"  >
+   FARROW4
+  </text> </g> 
+<polygon points=" 400,-400 0,0 -400,-400 400,-400" 
+style="fill:#800;stroke:#800;stroke-width:10"/>
+  <line x1="0" y1="-800" x2="0" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+ </g>
+</svg>

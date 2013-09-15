@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<svg height="507" width="507"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 253.75,253.75 ) scale( 0.15,0.15 )">
+  <g transform="translate(-30,780) rotate(0)" > <text font-size="100.0" fill="#088" font-family="monospace"  >
+   U
+  </text> </g> 
+  <g transform="translate(-270,-770) rotate(0)" > <text font-size="100.0" fill="#088" font-family="monospace"  >
+   PIC16F818
+  </text> </g> 
+  <rect x="-600" y="-700" height="1400"
+    width="1150" style="fill:none;stroke:#800;stroke-width:10" />
+  <line x1="-900" y1="-600" x2="-600" y2="-600" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-785,-606) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   1
+  </text> </g> 
+  <g transform="translate(-582,-565) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   RA2/Vref-
+  </text> </g> 
+  <circle cx="-900" cy="-600" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-900" y1="-450" x2="-600" y2="-450" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-785,-456) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   2
+  </text> </g> 
+  <g transform="translate(-582,-415) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   RA3/Vref+
+  </text> </g> 
+  <circle cx="-900" cy="-450" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-900" y1="-300" x2="-600" y2="-300" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-785,-306) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   3
+  </text> </g> 
+  <g transform="translate(-582,-265) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   RA4/T0ckl
+  </text> </g> 
+  <circle cx="-900" cy="-300" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-900" y1="-150" x2="-600" y2="-150" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-785,-156) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   4
+  </text> </g> 
+  <g transform="translate(-582,-115) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   RA5/MCLR
+  </text> </g> 
+  <circle cx="-900" cy="-150" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-900" y1="0" x2="-600" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-785,-6) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   5
+  </text> </g> 
+  <g transform="translate(-582,35) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   VSS
+  </text> </g> 
+  <circle cx="-900" cy="0" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-900" y1="150" x2="-600" y2="150" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-785,144) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   6
+  </text> </g> 
+  <g transform="translate(-582,185) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   RB0/INT
+  </text> </g> 
+  <circle cx="-900" cy="150" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-900" y1="300" x2="-600" y2="300" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-785,294) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   7
+  </text> </g> 
+  <g transform="translate(-582,335) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   RB1/SDA
+  </text> </g> 
+  <circle cx="-900" cy="300" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-900" y1="450" x2="-600" y2="450" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-785,444) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   8
+  </text> </g> 
+  <g transform="translate(-582,485) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   RB2
+  </text> </g> 
+  <circle cx="-900" cy="450" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-900" y1="600" x2="-600" y2="600" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-785,594) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   9
+  </text> </g> 
+  <g transform="translate(-582,635) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   RB3
+  </text> </g> 
+  <circle cx="-900" cy="600" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="850" y1="600" x2="550" y2="600" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(629,594) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   10
+  </text> </g> 
+  <g transform="translate(159,635) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   RB4/SCL
+  </text> </g> 
+  <circle cx="850" cy="600" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="850" y1="450" x2="550" y2="450" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(629,444) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   11
+  </text> </g> 
+  <g transform="translate(360,485) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   RB5
+  </text> </g> 
+  <circle cx="850" cy="450" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="850" y1="300" x2="550" y2="300" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(629,294) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   12
+  </text> </g> 
+  <g transform="translate(59,335) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   ICSPC/RB6
+  </text> </g> 
+  <circle cx="850" cy="300" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="850" y1="150" x2="550" y2="150" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(629,144) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   13
+  </text> </g> 
+  <g transform="translate(59,185) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   ICSPD/RB7
+  </text> </g> 
+  <circle cx="850" cy="150" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="850" y1="0" x2="550" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(629,-6) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   14
+  </text> </g> 
+  <g transform="translate(360,35) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   VDD
+  </text> </g> 
+  <circle cx="850" cy="0" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="850" y1="-150" x2="550" y2="-150" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(629,-156) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   15
+  </text> </g> 
+  <g transform="translate(109,-115) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   RA6/OSC2
+  </text> </g> 
+  <circle cx="850" cy="-150" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="850" y1="-300" x2="550" y2="-300" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(629,-306) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   16
+  </text> </g> 
+  <g transform="translate(109,-265) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   RA7/OSC1
+  </text> </g> 
+  <circle cx="850" cy="-300" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="850" y1="-450" x2="550" y2="-450" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(629,-456) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   17
+  </text> </g> 
+  <g transform="translate(360,-415) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   RA0
+  </text> </g> 
+  <circle cx="850" cy="-450" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="850" y1="-600" x2="550" y2="-600" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(629,-606) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   18
+  </text> </g> 
+  <g transform="translate(360,-565) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   RA1
+  </text> </g> 
+  <circle cx="850" cy="-600" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+ </g>
+</svg>

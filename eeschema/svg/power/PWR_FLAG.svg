@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<svg height="80" width="80"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 40.0,40.0 ) scale( 0.15,0.15 )">
+  <g transform="translate(-120,-165) rotate(0)" > <text font-size="50.0" fill="#088" font-family="monospace"  >
+   PWR_FLAG
+  </text> </g> 
+  <circle cx="0" cy="0" r="10"
+    style="fill:none;stroke:#888;stroke-width:2"  />
+  <line x1="0" y1="0" x2="0" y2="-50" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="0" y1="-50" x2="-75" y2="-100" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="-75" y1="-100" x2="0" y2="-150" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="0" y1="-150" x2="75" y2="-100" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="75" y1="-100" x2="0" y2="-50" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+ </g>
+</svg>

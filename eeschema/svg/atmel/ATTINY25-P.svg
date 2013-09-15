@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<svg height="1265" width="1265"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 632.625,632.625 ) scale( 0.15,0.15 )">
+  <g transform="translate(-1110,-370) rotate(0)" > <text font-size="100.0" fill="#088" font-family="monospace"  >
+   IC
+  </text> </g> 
+  <g transform="translate(550,430) rotate(0)" > <text font-size="100.0" fill="#088" font-family="monospace"  >
+   ATTINY25-P
+  </text> </g> 
+  <rect x="-1150" y="-350" height="700"
+    width="2300" style="fill:none;stroke:#800;stroke-width:10" />
+  <line x1="-1350" y1="250" x2="-1150" y2="250" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-1285,244) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   1
+  </text> </g> 
+  <g transform="translate(-1132,285) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   PB5(~RESET~/dW/ADC0/PCINT5)
+  </text> </g> 
+  <circle cx="-1350" cy="250" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-1350" y1="50" x2="-1150" y2="50" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-1285,44) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   2
+  </text> </g> 
+  <g transform="translate(-1132,85) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   PB3(XTAL1/CLKI/OC1B/ADC3/PCINT3)
+  </text> </g> 
+  <circle cx="-1350" cy="50" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-1350" y1="150" x2="-1150" y2="150" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-1285,144) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   3
+  </text> </g> 
+  <g transform="translate(-1132,185) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   PB4(XTAL2/CLKO/OC1B/ADC2/PCINT4)
+  </text> </g> 
+  <circle cx="-1350" cy="150" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="1350" y1="250" x2="1150" y2="250" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(1214,244) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   4
+  </text> </g> 
+  <g transform="translate(960,285) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   GND
+  </text> </g> 
+  <circle cx="1350" cy="250" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-1350" y1="-250" x2="-1150" y2="-250" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-1285,-256) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   5
+  </text> </g> 
+  <g transform="translate(-1132,-215) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   PB0(MOSI/DI/SDA/AIN0/OC0A/OC1A/AREF/PCINT0)
+  </text> </g> 
+  <circle cx="-1350" cy="-250" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-1350" y1="-150" x2="-1150" y2="-150" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-1285,-156) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   6
+  </text> </g> 
+  <g transform="translate(-1132,-115) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   PB1(MISO/DO/AIN1/OC0B/OC1A/PCINT1)
+  </text> </g> 
+  <circle cx="-1350" cy="-150" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-1350" y1="-50" x2="-1150" y2="-50" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-1285,-56) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   7
+  </text> </g> 
+  <g transform="translate(-1132,-15) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   PB2(SCK/USCK/SCL/T0/INT0/ADC1/PCINT2)
+  </text> </g> 
+  <circle cx="-1350" cy="-50" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="1350" y1="-250" x2="1150" y2="-250" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(1214,-256) rotate(0)" > <text font-size="83.3333333333" fill="#800" font-family="monospace"  >
+   8
+  </text> </g> 
+  <g transform="translate(960,-215) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   VCC
+  </text> </g> 
+  <circle cx="1350" cy="-250" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+ </g>
+</svg>

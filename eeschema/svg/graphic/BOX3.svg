@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg height="161" width="143"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 71.5,80.875 ) scale( 0.15,0.15 )">
+  <g transform="translate(-180,145) rotate(0)" > <text font-size="150.0" fill="#088" font-family="monospace"  >
+   BOX3
+  </text> </g> 
+  <rect x="-400" y="-200" height="400"
+    width="800" style="fill:none;stroke:#800;stroke-width:10" />
+ </g>
+</svg>

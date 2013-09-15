@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<svg height="220" width="220"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 110.0,110.0 ) scale( 0.15,0.15 )">
+  <g transform="translate(-220,-280) rotate(0)" > <text font-size="66.6666666667" fill="#088" font-family="monospace"  >
+   U
+  </text> </g> 
+  <g transform="translate(-240,-230) rotate(0)" > <text font-size="66.6666666667" fill="#088" font-family="monospace"  >
+   REF02AU
+  </text> </g> 
+  <rect x="-250" y="-200" height="400"
+    width="500" style="fill:none;stroke:#800;stroke-width:10" />
+  <line x1="-400" y1="-100" x2="-250" y2="-100" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-353,-106) rotate(0)" > <text font-size="66.6666666667" fill="#800" font-family="monospace"  >
+   2
+  </text> </g> 
+  <g transform="translate(-232,-70) rotate(0)" > <text font-size="66.6666666667" fill="#088" font-family="monospace"  >
+   Vin
+  </text> </g> 
+  <circle cx="-400" cy="-100" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="-400" y1="100" x2="-250" y2="100" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-353,94) rotate(0)" > <text font-size="66.6666666667" fill="#800" font-family="monospace"  >
+   3
+  </text> </g> 
+  <g transform="translate(-232,130) rotate(0)" > <text font-size="66.6666666667" fill="#088" font-family="monospace"  >
+   TEMP
+  </text> </g> 
+  <circle cx="-400" cy="100" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="0" y1="350" x2="0" y2="200" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-10,285) rotate(-90)" > <text font-size="66.6666666667" fill="#800" font-family="monospace"  >
+   4
+  </text> </g> 
+  <g transform="translate(5,166) rotate(-90)" > <text font-size="66.6666666667" fill="#088" font-family="monospace"  >
+   GND
+  </text> </g> 
+  <circle cx="0" cy="350" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="400" y1="100" x2="250" y2="100" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(296,94) rotate(0)" > <text font-size="66.6666666667" fill="#800" font-family="monospace"  >
+   5
+  </text> </g> 
+  <g transform="translate(50,130) rotate(0)" > <text font-size="66.6666666667" fill="#088" font-family="monospace"  >
+   TRIM
+  </text> </g> 
+  <circle cx="400" cy="100" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="400" y1="-100" x2="250" y2="-100" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(296,-106) rotate(0)" > <text font-size="66.6666666667" fill="#800" font-family="monospace"  >
+   6
+  </text> </g> 
+  <g transform="translate(50,-70) rotate(0)" > <text font-size="66.6666666667" fill="#088" font-family="monospace"  >
+   Vout
+  </text> </g> 
+  <circle cx="400" cy="-100" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+ </g>
+</svg>

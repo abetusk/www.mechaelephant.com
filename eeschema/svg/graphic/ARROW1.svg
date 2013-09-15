@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<svg height="191" width="155"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 77.5,95.875 ) scale( 0.15,0.15 )">
+  <g transform="translate(-270,145) rotate(0)" > <text font-size="150.0" fill="#088" font-family="monospace"  >
+   ARROW1
+  </text> </g> 
+  <line x1="0" y1="-100" x2="0" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="50" y1="-50" x2="0" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="0" y1="0" x2="-50" y2="-50" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+ </g>
+</svg>

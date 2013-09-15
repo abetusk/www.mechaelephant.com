@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<svg height="314" width="314"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 157.0,157.0 ) scale( 0.15,0.15 )">
+  <g transform="translate(-25,-105) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   D
+  </text> </g> 
+  <g transform="translate(-175,145) rotate(0)" > <text font-size="83.3333333333" fill="#088" font-family="monospace"  >
+   VARICAP
+  </text> </g> 
+  <line x1="-150" y1="0" x2="-61" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="-120" y1="100" x2="70" y2="-70" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="50" y1="90" x2="50" y2="-90" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="109" y1="0" x2="150" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <line x1="110" y1="90" x2="110" y2="-90" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+<polygon points=" -60,-90 -60,90 50,0" 
+style="fill:#800;stroke:#800;stroke-width:10"/>
+<polygon points=" 90,-90 50,-90 85,-50" 
+style="fill:#800;stroke:#800;stroke-width:10"/>
+  <line x1="-250" y1="0" x2="-150" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(-242,-6) rotate(0)" > <text font-size="100.0" fill="#800" font-family="monospace"  >
+   1
+  </text> </g> 
+  <circle cx="-250" cy="0" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+  <line x1="250" y1="0" x2="150" y2="0" style="stroke:#800;stroke-width:10;stroke-opacity:1.000000;stroke-linecap:round"/>
+  <g transform="translate(157,-6) rotate(0)" > <text font-size="100.0" fill="#800" font-family="monospace"  >
+   2
+  </text> </g> 
+  <circle cx="250" cy="0" r="10"
+    style="fill:none;stroke:#800;stroke-width:2"  />
+ </g>
+</svg>

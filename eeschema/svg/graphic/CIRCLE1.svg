@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg height="199" width="177"  >
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;" transform=" translate( 88.75,99.625 ) scale( 0.15,0.15 )">
+  <g transform="translate(-315,145) rotate(0)" > <text font-size="150.0" fill="#088" font-family="monospace"  >
+   CIRCLE1
+  </text> </g> 
+  <circle cx="0" cy="0" r="150"
+    style="fill:none;stroke:#800;stroke-width:10"  />
+ </g>
+</svg>
