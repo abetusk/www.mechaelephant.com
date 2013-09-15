@@ -111,6 +111,10 @@ striping:
     border-bottom-width: 0;
 }
 
+.fixed-img-width {
+  max-width: 200px;
+}
+
 
 /* HORIZONTAL BORDERED TABLES */
 
