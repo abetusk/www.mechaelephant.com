@@ -27,6 +27,9 @@
         <h3><a href="/schlib_wizard">/schlib_wizard</a></h3>
         <p>Generate a simple EESchema library file.</p>
 
+        <h3><a href="/schlib_browser">/schlib_browser</a></h3>
+        <p>EESchema library browser.</p>
+
         <h3><a href="/grb_png">/grb_png</a></h3>
         <p>Generate png from Gerber files.  Wrapper for gerbv.</p>
 
