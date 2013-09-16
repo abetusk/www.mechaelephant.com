@@ -35,31 +35,36 @@ if "files" in form:
   filefield = form["files"]
 
   if not isinstance(filefield, list):
-    filefield = [filefield]
-
-  gerber_uuid = uuid.uuid4().hex
-  gerber_png_file = "/tmp/img/" + gerber_uuid
-
-  call_list = ["/usr/bin/gerbv", "-x", "png", "-o", gerber_png_file, "-w", "512x512", "--"]
-  for fileitem in filefield:
-    fn = werkzeug.secure_filename(fileitem.filename)
-    dst_fn = "/tmp/upload/" + fn
-
-    try:
-      with open('/tmp/upload/' + fn, "wb") as f:
-        shutil.copyfileobj(fileitem.file, f)
-      call_list.append(dst_fn)
-    except IOError as e:
+    if filefield.filename is None or filefield.filename == "":
       error_occured = True
-      error_str += "<br />I/O error({0}): {1}".format(e.errno, e.strerror)
+      error_str = "provide at least one file"
+    else:
+      filefield = [filefield]
 
-  try:
-    check_call( call_list )
-  except CalledProcessError as e:
-    error_occured = True
-    error_str += "<br />gerbv failed"
-
-
+  if not error_occured:
+    gerber_uuid = uuid.uuid4().hex
+    gerber_png_file = "/tmp/img/" + gerber_uuid
+  
+    call_list = ["/usr/bin/gerbv", "-x", "png", "-o", gerber_png_file, "-w", "512x512", "--"]
+    for fileitem in filefield:
+      fn = werkzeug.secure_filename(fileitem.filename)
+      dst_fn = "/tmp/upload/" + fn
+  
+      try:
+        with open('/tmp/upload/' + fn, "wb") as f:
+          shutil.copyfileobj(fileitem.file, f)
+        call_list.append(dst_fn)
+      except IOError as e:
+        error_occured = True
+        error_str += "<br />I/O error({0}): {1}".format(e.errno, e.strerror)
+  
+    try:
+      check_call( call_list )
+    except CalledProcessError as e:
+      error_occured = True
+      error_str += "<br />gerbv failed"
+  
+  
 template            = slurp_file(template_fn) 
 
 if error_occured:
