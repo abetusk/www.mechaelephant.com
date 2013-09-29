@@ -2,6 +2,7 @@
 
 import re,cgi,cgitb,sys
 import os
+import urllib
 cgitb.enable()
 
 def slurp_file(fn):
@@ -37,12 +38,14 @@ form = cgi.FieldStorage()
 display_lib = None
 if "lib" in form:
   display_lib = form["lib"].value
-  display_lib = re.sub('[^a-zA-Z0-9_\(\)-]*', '', display_lib)
+  display_lib = urllib.quote( display_lib )
+  display_lib = re.sub('[^a-zA-Z0-9_\%\.-]*', '', display_lib)
 
 display_component = None
 if "name" in form:
   display_component = form["name"].value
-  display_component = re.sub('[^a-zA-Z0-9_\(\)-]*', '', display_component)
+  display_component = urllib.quote( display_component )
+  display_component = re.sub('[^a-zA-Z0-9_\%\.-]*', '', display_component)
 
 
 
@@ -86,7 +89,6 @@ for r in range(lib_row):
     if pos >= len(l):
       tbl.append("    <td></td>")
     else:
-      #tbl.append("    <td><a href='lib_browser?lib=" + l[pos] + "'>" + l[pos] + "</a></td>")
       tbl.append("    <td><a href='/schlib_browser/" + l[pos] + "'>" + l[pos] + "</a></td>")
     pos += 1
   tbl.append("  </tr>")
@@ -104,6 +106,7 @@ if display_component is not None:
   try:
     display_svg_file = display_component + ".svg"
     svg_fn = base_eeschema_dir + "/svg/" + display_lib + "/" + display_svg_file
+
     svg_component = slurp_file( svg_fn )
 
     tbl_lib.append("<table class='pure-table-dense pure-table-bordered' width='100%'>")
@@ -117,7 +120,9 @@ if display_component is not None:
 
     tbl_lib.append( svg_component )
 
-    tbl_lib.append( "<br/>" + display_component )
+    display_name = urllib.unquote( display_component )
+
+    tbl_lib.append( "<br/>" + display_name )
     tbl_lib.append("  </td>")
     tbl_lib.append("</tr>")
     tbl_lib.append("</table>")
@@ -149,11 +154,15 @@ if display_component is None and display_lib in l:
     n = os.listdir( base_jpg_dir + display_lib)
 
     for fn_simple in os.listdir( base_jpg_dir + display_lib):
-      part_name = re.sub( '\.jpg$', '', fn_simple )
-      fn = "/" + base_jpg_dir + display_lib + "/" + fn_simple
-      ss = "<a href='/schlib_browser/" + display_lib + "/" + part_name + "'> <img  class='fixed-img-width' src='" + fn + "' /> </a>"
+      fn_encoded = urllib.quote( fn_simple )
+      part_name = re.sub( '\.jpg$', '', fn_encoded )
+      fn = "/" + base_jpg_dir + display_lib + "/" + fn_encoded
+      ss = "<a href='/schlib_browser/" + display_lib + "/" + part_name + "'>"
+      ss += "  <img  class='fixed-img-width' src='" + fn + "' />  "
+      ss += "</a>"
 
-      display_name = re.sub('\.jpg', '', fn_simple)
+      display_name = urllib.unquote( fn_simple )
+      display_name = re.sub('\.jpg', '', display_name )
       style_hints = " style='vertical-align:middle; text-align:center; align:center;' "
       width_hints = " width='200px' " 
       class_hints = " class='pure-table-tabular' "
