@@ -63,20 +63,23 @@ tmp_str = template.replace("###LEFT###", slurp_file(template_left_fn))
 
 if display_lib is not None and display_component is not None:
 
+  lib_link = urllib.quote( display_lib )
+  comp_link = urllib.quote( display_component )
   lib_pretty = urllib.unquote( display_lib )
   comp_pretty = urllib.unquote( display_component )
 
   #tmp_str = tmp_str.replace("###WD###", "/ " + display_lib + " / " + display_component )
-  s  =  "/ <a href='/schlib_browser/" + display_lib + "'>" + lib_pretty + "</a>"
-  s += " / <a href='/schlib_browser/" + display_lib + "/" + display_component + "'>" + comp_pretty + "</a>"
+  s  =  "/ <a href='/schlib_browser/" + lib_link + "'>" + lib_pretty + "</a>"
+  s += " / <a href='/schlib_browser/" + lib_link + "/" + comp_link + "'>" + comp_pretty + "</a>"
 
   #tmp_str = tmp_str.replace("###WD###", "/ <a href='schlib_browser?lib=" + display_lib + "'>" + lib_pretty + "</a> / " + comp_pretty )
   tmp_str = tmp_str.replace("###WD###", s )
 
 elif display_lib is not None:
 
+  lib_link = urllib.quote( display_lib )
   lib_pretty = urllib.unquote( display_lib )
-  s  =  "/ <a href='/schlib_browser/" + display_lib + "'>" + lib_pretty + "</a>"
+  s  =  "/ <a href='/schlib_browser/" + lib_link + "'>" + lib_pretty + "</a>"
 
   #tmp_str = tmp_str.replace("###WD###", "/ " + display_lib )
   #tmp_str = tmp_str.replace("###WD###", "/ " + lib_pretty )
