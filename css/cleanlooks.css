@@ -203,7 +203,8 @@ h3 {
 #maincontent a:hover {
 	/* color:#FFBA27; */
 	color:#a07070;
-	background-color:#FFFFFF;
+	/* background-color:#FFFFFF; */
+	background-color:transparent; 
 	text-decoration:underline;
 }
 
