@@ -73,6 +73,11 @@
     border-left-width: 0;
 }
 
+.pure-table-dense .foo td
+{
+    background-color: #000000;
+}
+
 
 .pure-table-dense thead {
     background: #e0e0e0;
@@ -95,6 +100,12 @@ striping:
 }
 .pure-table-odd td {
     background-color: #f2f2f2;
+}
+
+#highlight-td {
+/* .pure-table-dense tr[selected=selected] { 
+ .pure-table-dense td .highlight { */
+    background-color: #e2e2e2;
 }
 
 /* nth-child selector for modern browsers */

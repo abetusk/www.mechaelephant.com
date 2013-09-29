@@ -62,9 +62,26 @@ tmp_str = template.replace("###LEFT###", slurp_file(template_left_fn))
 
 
 if display_lib is not None and display_component is not None:
-  tmp_str = tmp_str.replace("###WD###", "/ " + display_lib + " / " + display_component )
+
+  lib_pretty = urllib.unquote( display_lib )
+  comp_pretty = urllib.unquote( display_component )
+
+  #tmp_str = tmp_str.replace("###WD###", "/ " + display_lib + " / " + display_component )
+  s  =  "/ <a href='/schlib_browser/" + display_lib + "'>" + lib_pretty + "</a>"
+  s += " / <a href='/schlib_browser/" + display_lib + "/" + display_component + "'>" + comp_pretty + "</a>"
+
+  #tmp_str = tmp_str.replace("###WD###", "/ <a href='schlib_browser?lib=" + display_lib + "'>" + lib_pretty + "</a> / " + comp_pretty )
+  tmp_str = tmp_str.replace("###WD###", s )
+
 elif display_lib is not None:
-  tmp_str = tmp_str.replace("###WD###", "/ " + display_lib )
+
+  lib_pretty = urllib.unquote( display_lib )
+  s  =  "/ <a href='/schlib_browser/" + display_lib + "'>" + lib_pretty + "</a>"
+
+  #tmp_str = tmp_str.replace("###WD###", "/ " + display_lib )
+  #tmp_str = tmp_str.replace("###WD###", "/ " + lib_pretty )
+  tmp_str = tmp_str.replace("###WD###", s )
+
 else:
   tmp_str = tmp_str.replace("###WD###", "")
 
@@ -84,12 +101,21 @@ if len(l) % lib_col:
 tbl = [ "<table width='100%' class='pure-table-dense pure-table-bordered'>" ]
 pos = 0
 for r in range(lib_row):
-  tbl.append("  <tr>")
+  extra = ""
+#  if (r % 2):
+#    extra = " class='pure-table-odd' "
+  tbl.append("  <tr " + extra + ">")
+  #tbl.append("  <tr>")
+
   for c in range(lib_col):
     if pos >= len(l):
       tbl.append("    <td></td>")
     else:
-      tbl.append("    <td><a href='/schlib_browser/" + l[pos] + "'>" + l[pos] + "</a></td>")
+      class_hints = ""
+      if display_lib == l[pos]:
+        class_hints = " id='highlight-td' "
+      tbl.append("    <td " + class_hints + "><a href='/schlib_browser/" + l[pos] + "'>" + l[pos] + "</a></td>")
+
     pos += 1
   tbl.append("  </tr>")
 tbl.append("</table>")
@@ -163,8 +189,10 @@ if display_component is None and display_lib in l:
 
       display_name = urllib.unquote( fn_simple )
       display_name = re.sub('\.jpg', '', display_name )
+
       style_hints = " style='vertical-align:middle; text-align:center; align:center;' "
       width_hints = " width='200px' " 
+
       class_hints = " class='pure-table-tabular' "
       tbl_lib.append(" <td" + style_hints + width_hints + class_hints + ">" + ss + "<br />" + display_name + "</td> ")
 

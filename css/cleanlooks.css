@@ -40,6 +40,16 @@ html {
     padding-left:30px;
 }
 
+#header a {
+	/* color:#FFBA27; */
+	color:#a07070;
+    /*
+	text-decoration:none;
+	background-color:#FFFFFF;
+    */
+}
+
+
 .spacer {
 	width:100%;
 	height:15px;
@@ -185,7 +195,8 @@ h3 {
 #maincontent a {
 	/* color:#FFBA27; */
 	color:#a07070;
-	background-color:#FFFFFF;
+	/* background-color:#FFFFFF; */
+	background-color: transparent; 
 	text-decoration:none;
 }
 
