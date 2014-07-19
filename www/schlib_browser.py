@@ -124,13 +124,9 @@ tmp_str = tmp_str.replace("<!-- ###LIB_TABLE### -->", tbl_str)
 tbl_lib = [ ]
 base_eeschema_dir = "eeschema"
 
-log("cp00")
-
 if display_component is not None:
 
   try:
-
-    log("cp0")
 
     display_svg_file = display_component + ".svg"
     svg_fn = base_eeschema_dir + "/svg/" + display_lib + "/" + display_svg_file
