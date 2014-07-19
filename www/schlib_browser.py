@@ -3,7 +3,14 @@
 import re,cgi,cgitb,sys
 import os
 import urllib
+
 cgitb.enable()
+
+def log ( s ):
+  f = open( "/tmp/mechaelephant.log", "a" )
+  f.write( str(s) + "\n" )
+  f.close()
+
 
 def slurp_file(fn):
   f = open(fn, "r")
@@ -53,12 +60,8 @@ if "name" in form:
 template_fn     = "./template/schlib_browser.template"
 template_left_fn = "./template/left.template"
 
-expanded_left = "<li><a href='/mecha_elephant/sch_list'>/sch_list</a></li>\n \
-<li class='indent'><a href='/mecha_elephant/sch_list?foo'>/foo</a></li>\n \
-<li class='indent'><a href='/mecha_elephant/sch_list?bar'>/bar</a></li>\n"
-
 template            = slurp_file(template_fn) 
-tmp_str = template.replace("###LEFT###", slurp_file(template_left_fn))
+tmp_str = template.replace("<!-- ###LEFT### -->", slurp_file(template_left_fn))
 
 
 if display_lib is not None and display_component is not None:
@@ -68,12 +71,10 @@ if display_lib is not None and display_component is not None:
   lib_pretty = urllib.unquote( display_lib )
   comp_pretty = urllib.unquote( display_component )
 
-  #tmp_str = tmp_str.replace("###WD###", "/ " + display_lib + " / " + display_component )
   s  =  "/ <a href='/schlib_browser/" + lib_link + "'>" + lib_pretty + "</a>"
   s += " / <a href='/schlib_browser/" + lib_link + "/" + comp_link + "'>" + comp_pretty + "</a>"
 
-  #tmp_str = tmp_str.replace("###WD###", "/ <a href='schlib_browser?lib=" + display_lib + "'>" + lib_pretty + "</a> / " + comp_pretty )
-  tmp_str = tmp_str.replace("###WD###", s )
+  tmp_str = tmp_str.replace("<!-- ###WD### -->", s )
 
 elif display_lib is not None:
 
@@ -81,20 +82,13 @@ elif display_lib is not None:
   lib_pretty = urllib.unquote( display_lib )
   s  =  "/ <a href='/schlib_browser/" + lib_link + "'>" + lib_pretty + "</a>"
 
-  #tmp_str = tmp_str.replace("###WD###", "/ " + display_lib )
-  #tmp_str = tmp_str.replace("###WD###", "/ " + lib_pretty )
-  tmp_str = tmp_str.replace("###WD###", s )
+  tmp_str = tmp_str.replace("<!-- ###WD### -->", s )
 
 else:
-  tmp_str = tmp_str.replace("###WD###", "")
+  tmp_str = tmp_str.replace("<!-- ###WD### -->", "")
 
 
 l = [ "74xgxx", "74xx", "ac-dc", "adc-dac", "analog_switches", "atmel", "audio", "brooktre", "cmos4000", "cmos_ieee", "conn", "contrib", "cypress", "dc-dc", "device", "digital-audio", "display", "dsp", "elec-unifil", "ftdi", "gennum", "graphic", "intel", "interface", "linear", "logo", "memory", "microchip1", "microchip", "microchip_pic10mcu", "microchip_pic12mcu", "microchip_pic16mcu", "microcontrollers", "motorola", "msp430", "nxp_armmcu", "opto", "philips", "powerint", "power", "pspice", "references", "regul", "relays", "sensors", "siliconi", "special", "stm32", "stm8", "supertex", "texas", "transf", "transistors", "ttl_ieee", "valves", "video", "xilinx" ]
-
-expanded_left = ""
-for w in l:
-  expanded_left += "<li class='indent'><a href='/mecha_elephant/" + w + "'>" + w + "</a></li>\n";
-
 
 lib_col = 8
 lib_row = len(l) / lib_col
@@ -125,14 +119,19 @@ tbl.append("</table>")
 
 tbl_str = "\n".join(tbl)
 
-tmp_str = tmp_str.replace("###LIB_TABLE###", tbl_str)
+tmp_str = tmp_str.replace("<!-- ###LIB_TABLE### -->", tbl_str)
 
 tbl_lib = [ ]
 base_eeschema_dir = "eeschema"
 
+log("cp00")
+
 if display_component is not None:
 
   try:
+
+    log("cp0")
+
     display_svg_file = display_component + ".svg"
     svg_fn = base_eeschema_dir + "/svg/" + display_lib + "/" + display_svg_file
 
@@ -180,9 +179,9 @@ if display_component is None and display_lib in l:
     tbl_lib.append("<tr>")
 
     count =  0
-    n = os.listdir( base_jpg_dir + display_lib)
+    n = os.listdir( base_jpg_dir + display_lib )
 
-    for fn_simple in os.listdir( base_jpg_dir + display_lib):
+    for fn_simple in os.listdir( base_jpg_dir + display_lib ):
       fn_encoded = urllib.quote( fn_simple )
       part_name = re.sub( '\.jpg$', '', fn_encoded )
       fn = "/" + base_jpg_dir + display_lib + "/" + fn_encoded
@@ -215,7 +214,7 @@ if display_component is None and display_lib in l:
     tbl_lib.append("error, " + base_jpg_dir + ", " + display_lib)
     pass
 
-tmp_str = tmp_str.replace("###LIB_SVG_TABLE###", "\n".join(tbl_lib))
+tmp_str = tmp_str.replace("<!-- ###LIB_SVG_TABLE### -->", "\n".join(tbl_lib))
 
 print tmp_str
 

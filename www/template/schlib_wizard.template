@@ -1046,7 +1046,7 @@ $( document ).ready(function() {
   </div> <!-- end header -->
 
 
-  ###LEFT###
+  <!-- ###LEFT### -->
 
 
   <div id="main">
@@ -1225,7 +1225,7 @@ $( document ).ready(function() {
                   </tr>
                 </thead>
 
-                ###PINL###
+                <!-- ###PINL### -->
 
 
               </tbody>
@@ -1245,7 +1245,7 @@ $( document ).ready(function() {
                   </tr>
                 </thead>
 
-                ###PINR###
+                <!-- ###PINR### -->
 
               </tbody>
               </table>

@@ -15,7 +15,7 @@
 
   </div> <!-- end header -->
 
-  ###LEFT###
+  <!-- ###LEFT### -->
 
 
   <div id="main">
@@ -32,6 +32,9 @@
 
         <h3><a href="/grb_png">/grb_png</a></h3>
         <p>Generate png from Gerber files.  Wrapper for gerbv.</p>
+
+        <h3><a href="/gbl_ngc">/gbl_ngc</a></h3>
+        <p>Generate GCode (.ngc) from Gerber files.  Wrapper for <a href='https://github.com/abetusk/gbl2ngc'>gbl2ngc</a>.</p>
 
         <!--
         <h3><a href="/sch_lib">/sch_lib</a></h3>

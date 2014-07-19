@@ -18,5 +18,5 @@ print
 template_index = slurp_file(template_fn)
 template_left = slurp_file(template_left_fn)
 
-print re.sub("###LEFT###", template_left, template_index)
+print re.sub("<!-- ###LEFT### -->", template_left, template_index)
 

@@ -49,8 +49,8 @@ for i in range(int(n)/2):
 if (int(n)%2) == 1:
   pin_list.append(" <tr> <td></td> <td></td> <td></td> <td></td> </tr> ");
 
-tmp_str = re.sub('###LEFT###', slurp_file(template_left_fn), template)
-tmp_str = re.sub('###PINL###', ' '.join([str(x) for x in pin_list]), tmp_str)
+tmp_str = re.sub('<!-- ###LEFT### -->', slurp_file(template_left_fn), template)
+tmp_str = re.sub('<!-- ###PINL### -->', ' '.join([str(x) for x in pin_list]), tmp_str)
 tmp_str = re.sub('###NPIN###', str(n), tmp_str)
 tmp_str = re.sub('###HEIGHT###', str(beginning_height), tmp_str)
 
@@ -59,5 +59,5 @@ for i in range(int(n)/2, int(n)):
   s = re.sub('##N##', str(i+1), pin_input_template)
   pin_list_r.append(s)
 
-print re.sub('###PINR###', ' '.join([str(x) for x in pin_list_r]), tmp_str)
+print re.sub('<!-- ###PINR### -->', ' '.join([str(x) for x in pin_list_r]), tmp_str)
 

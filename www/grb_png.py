@@ -69,12 +69,12 @@ template            = slurp_file(template_fn)
 
 if error_occured:
   html_error_msg = "<h3>Error occured</h3><p>" + error_str + "</p>"
-  print re.sub("###LEFT###", slurp_file(template_left_fn), re.sub('###GRB_IMG###', html_error_msg, template) )
+  print re.sub("<!-- ###LEFT### -->", slurp_file(template_left_fn), re.sub('<!-- ###GRB_IMG### -->', html_error_msg, template) )
 
 else:
   img_str = ""
   if gerber_png_file is not None:
     img_str = "<h3>gerbv output</h3><p><img src='" + img_get + "?file=" + str(gerber_uuid) + "' /> </p>"
   #print re.sub('###GRB_IMG###', img_str, template)
-  print re.sub("###LEFT###", slurp_file(template_left_fn), re.sub('###GRB_IMG###', img_str, template) )
+  print re.sub("<!-- ###LEFT### -->", slurp_file(template_left_fn), re.sub('<!-- ###GRB_IMG### -->', img_str, template) )
 
