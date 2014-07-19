@@ -1,15 +1,23 @@
 #!/usr/bin/python
 
 import re
+import os
 import cgi
 import cgitb
 import sys
 import werkzeug
 import uuid
 import shutil
-from subprocess import check_call
+import subprocess as sp
+#from subprocess import check_call
 
 cgitb.enable()
+
+def log ( s ):
+  f = open( "/tmp/mechaelephant.log", "a" )
+  f.write( str(s) + "\n" )
+  f.close()
+
 
 def slurp_file(fn):
   f = open(fn, "r")
@@ -17,12 +25,14 @@ def slurp_file(fn):
   f.close()
   return s
 
-img_get = "img_get"
+tmp_dir = "/tmp/tmp"
+upload_dir = "/tmp/upload"
+stage_dir = "/tmp/stage"
 template_fn     = "./template/gbl_ngc.template"
 template_left_fn = "./template/left.template"
 
-gerber_png_file = None
-gerber_uuid = None
+ngc_file = None
+ngc_uuid = None
 
 form = cgi.FieldStorage()
 
@@ -37,44 +47,76 @@ if "files" in form:
   if not isinstance(filefield, list):
     if filefield.filename is None or filefield.filename == "":
       error_occured = True
-      error_str = "provide at least one file"
+      error_str = "provide a gerber file"
     else:
       filefield = [filefield]
 
   if not error_occured:
-    gerber_uuid = uuid.uuid4().hex
-    gerber_png_file = "/tmp/img/" + gerber_uuid
+    ngc_uuid = uuid.uuid4().hex
+    ngc_file = stage_dir + "/" + str(ngc_uuid)
+
+    radius = 0.0
   
-    call_list = ["/usr/bin/gerbv", "-x", "png", "-o", gerber_png_file, "-w", "512x512", "--"]
+    call_list = ["/usr/local/bin/gbl2ngc", "-o", ngc_file, "-r", str(radius), "-i"  ]
     for fileitem in filefield:
-      fn = werkzeug.secure_filename(fileitem.filename)
-      dst_fn = "/tmp/upload/" + fn
+      fn_uuid = uuid.uuid4().hex
+      fn = str(fn_uuid) + werkzeug.secure_filename(fileitem.filename) 
+      #dst_fn = "/tmp/upload/" + fn
+      dst_fn = upload_dir + "/" + fn
   
       try:
-        with open('/tmp/upload/' + fn, "wb") as f:
+        with open(upload_dir + "/" + fn, "wb") as f:
           shutil.copyfileobj(fileitem.file, f)
         call_list.append(dst_fn)
       except IOError as e:
         error_occured = True
         error_str += "<br />I/O error({0}): {1}".format(e.errno, e.strerror)
   
+    ngc_out = tmp_dir + "/" + str(ngc_uuid) + ".out"
+    ngc_err = tmp_dir + "/" + str(ngc_uuid) + ".err"
+
+    outfp = None
+    errfp = None
+
     try:
-      check_call( call_list )
-    except CalledProcessError as e:
+
+      outfp = open( ngc_out, 'wb' )
+      errfp = open( ngc_err, 'wb' )
+
+      #sp.check_call( call_list )
+      #sp.check_call( call_list, stdout=open(os.devnull, 'wb'), stderr=open(os.devnull, 'wb') )
+      sp.check_call( call_list, stdout=outfp, stderr=errfp )
+
+      outfp.close()
+      errfp.close()
+
+
+    except sp.CalledProcessError as e:
       error_occured = True
-      error_str += "<br />gerbv failed"
-  
-  
+      error_str += "<br />gbl2ngc failed:<br />"
+
+      outfp.close()
+      errfp.close()
+
+      error_str += slurp_file( ngc_out )
+      error_str += slurp_file( ngc_err )
+
 template            = slurp_file(template_fn) 
 
 if error_occured:
+
   html_error_msg = "<h3>Error occured</h3><p>" + error_str + "</p>"
-  print re.sub("<!-- ###LEFT### -->", slurp_file(template_left_fn), re.sub('<!-- ###GRB_IMG### -->', html_error_msg, template) )
+  x = re.sub("<!-- ###LEFT### -->", slurp_file(template_left_fn), re.sub('<!-- ###NGC_DL### -->', html_error_msg, template) )
+  print re.sub("<!-- ###LEFT### -->", slurp_file(template_left_fn), re.sub('<!-- ###NGC_DL### -->', html_error_msg, template) )
 
 else:
-  img_str = ""
-  if gerber_png_file is not None:
-    img_str = "<h3>gerbv output</h3><p><img src='" + img_get + "?file=" + str(gerber_uuid) + "' /> </p>"
-  #print re.sub('###GRB_IMG###', img_str, template)
-  print re.sub("<!-- ###LEFT### -->", slurp_file(template_left_fn), re.sub('<!-- ###GRB_IMG### -->', img_str, template) )
+  dl_str = ""
+  init_str = ""
+  if ngc_file is not None:
+    dl_str = "<h3>gbl2ngc output</h3><p><a href='downloadManager.py?id=" +  str(ngc_uuid) + "&name=board.ngc'>Download</a></p>"
+    init_str = "<script> initfunc = function() { downloadNGC(\"" + str(ngc_uuid) + "\",\"board.ngc\" ); }; </script>"
+  print re.sub("<!-- ###LEFT### -->", slurp_file(template_left_fn), 
+          #re.sub('<!-- ###INITFUNC### -->', init_str,
+            re.sub('<!-- ###NGC_DL### -->', dl_str, template) ) 
+          #)
 

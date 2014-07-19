@@ -37,7 +37,7 @@ if "files" in form:
   if not isinstance(filefield, list):
     if filefield.filename is None or filefield.filename == "":
       error_occured = True
-      error_str = "provide at least one file"
+      error_str = "provide at least one gerber file"
     else:
       filefield = [filefield]
 
