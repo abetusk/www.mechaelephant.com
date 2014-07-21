@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--
+
+  Open sourced under MIT license.
+  GCode Viewer
+  Original version by Joe Walne
+  https://github.com/joewalnes/gcode-viewer
+
+  -->
+  <head>
+    <meta charset="utf-8">
+    <title>GCode Viewer</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <style>
+      #renderArea {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        /* top: 40px; */
+        background-color: #000000;
+      }
+    </style>
+    <!-- 3rd party libs -->
+    <script src="lib/modernizr.custom.93389.js"></script>
+    <script src="lib/jquery-1.7.1.min.js"></script>
+    <!-- <script src="lib/bootstrap-modal.js"></script> -->
+    <script src="lib/sugar-1.2.4.min.js"></script>
+
+    <script src="lib/Three.js"></script>
+    <script src="lib/controls/TrackballControls.js"></script>
+    <!-- <script src="lib/controls/OrbitControls.js"></script> -->
+
+    <!-- Custom code -->
+    <script src="js/gcode-parser.js"></script>
+    <script src="js/gcode-model.js"></script>
+    <script src="js/renderer.js"></script>
+    <script src="js/ui.js"></script>
+
+
+    <script>
+
+
+      function downloadNGC( id, name ) {
+
+        console.log("downloadNGC:", id, name);
+
+        name = ( (typeof name !== 'undefined') ? name : "file.ngc" );
+        var ifrm = document.getElementById( "downloadFrame" );
+        ifrm.src = "downloadManager.py?id=" + id + "&name=" + name;
+      }
+
+      function dlfile() {
+        var id = getParameterByName("id");
+        if ( id ) {
+          downloadNGC( id, "file.ngc" );
+        }
+      }
+  
+
+      $(document).ready( function() {
+        var f = document.getElementById('uploadButton');
+        f.style.top = '8px';
+        f.style.left = '100px';
+      });
+
+
+      function uploadComplete(x) { 
+        //console.log("complete!", x, this.response); 
+
+        var json_data = JSON.parse( this.response );
+        console.log( json_data.id );
+
+        window.location.href = "ngc_view?id=" + json_data.id;
+      }
+      function uploadError() { console.log("upload error"); }
+      function uploadAbort() { console.log("upload abort"); }
+      function uploadProgress() { console.log("upload progress"); }
+
+      function sendFile( file )
+      {
+        console.log("file:");
+        console.log(file);
+
+        var formData = new FormData();
+        formData.append( "fileType", "ngc" );
+        formData.append( "fileData", file );
+        console.log(formData);
+
+        var uri = "uploadManager.py";
+        var xhr = new XMLHttpRequest();
+        xhr.upload.addEventListener("progress", uploadProgress, false );
+        xhr.addEventListener("load", uploadComplete, false );
+        xhr.addEventListener("error", uploadError, false );
+        xhr.addEventListener("abort", uploadAbort, false );
+
+        xhr.open( "POST", uri );
+        xhr.send( formData );
+
+      }
+
+      function handleFiles( files )
+      {
+        var n = files.length;
+        for (var i=0; i<n; i++)
+          sendFile(files[i]);
+        //canvasFocus("uploadButton");
+      }
+
+
+    </script>
+
+    <style>
+      .renderAreaZ
+      {
+        z-index: 0;
+      }
+
+      .imgButton
+      {
+        opacity:0.5;
+        position: absolute;
+        z-index: 99999;
+      }
+
+
+      .upload_button {
+        opacity: 0.5;
+        position: absolute;
+        background: transparent url(img/upload_white.png) left top ;
+        background-size: 32px 32px;
+        background-repeat: no-repeat;
+        z-index: 1;
+
+        height: 32px;
+        width: 32px;
+        /*
+        top: 7px;
+        left:100px;
+        */
+      }
+
+      .upload_button input
+      {
+        opacity:0.0;
+        position: absolute;
+        z-index: 1;
+        height:32px;
+        width:32px;
+        background: #0000ff left top no-repeat;
+        /*
+        top: 7px;
+        left:100px;
+        */
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    
+    <!-- Top bar -->
+    <!--
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <span class="brand" href="#">GCode Viewer</span>
+          <ul class="nav">
+            <li><a href="javascript:openDialog()">Load Model</a></li>
+            <li><a href="javascript:about()">About</a></li>
+          </ul>
+          <ul class="nav pull-right">
+            <li><a href="https://github.com/abetusk/gcode-viewer" target="_blank">Code on GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    -->
+
+
+    <!-- download hacking -->
+    <iframe id='downloadFrame' style='display:none'></iframe>
+
+
+    <!-- WebGL rendering area -->
+    <div class='renderAreaZ' id="renderArea"></div>
+
+    <div id='backButtonDiv' class='imgButton' style='top:5px; left:10px;' >
+      <a href='/'>
+        <img src='img/reply_white.png' style='height:32px; width:32px;' alt='home'>
+      </a>
+    </div>
+
+    <div id='uploadButton' class='upload_button' >
+      <input
+      id='uploadElement'
+      type='file'
+      value='upload'
+      class='upload_button'
+      onchange='handleFiles(this.files); canvasFocus("uploadElement");'
+      onclick='canvasFocus("uploadElement");'
+      />
+    </div>
+
+    <div id='downloadButtonDiv' class='imgButton' style='top:5px; left:150px' >
+      <input
+      id='downloadButton'
+      type='image'
+      src='img/download_white.png'
+      style='height:32px; width:32px;'
+      value='download'
+      onclick='dlfile(); canvasFocus("downloadButton");'
+      />
+    </div>
+
+    <!--
+    <div class="modal" id="openModal" style="display: none">
+      <div class="modal-header">
+        <a class="close" data-dismiss="modal">&times;</a>
+        <h3>Open GCode</h3>
+      </div>
+      <div class="modal-body">
+        <h4>Examples</h4>
+        <ul>
+          <li><a href="javascript:openGCodeFromPath('examples/15mm_cube.gcode')">15mm_cube.gcode</a></li>
+          <li><a href="javascript:openGCodeFromPath('examples/octocat.gcode')">octocat.gcode</a></li>
+          <li><a href="javascript:openGCodeFromPath('examples/part.gcode')">part.gcode</a></li>
+        </ul>
+        <p>To view your own model, drag a gcode file from your desktop and drop it in this window.</p>
+      </div>
+      <div class="modal-footer">
+        <a class="btn" data-dismiss="modal">Cancel</a>
+      </div>
+    </div>
+    -->
+
+    <!-- 'About' dialog'-->
+    <!--
+    <div class="modal fade" id="aboutModal" style="display: none">
+      <div class="modal-header">
+        <a class="close" data-dismiss="modal">&times;</a>
+        <h3>About GCode Viewer</h3>
+      </div>
+      <div class="modal-body">
+        <p>This is a viewer for <a href="http://en.wikipedia.org/wiki/G-code" target="_new">GCode</a>
+        files, which contain commands sent to a CNC machine such as a
+        <a href="http://reprap.org/" target="_blank">RepRap</a>.
+        This version has been altered to be better at viewing circuit boards.
+
+        <p>This viewer shows the operations the machine will take.</p>
+
+        <p>Drag the mouse while holding down the left button to rotate the model. 
+           Hold down 'S' to zoom or use your mouse wheel.
+           Drag and hold the right mouse button to translate.
+        </p>
+
+        <p>To view your own model, drag a gcode file from your desktop and drop it in this window.</p>
+
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary" data-dismiss="modal">OK</a>
+      </div>
+    </div>
+    -->
+
+  </body>
+</html>

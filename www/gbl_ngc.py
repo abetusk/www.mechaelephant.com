@@ -109,14 +109,20 @@ if error_occured:
   x = re.sub("<!-- ###LEFT### -->", slurp_file(template_left_fn), re.sub('<!-- ###NGC_DL### -->', html_error_msg, template) )
   print re.sub("<!-- ###LEFT### -->", slurp_file(template_left_fn), re.sub('<!-- ###NGC_DL### -->', html_error_msg, template) )
 
+
 else:
-  dl_str = ""
+  dl_view_str = ""
   init_str = ""
   if ngc_file is not None:
-    dl_str = "<h3>gbl2ngc output</h3><p><a href='downloadManager.py?id=" +  str(ngc_uuid) + "&name=board.ngc'>Download</a></p>"
+    dl_view_str = "<h3>gbl2ngc output</h3><p><a href='downloadManager.py?id=" +   \
+      str(ngc_uuid) +  \
+      "%26" + "name=board.ngc'>Download</a></p>" + \
+      "<h3>NGC View</h3><p><a href='ngc_view?id=" + str(ngc_uuid) + "' >View</a></p>"
+
+
     init_str = "<script> initfunc = function() { downloadNGC(\"" + str(ngc_uuid) + "\",\"board.ngc\" ); }; </script>"
   print re.sub("<!-- ###LEFT### -->", slurp_file(template_left_fn), 
           #re.sub('<!-- ###INITFUNC### -->', init_str,
-            re.sub('<!-- ###NGC_DL### -->', dl_str, template) ) 
+            re.sub('<!-- ###NGC_DL### -->', dl_view_str, template) )
           #)
 
