@@ -70,6 +70,7 @@ GCodeParser.prototype.parseLine = function(text, info) {
 
 
       tokens.splice(1).forEach(function(token) {
+        if (token.length==0) { return; }
         var key = token[0].toLowerCase();
         var value = parseFloat(token.substring(1));
         args[key] = value;
