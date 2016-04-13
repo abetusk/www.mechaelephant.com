@@ -16,31 +16,36 @@ GCodeParser.prototype.parseLine = function(text, info) {
 
   //not perfect, but just to get something working
   //
+
+  // get rid of comments
+  //
   text = text.replace(/\([^\)]*\)/, '').trim();
 
+  // capitalize g0 and g1
+  //
   text = text.replace(/^\s*g\s*0\s/, 'G0 ').trim();
   text = text.replace(/^\s*g\s*1\s/, 'G1 ').trim();
   text = text.replace(/g/, 'G').trim();
 
-  text = text.replace(/\sx\s*/, ' X').trim();
-  text = text.replace(/^x\s*/, ' X').trim();
+  text = text.replace(/\s*[xX]\s*/, ' X').trim();
+  //text = text.replace(/^[xX]\s*/, ' X').trim();
 
-  text = text.replace(/\sy\s*/, ' Y').trim();
-  text = text.replace(/^y\s*/, ' Y').trim();
+  text = text.replace(/\s*[yY]\s*/, ' Y').trim();
+  //text = text.replace(/^y\s*/, ' Y').trim();
 
-  text = text.replace(/\sz\s*/, ' Z').trim();
-  text = text.replace(/^z\s*/, ' Z').trim();
+  text = text.replace(/\s*[zZ]\s*/, ' Z').trim();
+  //text = text.replace(/^z\s*/, ' Z').trim();
 
-  text = text.replace(/\sm\s*/, ' M').trim();
-  text = text.replace(/^m\s*/, ' M').trim();
+  text = text.replace(/\s*[mM]\s*/, ' M').trim();
+  //text = text.replace(/^m\s*/, ' M').trim();
 
-  text = text.replace(/\ss\s*/, ' S').trim();
-  text = text.replace(/^s\s*/, ' S').trim();
-  text = text.replace(/S/, ' S S').trim();
+  text = text.replace(/\s*[sS]\s*/, ' S').trim();
+  //text = text.replace(/^s\s*/, ' S').trim();
+  //text = text.replace(/S/, ' S S').trim();
 
-  text = text.replace(/\sf\s*/, ' F').trim();
-  text = text.replace(/^f\s*/, ' F').trim();
-  text = text.replace(/F/, ' F F').trim();
+  text = text.replace(/\s*[fF]\s*/, ' F').trim();
+  //text = text.replace(/^f\s*/, ' F').trim();
+  //text = text.replace(/F/, ' F F').trim();
 
   if (text.match( /[XYZ]/ )) {
     if (!text.match( /^\s*G/)) {
@@ -68,9 +73,9 @@ GCodeParser.prototype.parseLine = function(text, info) {
         'cmd': cmd
       };
 
-
       tokens.splice(1).forEach(function(token) {
-        if (token.length==0) { return; }
+if (token.length==0) { return; }
+
         var key = token[0].toLowerCase();
         var value = parseFloat(token.substring(1));
         args[key] = value;
