@@ -39,6 +39,9 @@
         <h3><a href="/ngc_view">/ngc_view</a></h3>
         <p>NGC viewer.  A tweaked version of <a href='https://github.com/joewalnes/gcode-viewer'>Joe Walnes GCode Viewer</a>.</p>
 
+        <h3><a href="/whatisthislicense/">/whatisthislicense</a></h3>
+        <p>Do a reverse lookup on a database of free/libre licenses.</p>
+
         <!--
         <h3><a href="/sch_lib">/sch_lib</a></h3>
         <p>View KiCAD library components</p>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>What Is This License</title>
+
+    <link href="css/yeti.min.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src='js/asmukk.js'></script>
+    <script src='js/whatisthislicense.js'></script>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <h3 class="text-muted">What Is This License?</h3>
+      </div>
+
+      <div class="jumbotron">
+        <textarea class='form-control' rows='10' id='input'></textarea>
+        <p class="lead">Copy and past the license into the above text area.</p>
+        <p style='text-align:center'>
+          <a class="btn btn-lg btn-success" href="#" role="button" onclick='submit_for_match();' onchange='console.log("...");'>What License Is This?</a>
+        </p>
+      </div>
+
+      <div class='row'>
+        <div class='col-xs-2'></div>
+        <div class='col-xs-8' style='text-align:center'>
+
+          <h1 id='message'><strong>hmm...</strong></h1>
+
+        </div>
+        <div class='col-xs-2'></div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6">
+
+          <h4 id='input_text_heading'></h4>
+          <p id='input_text_paragraph'></p>
+
+        </div>
+
+        <div class="col-xs-6">
+
+          <h4 id='matched_heading'></h4>
+          <p id='matched_paragraph'></p>
+
+        </div>
+      </div>
+
+      <!-- <footer class="footer"> <p>CC-BY-SA</p> </footer> -->
+
+    </div> <!-- /container -->
+
+  </body>
+</html>
