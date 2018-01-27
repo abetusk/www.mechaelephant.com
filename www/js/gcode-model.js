@@ -4,7 +4,7 @@ function createObjectFromGCode(gcode) {
   //    http://en.wikipedia.org/wiki/G-code
   //    SprintRun source code
 
-  var lastLine = {x:0, y:0, z:0, e:0, f:0, rapid:false, extruding:false};
+  var lastLine = {x:0, y:0, z:0, e:0, f:0, rapid:false, extruding:false, rot_axis:"z"};
 
   var layers = [];
   var layer = undefined;
@@ -74,6 +74,48 @@ function createObjectFromGCode(gcode) {
     return relative ? v1 + v2 : v2;
   }
 
+  function addLinearizedArcLines(args, d0, d1, d2, cw_flag) {
+    var n_seg = 16;
+    var rot_sign = ((cw_flag === "undefined") ? 1 : (cw_flag ? -1 : 1));
+
+    var orig_d0 = lastLine[d0];
+    var orig_d1 = lastLine[d1];
+    var cor_d0 = lastLine[d0] + args.i;
+    var cor_d1 = lastLine[d1] + args.j;
+    var orig_d2 = lastLine[d2];
+    var dst_d2 = ((args[d2] !== undefined) ? absolute(lastLine[d2], args[d2]) : lastLine[d2]);
+    var r = Math.sqrt( ((cor_d0 - orig_d0)*(cor_d0 - orig_d0)) + ((cor_d1 - orig_d1)*(cor_d1 - orig_d1)) );
+    var ang_s = Math.atan2( lastLine[d1] - cor_d1, lastLine[d0] - cor_d0 );
+    var ang_e = Math.atan2( args[d1] - cor_d1, args[d0] - cor_d0 );
+    var ang_del = ang_e - ang_s;
+    if (ang_del < 0) { ang_del += Math.PI*2.0; }
+    if (ang_del < 0) { ang_del += Math.PI*2.0; }
+    if (ang_del > (2.0*Math.PI)) { ang_del -= Math.PI*2.0; }
+    if (ang_del > (2.0*Math.PI)) { ang_del -= Math.PI*2.0; }
+    for (var i=0; i<(n_seg+1); i++) {
+      var f = i/n_seg;
+
+      var nl = {
+        x: 0,
+        y: 0,
+        z: 0,
+        e: lastLine.e,
+        f: args.f !== undefined ? absolute(lastLine.f, args.f) : lastLine.f,
+        rapid: false
+      };
+      nl[d0] = cor_d0 + r*Math.cos( rot_sign*((f*ang_del) + ang_s) );
+      nl[d1] = cor_d1 + r*Math.sin( rot_sign*((f*ang_del) + ang_s) );
+      nl[d2] = orig_d2 + f*(dst_d2 - orig_d2);
+
+      addSegment(lastLine, nl);
+      lastLine = nl;
+    }
+
+    return;
+  }
+
+
+
   var parser = new GCodeParser({
     G0: function(args, line) {
       // Example: G0 Z1.0 F3000
@@ -136,6 +178,31 @@ function createObjectFromGCode(gcode) {
       lastLine = newLine;
     },
 
+    // clockwise arc
+    //
+    G2: function(args) {
+      var n_eg = 16;
+      if (args.type == "radius-format-arc") {
+        console.log("rfa g2", args.x, args.y, args.c, args.r);
+      }
+      else if (args.type == "center-format-arc") {
+        console.log("cfa g2", args.x, args.y, args.i, args.j);
+  			addLinearizedArcLines(args, "x", "y", "z", true);
+      }
+    },
+
+    // counterclockwise arc
+    //
+    G3: function(args) {
+      if (args.type == "radius-format-arc") {
+        console.log("rfa g3", args.x, args.y, args.c, args.r);
+      }
+      else if (args.type == "center-format-arc") {
+        //console.log("cfa g3", args.x, args.y, args.i, args.j);
+  			addLinearizedArcLines(args, "x", "y", "z", false);
+      }
+    },
+
     G4: function(args) {
       // G04: dwell
       // ignore
@@ -146,9 +213,24 @@ function createObjectFromGCode(gcode) {
       // ignore
     },
 
+    G17: function(args) {
+      lastLine.rot_axis = "z";
+    },
+
+    G18: function(args) {
+      lastLine.rot_axis = "y";
+    },
+
+    G19: function(args) {
+      lastLine.rot_axis = "x";
+    },
+
+
+
     G40: function(args) {
       // G40: cutter radius compensation off
       // ignore
+      console.log("g40");
     },
 
     G41: function(args) {
@@ -186,6 +268,8 @@ function createObjectFromGCode(gcode) {
       // Example: G20
       // Units from now on are in Inches.
 
+      console.log("g20", args);
+
     },
 
     G21: function(args) {
@@ -194,6 +278,7 @@ function createObjectFromGCode(gcode) {
       // Units from now on are in millimeters. (This is the RepRap default.)
 
       // No-op: So long as G20 is not supported.
+      console.log("g21");
     },
 
     G90: function(args) {
@@ -201,6 +286,8 @@ function createObjectFromGCode(gcode) {
       // Example: G90
       // All coordinates from now on are absolute relative to the
       // origin of the machine. (This is the RepRap default.)
+
+      console.log("g90");
 
       relative = false;
     },
@@ -211,6 +298,8 @@ function createObjectFromGCode(gcode) {
       // All coordinates from now on are relative to the last position.
 
       // TODO!
+      console.log("g91");
+
       relative = true;
     },
 
@@ -257,6 +346,30 @@ function createObjectFromGCode(gcode) {
     F: function(args) {
       console.log(">>> f", args.F);
     },
+
+    T: function(args) {
+      console.log(">> tool change (T)", args);
+    },
+
+    M: function(args) {
+      var v = args.value;
+      if      (v == 0)  { console.log(">>> m program stop"); }
+      if      (v == 1)  { console.log(">>> m program opttional stop"); }
+      if      (v == 2)  { console.log(">>> m program end"); }
+      else if (v == 3)  { console.log(">>> m spindle on (cw)"); }
+      else if (v == 4)  { console.log(">>> m spindle on (ccw)"); }
+      else if (v == 5)  { console.log(">>> m stop spindle"); }
+      else if (v == 6)  { console.log(">>> m tool change"); }
+      else if (v == 7)  { console.log(">>> m mist coolat on"); }
+      else if (v == 8)  { console.log(">>> m flood coolant on"); }
+      else if (v == 9)  { console.log(">>> m mist and flood coolant off"); }
+      else if (v == 30) { console.log(">>> m program end, pallet shuttle, reset"); }
+      else if (v == 48) { console.log(">>> m enable speed/feed overrides"); }
+      else if (v == 49) { console.log(">>> m disable speed/feed overrides"); }
+      else if (v == 60) { console.log(">>> m pallet shuttle and program stop"); }
+      else              { console.log(">>> m unknown command"); }
+    },
+
 
     'default': function(args, info) {
       console.error('Unknown command:', "'" + args.cmd + "'", args, info);
