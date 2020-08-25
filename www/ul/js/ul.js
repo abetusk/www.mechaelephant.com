@@ -1,6 +1,3 @@
-//
-// License: cc0
-//
 
 var g_data = {
   "message":[]
@@ -16,10 +13,27 @@ function init() {
   }
 }
 
+function delete_cookie(key, path) {
+  var a = document.cookie.split(";");
+  for (var ii=0; ii<a.length; ii++) {
+    var kv = a[ii].split("=");
+    if (kv[0].trim() == key) {
+      if (typeof path !== 'undefined') {
+        document.cookie = key + "= ; expires = Thu, 01 Jan 1970 00:00:00 GMT;path=" + path;
+      }
+      else {
+        document.cookie = key + "= ; expires = Thu, 01 Jan 1970 00:00:00 GMT";
+      }
+    }
+  }
+}
+
 async function update_cred() {
   var u = document.getElementById("username").value;
   var p = document.getElementById("password").value;
 
+  delete_cookie("username");
+  delete_cookie("passhash");
 
   var h = await digestMessage(u + ";" + p);
 
@@ -43,6 +57,26 @@ async function digestMessage(message) {
 }
 
 
+function _add_info_row(type_str, msg_str, info_str) {
+
+  var ele = document.getElementById("info_body_element");
+  var row = ele.insertRow(0);
+
+  var cell = row.insertCell(-1);
+  var t = document.createTextNode(type_str);
+  cell.appendChild(t);
+
+  cell = row.insertCell(-1);
+  t = document.createTextNode(msg_str);
+  cell.appendChild(t);
+
+  cell = row.insertCell(-1);
+  t = document.createTextNode(info_str);
+  cell.appendChild(t);
+
+
+}
+
 function uploadComplete(x) {
 	var json_data = JSON.parse( this.response );
 	console.log( json_data.id , json_data);
@@ -50,11 +84,36 @@ function uploadComplete(x) {
 
   g_data.message.push("complete");
 
+  var msg = "...";
+  var info = "...";
+  if ("id" in json_data) {
+    msg = "success";
+    info = json_data.id;
+  }
+  else if ("info" in json_data) {
+    msg = "fail";
+    info = json_data.info;
+  }
+
+  _add_info_row('upload', msg, info);
 
 }
-function uploadError() { console.log("upload error"); }
-function uploadAbort() { console.log("upload abort"); }
-function uploadProgress() { console.log("upload progress"); }
+
+function uploadError() {
+  console.log("upload error");
+
+  _add_info_row("upload_error", "fail", "?");
+}
+
+function uploadAbort() {
+  console.log("upload abort");
+  _add_info_row("upload_abort", "fail", "?");
+}
+
+function uploadProgress() {
+  console.log("upload progress");
+  //_add_info_row("upload_progress", "...", "...");
+}
 
 function sendFile( file ) {
   console.log("file:");
