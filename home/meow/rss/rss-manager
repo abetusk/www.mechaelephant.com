@@ -1,0 +1,143 @@
+#!/usr/bin/python3
+#
+# License: CC0
+#
+
+import os, re, sys
+from datetime import datetime
+import json
+import time
+import bs4
+#from bs4 import BeautifulSoup
+
+
+# guid key
+#
+rss_db = {}
+
+state = {
+  "update":True
+}
+
+sleepy_s = 10.0
+
+with open("rss-feed-config.json") as fp:
+  cfg = json.loads(fp.read())
+
+
+def entry_sort(e):
+  return e["unixtime"]
+
+def html_make_entry(ent):
+
+  m = 1024
+
+  s = "<li>"
+  s += "<a class='feed_ico' href='" + str(ent["guid"]) + "'><img src='" + ent["icon"] + "'></a> "
+  s += "<a href='" + ent["link"] + "'>" + ent["title"] + "</a>"
+  #s += "<p>" + bs4.BeautifulSoup(ent["description"][:m], "lxml").get_text() + "</p>"
+  s += "<small class='feed_datetime'>" + str(datetime.utcfromtimestamp(int(ent["unixtime"])).strftime("%Y-%m-%d %H:%M")) + "</small> "
+  s+= "</li>"
+
+  return s
+
+
+def html_page(content):
+
+  _now = datetime.now()
+  dt = _now.strftime("%Y-%m-%d %H:%M:%S")
+
+  s =  "<!doctype html>\n"
+  s += "<html>\n"
+
+  s += " <head>\n"
+  s += "  <link rel='stylesheet' href='css/styles.css'>\n"
+  s += "  <link rel='stylesheet' href='css/pygment_trac.css'>\n"
+
+  s += " </head>\n"
+
+  s += " <body>\n"
+  s += "  <h1>feed <small>last updated: " + dt + "</small></h1>\n"
+  s += "    <ul>\n"
+  s += content
+  s += "    </ul>\n"
+  s += " </body>\n"
+
+  s += " <script src='js/scale.fix.js'></script>"
+
+  s += "</html>\n"
+
+  return s
+
+while True:
+
+  new_entry = {}
+  snapshot = {}
+
+  for rss_ent in cfg["rss"]:
+    url = rss_ent["url"]
+    prs = rss_ent["parser"]
+
+    #stream = os.popen("./parser/" + prs + " " +  url)
+    stream = os.popen(cfg["parser"] + "/" + prs + " " +  url)
+    ajson = stream.read()
+
+    for line in ajson.split("\n"):
+      line = line.strip()
+      if len(line) == 0: continue
+      if line[0] == '#': continue
+      x = json.loads(line)
+
+      x["unixtime"] = float(datetime.strptime(x["pubDate"], "%a, %d %b %Y %H:%M:%S %z").strftime("%s"))
+      x["icon"] = rss_ent["icon"]
+
+      snapshot[ x["guid"] ] = x
+
+      if not (x["guid"] in rss_db):
+        new_entry[ x["guid"] ] = x
+        rss_db[ x["guid"] ] = x
+
+      x["html_entry"] = html_make_entry(x)
+
+  guids = []
+  for guid in rss_db:
+    guids.append(guid)
+
+  for guid in guids:
+    if not (guid in snapshot):
+
+      print("removing " + str(guid))
+      del rss_db[guid]
+
+  print("GOT new entries " + str(len(new_entry)))
+
+  if len(new_entry) > 0:
+
+    print("UPDATING")
+
+    ## sort entries
+    ##
+    _content_l = []
+    for guid in snapshot:
+      _content_l.append( snapshot[guid] )
+    content_l = []
+    if len(_content_l) > 0:
+      _content_l.sort(key = entry_sort, reverse=True)
+      content_l = map( lambda _x: _x["html_entry"], _content_l )
+
+    _now = datetime.now()
+    dt = _now.strftime("%Y-%m-%d_%H:%M:%S")
+    dtd = _now.strftime("%Y-%m-%d")
+    os.system("mkdir -p " + cfg["historic"] + "/" + dtd)
+
+    #html_fn = "html/" + str(dtd) + "/" + dt
+    html_fn = cfg["historic"] + "/" + str(dtd) + "/" + dt
+    tmp_fn = "/tmp/" + dt
+    with open(html_fn, "w") as fp:
+      fp.write(html_page("\n".join(content_l)))
+
+    os.system("cp " + html_fn + " " + tmp_fn)
+    os.system("mv " + tmp_fn + " " + cfg["index"])
+
+  print("sleep " + str(sleepy_s))
+  time.sleep(sleepy_s)

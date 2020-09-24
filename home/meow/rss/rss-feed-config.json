@@ -1,0 +1,13 @@
+{
+  "rss":[
+    { "url":"https://hackaday.com/blog/feed/", "parser":"rss-pull", "icon":"assets/had.ico"},
+    { "url":"https://news.ycombinator.com/rss", "parser":"rss-pull-hn", "icon":"assets/y18.gif"},
+    { "url":"http://dangerousprototypes.com/feed", "parser":"rss-pull", "icon":"assets/dp.png"},
+    { "url":"https://lobste.rs/rss", "parser":"rss-pull", "icon":"assets/lobsters.ico"},
+    { "url":"https://blog.adafruit.com/feed", "parser":"rss-pull", "icon":"assets/adafruit.png"},
+    { "url":"http://www.evilmadscientist.com/backend/geeklog.rss", "parser":"rss-pull", "icon":"assets/emsl.ico"}
+  ],
+  "index":"/var/www/feed.html",
+  "historic":"/home/meow/rss/html",
+  "parser":"/home/meow/rss/parser"
+}

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+feed="$1"
+
+if [[ "$feed" == "" ]] ; then
+  feed="https://www.reddit.com/r/electronics/.rss"
+fi
+
+b="https://www.reddit.com/r/electronics/comments/"
+
+wget -q "$feed" -O - | \
+  xmltojson | \
+  jq -c \
+    '.feed.entry[] | { "feed": "'$feed'", "guid": .link.href, "title" : .title, "link":.link.href, "description":"", "content":.content["$t"], "pubDate":.updated} '  | \
+  sed 's/\("pubDate":"[^"]*\)T\([^"]*\)+/\1 \2 \+/'
+
+
+
