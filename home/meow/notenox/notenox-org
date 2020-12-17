@@ -1,0 +1,39 @@
+#!/usr/bin/env node
+
+var DATA_DIR = "data";
+var HTML_DIR = "html/note";
+
+var fs = require("fs");
+
+var fns = fs.readdirSync(DATA_DIR);
+
+var entry_db = {};
+
+for (var ii=0; ii<fns.length; ii++) {
+  if ( ! fns[ii].match(/\.json$/) ) { continue; }
+
+  var entry = JSON.parse(fs.readFileSync( DATA_DIR + '/' + fns[ii] ));
+
+  entry_db[ entry["id"] ] = entry;
+
+
+}
+
+for (var id in entry_db) {
+  console.log(entry_db[id]);
+  var entry = entry_db[id];
+
+  var entry_html = "<h3> <a href='" + entry.link[0] + "'> " + id + "</a> </h3>\n";
+  entry_html += "<p>" + entry.note + "</p>\n";
+
+  entry_html += "<small>";
+  for (var ii=0; ii<entry.keyword.length; ii++) {
+    if (ii>0) { entry_html += ','; }
+    entry_html += "<a href='keyword/" + entry.keyword[ii] + "'>" + entry.keyword[ii] + "</a>";
+  }
+  entry_html += "</small>\n";
+
+  console.log(entry_html);
+
+
+}
