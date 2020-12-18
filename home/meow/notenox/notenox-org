@@ -11,13 +11,12 @@ var entry_db = {};
 
 for (var ii=0; ii<fns.length; ii++) {
   if ( ! fns[ii].match(/\.json$/) ) { continue; }
-
   var entry = JSON.parse(fs.readFileSync( DATA_DIR + '/' + fns[ii] ));
-
   entry_db[ entry["id"] ] = entry;
-
-
 }
+
+console.log( JSON.stringify(entry_db, null, 2) );
+process.exit(0);
 
 for (var id in entry_db) {
   console.log(entry_db[id]);
@@ -34,6 +33,5 @@ for (var id in entry_db) {
   entry_html += "</small>\n";
 
   console.log(entry_html);
-
 
 }
