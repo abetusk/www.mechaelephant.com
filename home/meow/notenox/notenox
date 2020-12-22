@@ -3,6 +3,7 @@
 var fs = require('fs');
 
 NOTENOX_VERSION = "0.1.0";
+CONFIG_FILE = process.env.HOME + "/.config/notenox/notenox.conf";
 
 function show_version(fp) {
   fp.write("version: " + NOTENOX_VERSION + "\n");
@@ -26,7 +27,8 @@ function show_help(fp) {
   fp.write("  [-u|--id id]                set ID (defaults to random)\n");
   fp.write("  [-s]                        silent (don't print out note)\n");
   fp.write("  [-S]                        save note (unimplemented)\n");
-  fp.write("  [-c]                        config? (unimplemented)\n");
+  fp.write("  [-c <cfgfile>]              specify config file (default " +  CONFIG_FILE + ")\n");
+  fp.write("  [-D]                        debug output\n");
   fp.write("  [-h]                        show help (this screen)\n");
   fp.write("  [-v]                        show version\n");
   fp.write("\n");
@@ -46,11 +48,36 @@ function guid() {
          s4() + '-' + s4() + s4() + s4();
 }
 
-var flags = {
+
+var option = {
+  "debug" : false,
   "silent": false,
   "save" : false,
-  "config": false
+  "config": false,
+  "config_file" : CONFIG_FILE,
+  "out_dir": "./"
 };
+
+var override_option = {};
+
+function update_option(dat, override) {
+  override = ((typeof override === "undefined") ? {} : override);
+  for (var key in option) {
+
+    // update the option if it's in our custom config
+    //
+    if (key in dat) {
+
+      // but not if it's specified on the command line
+      //
+      if ( !(key in override) ) {
+        option[key] = dat[key];
+      }
+
+    }
+
+  }
+}
 
 var note_info = {
   "id": guid(),
@@ -63,7 +90,7 @@ var note_info = {
 
 var getopt = require("posix-getopt");
 var parser, opt;
-parser = new getopt.BasicParser("hvt:(timestamp)k:(keyword)e:(extra)n:(note)l:(link)T:(title)u:(id)K:sSc", process.argv);
+parser = new getopt.BasicParser("hvt:(timestamp)k:(keyword)e:(extra)n:(note)l:(link)T:(title)u:(id)K:s(silent)S(save)c:(config)D(debug)", process.argv);
 while ((opt =  parser.getopt()) !== undefined) {
   switch(opt.option) {
 
@@ -113,15 +140,23 @@ while ((opt =  parser.getopt()) !== undefined) {
       break;
 
     case 's':
-      flags.silent = true;
+      option.silent = true;
+      override_option["silent"] = true;
       break;
 
     case 'S':
-      flags.save = true;
+      option.save = true;
+      override_option["save"] = true;
       break;
 
     case 'c':
-      flags.config = true;
+      option.config = true;
+      option.out_dir = opt.optarg;
+      override_option["config"] = true;
+      break;
+
+    case 'D':
+      option.debug = true;
       break;
 
     default:
@@ -129,6 +164,18 @@ while ((opt =  parser.getopt()) !== undefined) {
       process.exit(-1);
       break;
   }
+}
+
+if (fs.existsSync(option.config_file)) {
+  var cfg_dat = JSON.parse(fs.readFileSync(option.config_file));
+  update_option(cfg_dat, override_option);
+}
+else {
+}
+
+if (option.debug) {
+  console.log(JSON.stringify(option, null, 2));
+  process.exit(0);
 }
 
 if (parser.optind() < process.argv.length) {
@@ -141,10 +188,10 @@ if (typeof note_info.note === "undefined") {
 }
 
 
-if (!flags.silent) {
+if (!option.silent) {
   console.log(JSON.stringify(note_info, null, 2));
 }
 
-if (flags.save) {
-  var ret = fs.writeFileSync( note_info.id + ".json", JSON.stringify(note_info, null, 2), 'utf-8' );
+if (option.save) {
+  var ret = fs.writeFileSync( option.out_dir + "/" + note_info.id + ".json", JSON.stringify(note_info, null, 2), 'utf-8' );
 }
