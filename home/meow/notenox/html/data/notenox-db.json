@@ -226,6 +226,24 @@
       "https://web.archive.org/web/20201218003027/https://www.esquire.com/news-politics/a23471864/devin-nunes-family-farm-iowa-california/"
     ]
   },
+  "a2f77d5d-2cef-02f4-2e4e-3edec5576bd7": {
+    "id": "a2f77d5d-2cef-02f4-2e4e-3edec5576bd7",
+    "timestamp": 1608851681.266,
+    "keyword": [
+      "title:politics",
+      "inequality",
+      "wealth gap",
+      "gini",
+      "wealth inequality",
+      "politics"
+    ],
+    "extra": [],
+    "note": "Bloomberg article on wealth inequality, including some graphs showing how the US has a worsening Gini coefficient, decreased union power etc.",
+    "link": [
+      "https://web.archive.org/web/20201224135838/https://www.bloomberg.com/opinion/articles/2020-12-24/don-t-just-blame-billionaires-for-wealth-inequality",
+      "https://data.worldbank.org/indicator/SI.POV.GINI?locations=US"
+    ]
+  },
   "cea2aa46-21af-9a31-f44b-92746a8ca703": {
     "id": "cea2aa46-21af-9a31-f44b-92746a8ca703",
     "timestamp": 1608224560.835,
@@ -334,6 +352,23 @@
     "note": "picture of a burning church under a crescent moon",
     "link": [
       "https://lh3.googleusercontent.com/-4MLeMELraK0/X9O0sjTECXI/AAAAAAAAHbA/vmKPPDRLU40YpY6KnxUtwtR_NMxIGMXewCK8BGAsYHg/s0/2020-12-11.jpg"
+    ]
+  },
+  "fa970731-1814-4f93-556c-b3ce4e0f2e54": {
+    "id": "fa970731-1814-4f93-556c-b3ce4e0f2e54",
+    "timestamp": 1609184894.717,
+    "keyword": [
+      "title:solar",
+      "solar",
+      "economics",
+      "electricity"
+    ],
+    "extra": [],
+    "note": "'The future of electricity is local'",
+    "link": [
+      " https://web.archive.org/web/20201228010205/https://caseyhandmer.wordpress.com/2020/12/27/the-future-of-electricity-is-local/",
+      "https://caseyhandmer.wordpress.com/2020/12/27/the-future-of-electricity-is-local/",
+      "https://news.ycombinator.com/item?id=25551469"
     ]
   },
   "ff08e215-f05d-874d-cdab-70e290c80b06": {
