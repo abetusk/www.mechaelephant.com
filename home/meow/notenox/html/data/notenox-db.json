@@ -94,6 +94,22 @@
       "https://github.com/ReflexCreations/io-board"
     ]
   },
+  "3a3c88b6-5fbc-5d18-b6f1-ea676570407c": {
+    "id": "3a3c88b6-5fbc-5d18-b6f1-ea676570407c",
+    "timestamp": 1610576836.431,
+    "keyword": [
+      "title:public transport",
+      "public transport",
+      "bus",
+      "gtfs"
+    ],
+    "extra": [],
+    "note": "GTFS Best Practices",
+    "link": [
+      "http://gtfs.org/best-practices/",
+      "https://github.com/google/transit/blob/master/gtfs/spec/en/reference.md"
+    ]
+  },
   "5ebdbe5a-f896-f563-2df7-a28e4be230a1": {
     "id": "5ebdbe5a-f896-f563-2df7-a28e4be230a1",
     "timestamp": 1608223619.028,
