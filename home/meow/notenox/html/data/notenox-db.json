@@ -248,6 +248,25 @@
       "https://web.archive.org/web/20201102173736/https://twitter.com/SarahTaber_bww/status/1323297129830469638"
     ]
   },
+  "98c76c33-9629-b425-5f20-2fdc7a3fd7e5": {
+    "id": "98c76c33-9629-b425-5f20-2fdc7a3fd7e5",
+    "timestamp": 1611467118.926,
+    "keyword": [
+      "title:tts",
+      "tts",
+      "espeak",
+      "javascript",
+      "mespeak",
+      "espeak.js",
+      "speak.js"
+    ],
+    "extra": [],
+    "note": "Javascript version of espeak and variants (mespeak.js)",
+    "link": [
+      "https://www.masswerk.at/mespeak/",
+      "https://github.com/kripken/speak.js/"
+    ]
+  },
   "9ca40070-a531-31c5-c5a5-3ea026e311d1": {
     "id": "9ca40070-a531-31c5-c5a5-3ea026e311d1",
     "timestamp": 1608224410.199,
