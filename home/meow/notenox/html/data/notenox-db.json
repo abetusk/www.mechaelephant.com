@@ -163,6 +163,22 @@
       "https://lh3.googleusercontent.com/-JvsTvEP0IB8/X9O2kAl7KTI/AAAAAAAAHcw/mUjYr9D-KToKjAC1rp7Skek0krHBhGAmACK8BGAsYHg/s0/2020-12-11.jpg"
     ]
   },
+  "69d1adc4-338b-2f06-a1a9-6b309fa7a8b7": {
+    "id": "69d1adc4-338b-2f06-a1a9-6b309fa7a8b7",
+    "timestamp": 1612025331.551,
+    "keyword": [
+      "title:donate",
+      "donation",
+      "donate",
+      "trans",
+      "translifeline"
+    ],
+    "extra": [],
+    "note": "Trans Life Line",
+    "link": [
+      "https://translifeline.org/donate/"
+    ]
+  },
   "6e1008ba-1366-df47-2e45-49b31b8fb1aa": {
     "id": "6e1008ba-1366-df47-2e45-49b31b8fb1aa",
     "timestamp": 1611524844.152,
@@ -247,6 +263,26 @@
       "https://www.linkedin.com/pulse/why-i-wouldnt-invest-open-source-companies-even-though-wolfram-hempel",
       "https://news.ycombinator.com/item?id=25895126",
       "https://web.archive.org/web/20210124210232/https://www.linkedin.com/pulse/why-i-wouldnt-invest-open-source-companies-even-though-wolfram-hempel"
+    ]
+  },
+  "7d145a86-8637-c08a-6860-14fbf1bccb53": {
+    "id": "7d145a86-8637-c08a-6860-14fbf1bccb53",
+    "timestamp": 1612297632.42,
+    "keyword": [
+      "title:diybio",
+      "diybio",
+      "bio",
+      "dna",
+      "oligonucleotide",
+      "POSAM"
+    ],
+    "extra": [],
+    "note": "Notes on oligo nucleotide synthesis (including POSAM)",
+    "link": [
+      "http://diyhpl.us/wiki/dna/synthesis/notes/",
+      "https://web.archive.org/web/20201231155314/http://diyhpl.us/wiki/dna/synthesis/notes/",
+      "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2004-5-8-r58",
+      "https://github.com/abetusk/papers/blob/release/DIYBio/gb-2004-5-8-r58.pdf"
     ]
   },
   "7d1a0f73-64c2-21fb-4ab5-9369eb9028fc": {
@@ -552,6 +588,21 @@
     "link": [
       "https://twitter.com/Beelzebimbo/status/1352311232276041728",
       "https://web.archive.org/web/20210122010621/https://twitter.com/Beelzebimbo/status/1352311232276041728"
+    ]
+  },
+  "ec970356-6732-5881-d0ac-a0d76f1637f9": {
+    "id": "ec970356-6732-5881-d0ac-a0d76f1637f9",
+    "timestamp": 1612025813.131,
+    "keyword": [
+      "title:ubiquitos internet",
+      "fiber",
+      "ithaca",
+      "ubiquitos internet"
+    ],
+    "extra": [],
+    "note": "Fiberspark is laying fiber in Ithaca and asking for pre-orders",
+    "link": [
+      "https://www.fiberspark.com/expansion.php"
     ]
   },
   "ed9a0e16-1cfd-4861-8003-95ee87efe200": {
