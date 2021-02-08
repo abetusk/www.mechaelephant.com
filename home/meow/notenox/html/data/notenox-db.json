@@ -608,6 +608,22 @@
       "https://web.archive.org/web/20210122010621/https://twitter.com/Beelzebimbo/status/1352311232276041728"
     ]
   },
+  "ea950bda-8872-f7f1-e70f-5db81f8dbb9a": {
+    "id": "ea950bda-8872-f7f1-e70f-5db81f8dbb9a",
+    "timestamp": 1612805215.069,
+    "keyword": [
+      "title:transit",
+      "public transit",
+      "transit",
+      "bus"
+    ],
+    "extra": [],
+    "note": "Transit agency list resources",
+    "link": [
+      "https://en.wikipedia.org/wiki/List_of_bus_transit_systems_in_the_United_States",
+      "https://www.ftis.org/index.html"
+    ]
+  },
   "ec970356-6732-5881-d0ac-a0d76f1637f9": {
     "id": "ec970356-6732-5881-d0ac-a0d76f1637f9",
     "timestamp": 1612025813.131,
@@ -739,6 +755,24 @@
       " https://web.archive.org/web/20201228010205/https://caseyhandmer.wordpress.com/2020/12/27/the-future-of-electricity-is-local/",
       "https://caseyhandmer.wordpress.com/2020/12/27/the-future-of-electricity-is-local/",
       "https://news.ycombinator.com/item?id=25551469"
+    ]
+  },
+  "fe57e8cb-8477-0de7-0bec-1f8efedae88c": {
+    "id": "fe57e8cb-8477-0de7-0bec-1f8efedae88c",
+    "timestamp": 1612480419.518,
+    "keyword": [
+      "title:art reference",
+      "art",
+      "art reference",
+      "3d",
+      "cc0",
+      "smithsonian",
+      "sketchfab"
+    ],
+    "extra": [],
+    "note": "Smithsonian collection of CC0 3D models",
+    "link": [
+      "https://sketchfab.com/nebulousflynn/collections/cc0"
     ]
   },
   "ff08e215-f05d-874d-cdab-70e290c80b06": {
