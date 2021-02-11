@@ -520,6 +520,22 @@
       "https://web.archive.org/web/20210122013221/https://twitter.com/RealSexyCyborg/status/1324714441804427265"
     ]
   },
+  "c8427b9a-8c8b-c71a-f51a-d0578b33962f": {
+    "id": "c8427b9a-8c8b-c71a-f51a-d0578b33962f",
+    "timestamp": 1613038613.187,
+    "keyword": [
+      "title:cryptocurrency",
+      "cryptocurrency",
+      "bitcoin",
+      "pollution"
+    ],
+    "extra": [],
+    "note": "Article about the environmental impact of bitcoin. Makes points about some (~30%-40%) energy coming from renewables and 60%-70% coming from coal, how Visa does around $30B/day whereas BTC does about $10B/day and how when BTC mining is compared to gold, gold is much worse environmentally",
+    "link": [
+      "https://simon.medium.com/bitcoin-and-pollution-the-definitive-answer-a010b0826f2a",
+      "https://web.archive.org/web/20210211100545/https://simon.medium.com/bitcoin-and-pollution-the-definitive-answer-a010b0826f2a"
+    ]
+  },
   "cea2aa46-21af-9a31-f44b-92746a8ca703": {
     "id": "cea2aa46-21af-9a31-f44b-92746a8ca703",
     "timestamp": 1608224560.835,
@@ -667,6 +683,22 @@
     "note": "Ithaca covid-19 dashboard (active cases, etc.)",
     "link": [
       "https://ithacavoice.com/covid-19-dashboard/"
+    ]
+  },
+  "f01213a3-b602-1053-832e-18d3e22e8407": {
+    "id": "f01213a3-b602-1053-832e-18d3e22e8407",
+    "timestamp": 1613039840.471,
+    "keyword": [
+      "title:cryptocurrency",
+      "cryptocurrency",
+      "bitcoin",
+      "ponzi"
+    ],
+    "extra": [],
+    "note": "Articles on how \"Bitcoin is a Ponzi\" and rebuttals",
+    "link": [
+      "https://ic.unicamp.br/~stolfi/bitcoin/2020-12-31-bitcoin-ponzi.html",
+      "https://www.ic.unicamp.br/~stolfi/bitcoin/2021-01-16-yes-ponzi.html"
     ]
   },
   "f1c54d9c-cb34-73d1-2ab0-1938ec529480": {
