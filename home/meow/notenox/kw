@@ -1,0 +1,33 @@
+#!/bin/bash
+
+opt="$1"
+
+if [[ "$opt" == "title" ]] ; then
+
+  jq -r -c '.keyword[]'  data/* | \
+    grep -P '^title:' | \
+    sort | \
+    uniq -c | \
+    sort -n
+
+  exit
+
+elif [[ "$opt" == "all" ]] ; then
+
+  jq -r -c '.keyword[]'  data/* | \
+    sort | \
+    uniq -c | \
+    sort -n
+
+  exit
+fi
+
+
+jq -r -c '.keyword[]'  data/* | \
+  grep -P -v '^title:' | \
+  sort | \
+  uniq -c | \
+  sort -n
+
+
+
