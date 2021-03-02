@@ -1,0 +1,22 @@
+{
+  "id": "332c20ed-b6fe-dd98-4d9f-9f0b27a34fb6",
+  "timestamp": 1614700858.551,
+  "keyword": [
+    "title:math",
+    "math",
+    "elastic net regularization",
+    "svm",
+    "l1 norm",
+    "compressed sensing",
+    "steve brunton",
+    "lasso",
+    "ridge"
+  ],
+  "extra": [],
+  "note": "Elastic net is a regularized regression method that lineary combines l1 and l2 norm/penalties (lasso, ridge, resp.) by reducing it to an SVM problem. I think this is the/a underlying algorithm that Steve Brunton talks about in his lectures on compressed sensing.",
+  "link": [
+    "https://en.wikipedia.org/wiki/Elastic_net_regularization",
+    "https://www.youtube.com/watch?v=GaXfqoLR_yI",
+    "https://nbviewer.jupyter.org/github/gpeyre/numerical-tours/blob/master/python/ml_2_regression.ipynb"
+  ]
+}

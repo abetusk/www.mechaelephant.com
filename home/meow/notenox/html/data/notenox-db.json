@@ -109,6 +109,28 @@
       "https://github.com/ReflexCreations/io-board"
     ]
   },
+  "332c20ed-b6fe-dd98-4d9f-9f0b27a34fb6": {
+    "id": "332c20ed-b6fe-dd98-4d9f-9f0b27a34fb6",
+    "timestamp": 1614700858.551,
+    "keyword": [
+      "title:math",
+      "math",
+      "elastic net regularization",
+      "svm",
+      "l1 norm",
+      "compressed sensing",
+      "steve brunton",
+      "lasso",
+      "ridge"
+    ],
+    "extra": [],
+    "note": "Elastic net is a regularized regression method that lineary combines l1 and l2 norm/penalties (lasso, ridge, resp.) by reducing it to an SVM problem. I think this is the/a underlying algorithm that Steve Brunton talks about in his lectures on compressed sensing.",
+    "link": [
+      "https://en.wikipedia.org/wiki/Elastic_net_regularization",
+      "https://www.youtube.com/watch?v=GaXfqoLR_yI",
+      "https://nbviewer.jupyter.org/github/gpeyre/numerical-tours/blob/master/python/ml_2_regression.ipynb"
+    ]
+  },
   "399f8101-ec87-c95e-ef94-56a0cf6c09d5": {
     "id": "399f8101-ec87-c95e-ef94-56a0cf6c09d5",
     "timestamp": 1613099833.74,
@@ -141,6 +163,26 @@
     "link": [
       "http://gtfs.org/best-practices/",
       "https://github.com/google/transit/blob/master/gtfs/spec/en/reference.md"
+    ]
+  },
+  "4ec07954-518b-d988-138a-6e486e2d3e11": {
+    "id": "4ec07954-518b-d988-138a-6e486e2d3e11",
+    "timestamp": 1614308274.719,
+    "keyword": [
+      "title:FOSS business",
+      "FOSS business",
+      "business",
+      "true fans",
+      "1000 true fans",
+      "long tail"
+    ],
+    "extra": [],
+    "note": "Talks about the \"1000 true fans\" idea of being able to make an artistic (or other?) career by having 1000 true fans. Additional article from a musical artist that is trying to make a living residing on the long tail.",
+    "link": [
+      "https://kk.org/thetechnium/the-reality-of/",
+      "https://kk.org/thetechnium/1000-true-fans/",
+      "https://web.archive.org/web/20210116123152/https://kk.org/thetechnium/the-reality-of/",
+      "https://web.archive.org/web/20210224160650/https://kk.org/thetechnium/1000-true-fans/"
     ]
   },
   "5082c98c-e46b-72b9-9a5d-048496c788ed": {
