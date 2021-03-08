@@ -35742,4 +35742,22 @@ function dread_name() {
 }
 
 
+if (typeof module !== "undefined") {
+  module.exports = {
+    data : {
+      music_genres : music_genres,
+      appliances : appliances,
+      vegetables : vegetables,
+      fruits : fruits,
+      condiements : condiments,
+      clothes : clothes,
+      objects : objects,
+      epiteth : epiteth,
+      spell : spell,
+      monster : monster,
+      item : item
+    },
+    dread_name : dread_name
 
+  };
+}
