@@ -136,6 +136,24 @@
       "https://en.wikipedia.org/wiki/Hannah_Arendt"
     ]
   },
+  "2d6eb6a2-8650-7ff2-281c-7ede21cc5b7d": {
+    "id": "2d6eb6a2-8650-7ff2-281c-7ede21cc5b7d",
+    "timestamp": 1616215473.591,
+    "keyword": [
+      "title:civilization",
+      "civilization",
+      "malthus",
+      "malthusian catastrophy",
+      "disease",
+      "pestilence"
+    ],
+    "extra": [],
+    "note": "Batson talks about how Malthus was wrong and how his mistake is also misinterpreted. Malthus assumed population growth was exponential and food production was linear, so there would be an inevitable crash. After the industrial revolution, this was false (food production was exponential) but it looks like even before the industrial revolution, it was also exponential, with gains happening in densily populated areas. The main limiting factor of population growth looks to be disease and, before hygene, this meant densely populated regions had higher rates of pestilence because bad sanity conditions allowed for disease spread.",
+    "link": [
+      "https://andrewbatson.com/2021/03/16/misunderstanding-malthus-mistake/",
+      "https://web.archive.org/web/20210320025041/https://andrewbatson.com/2021/03/16/misunderstanding-malthus-mistake/"
+    ]
+  },
   "332c20ed-b6fe-dd98-4d9f-9f0b27a34fb6": {
     "id": "332c20ed-b6fe-dd98-4d9f-9f0b27a34fb6",
     "timestamp": 1614700858.551,
@@ -740,6 +758,22 @@
       "https://www.joincampaignzero.org/research",
       "https://web.archive.org/web/20210224220959/https://www.joincampaignzero.org/research",
       "https://policescorecard.org/"
+    ]
+  },
+  "cc55a58b-475c-8435-837d-88b7e9f968c8": {
+    "id": "cc55a58b-475c-8435-837d-88b7e9f968c8",
+    "timestamp": 1616150129.111,
+    "keyword": [
+      "title:laser",
+      "laser",
+      "safety",
+      "goggles"
+    ],
+    "extra": [],
+    "note": "A video about laser goggles and safety. nm range is the range it blocks, OD rating is 10^{OD}*W that it blocks (e.g. OD of 5 and wattage of 1W will let through 10^-5 * 1 = .01mW). Safe range is 5mW (typically?).",
+    "link": [
+      "https://www.youtube.com/watch?v=WnDjIDhxnMs",
+      "https://www.survivallaserusa.com/Safety_Goggles/cat1667093_1527285.aspx"
     ]
   },
   "cea2aa46-21af-9a31-f44b-92746a8ca703": {

@@ -1,0 +1,16 @@
+{
+  "id": "cc55a58b-475c-8435-837d-88b7e9f968c8",
+  "timestamp": 1616150129.111,
+  "keyword": [
+    "title:laser",
+    "laser",
+    "safety",
+    "goggles"
+  ],
+  "extra": [],
+  "note": "A video about laser goggles and safety. nm range is the range it blocks, OD rating is 10^{OD}*W that it blocks (e.g. OD of 5 and wattage of 1W will let through 10^-5 * 1 = .01mW). Safe range is 5mW (typically?).",
+  "link": [
+    "https://www.youtube.com/watch?v=WnDjIDhxnMs",
+    "https://www.survivallaserusa.com/Safety_Goggles/cat1667093_1527285.aspx"
+  ]
+}
