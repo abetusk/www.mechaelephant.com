@@ -27,7 +27,7 @@ function show_help(fp) {
   fp.write("\n");
   fp.write("usage:\n");
   fp.write("\n");
-  fp.write("    notenox [-h] [-v] [-n note] [-t timestamp] [-k keyword] [-l link] [-e extra] [_note]\n");
+  fp.write("    notenox [-h] [-v] [-n note] [-t timestamp] [-k keyword] [-l link] [-e extra] [-I] [_note]\n");
   fp.write("\n");
   fp.write("  [-n|--note note ]           note (ignored if _note specified)\n");
   fp.write("  [-t|--timestamp timestamp]  timestamp (seconds UTC, defaults to now)\n");
@@ -37,6 +37,7 @@ function show_help(fp) {
   fp.write("  [-e|--extra extra ]         extra information (can be specified multiple times)\n");
   fp.write("  [-T|--title titlename]      add special 'title' keyword to keyword (append extra keyword 'title:<titlename>' to keywords\n");
   fp.write("  [-u|--id id]                set ID (defaults to random)\n");
+  fp.write("  [-I]                        enable interpretation of note (interpret carriage returns)\n");
   fp.write("  [-s]                        silent (don't print out note)\n");
   fp.write("  [-S]                        save note (unimplemented)\n");
   fp.write("  [-c <cfgfile>]              specify config file (default " +  CONFIG_FILE + ")\n");
@@ -67,6 +68,7 @@ var option = {
   "save" : false,
   "config": false,
   "config_file" : CONFIG_FILE,
+  "enable" : false,
   "out_dir": "./"
 };
 
@@ -102,13 +104,17 @@ var note_info = {
 
 var getopt = require("posix-getopt");
 var parser, opt;
-parser = new getopt.BasicParser("hvt:(timestamp)k:(keyword)e:(extra)n:(note)l:(link)T:(title)u:(id)K:s(silent)S(save)c:(config)D(debug)", process.argv);
+parser = new getopt.BasicParser("hvt:(timestamp)k:(keyword)e:(extra)n:(note)l:(link)T:(title)u:(id)K:s(silent)S(save)c:(config)D(debug)I(interpret)", process.argv);
 while ((opt =  parser.getopt()) !== undefined) {
   switch(opt.option) {
 
     case 'h':
       show_help(process.stdout);
       process.exit(0);
+      break;
+
+    case 'I':
+      option.enable = true;
       break;
 
     case 'v':
@@ -199,6 +205,12 @@ if (typeof note_info.note === "undefined") {
   process.exit(-1);
 }
 
+// only interprets '\n'
+//
+if (option.enable) {
+  var _re = /\\n/g;
+  note_info.note = note_info.note.replace(_re, "\n");
+}
 
 if (!option.silent) {
   console.log(JSON.stringify(note_info, null, 2));
