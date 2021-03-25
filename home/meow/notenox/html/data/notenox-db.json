@@ -695,6 +695,25 @@
       "https://web.archive.org/web/20210122013221/https://twitter.com/RealSexyCyborg/status/1324714441804427265"
     ]
   },
+  "a7196e8f-29f7-b72d-9452-6089ee2dbf2c": {
+    "id": "a7196e8f-29f7-b72d-9452-6089ee2dbf2c",
+    "timestamp": 1616615664.189,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "unicorn hat",
+      "rgb led",
+      "16x16",
+      "project",
+      "bike",
+      "bike invader"
+    ],
+    "extra": [],
+    "note": "5 for 16x16 rgb led rasperry pi hat on Adafruit. Thinking of using it for the 'bike invader' project.",
+    "link": [
+      "https://www.adafruit.com/product/3580"
+    ]
+  },
   "b0f4afbd-4bea-f2ca-52fa-3bba13583c59": {
     "id": "b0f4afbd-4bea-f2ca-52fa-3bba13583c59",
     "timestamp": 1616411497.299,
@@ -1126,6 +1145,39 @@
       " https://web.archive.org/web/20201228010205/https://caseyhandmer.wordpress.com/2020/12/27/the-future-of-electricity-is-local/",
       "https://caseyhandmer.wordpress.com/2020/12/27/the-future-of-electricity-is-local/",
       "https://news.ycombinator.com/item?id=25551469"
+    ]
+  },
+  "fdeb2b62-5c37-795c-4e9c-ead2f419085e": {
+    "id": "fdeb2b62-5c37-795c-4e9c-ead2f419085e",
+    "timestamp": 1616591355.087,
+    "keyword": [
+      "title:FOSS",
+      "FOSS",
+      "RMS",
+      "Stallman",
+      "cult of personality",
+      "founder syndrome",
+      "toxic culture",
+      "misogyny"
+    ],
+    "extra": [],
+    "note": "[RMS] stepped down as president of the FSF, briefly, and is (as of this writing) going to be stepping back into the role. [RMS] has had a history of misogyny and other problematic behavior. There is a flood of Twitter comments and other documentation that talks about the cult of personality that has developed around [RMS] that has excused and sheltered his bad behavior as well as the contortions people have done in the past to try and correct it. The FSF's relevance and lack of ability to adapt is also coming into question. I'm collecting some of the Twitter threads and other responses.\n\nSpecifically, there's a thread about unionization at the FSF in direct response to guard against Stallman's personality. Talks of it being an 'open secret' that [RMS] was problematic at conferences and on campus (intituting a code of conduct etc.). ",
+    "link": [
+      "https://twitter.com/vmbrasseur/status/1374413576597688336",
+      "https://web.archive.org/web/20210323173202/https://twitter.com/vmbrasseur/status/1374413576597688336",
+      "https://twitter.com/georgialyle/status/1374504389155508232",
+      "https://web.archive.org/web/20210324050612/https://twitter.com/georgialyle/status/1374504389155508232",
+      "https://twitter.com/luis_in_brief/status/1373998807126396928",
+      "https://web.archive.org/web/20210322143309/https://twitter.com/luis_in_brief/status/1373998807126396928",
+      "https://twitter.com/paulnivin/status/1374499598853545986",
+      "https://web.archive.org/web/20210324050917/https://twitter.com/paulnivin/status/1374499598853545986",
+      "https://rms-open-letter.github.io/",
+      "https://rms-open-letter.github.io/appendix",
+      "https://selamjie.medium.com/remove-richard-stallman-appendix-a-a7e41e784f88",
+      "https://web.archive.org/web/20210309141947/https://selamjie.medium.com/remove-richard-stallman-appendix-a-a7e41e784f88",
+      "https://homes.cs.washington.edu/~lazowska/mit/",
+      "https://web.archive.org/web/20210119190356/https://homes.cs.washington.edu/~lazowska/mit/",
+      "https://twitter.com/georgialyle/status/1374512705768353802"
     ]
   },
   "fe57e8cb-8477-0de7-0bec-1f8efedae88c": {
