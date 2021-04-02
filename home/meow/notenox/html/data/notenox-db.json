@@ -249,6 +249,31 @@
       "https://github.com/google/transit/blob/master/gtfs/spec/en/reference.md"
     ]
   },
+  "3de00cc0-ada6-08a2-6c30-459eb4190154": {
+    "id": "3de00cc0-ada6-08a2-6c30-459eb4190154",
+    "timestamp": 1617275231.86,
+    "keyword": [
+      "title:FOSS",
+      "FOSS",
+      "Stallman",
+      "RMS",
+      "cult of personality",
+      "toxic culture",
+      "FSF"
+    ],
+    "extra": [],
+    "note": "More tweets on the toxic culture RMS was creating.",
+    "link": [
+      "https://twitter.com/kf/status/1377128412553175040",
+      "https://web.archive.org/save/https://twitter.com/kf/status/1377128412553175040",
+      "https://twitter.com/steveklabnik/status/1376927079795679234",
+      "https://web.archive.org/web/20210401110245/https://twitter.com/steveklabnik/status/1376927079795679234",
+      "https://steveklabnik.com/writing/the-culture-war-at-the-heart-of-open-source",
+      "https://web.archive.org/web/20210401110559if_/https://steveklabnik.com/writing/the-culture-war-at-the-heart-of-open-source",
+      "https://steveklabnik.com/writing/what-comes-after-open-source",
+      "https://web.archive.org/web/20210401110545if_/https://steveklabnik.com/writing/what-comes-after-open-source"
+    ]
+  },
   "4ec07954-518b-d988-138a-6e486e2d3e11": {
     "id": "4ec07954-518b-d988-138a-6e486e2d3e11",
     "timestamp": 1614308274.719,
@@ -511,6 +536,20 @@
     "link": [
       "https://www.aclu.org/report/sex-work-decriminalization-answer-what-research-tells-us?initms_aff=nat&initms_chan=soc&utm_medium=soc&initms=210104_sexwork_brief_tw&utm_source=tw&utm_campaign=sexwork&utm_content=210104_lgbtq_brief&ms_aff=nat&ms_chan=soc&ms=210104_sexwork_brief_tw",
       "https://web.archive.org/web/20210105015826/https://www.aclu.org/report/sex-work-decriminalization-answer-what-research-tells-us?initms_aff=nat&initms_chan=soc&initms=210104_sexwork_brief_tw&ms_aff=nat&ms_chan=soc&ms=210104_sexwork_brief_tw"
+    ]
+  },
+  "8eb5f962-9eb2-f619-87a9-7244a775d365": {
+    "id": "8eb5f962-9eb2-f619-87a9-7244a775d365",
+    "timestamp": 1617367731.291,
+    "keyword": [
+      "title:job",
+      "job",
+      "research"
+    ],
+    "extra": [],
+    "note": "Overedge catalog, list of research organizations",
+    "link": [
+      "https://arbesman.net/overedge/"
     ]
   },
   "9066fb92-ba5e-f2fc-a651-02119dfbac3e": {
@@ -1133,6 +1172,27 @@
       "https://diyhpl.us/~bryan/papers2/DNA/abi391/chemistry.txt",
       "https://diyhpl.us/~bryan/papers2/DNA/abi391/",
       "https://web.archive.org/web/20160910080305/https://diyhpl.us/~bryan/papers2/DNA/abi391/chemistry.txt"
+    ]
+  },
+  "f74fd6ae-258a-31a2-cc6f-d375a8e4a471": {
+    "id": "f74fd6ae-258a-31a2-cc6f-d375a8e4a471",
+    "timestamp": 1617294491.255,
+    "keyword": [
+      "title:FOSS",
+      "FOSS",
+      "Stallman",
+      "RMS",
+      "cult of personality",
+      "toxic culture",
+      "FSF"
+    ],
+    "extra": [],
+    "note": "Continuing on with the tweets about RMS and FSF. Stallman has also been removed from the GCC steering committee.",
+    "link": [
+      "https://twitter.com/paulnivin/status/1377079987950395393",
+      "https://web.archive.org/save/https://twitter.com/paulnivin/status/1377079987950395393",
+      "https://gcc.gnu.org/pipermail/gcc/2021-March/235245.html",
+      "https://web.archive.org/web/20210331210549/https://gcc.gnu.org/pipermail/gcc/2021-March/235245.html"
     ]
   },
   "f8cd5dc2-2ee9-48d5-c16d-f310d9fddb2c": {
