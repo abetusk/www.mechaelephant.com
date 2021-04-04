@@ -1,4 +1,21 @@
 {
+  "0303ddd4-a508-a96c-4b4b-7aaea2ed3f69": {
+    "id": "0303ddd4-a508-a96c-4b4b-7aaea2ed3f69",
+    "timestamp": 1617553230.705,
+    "keyword": [
+      "title:software development",
+      "software development",
+      "programming languages",
+      "comparison",
+      "benchmark"
+    ],
+    "extra": [],
+    "note": "Comparison of programming languages comparing speed of execcution vs. program size (in the native language).",
+    "link": [
+      "http://blog.gmarceau.qc.ca/2009/05/speed-size-and-dependability-of.html",
+      "https://web.archive.org/web/20210126001931/http://blog.gmarceau.qc.ca/2009/05/speed-size-and-dependability-of.html"
+    ]
+  },
   "079874ea-80eb-56bf-8e79-ee56df5e7d9a": {
     "id": "079874ea-80eb-56bf-8e79-ee56df5e7d9a",
     "timestamp": 1608497052.757,
@@ -46,6 +63,23 @@
     "extra": [],
     "note": "Vegan Braanz Taco Truck: you own a vegain brain taco truck that serves vegan braanz (a vegan replacement for brains) to the horde of zombies. You have to manuver the truck though the horde of zombies, which are attacked to food and noise. The truck makes a chiming noise when it has ingrediants to serve. You collect ingredients from the mini-marts and shopping centers littered in the post apacolyptic landscape to supply the truck. The truck can run over zombies at a point cost. Zombies are maybe put into cages at the end of the truck so they can be converted back to human at the base camp. Idea is to combine some aspects of unrailed and overcooked. Maybe different zombies require different recipes.",
     "link": []
+  },
+  "12d23a01-8fbe-6250-03cd-636ab1213921": {
+    "id": "12d23a01-8fbe-6250-03cd-636ab1213921",
+    "timestamp": 1617553835.379,
+    "keyword": [
+      "title:software development",
+      "software development",
+      "dynamic typing",
+      "dynamic languages",
+      "typing"
+    ],
+    "extra": [],
+    "note": "'The Unreasonable Effectiveness of Dynamic Programming ' talk by Robert Smallshire",
+    "link": [
+      "https://www.infoq.com/presentations/dynamic-static-typing/",
+      "https://web.archive.org/web/20210221101020/https://www.infoq.com/presentations/dynamic-static-typing/"
+    ]
   },
   "146d5835-6326-9c83-09b0-851089843951": {
     "id": "146d5835-6326-9c83-09b0-851089843951",
@@ -215,6 +249,24 @@
       "https://nbviewer.jupyter.org/github/gpeyre/numerical-tours/blob/master/python/ml_2_regression.ipynb"
     ]
   },
+  "353ff8ca-04b3-0e88-cdf9-aa6378d14835": {
+    "id": "353ff8ca-04b3-0e88-cdf9-aa6378d14835",
+    "timestamp": 1617503625.361,
+    "keyword": [
+      "title:public domain",
+      " public domain ; pd ; public domain resources ; photographs ; art "
+    ],
+    "extra": [],
+    "note": "more public domain art",
+    "link": [
+      "http://www.artpassions.net/",
+      "https://docs.google.com/document/d/1JwR9ngrwxi8LgrHMAyQEmd_ZY9MDRUGKZLTq-WBvKsw/edit",
+      "https://spark.adobe.com/page/ucLFuLOEKK9Uo/",
+      "https://archive.org/details/Wootha_Public_Domain/Tutorials/Narrative+Illustration/Narrative+Illustration+-+04.mp4",
+      "https://picryl.com/",
+      "https://comicbookplus.com/"
+    ]
+  },
   "399f8101-ec87-c95e-ef94-56a0cf6c09d5": {
     "id": "399f8101-ec87-c95e-ef94-56a0cf6c09d5",
     "timestamp": 1613099833.74,
@@ -327,6 +379,25 @@
     "link": [
       "https://twitter.com/NataniaBarron/status/1353866167568445441",
       "https://web.archive.org/web/20210126004354/https://twitter.com/NataniaBarron/status/1353866167568445441"
+    ]
+  },
+  "5c1602bf-dd00-a1a9-e353-a73c07a27141": {
+    "id": "5c1602bf-dd00-a1a9-e353-a73c07a27141",
+    "timestamp": 1617553649.583,
+    "keyword": [
+      "title:software development",
+      "software development",
+      "static vs dynamic",
+      "literature review",
+      "static languages",
+      "dynamic languages",
+      "typing"
+    ],
+    "extra": [],
+    "note": "Static vs. dynamic languages literature review",
+    "link": [
+      "http://danluu.com/empirical-pl/",
+      "https://web.archive.org/web/20210313091147/http://danluu.com/empirical-pl/"
     ]
   },
   "5ebdbe5a-f896-f563-2df7-a28e4be230a1": {
@@ -736,6 +807,21 @@
       "https://data.worldbank.org/indicator/SI.POV.GINI?locations=US"
     ]
   },
+  "a3ee5a7e-ef55-c412-6bd3-72febe8cadae": {
+    "id": "a3ee5a7e-ef55-c412-6bd3-72febe8cadae",
+    "timestamp": 1617553941.543,
+    "keyword": [
+      "title:software development",
+      "software development",
+      "testing",
+      "code coverage"
+    ],
+    "extra": [],
+    "note": "'Coverage Is Not Strongly Correlated With Test Suite Effectiveness' by Inozemtseva and Holmes",
+    "link": [
+      "https://web.archive.org/web/20160313050056/http://www.linozemtseva.com/research/2014/icse/coverage/"
+    ]
+  },
   "a4c13618-36f4-5ece-780d-13f81ff668d3": {
     "id": "a4c13618-36f4-5ece-780d-13f81ff668d3",
     "timestamp": 1615257309.581,
@@ -753,6 +839,27 @@
       "https://github.com/dirkriehle/coss-course",
       "https://a16z.com/2019/10/04/commercializing-open-source/",
       "https://sfosc.org/"
+    ]
+  },
+  "a50ce8ca-3d77-d302-1c6c-e38879f727a5": {
+    "id": "a50ce8ca-3d77-d302-1c6c-e38879f727a5",
+    "timestamp": 1617552953.741,
+    "keyword": [
+      "title:software development",
+      "software development",
+      "jonathan blow",
+      "blow",
+      "talk"
+    ],
+    "extra": [],
+    "note": "Jonathan Blow talks about software quality and rails against company bloat, why the web isn't faster, and pushes back against a lot of standard dogma.",
+    "link": [
+      "https://www.youtube.com/watch?v=oJ4GcZs7y6g",
+      "https://www.youtube.com/watch?v=FvBySbGueww",
+      "https://www.youtube.com/watch?v=URSOH4F3vbU",
+      "https://www.youtube.com/watch?v=MlIZ2Q3Rvc8",
+      "https://www.youtube.com/watch?v=jpk9Q5gCyIY",
+      "https://www.youtube.com/watch?v=xK6YZ3NFjuE"
     ]
   },
   "a5a68d0c-dcfe-0feb-5812-d3e3cec66550": {
@@ -919,6 +1026,25 @@
     "note": "spooky cats minature picture gallery diy kit",
     "link": [
       "https://www.etsy.com/listing/840732230/spooky-cats-miniature-picture-gallery"
+    ]
+  },
+  "d266b506-0923-57d0-89cc-62da092c070d": {
+    "id": "d266b506-0923-57d0-89cc-62da092c070d",
+    "timestamp": 1617488103.267,
+    "keyword": [
+      "title:public domain",
+      " public domain ; pd ; public domain resources ; photographs ; photos ; 3d ; 3d models ; musuem "
+    ],
+    "extra": [],
+    "note": "Public domain resources and links (photos etc.)",
+    "link": [
+      "https://www.reddit.com/r/publicdomain/",
+      "https://copyrightfree.photos/",
+      "https://sketchfab.com/WirtualneMuzeaMalopolski/collections",
+      "https://openclipart.org/share",
+      "https://github.com/publicdomaincompany/publicdomaincompany.com",
+      "https://publicdomaincompany.com/",
+      "https://www.reddit.com/r/publicdomain/comments/lmz6dm/what_are_the_biggestbest_resources_for_public/"
     ]
   },
   "d5ccd20a-0f86-a6ce-317b-496207bb71d0": {
