@@ -1,0 +1,19 @@
+{
+  "id": "9eb91cc9-0af3-c502-7d1f-e3dbee4af376",
+  "timestamp": 1617906284.357,
+  "keyword": [
+    "title:electronics",
+    "electronics",
+    "bldc",
+    "bldc driver",
+    "driver",
+    "motor driver"
+  ],
+  "extra": [],
+  "note": "AMT49400 Allegro 3-phase motor driver for small motors. Looks pretty simple, with few extra components needed. Looks to be upwards of 0.5-3A?",
+  "link": [
+    "https://www.electronics-lab.com/sensorless-foc-3-phase-low-power-brushless-bldc-motor-driver/",
+    "https://www.digikey.com/en/products/detail/allegro-microsystems/AMT49400GLKATR/10146667?s=N4IgTCBcDaIIYFsAuAWAnCgDJkBdAvkA",
+    "https://www.allegromicro.com/-/media/Files/Datasheets/AMT49400-Datasheet.ashx"
+  ]
+}
