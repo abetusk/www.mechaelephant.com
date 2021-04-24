@@ -8,6 +8,7 @@ from datetime import datetime
 import json
 import time
 import bs4
+import html
 #from bs4 import BeautifulSoup
 
 
@@ -34,7 +35,7 @@ def html_make_entry(ent):
 
   s = "<li>"
   s += "<a class='feed_ico' href='" + str(ent["guid"]) + "'><img src='" + ent["icon"] + "'></a> "
-  s += "<a href='" + ent["link"] + "'>" + ent["title"] + "</a>"
+  s += "<a href='" + ent["link"] + "'>" + html.escape(ent["title"]) + "</a>"
   #s += "<p>" + bs4.BeautifulSoup(ent["description"][:m], "lxml").get_text() + "</p>"
   s += "<small class='feed_datetime'>" + str(datetime.utcfromtimestamp(int(ent["unixtime"])).strftime("%Y-%m-%d %H:%M")) + "</small> "
   s+= "</li>"
@@ -106,14 +107,14 @@ while True:
   for guid in guids:
     if not (guid in snapshot):
 
-      print("removing " + str(guid))
+      print("[" + str(time.time()) + "]" "removing " + str(guid))
       del rss_db[guid]
 
-  print("GOT new entries " + str(len(new_entry)))
+  print("[" + str(time.time()) + "]", "GOT new entries " + str(len(new_entry)))
 
   if len(new_entry) > 0:
 
-    print("UPDATING")
+    print("[" + str(time.time()) + "]", "UPDATING")
 
     ## sort entries
     ##
@@ -139,5 +140,5 @@ while True:
     os.system("cp " + html_fn + " " + tmp_fn)
     os.system("mv " + tmp_fn + " " + cfg["index"])
 
-  print("sleep " + str(sleepy_s))
+  print("[" + str(time.time()) + "]", "sleep " + str(sleepy_s))
   time.sleep(sleepy_s)
