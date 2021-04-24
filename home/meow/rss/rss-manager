@@ -9,6 +9,7 @@ import json
 import time
 import bs4
 import html
+import cgi
 #from bs4 import BeautifulSoup
 
 
@@ -35,7 +36,9 @@ def html_make_entry(ent):
 
   s = "<li>"
   s += "<a class='feed_ico' href='" + str(ent["guid"]) + "'><img src='" + ent["icon"] + "'></a> "
-  s += "<a href='" + ent["link"] + "'>" + html.escape(ent["title"]) + "</a>"
+  #s += "<a href='" + ent["link"] + "'>" + html.escape(ent["title"]) + "</a>"
+  s += "<a href='" + ent["link"] + "'>" + html.escape(ent["title"]).encode('ascii', 'xmlcharrefreplace').decode('utf-8') + "</a>"
+  #s += "<a href='" + ent["link"] + "'>" + cgi.escape(ent["title"]).encode('ascii', 'xmlcharrefreplace') + "</a>"
   #s += "<p>" + bs4.BeautifulSoup(ent["description"][:m], "lxml").get_text() + "</p>"
   s += "<small class='feed_datetime'>" + str(datetime.utcfromtimestamp(int(ent["unixtime"])).strftime("%Y-%m-%d %H:%M")) + "</small> "
   s+= "</li>"
