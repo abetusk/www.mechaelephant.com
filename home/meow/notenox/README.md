@@ -229,6 +229,18 @@ Here is an example note:
 }
 ```
 
+Misc
+---
+
+There is a helper command line tool called `kw` to help see what key words etc. there are:
+
+```
+./kw [title]
+```
+
+Just a short shell script to do some basic parsing of the `data` directory to filter out the `keyword`
+field and elements in the `keyword` field with the prefix `title:`, if the `title` option is specified.
+
 
 License
 ---
