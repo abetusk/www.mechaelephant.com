@@ -315,6 +315,22 @@
       "https://comicbookplus.com/"
     ]
   },
+  "3909762c-7c92-92ed-68a4-f31add520277": {
+    "id": "3909762c-7c92-92ed-68a4-f31add520277",
+    "timestamp": 1620316999.552,
+    "keyword": [
+      "title:FOSS business",
+      "FOSS",
+      "business",
+      "agpl"
+    ],
+    "extra": [],
+    "note": "Google policy on AGPL, which is that the AGPL should be avoided because it's too risky for them",
+    "link": [
+      "https://opensource.google/docs/using/agpl-policy/",
+      "https://web.archive.org/web/20210422121832/https://opensource.google/docs/using/agpl-policy/"
+    ]
+  },
   "399f8101-ec87-c95e-ef94-56a0cf6c09d5": {
     "id": "399f8101-ec87-c95e-ef94-56a0cf6c09d5",
     "timestamp": 1613099833.74,
