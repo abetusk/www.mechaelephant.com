@@ -315,6 +315,21 @@
       "https://comicbookplus.com/"
     ]
   },
+  "363e9b5e-551b-eb2d-5186-fee0e57fe749": {
+    "id": "363e9b5e-551b-eb2d-5186-fee0e57fe749",
+    "timestamp": 1621296190.871,
+    "keyword": [
+      "title:cryptocurrency",
+      "cryptocurrency",
+      "dogecoin",
+      "bootstrap"
+    ],
+    "extra": [],
+    "note": "More Dogecoin resources. Dogecoin.gg has a 'bootstrap' torrent",
+    "link": [
+      "https://dogecoin.gg/"
+    ]
+  },
   "3909762c-7c92-92ed-68a4-f31add520277": {
     "id": "3909762c-7c92-92ed-68a4-f31add520277",
     "timestamp": 1620316999.552,
@@ -1003,6 +1018,24 @@
     "link": [
       "https://web.archive.org/web/20201224135838/https://www.bloomberg.com/opinion/articles/2020-12-24/don-t-just-blame-billionaires-for-wealth-inequality",
       "https://data.worldbank.org/indicator/SI.POV.GINI?locations=US"
+    ]
+  },
+  "a2fa8956-2a6f-8809-eb0f-aa2575ed5922": {
+    "id": "a2fa8956-2a6f-8809-eb0f-aa2575ed5922",
+    "timestamp": 1621299764.14,
+    "keyword": [
+      "title:cryptocurrency",
+      "cryptocurrency",
+      "bitcoin",
+      "command line",
+      "blockchain",
+      "blockchaincommons"
+    ],
+    "extra": [],
+    "note": "Blockchain commons, which looks to be a resource for blockchain/cryptocurrency/bitcoin",
+    "link": [
+      "https://www.blockchaincommons.com/",
+      "https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line"
     ]
   },
   "a3ee5a7e-ef55-c412-6bd3-72febe8cadae": {
