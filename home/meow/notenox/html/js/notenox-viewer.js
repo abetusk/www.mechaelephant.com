@@ -83,9 +83,18 @@ function notenox_viewer_ui_update(filter_list, section_title) {
     h6.appendChild( _text( t.toISOString().replace(/[TZ]/g, ' ').replace( /\..*/, '') ) );
     html_ele.appendChild(h6);
 
-    var p = _p();
-    p.appendChild( _text( _nod.note ) );
-    html_ele.appendChild( p );
+    var p ;
+    //var p = _p();
+
+    //p.appendChild( _text( _nod.note ) );
+    //var raw_note = _nod.note;
+
+    var note_a = _nod.note.split(/\n/);
+    for (var _n=0; _n<note_a.length; _n++) {
+      var p = _p();
+      p.appendChild( _text(note_a[_n]) );
+      html_ele.appendChild( p );
+    }
 
     p = _p();
     for (var jj=0; jj<_nod.link.length; jj++) {
