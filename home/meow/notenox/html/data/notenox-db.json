@@ -325,7 +325,11 @@
     "timestamp": 1617503625.361,
     "keyword": [
       "title:public domain",
-      " public domain ; pd ; public domain resources ; photographs ; art "
+      "public domain",
+      "pd",
+      "public domain resources",
+      "photographs",
+      "art"
     ],
     "extra": [],
     "note": "more public domain art",
@@ -1388,6 +1392,30 @@
       "https://www.survivallaserusa.com/Safety_Goggles/cat1667093_1527285.aspx"
     ]
   },
+  "cd0529fb-bba3-f9bd-63a5-21280a426f6a": {
+    "id": "cd0529fb-bba3-f9bd-63a5-21280a426f6a",
+    "timestamp": 1621947010.743,
+    "keyword": [
+      "title:economics",
+      "economics",
+      "politics",
+      "eu",
+      "europian union",
+      "germany",
+      "china",
+      "export",
+      "trade",
+      "inflation",
+      "currency",
+      "economy"
+    ],
+    "extra": [],
+    "note": "Some notes on trade, export, currency etc. with a focus on Germany and China. Germany is one of the only developed nations to have a trade export surplus.",
+    "link": [
+      "https://www.conradbastable.com/essays/the-germany-shock-the-largest-economy-nobody-understands",
+      "https://web.archive.org/web/20200706181154/https://www.conradbastable.com/essays/the-germany-shock-the-largest-economy-nobody-understands"
+    ]
+  },
   "cea2aa46-21af-9a31-f44b-92746a8ca703": {
     "id": "cea2aa46-21af-9a31-f44b-92746a8ca703",
     "timestamp": 1608224560.835,
@@ -1408,7 +1436,14 @@
     "timestamp": 1617488103.267,
     "keyword": [
       "title:public domain",
-      " public domain ; pd ; public domain resources ; photographs ; photos ; 3d ; 3d models ; musuem "
+      "public domain",
+      "pd",
+      "public domain resources",
+      "photographs",
+      "photos",
+      "3d",
+      "3d models",
+      "musuem"
     ],
     "extra": [],
     "note": "Public domain resources and links (photos etc.)",
