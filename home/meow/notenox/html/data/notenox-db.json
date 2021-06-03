@@ -867,6 +867,22 @@
       "https://web.archive.org/web/20210513212556/https://www.businessinsider.com/paul-krugman-responds-to-internet-quote-2013-12"
     ]
   },
+  "8d3f1e4c-1d8b-8b83-aeed-6695aade8979": {
+    "id": "8d3f1e4c-1d8b-8b83-aeed-6695aade8979",
+    "timestamp": 1622733751.531,
+    "keyword": [
+      "title:FOSS",
+      "FOSS",
+      "sustainability"
+    ],
+    "extra": [],
+    "note": "Kaylea Champion and Benjamin Mako Hill talk about 'underproduced' FOSS, where there is demand but the production quality is low. They come up with measuers to track the level of underproduction by essentially measuring speed of bug report resolution with some survival analysis and bug severity thrown in. Debian's 'popularity contest' survey was used to get a handle on usage/installation of packages. Champion talks about the 'long tail of GUI underproduction'.",
+    "link": [
+      "https://mako.cc/copyrighteous/identifying-underproduced-software",
+      "https://web.archive.org/web/20210515070809/https://mako.cc/copyrighteous/identifying-underproduced-software",
+      "https://arxiv.org/pdf/2103.00352.pdf"
+    ]
+  },
   "8d4195c1-5b51-1eda-98d0-91a96bceb17b": {
     "id": "8d4195c1-5b51-1eda-98d0-91a96bceb17b",
     "timestamp": 1621510133.852,
