@@ -469,6 +469,23 @@
       "https://web.archive.org/web/20210401110545if_/https://steveklabnik.com/writing/what-comes-after-open-source"
     ]
   },
+  "45bdb24a-4735-60d1-a182-3ecb06d21853": {
+    "id": "45bdb24a-4735-60d1-a182-3ecb06d21853",
+    "timestamp": 1622823461.384,
+    "keyword": [
+      "title:FOSS",
+      "FOSS",
+      "embrace extend extinguish",
+      "microsoft",
+      "javascript"
+    ],
+    "extra": [],
+    "note": "The article talks about how Microsoft is employing a multi-front attack to monetize Javascript.",
+    "link": [
+      "https://clarity.kleydints.com/a-post-mortem-in-5-acts-of-how-microsoft-privatized-open-source-killing-javascript-in-the-process-62ee5fc77d9e",
+      "https://web.archive.org/web/20210224091048/https://clarity.kleydints.com/a-post-mortem-in-5-acts-of-how-microsoft-privatized-open-source-killing-javascript-in-the-process-62ee5fc77d9e?gi=c13423a92e41"
+    ]
+  },
   "487c55fe-9231-9269-11fd-4610243819c5": {
     "id": "487c55fe-9231-9269-11fd-4610243819c5",
     "timestamp": 1620754620.725,
