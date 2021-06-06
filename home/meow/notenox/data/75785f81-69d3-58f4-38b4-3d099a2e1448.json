@@ -1,0 +1,18 @@
+{
+  "id": "75785f81-69d3-58f4-38b4-3d099a2e1448",
+  "timestamp": 1623011589.174,
+  "keyword": [
+    "title:FOSS",
+    "FOSS",
+    "community",
+    "licensing"
+  ],
+  "extra": [],
+  "note": "ZeroMQ talks about growing their community and some anectdotes of someone who created a product that they felt bad about putting under a BSD license (Patrick). Bruno Lowaglie talks about switching iText from BSD to AGPL after a subcontractor solicited him to do free work while the parent organization refused to pay him for the work.",
+  "link": [
+    "https://zguide.zeromq.org/docs/chapter6/#Eat-Me",
+    "https://web.archive.org/web/20210312124841/https://zguide.zeromq.org/docs/chapter6/",
+    "https://opensource.stackexchange.com/questions/1165/examples-of-companies-undercutting-smaller-companies-using-foss/11779#11779",
+    "https://web.archive.org/save/https://opensource.stackexchange.com/questions/1165/examples-of-companies-undercutting-smaller-companies-using-foss/11779"
+  ]
+}
