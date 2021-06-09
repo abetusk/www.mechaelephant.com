@@ -1,0 +1,19 @@
+{
+  "id": "e4605149-6a41-e9eb-dc49-66b23b26670c",
+  "timestamp": 1623265358.144,
+  "keyword": [
+    "title:webassembly",
+    "webassembly",
+    "wasm",
+    "wat",
+    "web",
+    "assembly"
+  ],
+  "extra": [],
+  "note": "Web assembly links and tutorials",
+  "link": [
+    "https://openhome.cc/eGossip/WebAssembly/",
+    "https://github.com/abramhindle/impractical-wasm",
+    "https://pengowray.github.io/wasm-ops/"
+  ]
+}

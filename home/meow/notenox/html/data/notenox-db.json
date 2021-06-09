@@ -1730,6 +1730,25 @@
       "https://aatishb.com/covidtrends/"
     ]
   },
+  "e4605149-6a41-e9eb-dc49-66b23b26670c": {
+    "id": "e4605149-6a41-e9eb-dc49-66b23b26670c",
+    "timestamp": 1623265358.144,
+    "keyword": [
+      "title:webassembly",
+      "webassembly",
+      "wasm",
+      "wat",
+      "web",
+      "assembly"
+    ],
+    "extra": [],
+    "note": "Web assembly links and tutorials",
+    "link": [
+      "https://openhome.cc/eGossip/WebAssembly/",
+      "https://github.com/abramhindle/impractical-wasm",
+      "https://pengowray.github.io/wasm-ops/"
+    ]
+  },
   "e4bd8f9d-08e7-e293-d52d-65331625197f": {
     "id": "e4bd8f9d-08e7-e293-d52d-65331625197f",
     "timestamp": 1611277671.421,
