@@ -1,0 +1,18 @@
+{
+  "id": "02028859-4aed-350f-5e48-52b41a8703cc",
+  "timestamp": 1623823592.061,
+  "keyword": [
+    "title:FOSS",
+    "FOSS",
+    "license",
+    "controversy"
+  ],
+  "extra": [],
+  "note": "An open source maintainer asks a project to take their project out, even though the license is clear (with the author knowing it is) that there is no legal method to restrict it.",
+  "link": [
+    "https://news.ycombinator.com/item?id=27505277",
+    "https://github.com/NixOS/nixpkgs/pull/126326",
+    "https://github.com/NixOS/nixpkgs/pull/126319#issuecomment-860942061",
+    "https://github.com/NixOS/nixpkgs/issues/126677"
+  ]
+}

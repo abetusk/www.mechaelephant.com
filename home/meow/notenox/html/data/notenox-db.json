@@ -1,4 +1,22 @@
 {
+  "02028859-4aed-350f-5e48-52b41a8703cc": {
+    "id": "02028859-4aed-350f-5e48-52b41a8703cc",
+    "timestamp": 1623823592.061,
+    "keyword": [
+      "title:FOSS",
+      "FOSS",
+      "license",
+      "controversy"
+    ],
+    "extra": [],
+    "note": "An open source maintainer asks a project to take their project out, even though the license is clear (with the author knowing it is) that there is no legal method to restrict it.",
+    "link": [
+      "https://news.ycombinator.com/item?id=27505277",
+      "https://github.com/NixOS/nixpkgs/pull/126326",
+      "https://github.com/NixOS/nixpkgs/pull/126319#issuecomment-860942061",
+      "https://github.com/NixOS/nixpkgs/issues/126677"
+    ]
+  },
   "0303ddd4-a508-a96c-4b4b-7aaea2ed3f69": {
     "id": "0303ddd4-a508-a96c-4b4b-7aaea2ed3f69",
     "timestamp": 1617553230.705,
@@ -654,6 +672,23 @@
     "note": "blog post about building an open source saas business (web analytics)",
     "link": [
       "https://plausible.io/blog/building-open-source"
+    ]
+  },
+  "5ffcc674-7e5a-0d1b-d3ed-e6f6b6897039": {
+    "id": "5ffcc674-7e5a-0d1b-d3ed-e6f6b6897039",
+    "timestamp": 1623838351.304,
+    "keyword": [
+      "title:3d",
+      "art",
+      "3d",
+      "scan",
+      "cc0",
+      "public domain"
+    ],
+    "extra": [],
+    "note": "'Scan the world' (the open source musuem) looks to be a resource for CC0 3d scans",
+    "link": [
+      "https://www.myminifactory.com/scantheworld/"
     ]
   },
   "6340353e-9a28-fd3e-4ffb-ca08f24d53eb": {
@@ -1424,6 +1459,23 @@
       "https://web.archive.org/web/20210604051229/https://brendangregg.com/blog/2021-06-04/an-unbelievable-demo.html"
     ]
   },
+  "b73d00a3-99cc-6173-2d0f-a65307cbe582": {
+    "id": "b73d00a3-99cc-6173-2d0f-a65307cbe582",
+    "timestamp": 1623823369.17,
+    "keyword": [
+      "title:politics",
+      "politics",
+      "CIA",
+      "US foreign policy",
+      "corruption"
+    ],
+    "extra": [],
+    "note": "A list of CIA attrocities up to 1993",
+    "link": [
+      "http://www.huppi.com/kangaroo/CIAtimeline.html",
+      "https://web.archive.org/web/20210526062847/http://www.huppi.com/kangaroo/CIAtimeline.html"
+    ]
+  },
   "bcd78a00-165d-d6d7-19c8-6ff286f061ad": {
     "id": "bcd78a00-165d-d6d7-19c8-6ff286f061ad",
     "timestamp": 1614720581.712,
@@ -1539,6 +1591,21 @@
       "https://www.joincampaignzero.org/research",
       "https://web.archive.org/web/20210224220959/https://www.joincampaignzero.org/research",
       "https://policescorecard.org/"
+    ]
+  },
+  "c9d9070f-a766-698e-5b4b-a7d8adde9a21": {
+    "id": "c9d9070f-a766-698e-5b4b-a7d8adde9a21",
+    "timestamp": 1623823471.038,
+    "keyword": [
+      "title:cryptocurrency",
+      "bitcoin",
+      "cryptocurrency"
+    ],
+    "extra": [],
+    "note": "A counterpoint to some of the Bitcoin FUD",
+    "link": [
+      "https://notenoughtech.com/news/cryptocurrency-is-bad-except-its-not-that-simple/",
+      "https://web.archive.org/save/https://notenoughtech.com/news/cryptocurrency-is-bad-except-its-not-that-simple/"
     ]
   },
   "cc55a58b-475c-8435-837d-88b7e9f968c8": {
@@ -1715,6 +1782,24 @@
       "https://web.archive.org/web/20201222215625/https://www.ribbonfarm.com/2010/10/14/the-gervais-principle-iv-wonderful-human-beings/",
       "https://web.archive.org/web/20201125132438/https://www.ribbonfarm.com/2011/10/14/the-gervais-principle-v-heads-i-win-tails-you-lose/",
       "https://web.archive.org/web/20201121214903/https://www.ribbonfarm.com/2013/05/16/the-gervais-principle-vi-children-of-an-absent-god/"
+    ]
+  },
+  "dbe78e95-8cf4-dccd-56cf-f1593668a579": {
+    "id": "dbe78e95-8cf4-dccd-56cf-f1593668a579",
+    "timestamp": 1623956145.679,
+    "keyword": [
+      "title:politics",
+      "politics",
+      "corruption",
+      "police",
+      "drugs"
+    ],
+    "extra": [],
+    "note": "John Ehrlichman, Nixon's counsel and assistant to the president on domestic affairs, talks about the war on drugs:\n> We knew we couldn’t make it illegal to be either against the war or black, but by getting the public to associate the hippies with marijuana and blacks with heroin, and then criminalizing both heavily, we could disrupt those communities. We could arrest their leaders, raid their homes, break up their meetings, and vilify them night after night on the evening news. Did we know we were lying about the drugs? Of course we did.",
+    "link": [
+      "https://en.wikipedia.org/wiki/John_Ehrlichman",
+      "https://harpers.org/archive/2016/04/legalize-it-all/",
+      "https://web.archive.org/web/20210612110655/https://harpers.org/archive/2016/04/legalize-it-all/"
     ]
   },
   "e02c0886-e01f-6e76-d6b6-cfbfd25ee515": {
