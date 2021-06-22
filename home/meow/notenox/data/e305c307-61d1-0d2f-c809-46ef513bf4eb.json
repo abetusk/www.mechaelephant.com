@@ -1,0 +1,18 @@
+{
+  "id": "e305c307-61d1-0d2f-c809-46ef513bf4eb",
+  "timestamp": 1624369907.56,
+  "keyword": [
+    "title:computer science",
+    "computer science",
+    "ai",
+    "machine learning",
+    "paper",
+    "pytorch"
+  ],
+  "extra": [],
+  "note": "labml.ai annoted PyTorch paper implementations",
+  "link": [
+    "https://nn.labml.ai/",
+    "https://github.com/labmlai/annotated_deep_learning_paper_implementations"
+  ]
+}

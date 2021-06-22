@@ -1839,6 +1839,24 @@
       "https://web.archive.org/web/20210423190827/https://www.youtube.com/watch?v=tzk03NNwQz4"
     ]
   },
+  "e305c307-61d1-0d2f-c809-46ef513bf4eb": {
+    "id": "e305c307-61d1-0d2f-c809-46ef513bf4eb",
+    "timestamp": 1624369907.56,
+    "keyword": [
+      "title:computer science",
+      "computer science",
+      "ai",
+      "machine learning",
+      "paper",
+      "pytorch"
+    ],
+    "extra": [],
+    "note": "labml.ai annoted PyTorch paper implementations",
+    "link": [
+      "https://nn.labml.ai/",
+      "https://github.com/labmlai/annotated_deep_learning_paper_implementations"
+    ]
+  },
   "e3d02f1c-8d08-5a33-4a9a-b983a4c711dc": {
     "id": "e3d02f1c-8d08-5a33-4a9a-b983a4c711dc",
     "timestamp": 1608223891.342,
