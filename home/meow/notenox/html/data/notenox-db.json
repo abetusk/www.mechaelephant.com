@@ -268,6 +268,23 @@
       "https://open.spotify.com/episode/41G5sIcfrno0EXiYK8LUnh"
     ]
   },
+  "1e99bf6e-11b2-923c-0eab-85c6a025d256": {
+    "id": "1e99bf6e-11b2-923c-0eab-85c6a025d256",
+    "timestamp": 1624529118.218,
+    "keyword": [
+      "title:math",
+      "math",
+      "mathematics",
+      "lasso",
+      "machine learning",
+      "statistics"
+    ],
+    "extra": [],
+    "note": "Wikipedia article about least absolute shrinkage and selection (lasso)",
+    "link": [
+      "https://en.wikipedia.org/wiki/Lasso_(statistics)"
+    ]
+  },
   "220128c5-1208-64aa-eea4-4746cc483e75": {
     "id": "220128c5-1208-64aa-eea4-4746cc483e75",
     "timestamp": 1618255463.89,
@@ -1800,6 +1817,23 @@
       "https://en.wikipedia.org/wiki/John_Ehrlichman",
       "https://harpers.org/archive/2016/04/legalize-it-all/",
       "https://web.archive.org/web/20210612110655/https://harpers.org/archive/2016/04/legalize-it-all/"
+    ]
+  },
+  "de8142da-fb28-2296-0b32-130638e5f392": {
+    "id": "de8142da-fb28-2296-0b32-130638e5f392",
+    "timestamp": 1624529072.243,
+    "keyword": [
+      "title:math",
+      "math",
+      "mathematics",
+      "zero knowledge proofs",
+      "snark"
+    ],
+    "extra": [],
+    "note": "Zero knowledge proofs",
+    "link": [
+      "https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/",
+      "https://zkp.science/"
     ]
   },
   "e02c0886-e01f-6e76-d6b6-cfbfd25ee515": {
