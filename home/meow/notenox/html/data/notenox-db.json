@@ -541,6 +541,24 @@
       "https://web.archive.org/web/20210401110545if_/https://steveklabnik.com/writing/what-comes-after-open-source"
     ]
   },
+  "44f92f93-6cd6-6117-69b8-2b04faab516f": {
+    "id": "44f92f93-6cd6-6117-69b8-2b04faab516f",
+    "timestamp": 1624870764.691,
+    "keyword": [
+      "title:nft",
+      "nft",
+      "non fungible token",
+      "cryptocurrency",
+      "tezos"
+    ],
+    "extra": [],
+    "note": "hicetnunc.xyz is a smaller known NFT community. They put the art on IPFS and pin it when minting the work. It uses Tezos and Kukai for the wallet.",
+    "link": [
+      "https://twitter.com/hicetnunc2000",
+      "https://www.hicetnunc.xyz",
+      "https://wallet.kukai.app"
+    ]
+  },
   "45bdb24a-4735-60d1-a182-3ecb06d21853": {
     "id": "45bdb24a-4735-60d1-a182-3ecb06d21853",
     "timestamp": 1622823461.384,
@@ -1523,6 +1541,28 @@
     "note": "A ported custom lanugage/synth to JS",
     "link": [
       "https://warmplace.ru/soft/sunvox/jsplay/"
+    ]
+  },
+  "bea7e3e9-cbbb-25dd-ae93-1c254843c7bf": {
+    "id": "bea7e3e9-cbbb-25dd-ae93-1c254843c7bf",
+    "timestamp": 1624870408.954,
+    "keyword": [
+      "title:nft",
+      "nft",
+      "non fungible token",
+      "cryptocurrency",
+      "ethereum"
+    ],
+    "extra": [],
+    "note": "Non fungible tokens (NFTs) are, in my opinion, the beanie babies of the cryptocurrency technology. Beanie babies helped get PayPal off the ground but ultimately didn't have any staying power.\n\nWikipedia talks about how the copyright is often not transferred when purchasing an NFT. OpenSea.io talks about owners of their 'pirate' NFTs can use it for commercial purposes but they still retain the right to use it for their own commercial purposes.",
+    "link": [
+      "https://hackernoon.com/non-fungible-token-nft-standards-an-overview-w71y34y3",
+      "https://web.archive.org/web/20210522214440/https://hackernoon.com/non-fungible-token-nft-standards-an-overview-w71y34y3",
+      "https://influencermarketinghub.com/nft-marketplaces/",
+      "https://en.wikipedia.org/wiki/Non-fungible_token#Copyright",
+      "https://www.ptbc.io/faq/",
+      "https://web.archive.org/web/20210609153151/https://www.ptbc.io/faq/",
+      "https://influencermarketinghub.com/nft-marketplaces/"
     ]
   },
   "c0e682be-c04a-4d70-6d0a-6e6c8c1411e7": {
