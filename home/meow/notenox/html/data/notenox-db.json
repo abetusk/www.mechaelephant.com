@@ -651,6 +651,25 @@
       "https://web.archive.org/web/20210224091048/https://clarity.kleydints.com/a-post-mortem-in-5-acts-of-how-microsoft-privatized-open-source-killing-javascript-in-the-process-62ee5fc77d9e?gi=c13423a92e41"
     ]
   },
+  "4840a571-0f1b-3fc3-48bb-0316bf277d4a": {
+    "id": "4840a571-0f1b-3fc3-48bb-0316bf277d4a",
+    "timestamp": 1625511082.62,
+    "keyword": [
+      "title:biology",
+      "biology",
+      "cell",
+      "senescence",
+      "cancer"
+    ],
+    "extra": [],
+    "note": "The Hayflick limit is the number of times a cell can divide. In humans, this looks to be in the range of 40 to 60. When a cell can no longer divide, it's said to enter a senescence state, aka the cessation of cellular division.\nA conclusion that can be draw is that cell division which allows benefits against cancer and toxicity at an early age will inevitably cause 'old-age' diseases as cells will eventually reach their Hayflick limit, reach senescence and leave the organism susceptible to cancer and other disease of decrepitude. In other words, the resilience of youth via rapid cell division leads to an inevitable susceptibility to illness in old age.\nWilliams proposes a 'antagonistic pleiotrophy hypothesis' that says if a pleiotropic gene (a gene controlling more than one phenotype) is beneficial early on in life but detrimental later, then senescence will be selected for. For example, testosterone might give benefits early in life but create hazards in the form of cancer, say, later in life. Since the benefits to reproduction are high, the gene is selected for, even though it confers a higher chance of death later in life. In this case, senescence can be used to quell the testosterone production to minimize the detrimental effects.\nI think the idea is that there are many genes that give short term gain but have long term hazards that can be effectively muted with senescence. In some sense, senescence itself has the same property, giving gains in the short term (a humans life time) at the expense of longer life.",
+    "link": [
+      "https://en.wikipedia.org/wiki/Hayflick_limit",
+      "https://en.wikipedia.org/wiki/Cellular_senescence",
+      "https://en.wikipedia.org/wiki/George_C._Williams_(biologist)",
+      "https://en.wikipedia.org/wiki/Antagonistic_pleiotropy_hypothesis"
+    ]
+  },
   "487c55fe-9231-9269-11fd-4610243819c5": {
     "id": "487c55fe-9231-9269-11fd-4610243819c5",
     "timestamp": 1620754620.725,
