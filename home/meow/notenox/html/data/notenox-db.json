@@ -343,6 +343,22 @@
       "https://web.archive.org/web/20210430014943/https://mimiandeunice.com/"
     ]
   },
+  "28a79331-c587-af28-6436-f5c536cb1500": {
+    "id": "28a79331-c587-af28-6436-f5c536cb1500",
+    "timestamp": 1625496552.28,
+    "keyword": [
+      "title:manufacturing",
+      "manufacturing",
+      "history",
+      "labor"
+    ],
+    "extra": [],
+    "note": "History of USA manufacturing by year",
+    "link": [
+      "https://stacker.com/stories/4906/manufacturing-history-year-you-were-born",
+      "https://web.archive.org/web/20210126094437/https://stacker.com/stories/4906/manufacturing-history-year-you-were-born"
+    ]
+  },
   "299edd3b-2027-da00-0748-3e6a7bf348d9": {
     "id": "299edd3b-2027-da00-0748-3e6a7bf348d9",
     "timestamp": 1608678719.041,
@@ -489,6 +505,25 @@
       "https://archive.org/details/Wootha_Public_Domain/Tutorials/Narrative+Illustration/Narrative+Illustration+-+04.mp4",
       "https://picryl.com/",
       "https://comicbookplus.com/"
+    ]
+  },
+  "35991bc3-386a-21a6-450b-4b05938dc6ca": {
+    "id": "35991bc3-386a-21a6-450b-4b05938dc6ca",
+    "timestamp": 1625495497.717,
+    "keyword": [
+      "title:FOSS",
+      "FOSS",
+      "cla",
+      "dco"
+    ],
+    "extra": [],
+    "note": "Developer certificate of origin (DCO) instead of client license agreement (CLA).",
+    "link": [
+      "https://developercertificate.org/",
+      "https://web.archive.org/web/20210618094559/https://developercertificate.org/",
+      "https://devlog.hexops.com/2021/cla-not-for-open-source-use-a-developer-certificate-of-origin",
+      "https://web.archive.org/web/20210701204946/https://devlog.hexops.com/2021/cla-not-for-open-source-use-a-developer-certificate-of-origin",
+      "https://probot.github.io/apps/dco/"
     ]
   },
   "363e9b5e-551b-eb2d-5186-fee0e57fe749": {
