@@ -446,6 +446,28 @@
       "https://web.archive.org/web/20210601230204/https://www.govtrack.us/congress/bills/116/hr7178/text"
     ]
   },
+  "3065ced0-076d-7dea-cafa-8b67a67683d6": {
+    "id": "3065ced0-076d-7dea-cafa-8b67a67683d6",
+    "timestamp": 1626106072.318,
+    "keyword": [
+      "title:cryptocurrency",
+      "cryptocurrency",
+      "bitcoin",
+      "lightning",
+      "guide",
+      "kyc"
+    ],
+    "extra": [],
+    "note": "Bitcoiner.guide resource.\nBisq also seems likea promising decentralized marketplace.",
+    "link": [
+      "https://bitcoiner.guide/",
+      "https://bitcoiner.guide/lightning/",
+      "https://github.com/BitcoinQnA/bitcoiner.guide",
+      "https://bitcoiner.guide/nokyconly/",
+      "https://bisq.network/getting-started/",
+      "https://bisq.network/"
+    ]
+  },
   "33076071-5092-a605-b417-ec871f97e3ab": {
     "id": "33076071-5092-a605-b417-ec871f97e3ab",
     "timestamp": 1624874160.297,
