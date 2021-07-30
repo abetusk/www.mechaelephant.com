@@ -487,6 +487,25 @@
       "https://bisq.network/"
     ]
   },
+  "31279980-16ce-cfb1-cfb5-d17663981696": {
+    "id": "31279980-16ce-cfb1-cfb5-d17663981696",
+    "timestamp": 1627620634.517,
+    "keyword": [
+      "title:economics",
+      "economics",
+      "cryptocurrency",
+      "gini index",
+      "inequality",
+      "poverty",
+      "corruption"
+    ],
+    "extra": [],
+    "note": "Talks about the problems with using the Gini coefficient to measure inequality. The Gini index captures two simultaneous concepts into a single number, lack of resources and concentration of power. One can construct a scenario where half the population has no resources where the other half share equally and another scenario where one person has half the resources and the rest of the population equally shares the remaining half. Both of these scenarios can have the same Gini coefficient but are different types of suffering.",
+    "link": [
+      "https://vitalik.ca/general/2021/07/29/gini.html",
+      "https://web.archive.org/web/20210729222159/https://vitalik.ca/general/2021/07/29/gini.html"
+    ]
+  },
   "33076071-5092-a605-b417-ec871f97e3ab": {
     "id": "33076071-5092-a605-b417-ec871f97e3ab",
     "timestamp": 1624874160.297,
