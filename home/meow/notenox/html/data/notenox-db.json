@@ -825,6 +825,28 @@
       "https://lnbig.com/#/"
     ]
   },
+  "579fe63d-76e9-c135-31b9-f58af9a6dbf9": {
+    "id": "579fe63d-76e9-c135-31b9-f58af9a6dbf9",
+    "timestamp": 1627916362.243,
+    "keyword": [
+      "title:math",
+      "mathematics",
+      "basic math",
+      "grad math",
+      "infinite products",
+      "infinite sums",
+      "analysis",
+      "calculus"
+    ],
+    "extra": [],
+    "note": " > 0, \\prod_{n=1}^{\\infty} (1+a_n) < \\infty \\iff \\sum_{n=1}^{\\infty} < \\infty$.\nUsing the limit comparison test for $\\lim_{n \\to \\infity} \\frac{ \\ln ( 1 + a_n) }{a_n} } = 1$ ( \\to 0$), we get a quick proof.\nThis correlates sums of products with simple sums easily.",
+    "link": [
+      "https://cornellmath.wordpress.com/2008/01/26/convergence-of-infinite-products/",
+      "https://web.archive.org/web/20210731111020/https://cornellmath.wordpress.com/2008/01/26/convergence-of-infinite-products/",
+      "https://en.wikipedia.org/wiki/Limit_comparison_test",
+      "https://en.wikipedia.org/wiki/Direct_comparison_test"
+    ]
+  },
   "591e7073-3863-8b8e-74fc-3b4a47cdf51b": {
     "id": "591e7073-3863-8b8e-74fc-3b4a47cdf51b",
     "timestamp": 1626104481.212,
