@@ -35,7 +35,7 @@ def html_make_entry(ent):
   m = 1024
 
   s = "<li>"
-  s += "<a class='feed_ico' href='" + str(ent["guid"]) + "'><img src='" + ent["icon"] + "'></a> "
+  s += "<a class='feed_ico' href='" + str(ent["guid"]) + "'><img style='width:16px;' src='" + ent["icon"] + "'></a> "
   #s += "<a href='" + ent["link"] + "'>" + html.escape(ent["title"]) + "</a>"
   s += "<a href='" + ent["link"] + "'>" + html.escape(ent["title"]).encode('ascii', 'xmlcharrefreplace').decode('utf-8') + "</a>"
   #s += "<a href='" + ent["link"] + "'>" + cgi.escape(ent["title"]).encode('ascii', 'xmlcharrefreplace') + "</a>"
@@ -92,7 +92,13 @@ while True:
       if line[0] == '#': continue
       x = json.loads(line)
 
-      x["unixtime"] = float(datetime.strptime(x["pubDate"], "%a, %d %b %Y %H:%M:%S %z").strftime("%s"))
+      tz_type = '%z'
+      tok = x["pubDate"].split(" ")
+      if (len(tok[5]) > 0) and (tok[5][0] != '-') and (tok[5][0] != '+'):
+        tz_type = '%Z'
+
+
+      x["unixtime"] = float(datetime.strptime(x["pubDate"], "%a, %d %b %Y %H:%M:%S " + tz_type).strftime("%s"))
       x["icon"] = rss_ent["icon"]
 
       snapshot[ x["guid"] ] = x
