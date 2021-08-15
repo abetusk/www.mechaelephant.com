@@ -7,7 +7,7 @@ if [[ "$feed" == "" ]] ; then
   exit 1
 fi
 
-wget -q "$feed" -O - | \
+wget -q "$feed" -o /dev/null -O - | \
   xmltojson | \
   jq -c \
     '.rss.channel.item[] | { "feed": "'$feed'", "guid":.comments, "title" : .title, "link":.link, "description":.description, "content":"", "pubDate":.pubDate } '

@@ -8,7 +8,7 @@ fi
 
 b="https://www.reddit.com/r/electronics/comments/"
 
-wget -q "$feed" -O - | \
+wget -q "$feed" -o /dev/null -O - | \
   xmltojson | \
   jq -c \
     '.feed.entry[] | { "feed": "'$feed'", "guid": .link.href, "title" : .title, "link":.link.href, "description":"", "content":.content["$t"], "pubDate":.updated} '  | \
