@@ -1,0 +1,19 @@
+{
+  "id": "be794515-35c7-5bf6-9ee6-8045d7325153",
+  "timestamp": 1629401917.409,
+  "keyword": [
+    "title:FOSS",
+    "FOSS",
+    "programming",
+    "programming languages",
+    "languages",
+    "corporate",
+    "business"
+  ],
+  "extra": [],
+  "note": "[Daniel Sockwell] talks about the 'Ideal Language for Writing Free Software'. Though it sounds a little preposterous, [Sockwell] notices that most FOSS projects are one or just a few maintainers whereas corporations tend to have access to larger teams and higher turnover. For a project with a small number of devoted maintainers, expertise in language is rewarded as the few are more productive whereas in a corporate context, expertise is selected against as onboarding requires more resources and turnover is much higher.\nFor example, Golang is 'boring' and encourages idiomatic, standardized code creation, allowing for easy onboarding and lower impact when developers leave. Languages with higher expertise ceilings (C, Javascript, Perl) allow for more expressiveness, power and speed of programming beneficial to a single developer.",
+  "link": [
+    "https://ftp.osuosl.org/pub/fosdem/2021/D.perl/programming_lang_for_free_software.mp4",
+    "https://web.archive.org/web/20210306150046/https://ftp.osuosl.org/pub/fosdem/2021/D.perl/programming_lang_for_free_software.mp4"
+  ]
+}
