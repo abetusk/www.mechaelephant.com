@@ -1006,6 +1006,32 @@
       "https://knowyourmeme.com/memes/how-to-draw-an-owl"
     ]
   },
+  "65300459-37d3-d880-a53a-dea8d3e9cc1e": {
+    "id": "65300459-37d3-d880-a53a-dea8d3e9cc1e",
+    "timestamp": 1629854001.27,
+    "keyword": [
+      "title:cryptocurrency",
+      "cryptocurrency",
+      "bitcoin",
+      "lightning",
+      "lsat",
+      "api",
+      "authentication",
+      "layer-3"
+    ],
+    "extra": [],
+    "note": "LSATs : Lightning Service Authentication Tokens for Pseudonymous Authentication with Lightning Payments. For example, API access ('API Keys of Money').\\nHMAC : hash based message authentication code\\nMacaroon: play on 'cookies', cryptocurrency equivalent of stored state like that of cookies (my take)",
+    "link": [
+      "https://hackingdistributed.com/2014/05/16/macaroons-are-better-than-cookies/",
+      "https://github.com/lightninglabs/aperture",
+      "https://github.com/Tierion/lsat-js",
+      "https://github.com/Tierion/boltwall",
+      "https://github.com/tierion/now-boltwall",
+      "https://lsat-playground.bucko.vercel.app/",
+      "https://github.com/rescrv/libmacaroons",
+      "https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md#macaroon-delegation"
+    ]
+  },
   "66753551-24bd-336e-738a-ec1591840dd1": {
     "id": "66753551-24bd-336e-738a-ec1591840dd1",
     "timestamp": 1623437911.062,

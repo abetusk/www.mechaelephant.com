@@ -59,6 +59,8 @@ function notenox_viewer_ui_all() {
 
 function notenox_viewer_ui_update(filter_list, section_title) {
 
+  console.log(">>>", filter_list, section_title);
+
   section_title = ((typeof section_title === "undefined") ? "" : section_title);
 
   var _sec = document.getElementById("notenox-ui-section");
@@ -115,7 +117,14 @@ function notenox_viewer_ui_update(filter_list, section_title) {
       if (jj>0) {
         s.appendChild( _text(", ") );
       }
-      s.appendChild( _a( _nod.keyword[jj], "#keyword=" + _nod.keyword[jj] ) );
+
+      var kwlink = _a( _nod.keyword[jj], "#keyword=" + _nod.keyword[jj] );
+      kwlink.onclick = (function(__x) {
+        return function() { notenox_viewer_ui_keyword(__x); };
+      })( _nod.keyword[jj] );
+      s.appendChild(kwlink);
+
+
     }
     html_ele.appendChild(s);
 
