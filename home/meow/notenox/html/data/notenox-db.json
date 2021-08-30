@@ -2167,6 +2167,23 @@
       "https://www.etsy.com/listing/840732230/spooky-cats-miniature-picture-gallery"
     ]
   },
+  "d1463fa6-858e-4cc1-6472-1b2d1743196c": {
+    "id": "d1463fa6-858e-4cc1-6472-1b2d1743196c",
+    "timestamp": 1630367539.016,
+    "keyword": [
+      "title:osh",
+      "open source hardware",
+      "osh"
+    ],
+    "extra": [],
+    "note": "Olimex makes an open source hardware single board computer. Debian has a list of 'cheap server box hardware'",
+    "link": [
+      "https://www.olimex.com/Products/OLinuXino/A20/A20-OLinuXino-LIME2/open-source-hardware",
+      "https://www.olimex.com/Products/OLinuXino/A20/LIME2-SHIELD/open-source-hardware",
+      "https://github.com/OLIMEX/OLINUXINO/tree/master/HARDWARE/A20-OLinuXino-LIME2/1.%20Latest%20hardware%20revision",
+      "https://wiki.debian.org/CheapServerBoxHardware"
+    ]
+  },
   "d266b506-0923-57d0-89cc-62da092c070d": {
     "id": "d266b506-0923-57d0-89cc-62da092c070d",
     "timestamp": 1617488103.267,

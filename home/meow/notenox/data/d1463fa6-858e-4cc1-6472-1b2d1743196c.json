@@ -1,0 +1,17 @@
+{
+  "id": "d1463fa6-858e-4cc1-6472-1b2d1743196c",
+  "timestamp": 1630367539.016,
+  "keyword": [
+    "title:osh",
+    "open source hardware",
+    "osh"
+  ],
+  "extra": [],
+  "note": "Olimex makes an open source hardware single board computer. Debian has a list of 'cheap server box hardware'",
+  "link": [
+    "https://www.olimex.com/Products/OLinuXino/A20/A20-OLinuXino-LIME2/open-source-hardware",
+    "https://www.olimex.com/Products/OLinuXino/A20/LIME2-SHIELD/open-source-hardware",
+    "https://github.com/OLIMEX/OLINUXINO/tree/master/HARDWARE/A20-OLinuXino-LIME2/1.%20Latest%20hardware%20revision",
+    "https://wiki.debian.org/CheapServerBoxHardware"
+  ]
+}
