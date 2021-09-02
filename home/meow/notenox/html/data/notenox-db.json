@@ -1804,6 +1804,24 @@
       "https://web.archive.org/web/20210122013221/https://twitter.com/RealSexyCyborg/status/1324714441804427265"
     ]
   },
+  "a5a8fe7e-5403-b8a8-1e91-67317e446a9e": {
+    "id": "a5a8fe7e-5403-b8a8-1e91-67317e446a9e",
+    "timestamp": 1630543534.885,
+    "keyword": [
+      "title:gamedev",
+      "gamedev",
+      "game",
+      "game development",
+      "physics",
+      "networking"
+    ],
+    "extra": [],
+    "note": "Some networking gamedev notes.\n- two basic methods, client physics handling with server cheat checks or server side physics with broadcast\n- client side prediction to reduce input latency\n- client side immediate quantities (position, orientation) updates done via 'pos += diff * 0.1;', whereas first derivative quantites (velocity, accel) can be done immediately without noticeable effect\n- client will always be some delta time ahead of server, so keep a short history of moves to rewind and redo on client when necessary",
+    "link": [
+      "https://gafferongames.com/post/networked_physics_2004/",
+      "https://web.archive.org/web/20210829154836/https://gafferongames.com/post/networked_physics_2004/"
+    ]
+  },
   "a7196e8f-29f7-b72d-9452-6089ee2dbf2c": {
     "id": "a7196e8f-29f7-b72d-9452-6089ee2dbf2c",
     "timestamp": 1616615664.189,
