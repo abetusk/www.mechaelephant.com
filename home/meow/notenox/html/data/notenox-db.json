@@ -88,6 +88,26 @@
       "https://www.amazon.com/When-Old-Technologies-Were-Communication/dp/0195063414"
     ]
   },
+  "0b50cc29-4a77-b80d-f303-53a48fe554e8": {
+    "id": "0b50cc29-4a77-b80d-f303-53a48fe554e8",
+    "timestamp": 1631070759.855,
+    "keyword": [
+      "title:covid-19",
+      "covid-19",
+      "coronavirus",
+      "pandemic",
+      "US",
+      "politics",
+      "vaccine"
+    ],
+    "extra": [],
+    "note": "As of July 2021, it looks like nearly 70% of Americans are vaccinated or say they will soon get vaccinated (67% vaccinated, 3% as soon as possible). About 10% are 'wait-and-see', 3% 'only if required' and 14% 'definitely not'. For some context, Dec 2020 had the 'wait and see' crowd at 39%.\n$R_0$ of is estimated to be 2.4-2.6, 4-5 and 5-9 for original, alpha and delta variant respectively. The number of expected infections is $R_0 \\cdot (1 - v \\cdot s)$, where $v$ is the population vaccinated and $s$ is the resistance the vaccination offers. For the original strain, $0.9945 = 2.6 \\cdot (1- 0.64 \\cdot 0.95)$. For the delta variant at $R_0=5$, $0.9625=5\\cdot (1 - 0.85 \\cdot 0.96)$. There's also reason to believe vaccination is less effective against the delta variant, driving the required vaccination percentage up or making it impossible.",
+    "link": [
+      "https://www.kff.org/coronavirus-covid-19/poll-finding/kff-covid-19-vaccine-monitor-july-2021/",
+      "https://web.archive.org/web/20210905122823/https://www.kff.org/coronavirus-covid-19/poll-finding/kff-covid-19-vaccine-monitor-july-2021/",
+      "https://en.wikipedia.org/wiki/SARS-CoV-2_Delta_variant#Transmissibility"
+    ]
+  },
   "0b939f87-3338-dfcb-d60b-d8ae488f6882": {
     "id": "0b939f87-3338-dfcb-d60b-d8ae488f6882",
     "timestamp": 1623612873.731,
