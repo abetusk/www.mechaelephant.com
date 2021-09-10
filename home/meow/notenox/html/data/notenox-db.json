@@ -338,7 +338,7 @@
       "prime distribution"
     ],
     "extra": [],
-    "note": "Dirichlet's theorem on arithemetic progressions shows that for any two coprime integers, $a,b$, there are infinitely many primes of the form $a+nd$. Further, a stronger form states that the primes are equially distributed among the classes mod $d$ for $ coprime to $d$.\nChebyshev's bias shows that for primes less than a bound, $, there is a bias of how primes are distributed mod $.",
+    "note": "Dirichlet's theorem on arithemetic progressions shows that for any two coprime integers, $a,b$, there are infinitely many primes of the form $a+nd$. Further, a stronger form states that the primes are equially distributed among the classes mod $d$ for $ coprime to $d$.\nChebyshev's bias shows that for primes less than a bound, $x$, there is a bias of how primes are distributed mod $d$.",
     "link": [
       "https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions",
       "https://en.wikipedia.org/wiki/Chebyshev%27s_bias"
