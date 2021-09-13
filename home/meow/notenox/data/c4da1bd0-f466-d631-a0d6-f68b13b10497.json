@@ -1,0 +1,16 @@
+{
+  "id": "c4da1bd0-f466-d631-a0d6-f68b13b10497",
+  "timestamp": 1631561341.336,
+  "keyword": [
+    "title:electronics",
+    "electronics",
+    "solar",
+    "MPPT"
+  ],
+  "extra": [],
+  "note": "Instructable on solar charge controller maximum power point tracking (MPPT). It suggests using a LEM HLSR50 for power sensing",
+  "link": [
+    "https://www.digikey.com/en/products/detail/lem-usa-inc/HLSR-50-P-SP33/4331959",
+    "https://www.instructables.com/DIY-1kW-MPPT-Solar-Charge-Controller/"
+  ]
+}
