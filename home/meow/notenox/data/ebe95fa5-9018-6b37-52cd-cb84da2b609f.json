@@ -1,0 +1,22 @@
+{
+  "id": "ebe95fa5-9018-6b37-52cd-cb84da2b609f",
+  "timestamp": 1631610232.319,
+  "keyword": [
+    "title:cryptocurrency",
+    "cryptocurrency",
+    "bitcoin",
+    "glossar"
+  ],
+  "extra": [],
+  "note": "UTXO - unspent transaction output\nP2SH - pay to script hash. Transactions sent to a script hash (address starting at 3) instead of a public key hash address (address starting with 1)\nSegWit - segregated witness, allows for off-chain transaction validation by segregating the transactions and allowing witness data appended at the end to validate the entirety of the transaction\ntaproot - collectively BIP340, BIP341, BIP342 that allow for improved Schnorr signatures (multi-signature), smart contracts and better overall integration with the Lightning network\nLightning network - off chain network to allow for high volume, low denomination transactions that can be consolidated to the main chain when needed\nPSBT - partially signed bitcoin transactions\n",
+  "link": [
+    "https://github.com/0xB10C/bitcoin-development-history",
+    "https://b10c.me/blog/004-the-incomplete-history-of-bitcoin-development/#",
+    "https://en.wikipedia.org/wiki/Unspent_transaction_output",
+    "https://en.bitcoin.it/wiki/Pay_to_script_hash",
+    "https://en.wikipedia.org/wiki/List_of_bitcoin_forks#Taproot",
+    "https://en.wikipedia.org/wiki/SegWit",
+    "https://bitcoinops.org/en/topics/psbt/",
+    "https://bitcointalk.org/index.php?topic=1774750.0"
+  ]
+}
