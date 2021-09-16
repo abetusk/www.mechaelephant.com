@@ -1305,6 +1305,26 @@
       "https://web.archive.org/web/20210124225145/https://danco.substack.com/p/the-michael-scott-theory-of-social"
     ]
   },
+  "7a55f011-d3f5-dbfb-3793-c7f9c5d06df5": {
+    "id": "7a55f011-d3f5-dbfb-3793-c7f9c5d06df5",
+    "timestamp": 1631830254.642,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "osh",
+      "oshw",
+      "seeedstudios",
+      "soil",
+      "moisture",
+      "sensor",
+      "capacitive"
+    ],
+    "extra": [],
+    "note": "Seeed Studios capacitive soil moisture sensor",
+    "link": [
+      "https://wiki.seeedstudio.com/Grove-Capacitive_Moisture_Sensor-Corrosion-Resistant/"
+    ]
+  },
   "7b772c87-cbc0-0c0f-dd09-be0c65c92f0b": {
     "id": "7b772c87-cbc0-0c0f-dd09-be0c65c92f0b",
     "timestamp": 1611522942.486,
