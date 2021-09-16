@@ -1,0 +1,22 @@
+{
+  "id": "b42cd5e0-40b8-74bb-7252-a8a67e55b97f",
+  "timestamp": 1631830055.493,
+  "keyword": [
+    "title:electronics",
+    "electronics",
+    "monitoring",
+    "oshw",
+    "osh",
+    "soil",
+    "plant",
+    "moisture"
+  ],
+  "extra": [],
+  "note": "OSHW project, called 'chirp', that is a moisture sensor and alarm system for plants from wemakethings.net.",
+  "link": [
+    "https://wemakethings.net/chirp/",
+    "https://github.com/Miceuz/i2c-moisture-sensor",
+    "https://www.tindie.com/stores/miceuz/",
+    "https://www.tindie.com/products/miceuz/i2c-soil-moisture-sensor/#specs"
+  ]
+}

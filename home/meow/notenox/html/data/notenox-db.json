@@ -1989,6 +1989,28 @@
       "https://web.archive.org/web/20210604051229/https://brendangregg.com/blog/2021-06-04/an-unbelievable-demo.html"
     ]
   },
+  "b42cd5e0-40b8-74bb-7252-a8a67e55b97f": {
+    "id": "b42cd5e0-40b8-74bb-7252-a8a67e55b97f",
+    "timestamp": 1631830055.493,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "monitoring",
+      "oshw",
+      "osh",
+      "soil",
+      "plant",
+      "moisture"
+    ],
+    "extra": [],
+    "note": "OSHW project, called 'chirp', that is a moisture sensor and alarm system for plants from wemakethings.net.",
+    "link": [
+      "https://wemakethings.net/chirp/",
+      "https://github.com/Miceuz/i2c-moisture-sensor",
+      "https://www.tindie.com/stores/miceuz/",
+      "https://www.tindie.com/products/miceuz/i2c-soil-moisture-sensor/#specs"
+    ]
+  },
   "b73d00a3-99cc-6173-2d0f-a65307cbe582": {
     "id": "b73d00a3-99cc-6173-2d0f-a65307cbe582",
     "timestamp": 1623823369.17,
@@ -2284,6 +2306,23 @@
     "link": [
       "https://www.conradbastable.com/essays/the-germany-shock-the-largest-economy-nobody-understands",
       "https://web.archive.org/web/20200706181154/https://www.conradbastable.com/essays/the-germany-shock-the-largest-economy-nobody-understands"
+    ]
+  },
+  "cd10d75a-0370-02cb-10a1-a78f0129a6aa": {
+    "id": "cd10d75a-0370-02cb-10a1-a78f0129a6aa",
+    "timestamp": 1631732513.788,
+    "keyword": [
+      "title:luddite",
+      "luddite",
+      "webcam",
+      "coffee"
+    ],
+    "extra": [],
+    "note": "Webcam (3s update) on coffee pot. Late 1990s, early 2000s. Webcams, and cameras in general, in addition to online video streaming, are an integral part of the internet now but back then the nascent technology could only be used for limited tasks, like having a gif update every 3s on a coffee pot. There's also JennyCam along with other feeds, like an aquarium and bus stops.",
+    "link": [
+      "https://www.openculture.com/2021/09/the-very-first-webcam-was-invented-to-keep-an-eye-on-a-coffee-pot-at-cambridge-university.html",
+      "https://youtu.be/QB7qWQ9fn1k",
+      "https://web.archive.org/web/20210903043115/https://www.youtube.com/watch?v=QB7qWQ9fn1k"
     ]
   },
   "cea2aa46-21af-9a31-f44b-92746a8ca703": {
