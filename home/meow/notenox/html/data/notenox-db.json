@@ -163,6 +163,21 @@
       "https://web.archive.org/save/https://twitter.com/nicolasburtey/status/1404018685895970822"
     ]
   },
+  "0c458be8-4924-5c03-c84a-91c243a41da8": {
+    "id": "0c458be8-4924-5c03-c84a-91c243a41da8",
+    "timestamp": 1632090192.951,
+    "keyword": [
+      "title:software development",
+      "software development",
+      "git"
+    ],
+    "extra": [],
+    "note": "One of the better explanations of the file structure that exists under the `.git` subdirectory. Mostly, there are two file types, `objects` and `refs`. Under `objects`, there are `blob`, `tree`, `commit` and `tag` objects and under `ref` there are `branch` and `tag`. Objects themselves are zlib compressed (it looks like) and can be viewed directly with `zlibcat ...`.",
+    "link": [
+      "https://cuddly-octo-palm-tree.com/posts/2021-09-19-git-elements/",
+      "https://web.archive.org/web/20210919215449/https://cuddly-octo-palm-tree.com/posts/2021-09-19-git-elements/"
+    ]
+  },
   "0c488ddf-4a5a-524e-06b8-5fc1f7a119f4": {
     "id": "0c488ddf-4a5a-524e-06b8-5fc1f7a119f4",
     "timestamp": 1615778000.66,
