@@ -1721,6 +1721,22 @@
       "https://github.com/zenzoa/beepster"
     ]
   },
+  "95d358f9-53f9-bd35-4bdc-9de4acedf215": {
+    "id": "95d358f9-53f9-bd35-4bdc-9de4acedf215",
+    "timestamp": 1633075730.667,
+    "keyword": [
+      "title:networking",
+      "networking",
+      "dns",
+      "internet"
+    ],
+    "extra": [],
+    "note": "DNS cheatsheet",
+    "link": [
+      "https://www.nslookup.io/learning/dns-record-types/",
+      "https://web.archive.org/web/20210916102724/https://www.nslookup.io/learning/dns-record-types/"
+    ]
+  },
   "95ff3fbd-7d4b-3f65-e0d4-e65fac5794eb": {
     "id": "95ff3fbd-7d4b-3f65-e0d4-e65fac5794eb",
     "timestamp": 1621249554.21,
