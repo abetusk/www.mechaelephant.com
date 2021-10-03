@@ -1527,6 +1527,34 @@
       "https://web.archive.org/web/20210105015826/https://www.aclu.org/report/sex-work-decriminalization-answer-what-research-tells-us?initms_aff=nat&initms_chan=soc&initms=210104_sexwork_brief_tw&ms_aff=nat&ms_chan=soc&ms=210104_sexwork_brief_tw"
     ]
   },
+  "817f8b8d-8215-2d47-de12-5095a971d037": {
+    "id": "817f8b8d-8215-2d47-de12-5095a971d037",
+    "timestamp": 1633294501.124,
+    "keyword": [
+      "title:osh",
+      "osh",
+      "kicad",
+      "footprint",
+      "schematic",
+      "library"
+    ],
+    "extra": [],
+    "note": "Libraries for KiCAD footprints and components",
+    "link": [
+      "https://gitlab.com/kicad/libraries",
+      "https://gitlab.com/kicad/libraries/kicad-symbols",
+      "https://gitlab.com/kicad/libraries/kicad-footprints",
+      "https://github.com/Digi-Key/digikey-kicad-library",
+      "https://github.com/Digi-Key/digikey-partner-kicad-library",
+      "https://github.com/ryanfobel/Adafruit-Eagle-Library.kicad",
+      "https://github.com/adafruit/Adafruit-Eagle-Library",
+      "https://github.com/Seeed-Studio/OPL_Kicad_Library",
+      "https://github.com/sparkfun/SparkFun-KiCad-Libraries",
+      "https://github.com/sparkfun/SparkFun-Eagle-Libraries",
+      "https://github.com/OLIMEX/KiCAD",
+      "https://github.com/abetusk/Open-Hardware-Libraries"
+    ]
+  },
   "83c42ddf-0e4f-4228-8dd6-f7ac4efa9a90": {
     "id": "83c42ddf-0e4f-4228-8dd6-f7ac4efa9a90",
     "timestamp": 1629322520.145,
