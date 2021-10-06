@@ -1,0 +1,13 @@
+{
+  "id": "ab444be7-2ff8-0ff4-bedf-a4623f1c48be",
+  "timestamp": 1633506141.13,
+  "keyword": [
+    "title:software development",
+    "logging",
+    "software",
+    "software development"
+  ],
+  "extra": [],
+  "note": "Programatic logging suggestions\n* Log after executing the action, not before. Lack of a log entry means the action failed.\n* Indicate parameters in an easily parseable and consistent way (`... [url={}]`)\n* Differentiate between WARNING and ERROR\n* INFO is for business and DEBUG is for technology",
+  "link": []
+}
