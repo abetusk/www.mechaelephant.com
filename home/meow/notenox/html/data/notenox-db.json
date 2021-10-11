@@ -835,6 +835,24 @@
       "https://wallet.kukai.app"
     ]
   },
+  "4516230f-b581-58dd-1c84-a5bbfa36d2e7": {
+    "id": "4516230f-b581-58dd-1c84-a5bbfa36d2e7",
+    "timestamp": 1633965898.069,
+    "keyword": [
+      "title:psychology",
+      "psychology",
+      "group dynamics",
+      "internet",
+      "culture",
+      "forum"
+    ],
+    "extra": [],
+    "note": "Kuroshin's article, 'Attacked from Within', on internet culture. A sort of follow up or response to Clay Shirky's piece. The suggestions are heavily centered around Digg/Slashdot like sites and around forum sites (like Kuro5hin). One suggestion that stands out is that story promotion and front page position should be driven by conversation, not voting.",
+    "link": [
+      "https://atdt.freeshell.org/k5/story_2009_3_12_33338_3000.html",
+      "https://web.archive.org/web/20211010120748/https://atdt.freeshell.org/k5/story_2009_3_12_33338_3000.html"
+    ]
+  },
   "45bdb24a-4735-60d1-a182-3ecb06d21853": {
     "id": "45bdb24a-4735-60d1-a182-3ecb06d21853",
     "timestamp": 1622823461.384,
@@ -1525,34 +1543,6 @@
     "link": [
       "https://www.aclu.org/report/sex-work-decriminalization-answer-what-research-tells-us?initms_aff=nat&initms_chan=soc&utm_medium=soc&initms=210104_sexwork_brief_tw&utm_source=tw&utm_campaign=sexwork&utm_content=210104_lgbtq_brief&ms_aff=nat&ms_chan=soc&ms=210104_sexwork_brief_tw",
       "https://web.archive.org/web/20210105015826/https://www.aclu.org/report/sex-work-decriminalization-answer-what-research-tells-us?initms_aff=nat&initms_chan=soc&initms=210104_sexwork_brief_tw&ms_aff=nat&ms_chan=soc&ms=210104_sexwork_brief_tw"
-    ]
-  },
-  "817f8b8d-8215-2d47-de12-5095a971d037": {
-    "id": "817f8b8d-8215-2d47-de12-5095a971d037",
-    "timestamp": 1633294501.124,
-    "keyword": [
-      "title:osh",
-      "osh",
-      "kicad",
-      "footprint",
-      "schematic",
-      "library"
-    ],
-    "extra": [],
-    "note": "Libraries for KiCAD footprints and components",
-    "link": [
-      "https://gitlab.com/kicad/libraries",
-      "https://gitlab.com/kicad/libraries/kicad-symbols",
-      "https://gitlab.com/kicad/libraries/kicad-footprints",
-      "https://github.com/Digi-Key/digikey-kicad-library",
-      "https://github.com/Digi-Key/digikey-partner-kicad-library",
-      "https://github.com/ryanfobel/Adafruit-Eagle-Library.kicad",
-      "https://github.com/adafruit/Adafruit-Eagle-Library",
-      "https://github.com/Seeed-Studio/OPL_Kicad_Library",
-      "https://github.com/sparkfun/SparkFun-KiCad-Libraries",
-      "https://github.com/sparkfun/SparkFun-Eagle-Libraries",
-      "https://github.com/OLIMEX/KiCAD",
-      "https://github.com/abetusk/Open-Hardware-Libraries"
     ]
   },
   "83c42ddf-0e4f-4228-8dd6-f7ac4efa9a90": {
