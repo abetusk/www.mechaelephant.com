@@ -1448,6 +1448,25 @@
       "https://web.archive.org/web/20210124210232/https://www.linkedin.com/pulse/why-i-wouldnt-invest-open-source-companies-even-though-wolfram-hempel"
     ]
   },
+  "7bb5e387-aedf-d39e-9468-f12da55d9362": {
+    "id": "7bb5e387-aedf-d39e-9468-f12da55d9362",
+    "timestamp": 1633978658.596,
+    "keyword": [
+      "title:math",
+      "math",
+      "mathematics",
+      "wavelet",
+      "multifractal",
+      "spectrum"
+    ],
+    "extra": [],
+    "note": "Wavelet based multifractal spectrum discussion and introduction",
+    "link": [
+      "http://www.scholarpedia.org/article/Wavelet-based_multifractal_analysis",
+      "https://web.archive.org/web/20210515195612/http://www.scholarpedia.org/article/Wavelet-based_multifractal_analysis",
+      "https://github.com/pkestene/xsmurf/"
+    ]
+  },
   "7c8007ce-4119-4bf8-3a73-2efcac786261": {
     "id": "7c8007ce-4119-4bf8-3a73-2efcac786261",
     "timestamp": 1617819093.975,
