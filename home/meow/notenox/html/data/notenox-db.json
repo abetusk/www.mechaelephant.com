@@ -1259,6 +1259,25 @@
       "https://learningsynths.ableton.com/en/recipes/plucked-bass"
     ]
   },
+  "6f66b295-d5a1-22e8-5c67-9527761f19ad": {
+    "id": "6f66b295-d5a1-22e8-5c67-9527761f19ad",
+    "timestamp": 1633983946.793,
+    "keyword": [
+      "title:math",
+      "math",
+      "mathematics",
+      "perceptual hash",
+      "image"
+    ],
+    "extra": [],
+    "note": "pHash percpetual hash. The basic idea is you can reduce an image to an 8x8 grayscale image and use a threshold to get a 64 bit number. Apparently this method works surprisingly well",
+    "link": [
+      "http://www.hackerfactor.com/blog/index.php?/archives/432-Looks-Like-It.html",
+      "https://web.archive.org/web/20211009173218/http://www.hackerfactor.com/blog/index.php?/archives/432-Looks-Like-It.html",
+      "http://www.phash.org/",
+      "https://github.com/aetilius/pHash"
+    ]
+  },
   "71315052-e274-87ce-22a2-9e470f174a1c": {
     "id": "71315052-e274-87ce-22a2-9e470f174a1c",
     "timestamp": 1618734913.824,
