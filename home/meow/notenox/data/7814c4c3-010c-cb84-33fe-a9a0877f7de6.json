@@ -1,0 +1,20 @@
+{
+  "id": "7814c4c3-010c-cb84-33fe-a9a0877f7de6",
+  "timestamp": 1634144666.717,
+  "keyword": [
+    "title:math",
+    "mathematics",
+    "math",
+    "hough",
+    "machine vision",
+    "computer vision"
+  ],
+  "extra": [],
+  "note": "The Hough transform helps with picking lines out of images.\nThe Hough transform creates a transform of the source (edge detected) image in \"rho-theta\" space. rho is the distance from the origin to the line and theta is the (quantized) angle normal to the line.\n* Do an edge detect on the source image (I -> E)\n* For every \"edge\" pixel in E, find all rho-theta that would pass through it and accumlate in rho-theta space (call it image H, increment value for each rho-theta valid)\n* Lines in the source image will appear as bright spots in rho-theta space, so do thresholding to then find the appropriate lines\nThe Hough transform can be thought of a discretization of the Radon transform with the \"parameter shape\" being a circle instead of a line. For example, the Hough transform above assumes the rho-theta space for the description of a line, but one could have a 3d space, say, of circles described by their centers and radii. The Hough transform would then be accumulating all possible circles that can go through a point.\nThe Hough transform can be generalized to any parameterized shape, with the Hough space being an M dimensional (parameter) space of shapes defined by M parameters that give candidates of what the input shapes might be.\nThe Radon transform reads from the range of input to write to the (Radon space) output whereas the Hough transform reads a single input value and writes the range of possbile values in the output. ",
+  "link": [
+    "https://web.archive.org/web/20211013164921/https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549?gi=be3e4c21815f",
+    "https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549",
+    "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.9419&rep=rep1&type=pdf",
+    "https://web.archive.org/web/20210506180408/https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.9419&rep=rep1&type=pdf"
+  ]
+}

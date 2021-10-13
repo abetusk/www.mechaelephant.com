@@ -1,0 +1,17 @@
+{
+  "id": "a9731fe1-98f6-db19-3e26-f1e6f8b346ad",
+  "timestamp": 1634143980.715,
+  "keyword": [
+    "title:math",
+    "math",
+    "mathematics",
+    "computer vision",
+    "machine learning"
+  ],
+  "extra": [],
+  "note": "SIFT works by creating a bank of rescaled images (\"octaves\") that are then blurred (\"scale space\") (Gaussian kernel). The Laplacian (second derivative of luminance of image) can be approximated by the blurred images in an octave that are subtracted with each other. Though conceptually not correct, as the difference of blurred images are being used for more than just speeding up edge detection, I think that's one of the main aspects of it. Take the edges in each octave of the difference of Gaussians, find the maxima in a tiny cube of the stacked differences (27 pixel window) and that's the keypoint.\nAssign an orientation to the keypoint by taking the maximum of the (blurred) image's gradient information, creating a new keypoint if there are multiple peaks above some threshold.\nAssign a fingerprint around each keypoint by considering a 16x16 window made of 4x4 smaller pixel bins. For each 4x4 pixel bin, calculate the gradient magnitude of the original image and average for each 4x4 window, weighting the magnitude of each by a Gaussian weighted function. Reorient the gradients by the keypoint orientation to finally give your fingerprint.\nThere's a lot of filtering that needs to be done to discard points near the edge and only filtering keypoints or edges that pass some threshold test.\n The \"octaves\" give the scale invariance. They keypoint orientation gives the rotational invariance. The approximation to the Laplacian gives (partially) higher entropy regions. I'm still not sure what the selection of the keypoints at a particular octave (but varying \"scale\") is doing.",
+  "link": [
+    "https://aishack.in/tutorials/sift-scale-invariant-feature-transform-introduction/",
+    "https://web.archive.org/web/20211013164948/https://aishack.in/tutorials/sift-scale-invariant-feature-transform-introduction/"
+  ]
+}

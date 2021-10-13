@@ -1427,6 +1427,26 @@
       "https://web.archive.org/web/20210124225145/https://danco.substack.com/p/the-michael-scott-theory-of-social"
     ]
   },
+  "7814c4c3-010c-cb84-33fe-a9a0877f7de6": {
+    "id": "7814c4c3-010c-cb84-33fe-a9a0877f7de6",
+    "timestamp": 1634144666.717,
+    "keyword": [
+      "title:math",
+      "mathematics",
+      "math",
+      "hough",
+      "machine vision",
+      "computer vision"
+    ],
+    "extra": [],
+    "note": "The Hough transform helps with picking lines out of images.\nThe Hough transform creates a transform of the source (edge detected) image in \"rho-theta\" space. rho is the distance from the origin to the line and theta is the (quantized) angle normal to the line.\n* Do an edge detect on the source image (I -> E)\n* For every \"edge\" pixel in E, find all rho-theta that would pass through it and accumlate in rho-theta space (call it image H, increment value for each rho-theta valid)\n* Lines in the source image will appear as bright spots in rho-theta space, so do thresholding to then find the appropriate lines\nThe Hough transform can be thought of a discretization of the Radon transform with the \"parameter shape\" being a circle instead of a line. For example, the Hough transform above assumes the rho-theta space for the description of a line, but one could have a 3d space, say, of circles described by their centers and radii. The Hough transform would then be accumulating all possible circles that can go through a point.\nThe Hough transform can be generalized to any parameterized shape, with the Hough space being an M dimensional (parameter) space of shapes defined by M parameters that give candidates of what the input shapes might be.\nThe Radon transform reads from the range of input to write to the (Radon space) output whereas the Hough transform reads a single input value and writes the range of possbile values in the output. ",
+    "link": [
+      "https://web.archive.org/web/20211013164921/https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549?gi=be3e4c21815f",
+      "https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549",
+      "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.9419&rep=rep1&type=pdf",
+      "https://web.archive.org/web/20210506180408/https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.2.9419&rep=rep1&type=pdf"
+    ]
+  },
   "7a55f011-d3f5-dbfb-3793-c7f9c5d06df5": {
     "id": "7a55f011-d3f5-dbfb-3793-c7f9c5d06df5",
     "timestamp": 1631830254.642,
@@ -2150,6 +2170,23 @@
     "link": [
       "https://www.vitling.xyz/toys/acid-banger/",
       "https://github.com/vitling"
+    ]
+  },
+  "a9731fe1-98f6-db19-3e26-f1e6f8b346ad": {
+    "id": "a9731fe1-98f6-db19-3e26-f1e6f8b346ad",
+    "timestamp": 1634143980.715,
+    "keyword": [
+      "title:math",
+      "math",
+      "mathematics",
+      "computer vision",
+      "machine learning"
+    ],
+    "extra": [],
+    "note": "SIFT works by creating a bank of rescaled images (\"octaves\") that are then blurred (\"scale space\") (Gaussian kernel). The Laplacian (second derivative of luminance of image) can be approximated by the blurred images in an octave that are subtracted with each other. Though conceptually not correct, as the difference of blurred images are being used for more than just speeding up edge detection, I think that's one of the main aspects of it. Take the edges in each octave of the difference of Gaussians, find the maxima in a tiny cube of the stacked differences (27 pixel window) and that's the keypoint.\nAssign an orientation to the keypoint by taking the maximum of the (blurred) image's gradient information, creating a new keypoint if there are multiple peaks above some threshold.\nAssign a fingerprint around each keypoint by considering a 16x16 window made of 4x4 smaller pixel bins. For each 4x4 pixel bin, calculate the gradient magnitude of the original image and average for each 4x4 window, weighting the magnitude of each by a Gaussian weighted function. Reorient the gradients by the keypoint orientation to finally give your fingerprint.\nThere's a lot of filtering that needs to be done to discard points near the edge and only filtering keypoints or edges that pass some threshold test.\n The \"octaves\" give the scale invariance. They keypoint orientation gives the rotational invariance. The approximation to the Laplacian gives (partially) higher entropy regions. I'm still not sure what the selection of the keypoints at a particular octave (but varying \"scale\") is doing.",
+    "link": [
+      "https://aishack.in/tutorials/sift-scale-invariant-feature-transform-introduction/",
+      "https://web.archive.org/web/20211013164948/https://aishack.in/tutorials/sift-scale-invariant-feature-transform-introduction/"
     ]
   },
   "ab444be7-2ff8-0ff4-bedf-a4623f1c48be": {
