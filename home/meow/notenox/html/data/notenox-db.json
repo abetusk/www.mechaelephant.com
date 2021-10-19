@@ -503,6 +503,25 @@
       "https://web.archive.org/web/20210430014943/https://mimiandeunice.com/"
     ]
   },
+  "28149789-2bfa-84da-aa2b-4b21217afa05": {
+    "id": "28149789-2bfa-84da-aa2b-4b21217afa05",
+    "timestamp": 1634230236.611,
+    "keyword": [
+      "title:misc",
+      "misc",
+      "cryptocurrency",
+      "lightning",
+      "lnd",
+      "ecommerce"
+    ],
+    "extra": [],
+    "note": "`agora` is a web serve that allows people to host files and receive Lightning Network payments to access them",
+    "link": [
+      "https://agora.download/files/blog/version-0.1.0/",
+      "https://github.com/agora-org/agora",
+      "https://agora.download/files/"
+    ]
+  },
   "28a79331-c587-af28-6436-f5c536cb1500": {
     "id": "28a79331-c587-af28-6436-f5c536cb1500",
     "timestamp": 1625496552.28,
@@ -534,6 +553,22 @@
     "link": [
       "https://reflex.dance/",
       "https://github.com/ReflexCreations/io-board"
+    ]
+  },
+  "2a3f120d-5f32-d260-f009-5abc4caaebd4": {
+    "id": "2a3f120d-5f32-d260-f009-5abc4caaebd4",
+    "timestamp": 1634671130.405,
+    "keyword": [
+      "title:optics",
+      "optics",
+      "filters",
+      "dichroic"
+    ],
+    "extra": [],
+    "note": "Dichroic filters for sale",
+    "link": [
+      "https://www.knightoptical.com/stock/default/filters/dichroic-filters.html",
+      "https://www.knightoptical.com/stock/default/filters/dichroic-filters/dichroic-bandblocking-filter.html"
     ]
   },
   "2d38ba29-8555-8ca7-f5b2-8e2bedf82219": {
@@ -909,6 +944,27 @@
       "https://web.archive.org/web/20210421020257/https://www.technollama.co.uk/what-do-you-buy-when-you-buy-an-nft"
     ]
   },
+  "48f748fe-897e-1881-334a-f75185cdce92": {
+    "id": "48f748fe-897e-1881-334a-f75185cdce92",
+    "timestamp": 1634670834.828,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "business",
+      "card",
+      "coin cell",
+      "cr2032"
+    ],
+    "extra": [],
+    "note": "A business card with an embedded cr2032 battery in it. Also a link to coin cell battery holds that might be able to be embedded in PCBs",
+    "link": [
+      "https://www.batteryholders.com/part.php?pn=BU2032SM-JJ-MINI-GTR&original=CR2032&override=CR2032",
+      "https://web.archive.org/web/20210121044221/https://www.batteryholders.com/part.php?pn=BU2032SM-JJ-MINI-GTR&original=CR2032&override=CR2032",
+      "https://github.com/lle/Gamify-PCB-Card",
+      "https://www.youtube.com/watch?v=0xP9do7ryO8",
+      "https://web.archive.org/web/20211019191310/https://www.youtube.com/watch?v=0xP9do7ryO8"
+    ]
+  },
   "4e9cc8d4-bbf7-8b96-9c8d-cd1873ad1254": {
     "id": "4e9cc8d4-bbf7-8b96-9c8d-cd1873ad1254",
     "timestamp": 1627389207.364,
@@ -1205,6 +1261,21 @@
       "https://lsat-playground.bucko.vercel.app/",
       "https://github.com/rescrv/libmacaroons",
       "https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md#macaroon-delegation"
+    ]
+  },
+  "65868934-0cc1-d550-5df0-a649bdb4ae9c": {
+    "id": "65868934-0cc1-d550-5df0-a649bdb4ae9c",
+    "timestamp": 1634230911.169,
+    "keyword": [
+      "title:cryptocurrency",
+      "cryptocurrency",
+      "nft"
+    ],
+    "extra": [],
+    "note": "A Guide to Designing Effective NFT Launches",
+    "link": [
+      "https://www.paradigm.xyz/2021/10/a-guide-to-designing-effective-nft-launches/",
+      "https://web.archive.org/web/20211014154617/https://www.paradigm.xyz/2021/10/a-guide-to-designing-effective-nft-launches/"
     ]
   },
   "66753551-24bd-336e-738a-ec1591840dd1": {
@@ -2189,6 +2260,22 @@
       "https://web.archive.org/web/20211013164948/https://aishack.in/tutorials/sift-scale-invariant-feature-transform-introduction/"
     ]
   },
+  "aaf82ff7-ba35-4ff4-e8d8-59b810e11a1f": {
+    "id": "aaf82ff7-ba35-4ff4-e8d8-59b810e11a1f",
+    "timestamp": 1634671298.897,
+    "keyword": [
+      "title:ink",
+      "ink",
+      "dye",
+      "absorbing"
+    ],
+    "extra": [],
+    "note": "Yamada chemical sells dyes that narrowly absorb light spectra",
+    "link": [
+      "https://ymdchem.com/en/publics/index/123/#block560",
+      "https://web.archive.org/web/20190915052634/https://ymdchem.com/en/publics/index/123/"
+    ]
+  },
   "ab444be7-2ff8-0ff4-bedf-a4623f1c48be": {
     "id": "ab444be7-2ff8-0ff4-bedf-a4623f1c48be",
     "timestamp": 1633506141.13,
@@ -2343,6 +2430,21 @@
     "link": [
       "https://twitter.com/Rainmaker1973/status/1391057806078320640",
       "https://web.archive.org/save/https://twitter.com/Rainmaker1973/status/1391057806078320640"
+    ]
+  },
+  "c2119d01-e653-5ae4-1524-3a9f5b8443b1": {
+    "id": "c2119d01-e653-5ae4-1524-3a9f5b8443b1",
+    "timestamp": 1634671552.967,
+    "keyword": [
+      "title:math",
+      "math",
+      "inequality",
+      "young"
+    ],
+    "extra": [],
+    "note": "Young's inequality:\n $$ a,b \\ge 0, p,q > 1, \\frac{1}{p} + \\frac{1}{q} = 1 \\to ab \\le \\frac{a^p}{p} + \\frac{b^q}{q} $$",
+    "link": [
+      "https://en.wikipedia.org/wiki/Young%27s_inequality_for_products"
     ]
   },
   "c4da1bd0-f466-d631-a0d6-f68b13b10497": {

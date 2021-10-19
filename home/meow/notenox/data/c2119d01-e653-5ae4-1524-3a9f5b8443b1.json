@@ -1,0 +1,13 @@
+{
+  "id": "c2119d01-e653-5ae4-1524-3a9f5b8443b1",
+  "timestamp": 1634671552.967,
+  "keyword": [
+    "title:math",
+    "math",
+    "inequality",
+    "young"
+  ],
+  "extra": [],
+  "note": "Young's inequality:\n $$ a,b \\ge 0, p,q > 1, \\frac{1}{p} + \\frac{1}{q} = 1 \\to ab \\le \\frac{a^p}{p} + \\frac{b^q}{q} $$",
+  "link": [ "https://en.wikipedia.org/wiki/Young%27s_inequality_for_products" ]
+}
