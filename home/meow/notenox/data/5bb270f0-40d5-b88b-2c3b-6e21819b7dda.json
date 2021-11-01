@@ -1,0 +1,18 @@
+{
+  "id": "5bb270f0-40d5-b88b-2c3b-6e21819b7dda",
+  "timestamp": 1635744005.688,
+  "keyword": [
+    "title:programming",
+    "programming",
+    "unix",
+    "bsd",
+    "exit",
+    "sysexits"
+  ],
+  "extra": [],
+  "note": "sysexit codes from the FreeBSD manual",
+  "link": [
+    "https://www.freebsd.org/cgi/man.cgi?query=sysexits",
+    "https://web.archive.org/web/20201111232910/https://www.freebsd.org/cgi/man.cgi?query=sysexits"
+  ]
+}

@@ -1132,6 +1132,24 @@
       "https://web.archive.org/web/20210126004354/https://twitter.com/NataniaBarron/status/1353866167568445441"
     ]
   },
+  "5bb270f0-40d5-b88b-2c3b-6e21819b7dda": {
+    "id": "5bb270f0-40d5-b88b-2c3b-6e21819b7dda",
+    "timestamp": 1635744005.688,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "unix",
+      "bsd",
+      "exit",
+      "sysexits"
+    ],
+    "extra": [],
+    "note": "sysexit codes from the FreeBSD manual",
+    "link": [
+      "https://www.freebsd.org/cgi/man.cgi?query=sysexits",
+      "https://web.archive.org/web/20201111232910/https://www.freebsd.org/cgi/man.cgi?query=sysexits"
+    ]
+  },
   "5c1602bf-dd00-a1a9-e353-a73c07a27141": {
     "id": "5c1602bf-dd00-a1a9-e353-a73c07a27141",
     "timestamp": 1617553649.583,
