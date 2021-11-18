@@ -393,6 +393,25 @@
       "https://open.spotify.com/episode/41G5sIcfrno0EXiYK8LUnh"
     ]
   },
+  "195ec9ef-ad61-1095-c899-884e2de0bd5b": {
+    "id": "195ec9ef-ad61-1095-c899-884e2de0bd5b",
+    "timestamp": 1637269034.684,
+    "keyword": [
+      "title:osh",
+      "osh",
+      "plastic",
+      "scanner"
+    ],
+    "extra": [],
+    "note": "Plastic scanner project",
+    "link": [
+      "https://plasticscanner.com/",
+      "https://repository.tudelft.nl/islandora/object/uuid:1fa997b7-c286-4cf3-b3cc-4cfca7cf58f2?collection=education",
+      "https://wikifactory.com/+plasticidentificationanywhere/breakout-board",
+      "https://easyeda.com/jerzeek/nir-spectroscope-final-pcb",
+      "https://github.com/arminstr/reremeter"
+    ]
+  },
   "1ac25b44-a256-c3c2-a7a6-ac7c64a34962": {
     "id": "1ac25b44-a256-c3c2-a7a6-ac7c64a34962",
     "timestamp": 1632296969.981,
