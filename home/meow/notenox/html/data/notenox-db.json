@@ -2181,6 +2181,31 @@
       "https://github.com/zenzoa/beepster"
     ]
   },
+  "931dbf44-ec17-810b-cb61-ce94208bb0f6": {
+    "id": "931dbf44-ec17-810b-cb61-ce94208bb0f6",
+    "timestamp": 1638398407.917,
+    "keyword": [
+      "title:mathematics",
+      "mathematics",
+      "math",
+      "brownian motion",
+      "wiener process",
+      "stochastic process"
+    ],
+    "extra": [],
+    "note": "Links on brownian motion, wiener process, brownian bridge, brownian excursion, etc.",
+    "link": [
+      "https://en.wikipedia.org/wiki/Brownian_bridge",
+      "https://en.wikipedia.org/wiki/Wiener_process",
+      "https://sites.me.ucsb.edu/~moehlis/APC591/tutorials/tutorial7/node2.html",
+      "https://web.archive.org/web/20210507070904/https://sites.me.ucsb.edu/~moehlis/APC591/tutorials/tutorial7/node2.html",
+      "https://stats.stackexchange.com/questions/163047/simulating-a-brownian-excursion-using-a-brownian-bridge",
+      "https://web.archive.org/web/20150928184645/https://stats.stackexchange.com/questions/163047/simulating-a-brownian-excursion-using-a-brownian-bridge",
+      "https://projecteuclid.org/download/pdf_1/euclid.aop/1176995155",
+      "https://web.archive.org/web/20200612011255/https://projecteuclid.org/euclid.aop/1176995155",
+      "https://en.wikipedia.org/wiki/Brownian_excursion"
+    ]
+  },
   "95d358f9-53f9-bd35-4bdc-9de4acedf215": {
     "id": "95d358f9-53f9-bd35-4bdc-9de4acedf215",
     "timestamp": 1633075730.667,
