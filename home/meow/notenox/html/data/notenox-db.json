@@ -2754,6 +2754,23 @@
       "https://www.tindie.com/products/miceuz/i2c-soil-moisture-sensor/#specs"
     ]
   },
+  "b47e3601-46ef-ffbd-a4dc-439d501b1999": {
+    "id": "b47e3601-46ef-ffbd-a4dc-439d501b1999",
+    "timestamp": 1639494905.832,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "diode",
+      "schottky",
+      "zener"
+    ],
+    "extra": [],
+    "note": "Schottky diodes are used when the forward voltage drop needs to be low and maybe when recovery times need to be fast (switching power applications). Zener diodes can be used as reference voltage as well as in power protection circuity (overvoltage protection).",
+    "link": [
+      "https://en.wikipedia.org/wiki/Schottky_diode",
+      "https://en.wikipedia.org/wiki/Zener_diode"
+    ]
+  },
   "b5d29c2a-9b1f-6231-f52d-6e3fabca2ab6": {
     "id": "b5d29c2a-9b1f-6231-f52d-6e3fabca2ab6",
     "timestamp": 1637203846.719,
