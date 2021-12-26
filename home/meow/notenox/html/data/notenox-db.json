@@ -494,7 +494,8 @@
     "extra": [],
     "note": "LiFePO4 charger (oshw) based on the CN3801 chip",
     "link": [
-      "https://oshwlab.com/wagiminator/y-cn3801-lifepo4-solar-charger_copy_copy"
+      "https://oshwlab.com/wagiminator/y-cn3801-lifepo4-solar-charger_copy_copy",
+      "https://github.com/wagiminator/Power-Boards"
     ]
   },
   "220128c5-1208-64aa-eea4-4746cc483e75": {
