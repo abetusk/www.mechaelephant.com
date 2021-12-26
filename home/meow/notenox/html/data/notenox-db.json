@@ -89,6 +89,22 @@
       "https://web.archive.org/web/20210714203115/https://technicshistory.com/2021/07/13/the-triumvirate-coal-iron-and-steam/"
     ]
   },
+  "052921c5-a86d-de90-e07d-331956c3f9d3": {
+    "id": "052921c5-a86d-de90-e07d-331956c3f9d3",
+    "timestamp": 1640148748.179,
+    "keyword": [
+      "title:business",
+      "business",
+      "non-profit",
+      "black girls code"
+    ],
+    "extra": [],
+    "note": "Black Girls Code founder and CEO, Kimberly Bryant was fired by her board.",
+    "link": [
+      "https://twitter.com/6Gems/status/1473386563904196613",
+      "https://web.archive.org/web/20211221210250/https://twitter.com/6Gems/status/1473386563904196613"
+    ]
+  },
   "079874ea-80eb-56bf-8e79-ee56df5e7d9a": {
     "id": "079874ea-80eb-56bf-8e79-ee56df5e7d9a",
     "timestamp": 1608497052.757,
@@ -462,6 +478,23 @@
     "note": "Wikipedia article about least absolute shrinkage and selection (lasso)",
     "link": [
       "https://en.wikipedia.org/wiki/Lasso_(statistics)"
+    ]
+  },
+  "21135efc-f384-9c9d-3c9c-f3a2d190d3d1": {
+    "id": "21135efc-f384-9c9d-3c9c-f3a2d190d3d1",
+    "timestamp": 1640537560.142,
+    "keyword": [
+      "title:electronics",
+      "solar",
+      "electronics",
+      "oshw",
+      "charger",
+      "lifepo4"
+    ],
+    "extra": [],
+    "note": "LiFePO4 charger (oshw) based on the CN3801 chip",
+    "link": [
+      "https://oshwlab.com/wagiminator/y-cn3801-lifepo4-solar-charger_copy_copy"
     ]
   },
   "220128c5-1208-64aa-eea4-4746cc483e75": {
@@ -1091,6 +1124,26 @@
       "https://github.com/lle/Gamify-PCB-Card",
       "https://www.youtube.com/watch?v=0xP9do7ryO8",
       "https://web.archive.org/web/20211019191310/https://www.youtube.com/watch?v=0xP9do7ryO8"
+    ]
+  },
+  "4c9d0bf8-0267-e47d-80e4-86ee0e2b4594": {
+    "id": "4c9d0bf8-0267-e47d-80e4-86ee0e2b4594",
+    "timestamp": 1640148515.471,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "led",
+      "reverse",
+      "pcb",
+      "art",
+      "resin"
+    ],
+    "extra": [],
+    "note": "reverse mounted RGB led (XZMDKCBDDG45S-9). [@GregDavill] uses epoxy resin for a diffusor",
+    "link": [
+      "https://www.digikey.com.au/en/products/detail/sunled/XZMDKCBDDG45S-9/5169746",
+      "https://twitter.com/GregDavill/status/1456225167315660800",
+      "https://web.archive.org/web/20211105184716/https://twitter.com/GregDavill/status/1456225167315660800"
     ]
   },
   "4e9cc8d4-bbf7-8b96-9c8d-cd1873ad1254": {
