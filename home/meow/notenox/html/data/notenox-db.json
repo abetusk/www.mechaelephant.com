@@ -1163,6 +1163,23 @@
       "https://web.archive.org/web/20211105184716/https://twitter.com/GregDavill/status/1456225167315660800"
     ]
   },
+  "4e862971-2303-bf6d-9160-85fa258c112c": {
+    "id": "4e862971-2303-bf6d-9160-85fa258c112c",
+    "timestamp": 1641408360.289,
+    "keyword": [
+      "title:data",
+      "data",
+      "police data"
+    ],
+    "extra": [],
+    "note": "Police Data Accessibility Project (PDAP)",
+    "link": [
+      "https://pdap.io/",
+      "https://docs.pdap.io/",
+      "https://www.dolthub.com/repositories/pdap/datasets",
+      "https://github.com/Police-Data-Accessibility-Project"
+    ]
+  },
   "4e9cc8d4-bbf7-8b96-9c8d-cd1873ad1254": {
     "id": "4e9cc8d4-bbf7-8b96-9c8d-cd1873ad1254",
     "timestamp": 1627389207.364,
@@ -2292,6 +2309,24 @@
       "https://web.archive.org/web/20201205204215/https://xilinx.github.io/Vitis_Libraries/quantitative_finance/2020.1/guide_L1/brownian/bb.html"
     ]
   },
+  "95cc7ad4-f436-99cd-0f60-ce1c96448c04": {
+    "id": "95cc7ad4-f436-99cd-0f60-ce1c96448c04",
+    "timestamp": 1641408262.235,
+    "keyword": [
+      "title:data",
+      "data",
+      "datasets",
+      "public data",
+      "public domain",
+      "public",
+      "free"
+    ],
+    "extra": [],
+    "note": "Reddit r/datasets",
+    "link": [
+      "https://www.reddit.com/r/datasets/top/?t=all"
+    ]
+  },
   "95d358f9-53f9-bd35-4bdc-9de4acedf215": {
     "id": "95d358f9-53f9-bd35-4bdc-9de4acedf215",
     "timestamp": 1633075730.667,
@@ -2722,6 +2757,22 @@
     "note": "5 for 16x16 rgb led rasperry pi hat on Adafruit. Thinking of using it for the 'bike invader' project.",
     "link": [
       "https://www.adafruit.com/product/3580"
+    ]
+  },
+  "a7b9eda2-7acc-32d2-bdaa-83a6c71adf25": {
+    "id": "a7b9eda2-7acc-32d2-bdaa-83a6c71adf25",
+    "timestamp": 1641408840.988,
+    "keyword": [
+      "title:data",
+      "data",
+      "import",
+      "supply chain"
+    ],
+    "extra": [],
+    "note": "ImportYeti has collected supply chain information and made it searchable. From one of their videos, they claim they've collected all 'bill of lading' documents (shipped to them for k+ cost and on CDs).",
+    "link": [
+      "https://www.importyeti.com/",
+      "https://www.importyeti.com/faqs"
     ]
   },
   "a8900a1f-4038-9379-979b-94b94f8d51a6": {
