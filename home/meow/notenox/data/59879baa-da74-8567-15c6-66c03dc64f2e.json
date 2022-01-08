@@ -1,0 +1,20 @@
+{
+  "id": "59879baa-da74-8567-15c6-66c03dc64f2e",
+  "timestamp": 1641683764.145,
+  "keyword": [
+    "title:programming",
+    "programming",
+    "compiler",
+    "compiler design"
+  ],
+  "extra": [],
+  "note": "General consensus/rule of thumb is that run-time optimizations extracted from compiler design quickly run into diminishing returns. Some rate this as '18 months to get a 2x speed' whereas others rate this even lower.\nThe articles linked basically make a plea to focus on programmer productivity but the overall good news, in my opinion, is that compiler design is something actually very accessible and can be done without much worry about hobbling run-time.",
+  "link": [
+    "https://news.ycombinator.com/item?id=317213",
+    "https://news.ycombinator.com/item?id=29855611",
+    "https://zeux.io/2022/01/08/on-proebstings-law/",
+    "https://web.archive.org/web/20220108201437/https://zeux.io/2022/01/08/on-proebstings-law/",
+    "https://web.archive.org/web/20220108231443/https://news.ycombinator.com/item?id=29855611",
+    "https://web.archive.org/web/20080930075539/https://news.ycombinator.com/item?id=317213"
+  ]
+}
