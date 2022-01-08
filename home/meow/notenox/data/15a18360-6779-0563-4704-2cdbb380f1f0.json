@@ -1,0 +1,21 @@
+{
+  "id": "15a18360-6779-0563-4704-2cdbb380f1f0",
+  "timestamp": 1641682136.884,
+  "keyword": [
+    "title:chip",
+    "chip",
+    "cpu",
+    "gpu",
+    "chip fabrication",
+    "asic",
+    "fpga",
+    "ipu"
+  ],
+  "extra": [],
+  "note": "Intelligence Processing Unit (IPU) resources",
+  "link": [
+    "https://www.graphcore.ai/hubfs/assets/pdf/Citadel%20Securities%20Technical%20Report%20-%20Dissecting%20the%20Graphcore%20IPU%20Architecture%20via%20Microbenchmarking%20Dec%202019.pdf?hsLang=en",
+    "https://twitter.com/graphcoreai",
+    "https://www.graphcore.ai/"
+  ]
+}
