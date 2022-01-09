@@ -1,0 +1,19 @@
+{
+  "id": "fe408ee0-1412-5345-3625-79c11a6b38db",
+  "timestamp": 1641693467.515,
+  "keyword": [
+    "title:electronics",
+    "electronics",
+    "h-bridge",
+    "motor",
+    "motor driver"
+  ],
+  "extra": [],
+  "note": "Carl Bugeja recommends DRV8837 and PAM8016 drivers. Both are dual half h-bridges .The PAM8016 is BGA.",
+  "link": [
+    "https://www.digikey.com/en/products/detail/texas-instruments/DRV8837CDSGR/6193615",
+    "https://www.ti.com/lit/ds/symlink/drv8837c.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641692968088&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fdrv8837c",
+    "https://www.digikey.com/en/products/detail/diodes-incorporated/PAM8016AKR/9486941?s=N4IgTCBcDaIA4EMC2AOADARgGwgLoF8g",
+    "https://www.diodes.com/assets/Datasheets/PAM8016.pdf"
+  ]
+}
