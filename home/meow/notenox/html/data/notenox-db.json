@@ -262,6 +262,26 @@
       "https://www.lopp.net/bitcoin-information.html"
     ]
   },
+  "10e1170b-3998-cd37-dfc1-0cab3d12f3de": {
+    "id": "10e1170b-3998-cd37-dfc1-0cab3d12f3de",
+    "timestamp": 1641773161.097,
+    "keyword": [
+      "title:mathematics",
+      "mathematics",
+      "blog",
+      "probability",
+      "statistics",
+      "order statistics"
+    ],
+    "extra": [],
+    "note": "Some resources for mathematics (blogs, results, etc.). Looks to be mostly on probability.",
+    "link": [
+      "https://djalil.chafai.net/",
+      "https://www.jstor.org/stable/2243414",
+      "https://arxiv.org/abs/0903.3528",
+      "https://djalil.chafai.net/blog/2014/06/03/back-to-basics-order-statistics-of-exponential-distribution/"
+    ]
+  },
   "12c04ceb-b438-aa58-2690-20e159ca9560": {
     "id": "12c04ceb-b438-aa58-2690-20e159ca9560",
     "timestamp": 1619522981.094,
