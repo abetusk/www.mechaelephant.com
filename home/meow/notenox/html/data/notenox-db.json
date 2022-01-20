@@ -2525,6 +2525,24 @@
       "https://github.com/kripken/speak.js/"
     ]
   },
+  "9c1b5aa5-517c-4213-2925-44d5cfafe954": {
+    "id": "9c1b5aa5-517c-4213-2925-44d5cfafe954",
+    "timestamp": 1642667087.849,
+    "keyword": [
+      "title:computer science",
+      "computer science",
+      "cs",
+      "algorithm",
+      "cache oblivious algorithm",
+      "cache oblivious",
+      "data structure"
+    ],
+    "extra": [],
+    "note": "Van Emde Boas tree as a cache oblivious data structure",
+    "link": [
+      "https://en.wikipedia.org/wiki/Van_Emde_Boas_tree"
+    ]
+  },
   "9ca40070-a531-31c5-c5a5-3ea026e311d1": {
     "id": "9ca40070-a531-31c5-c5a5-3ea026e311d1",
     "timestamp": 1608224410.199,
