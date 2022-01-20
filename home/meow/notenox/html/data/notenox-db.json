@@ -156,6 +156,24 @@
       "https://www.amazon.com/When-Old-Technologies-Were-Communication/dp/0195063414"
     ]
   },
+  "0ab31ed4-bcbf-0465-a4e3-b9231b621dd8": {
+    "id": "0ab31ed4-bcbf-0465-a4e3-b9231b621dd8",
+    "timestamp": 1642656635.206,
+    "keyword": [
+      "title:art",
+      "art",
+      "model",
+      "train",
+      "model train",
+      "diorama"
+    ],
+    "extra": [],
+    "note": "Resources for diorama models",
+    "link": [
+      "http://www.hobbylinc.com/plastic-models",
+      "https://www.walthers.com/products/layout/structures"
+    ]
+  },
   "0b50cc29-4a77-b80d-f303-53a48fe554e8": {
     "id": "0b50cc29-4a77-b80d-f303-53a48fe554e8",
     "timestamp": 1631070759.855,
@@ -1527,6 +1545,22 @@
       "https://www.myminifactory.com/scantheworld/"
     ]
   },
+  "600f4abf-32b7-08d4-3d18-d5a5bd2f2289": {
+    "id": "600f4abf-32b7-08d4-3d18-d5a5bd2f2289",
+    "timestamp": 1642656203.851,
+    "keyword": [
+      "title:art",
+      "art",
+      "diorama",
+      "lowbrow"
+    ],
+    "extra": [],
+    "note": "Brooke Weston's art makes dioramas inside of taxidermied animals",
+    "link": [
+      "http://www.artbybrookeweston.com/gallery.html",
+      "https://www.instagram.com/brookesweston/"
+    ]
+  },
   "6340353e-9a28-fd3e-4ffb-ca08f24d53eb": {
     "id": "6340353e-9a28-fd3e-4ffb-ca08f24d53eb",
     "timestamp": 1608224257.332,
@@ -2082,6 +2116,22 @@
     "link": [
       "https://www.collaborativefund.com/blog/experts/",
       "https://web.archive.org/web/20211120180610/https://www.collaborativefund.com/blog/experts/"
+    ]
+  },
+  "7f760174-44fb-e278-56bb-05b27eec986a": {
+    "id": "7f760174-44fb-e278-56bb-05b27eec986a",
+    "timestamp": 1642566893.935,
+    "keyword": [
+      "title:art",
+      "art",
+      "british museum",
+      "public domain",
+      "museum"
+    ],
+    "extra": [],
+    "note": "British museum public domain images",
+    "link": [
+      "https://www.flickr.com/photos/britishlibrary/albums"
     ]
   },
   "83b7723b-391a-eba8-7c0c-935720e0faad": {
@@ -2818,6 +2868,21 @@
     "note": "5 for 16x16 rgb led rasperry pi hat on Adafruit. Thinking of using it for the 'bike invader' project.",
     "link": [
       "https://www.adafruit.com/product/3580"
+    ]
+  },
+  "a756ef3e-c822-5d5d-65c9-7835f8e96436": {
+    "id": "a756ef3e-c822-5d5d-65c9-7835f8e96436",
+    "timestamp": 1642656239.875,
+    "keyword": [
+      "title:art",
+      "art",
+      "lowbrow",
+      "modern art"
+    ],
+    "extra": [],
+    "note": "Mortal Machine Gallery",
+    "link": [
+      "https://mortalmachinenola.com/collections"
     ]
   },
   "a7b9eda2-7acc-32d2-bdaa-83a6c71adf25": {
