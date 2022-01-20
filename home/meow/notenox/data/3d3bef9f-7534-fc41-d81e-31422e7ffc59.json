@@ -1,0 +1,24 @@
+{
+  "id": "3d3bef9f-7534-fc41-d81e-31422e7ffc59",
+  "timestamp": 1642711698.504,
+  "keyword": [
+    "title:math",
+    "math",
+    "fractal",
+    "bohemian",
+    "polynomial",
+    "roots"
+  ],
+  "extra": [],
+  "note": "The pretty pictures from the roots of polynomials with a restricted set of coefficients are related to a larger class of matricies 'Bohemian matricies' (BHMIME - bounded height integer matrix eigenvalues).\nJohn Baez has a website giving a high level overview of the reason why Littlewood polynomials (polynomials with coefficients restricted to +-1) look like dragon curves in parts. The idea is that the dragon curve can be created through in iterated function system (IFS) by choosing (randomely?) between $f_z(x)=1+zx$ and $g_z(x)=1-zx$ for some complex z and initial $x=0$. The iteration of $\\{f, g, -f, -g\\}$ trace out all Littlewood polynomials for initial values of $f(0)$ and $g(0)$.\nFor a set of \"dragon-like curve\" points $S_z$, from an initial $z$, if $0 \\\\in S_z$, this means there's a Littlewood polynomial where at least some of the roots are at least pretty close to the points in $S_z$\nThere's still the issue of figuring out what's happening in the center circle, the circles on the perimeter and the points outside of the ring of convergence but that's a description of at least one phenomena",
+  "link": [
+    "http://www.bohemianmatrices.com/",
+    "https://rcorless.github.io/",
+    "https://math.ucr.edu/home/baez/roots/",
+    "https://en.wikipedia.org/wiki/Iterated_function_system#Definition",
+    "https://golem.ph.utexas.edu/category/2009/12/this_weeks_finds_in_mathematic_46.html",
+    "https://en.wikipedia.org/wiki/Dragon_curve#Heighway_dragon",
+    "https://en.wikipedia.org/wiki/Iterated_function_system",
+    "https://web.archive.org/web/20220113220258/https://math.ucr.edu/home/baez/roots/"
+  ]
+}
