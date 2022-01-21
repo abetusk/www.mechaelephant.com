@@ -124,6 +124,22 @@
       "https://web.archive.org/web/20201220204328/https://www.piie.com/system/files/documents/2019-10-18-s5-stantcheva-ppt.pdf"
     ]
   },
+  "07f88765-55dc-9b9a-7bb0-e9a1649f9ced": {
+    "id": "07f88765-55dc-9b9a-7bb0-e9a1649f9ced",
+    "timestamp": 1642741886.624,
+    "keyword": [
+      "title:misc",
+      "misc",
+      "random web",
+      "web"
+    ],
+    "extra": [],
+    "note": "'bored' button that serve random sites up",
+    "link": [
+      "boredbutton.com",
+      "https://boredhoard.com/"
+    ]
+  },
   "0951ffa8-832f-ec8b-87d4-df6433501ae3": {
     "id": "0951ffa8-832f-ec8b-87d4-df6433501ae3",
     "timestamp": 1633291269.527,
@@ -2230,6 +2246,21 @@
     "note": "NIST National Standard Reference Data",
     "link": [
       "https://www.nist.gov/srd"
+    ]
+  },
+  "85972f07-dabf-b60b-3c72-5fe014577370": {
+    "id": "85972f07-dabf-b60b-3c72-5fe014577370",
+    "timestamp": 1642804034.93,
+    "keyword": [
+      "title:economics",
+      "economics",
+      "world",
+      "stats"
+    ],
+    "extra": [],
+    "note": "Site giving various world statistics (population, energy used, etc.)",
+    "link": [
+      "https://www.worldometers.info/"
     ]
   },
   "86c8521a-7965-466a-df3c-38a9bd54fd95": {
