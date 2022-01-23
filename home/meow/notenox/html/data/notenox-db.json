@@ -963,6 +963,24 @@
       "https://probot.github.io/apps/dco/"
     ]
   },
+  "35c09206-7851-a33e-62c2-4d1e1b7ab3ea": {
+    "id": "35c09206-7851-a33e-62c2-4d1e1b7ab3ea",
+    "timestamp": 1642921310.059,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "ml",
+      "machine learning",
+      "neural net",
+      "diffusion model"
+    ],
+    "extra": [],
+    "note": "Post about diffusion models",
+    "link": [
+      "https://lilianweng.github.io/lil-log/2021/07/11/diffusion-models.html",
+      "https://web.archive.org/web/20211230140143/https://lilianweng.github.io/lil-log/2021/07/11/diffusion-models.html"
+    ]
+  },
   "363e9b5e-551b-eb2d-5186-fee0e57fe749": {
     "id": "363e9b5e-551b-eb2d-5186-fee0e57fe749",
     "timestamp": 1621296190.871,
