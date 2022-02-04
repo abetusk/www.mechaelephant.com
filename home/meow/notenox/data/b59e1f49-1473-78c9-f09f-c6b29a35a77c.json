@@ -1,0 +1,21 @@
+{
+  "id": "b59e1f49-1473-78c9-f09f-c6b29a35a77c",
+  "timestamp": 1643942121.2,
+  "keyword": [
+    "title:electronics",
+    "electronics",
+    "motor driver",
+    "h-bridge",
+    "sop-8",
+    "smt",
+    "motor",
+    "driver"
+  ],
+  "extra": [],
+  "note": "stepper motor driver bdr6122t, 1.5A, motor power 0-12v, 1.8 to 5.5v logic, sop-8, about $0.25",
+  "link": [
+    "https://lcsc.com/product-detail/Motor-Drivers_BDR6122T_C724035.html",
+    "https://datasheet.lcsc.com/lcsc/2008171535_Bardeen-Micro--BDR6122T_C724035.pdf",
+    "https://easyeda.com/component/19e3fac8089f46c2a2cd435dea66e2ba"
+  ]
+}

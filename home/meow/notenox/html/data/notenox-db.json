@@ -1164,6 +1164,24 @@
       "https://web.archive.org/web/20210401110545if_/https://steveklabnik.com/writing/what-comes-after-open-source"
     ]
   },
+  "3e1323b8-abb7-c1a8-ba53-9fd37aad1fb2": {
+    "id": "3e1323b8-abb7-c1a8-ba53-9fd37aad1fb2",
+    "timestamp": 1643942113.005,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "novelty",
+      "dip",
+      "switch",
+      "dip-switch"
+    ],
+    "extra": [],
+    "note": "multicolored DIP switch and related project",
+    "link": [
+      "https://www.newark.com/erg-components/sds-8-014/dip-switch-8-spst-co-slide-1a/dp/08WX5542",
+      "https://github.com/bikerglen/usb-dip-switch-stick"
+    ]
+  },
   "44f92f93-6cd6-6117-69b8-2b04faab516f": {
     "id": "44f92f93-6cd6-6117-69b8-2b04faab516f",
     "timestamp": 1624870764.691,
@@ -3244,6 +3262,27 @@
     "link": [
       "https://en.wikipedia.org/wiki/Schottky_diode",
       "https://en.wikipedia.org/wiki/Zener_diode"
+    ]
+  },
+  "b59e1f49-1473-78c9-f09f-c6b29a35a77c": {
+    "id": "b59e1f49-1473-78c9-f09f-c6b29a35a77c",
+    "timestamp": 1643942121.2,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "motor driver",
+      "h-bridge",
+      "sop-8",
+      "smt",
+      "motor",
+      "driver"
+    ],
+    "extra": [],
+    "note": "stepper motor driver bdr6122t, 1.5A, motor power 0-12v, 1.8 to 5.5v logic, sop-8, about $0.25",
+    "link": [
+      "https://lcsc.com/product-detail/Motor-Drivers_BDR6122T_C724035.html",
+      "https://datasheet.lcsc.com/lcsc/2008171535_Bardeen-Micro--BDR6122T_C724035.pdf",
+      "https://easyeda.com/component/19e3fac8089f46c2a2cd435dea66e2ba"
     ]
   },
   "b5d29c2a-9b1f-6231-f52d-6e3fabca2ab6": {
