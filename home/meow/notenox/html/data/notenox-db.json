@@ -1979,6 +1979,26 @@
       "http://fossilbank.wikidot.com/category:art-libre"
     ]
   },
+  "726db341-3824-8dfb-3ab1-01209a500099": {
+    "id": "726db341-3824-8dfb-3ab1-01209a500099",
+    "timestamp": 1644331592.988,
+    "keyword": [
+      "title:math",
+      "math",
+      "mathematics",
+      "stochastic",
+      "probability",
+      "blog",
+      "numerical method",
+      "simulation"
+    ],
+    "extra": [],
+    "note": "Looks like a good blog ostensibly about 'risk physics' (finance) but has a lot of blog posts about simulation, numerical methods, stochastic processes, etc.",
+    "link": [
+      "https://rf.mokslasplius.lt/tag/stochastic-models/",
+      "https://github.com/akononovicius/physRisk-content-repository"
+    ]
+  },
   "751ccc98-a522-ff7d-9581-fa52642855f8": {
     "id": "751ccc98-a522-ff7d-9581-fa52642855f8",
     "timestamp": 1609805421.574,
