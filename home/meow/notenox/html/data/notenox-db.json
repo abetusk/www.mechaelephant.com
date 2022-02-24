@@ -3338,6 +3338,24 @@
     "note": "Programatic logging suggestions\n* Log after executing the action, not before. Lack of a log entry means the action failed.\n* Indicate parameters in an easily parseable and consistent way (`... [url={}]`)\n* Differentiate between WARNING and ERROR\n* INFO is for business and DEBUG is for technology",
     "link": []
   },
+  "adb1b5ce-75fc-ad1f-0d4a-ba65de5df887": {
+    "id": "adb1b5ce-75fc-ad1f-0d4a-ba65de5df887",
+    "timestamp": 1645706554.835,
+    "keyword": [
+      "title:maht",
+      "math",
+      "mathematics",
+      "compressed sensing"
+    ],
+    "extra": [],
+    "note": "Compressed sensing tutorial in Python",
+    "link": [
+      "http://www.pyrunner.com/weblog/2016/05/26/compressed-sensing-python/",
+      "https://web.archive.org/web/20210513130419/http://www.pyrunner.com/weblog/2016/05/26/compressed-sensing-python/",
+      "https://www.cvxpy.org/",
+      "https://github.com/cvxpy/cvxpy"
+    ]
+  },
   "b0f4afbd-4bea-f2ca-52fa-3bba13583c59": {
     "id": "b0f4afbd-4bea-f2ca-52fa-3bba13583c59",
     "timestamp": 1616411497.299,
