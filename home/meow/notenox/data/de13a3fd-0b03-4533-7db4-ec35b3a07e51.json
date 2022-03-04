@@ -1,0 +1,20 @@
+{
+  "id": "de13a3fd-0b03-4533-7db4-ec35b3a07e51",
+  "timestamp": 1646402860.829,
+  "keyword": [
+    "title:copyright",
+    "copyright",
+    "unlicense",
+    "cc0",
+    "law"
+  ],
+  "extra": [],
+  "note": "Talks about the Unlicense and how it's bad (use cc0 instead). Also talks about how the Blue Oaks license is better than MIT or Apache.\nThe link to SO tlaks about how Germany doesn't really have a concept of public domain, so relinquishing rights is not something that can really be done there. Meaning, creator of a piece of software can still be held liable for its use. Japan has different concepts of public domain and how applicable FOSS licenses are.",
+  "link": [
+    "https://chrismorgan.info/blog/unlicense/",
+    "https://web.archive.org/web/20220304131818/https://chrismorgan.info/blog/unlicense/",
+    "https://softwareengineering.stackexchange.com/questions/147111/what-is-wrong-with-the-unlicense",
+    "https://web.archive.org/web/20211024071043/https://softwareengineering.stackexchange.com/questions/147111/what-is-wrong-with-the-unlicense",
+    "https://en.wikipedia.org/wiki/Moral_rights"
+  ]
+}
