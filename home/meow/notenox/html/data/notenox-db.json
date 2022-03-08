@@ -3374,6 +3374,28 @@
     "note": "Programatic logging suggestions\n* Log after executing the action, not before. Lack of a log entry means the action failed.\n* Indicate parameters in an easily parseable and consistent way (`... [url={}]`)\n* Differentiate between WARNING and ERROR\n* INFO is for business and DEBUG is for technology",
     "link": []
   },
+  "ac125593-0f9e-4a0b-b6cc-4590ded2e62e": {
+    "id": "ac125593-0f9e-4a0b-b6cc-4590ded2e62e",
+    "timestamp": 1646772077.48,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "3d",
+      "gpu",
+      "webgpu",
+      "webgl",
+      "opengl",
+      "gl",
+      "graphics"
+    ],
+    "extra": [],
+    "note": "WebGPU explained (2022).",
+    "link": [
+      "https://surma.dev/things/webgpu/",
+      "https://web.archive.org/web/20220308161452/https://surma.dev/things/webgpu/",
+      "https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/"
+    ]
+  },
   "adb1b5ce-75fc-ad1f-0d4a-ba65de5df887": {
     "id": "adb1b5ce-75fc-ad1f-0d4a-ba65de5df887",
     "timestamp": 1645706554.835,
