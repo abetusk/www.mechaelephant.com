@@ -3396,11 +3396,32 @@
       "https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/"
     ]
   },
+  "ac94782b-8733-4e92-44d6-1bd23f3c71a4": {
+    "id": "ac94782b-8733-4e92-44d6-1bd23f3c71a4",
+    "timestamp": 1646851971.738,
+    "keyword": [
+      "title:business",
+      "business",
+      "history",
+      "internet history",
+      "online music",
+      "music",
+      "itunes",
+      "apple",
+      "long tail"
+    ],
+    "extra": [],
+    "note": "Talks about interactions with Steve Jobs and iTunes. Most relevant to me was a good snapshot of the music landscape at the time, with independent artists being completely forgotten because independent artists couldn't get exposure.\n'Maybe you can’t appreciate this now, but the summer of 2003 was the biggest turning point that independent music has ever had. Until that point, almost no big business would sell independent music.'",
+    "link": [
+      "https://sive.rs/itunes",
+      "https://web.archive.org/web/20220309131026/https://sive.rs/itunes"
+    ]
+  },
   "adb1b5ce-75fc-ad1f-0d4a-ba65de5df887": {
     "id": "adb1b5ce-75fc-ad1f-0d4a-ba65de5df887",
     "timestamp": 1645706554.835,
     "keyword": [
-      "title:maht",
+      "title:math",
       "math",
       "mathematics",
       "compressed sensing"
@@ -4584,6 +4605,22 @@
     "link": [
       "https://benjaminreinhardt.com/parpa",
       "https://web.archive.org/web/20210825191310/https://benjaminreinhardt.com/parpa"
+    ]
+  },
+  "ec775859-b8c4-8fc5-0d4a-7b7c19f2f379": {
+    "id": "ec775859-b8c4-8fc5-0d4a-7b7c19f2f379",
+    "timestamp": 1647303913.948,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "solder",
+      "smt",
+      "prototyping"
+    ],
+    "extra": [],
+    "note": "flex pins",
+    "link": [
+      "https://lectronz.com/stores/solderparty/"
     ]
   },
   "ec970356-6732-5881-d0ac-a0d76f1637f9": {
