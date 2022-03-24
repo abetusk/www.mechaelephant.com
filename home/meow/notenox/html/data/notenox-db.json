@@ -590,6 +590,26 @@
       "https://en.wikipedia.org/wiki/Lasso_(statistics)"
     ]
   },
+  "2109b4a0-c8e0-1065-5e26-2c433d5fc478": {
+    "id": "2109b4a0-c8e0-1065-5e26-2c433d5fc478",
+    "timestamp": 1648161300.333,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "3d",
+      "three.js",
+      "browser",
+      "opengl",
+      "webgl",
+      "shader"
+    ],
+    "extra": [],
+    "note": "Some simple programs demonstrating three.js and fragment/vertex shaders",
+    "link": [
+      "http://yota.tehis.net/webX/3js/",
+      "https://yota.tehis.net/lab.html"
+    ]
+  },
   "21135efc-f384-9c9d-3c9c-f3a2d190d3d1": {
     "id": "21135efc-f384-9c9d-3c9c-f3a2d190d3d1",
     "timestamp": 1640537560.142,
