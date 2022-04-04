@@ -1513,6 +1513,28 @@
       "https://web.archive.org/web/20210724125358/https://theicct.org/publications/global-LCA-passenger-cars-jul2021"
     ]
   },
+  "4ea63361-f80b-e4ab-db6d-0fdf89e1672a": {
+    "id": "4ea63361-f80b-e4ab-db6d-0fdf89e1672a",
+    "timestamp": 1649064345.385,
+    "keyword": [
+      "title:mathematics",
+      "mathematics",
+      "physics",
+      "statistical physics",
+      "metropolis",
+      "metropolis hastings",
+      "algorithm",
+      "computational phyics",
+      "computational statistics"
+    ],
+    "extra": [],
+    "note": "Blog post describing the Metropolis-Hastings algorithm motivation in detail with an understandable description how it relates to detalied balance",
+    "link": [
+      "https://gregorygundersen.com/blog/2019/11/02/metropolis-hastings/",
+      "https://web.archive.org/web/20220119142224/https://gregorygundersen.com/blog/2019/11/02/metropolis-hastings/",
+      "https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm"
+    ]
+  },
   "4ec07954-518b-d988-138a-6e486e2d3e11": {
     "id": "4ec07954-518b-d988-138a-6e486e2d3e11",
     "timestamp": 1614308274.719,
