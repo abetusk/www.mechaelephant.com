@@ -3860,6 +3860,24 @@
       "https://en.wikipedia.org/wiki/Young%27s_inequality_for_products"
     ]
   },
+  "c45588fb-4c31-5283-8af3-6f705458d540": {
+    "id": "c45588fb-4c31-5283-8af3-6f705458d540",
+    "timestamp": 1650557991.134,
+    "keyword": [
+      "title:politics",
+      "politics",
+      "government",
+      "cia",
+      "corruption"
+    ],
+    "extra": [],
+    "note": "Greenwald reports on CIAs plea to keep corporate monopolies to allow for ease of manipulation",
+    "link": [
+      "https://punchbowl.news/wp-content/uploads/Open-Letter-Cyber-Intel-Defense-HS-1.pdf",
+      "https://greenwald.substack.com/p/former-intelligence-officials-citing?s=r",
+      "https://web.archive.org/web/20220420190845/https://greenwald.substack.com/p/former-intelligence-officials-citing?s=r"
+    ]
+  },
   "c4da1bd0-f466-d631-a0d6-f68b13b10497": {
     "id": "c4da1bd0-f466-d631-a0d6-f68b13b10497",
     "timestamp": 1631561341.336,
@@ -4208,6 +4226,25 @@
       "https://github.com/publicdomaincompany/publicdomaincompany.com",
       "https://publicdomaincompany.com/",
       "https://www.reddit.com/r/publicdomain/comments/lmz6dm/what_are_the_biggestbest_resources_for_public/"
+    ]
+  },
+  "d2f900a5-5f2b-0435-f2f9-6fa45eaafc4c": {
+    "id": "d2f900a5-5f2b-0435-f2f9-6fa45eaafc4c",
+    "timestamp": 1650558112.798,
+    "keyword": [
+      "title:FOSS business",
+      "FOSS",
+      "FOSS business",
+      "business",
+      "sourceforge",
+      "decline",
+      "analysis",
+      "post-mortem"
+    ],
+    "extra": [],
+    "note": "Talks about the decline of Sourceforge",
+    "link": [
+      "https://neverworkintheory.org/2022/04/21/decline-of-sourceforge.html"
     ]
   },
   "d3f636a8-4cfa-d360-6c44-0af927e0b853": {
