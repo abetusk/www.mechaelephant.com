@@ -1,0 +1,18 @@
+{
+  "id": "c83ef056-759d-db72-e1e2-98f87c36e62e",
+  "timestamp": 1653187909.863,
+  "keyword": [
+    "title:mathematics",
+    "mathematics",
+    "math",
+    "algorithms",
+    "combinatorics"
+  ],
+  "extra": [],
+  "note": "Combinatorial Number Systems allow for enumeration of ${\\binom n k}$. That is, given $n$ symbols from $[0,n)$, generate all lists of length $k$ that represent a sampling from the $n$ symbols. One interesting fact that if $0 \\le c_1 < c2 < \\cdots < c_{k-1} < c_k < n$ then $ \\sum_{j=1}^{k} {\\binom {c_j} j} \\in [0,{\\binom n k} )$. That is, the sum enumerates all possibilities. The proof is by induction on $n+1,k+1$.",
+  "link": [
+    "https://www.farside.org.uk/201311/encoding_n_choose_k",
+    "https://news.ycombinator.com/item?id=31442706",
+    "https://en.wikipedia.org/wiki/Combination"
+  ]
+}
