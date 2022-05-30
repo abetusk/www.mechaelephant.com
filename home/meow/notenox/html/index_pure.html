@@ -27,9 +27,9 @@
     <a href="#menu" id="menuLink" class="menu-link">
       <span>
       <svg viewBox="0 0 100 80" width="40" height="40">
-        <rect width="80" height="20" rx='12'></rect>
-        <rect y="30" width="80" height="20" rx='12'></rect>
-        <rect y="60" width="80" height="20" rx='12'></rect>
+        <rect width="80" height="20" rx='12' fill-opacity='0.5'></rect>
+        <rect y="30" width="80" height="20" rx='12' fill-opacity='0.5'></rect>
+        <rect y="60" width="80" height="20" rx='12' fill-opacity='0.5'></rect>
       </svg>
       </span>
 
@@ -38,6 +38,11 @@
     <div id="menu">
         <div class="pure-menu">
             <a class="pure-menu-heading" href="#notenox">notenox</a>
+
+            <ul class='pure-menu-list'>
+              <li class='pure-menu-item'><a href='#all' class='pure-menu-link' onclick='notenox_viewer_ui_all();' >all</a></li>
+            </ul>
+
 
             <a class="pure-menu-heading" href="#title">title</a>
 
