@@ -268,7 +268,7 @@ footer {
 
 @media print, screen and (max-width: 480px) {
   body {
-    padding:15px;
+    padding:50px 25px 15px 35px;
   }
 
   header ul {
