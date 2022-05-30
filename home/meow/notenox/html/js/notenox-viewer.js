@@ -1,3 +1,11 @@
+/*
+ To the extent possible under law, the person who associated CC0 with
+ this project has waived all copyright and related or neighboring rights
+ to this project.
+ 
+ You should have received a copy of the CC0 legalcode along with this
+ work.  If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+*/
 
 var g_notenox = {
   "db":{},
@@ -42,6 +50,8 @@ function _hr() { return document.createElement("hr");  }
 function _br() { return document.createElement("br");  }
 function _td() { return document.createElement("td");  }
 function _tr() { return document.createElement("tr");  }
+function _ul() { return document.createElement("ul");  }
+function _li() { return document.createElement("li");  }
 
 
 
@@ -58,6 +68,86 @@ function notenox_viewer_ui_all() {
 }
 
 function notenox_viewer_ui_update(filter_list, section_title) {
+
+  console.log(">>>", filter_list, section_title);
+
+  section_title = ((typeof section_title === "undefined") ? "" : section_title);
+
+  var _sec = document.getElementById("notenox-ui-section");
+  _sec.innerHTML = '';
+
+  if (section_title.length > 0) {
+    var h1 = _h1();
+    h1.appendChild( _text(section_title) );
+    _sec.appendChild(h1);
+  }
+
+  var ele = filter_list;
+  for (var ii=0; ii<ele.length; ii++) {
+
+    var _nod = ele[ii];
+
+    var html_ele = _div();
+
+    var h6 = _h6();
+    var t = new Date(1970,0,1);
+    t.setSeconds( Math.floor(_nod.timestamp) );
+    h6.appendChild( _text( t.toISOString().replace(/[TZ]/g, ' ').replace( /\..*/, '') ) );
+    html_ele.appendChild(h6);
+
+    var p ;
+    //var p = _p();
+
+    //p.appendChild( _text( _nod.note ) );
+    //var raw_note = _nod.note;
+
+    var note_a = _nod.note.split(/\n/);
+    for (var _n=0; _n<note_a.length; _n++) {
+      var p = _p();
+      p.appendChild( _text(note_a[_n]) );
+      html_ele.appendChild( p );
+    }
+
+    p = _p();
+    for (var jj=0; jj<_nod.link.length; jj++) {
+      p.appendChild( _text(" (") );
+      p.appendChild( _a( "link", _nod.link[jj] ) );
+      p.appendChild( _text(")") );
+    }
+    html_ele.appendChild( p );
+
+    var s = _small();
+    s.appendChild( _a( _nod.id, "#id=" + _nod.id ) );
+    html_ele.appendChild(s);
+
+    html_ele.appendChild(_br());
+
+    var s = _small();
+    for (var jj=0; jj<_nod.keyword.length; jj++) {
+      if (jj>0) {
+        s.appendChild( _text(", ") );
+      }
+
+      var kwlink = _a( _nod.keyword[jj], "#keyword=" + _nod.keyword[jj] );
+      kwlink.onclick = (function(__x) {
+        return function() { notenox_viewer_ui_keyword(__x); };
+      })( _nod.keyword[jj] );
+      s.appendChild(kwlink);
+
+
+    }
+    html_ele.appendChild(s);
+
+    if (ii > 0) {
+      _sec.appendChild( _hr() );
+    }
+    _sec.appendChild( html_ele );
+
+  }
+
+}
+
+function _notenox_viewer_ui_update(filter_list, section_title) {
 
   console.log(">>>", filter_list, section_title);
 
@@ -215,6 +305,97 @@ function notenox_viewer_filter_keyword(_kw, _dat) {
 // --------------
 
 function notenox_viewer_post_init(data) {
+  data = ((typeof data === "undefined") ? g_notenox : data);
+
+  // sort title by last time an entry was updated (desc)
+  // and add to left title list
+  //
+  var title_time = {};
+  for (var id in data.db) {
+
+    var kwa = data.db[id].keyword;
+    for (var ii=0; ii<kwa.length; ii++) {
+      if ( ! kwa[ii].match( /^title:/ ) ) { continue; }
+      var _title = kwa[ii].replace(/^title:/, '');
+      if ( _title in title_time ) {
+        if ( title_time[_title] < data.db[id].timestamp ) {
+          title_time[_title] = data.db[id].timestamp;
+        }
+      }
+      else {
+        title_time[_title] = data.db[id].timestamp;
+      }
+    }
+  }
+
+  var title_a = [];
+  for (var _title in title_time) {
+    title_a.push( { "title": _title, "timestamp": title_time[_title] } );
+  }
+
+  title_a.sort( function(x,y) { if (x.timestamp < y.timestamp) { return 1; } return -1; } );
+
+  var title_list_ele = document.getElementById("notenox-ui-title-list");
+  title_list_ele.innerHTML = '';
+  for (var ii=0; ii<title_a.length; ii++) {
+
+    var href = _a( title_a[ii].title, "#title=" + title_a[ii].title );
+    href.onclick = (function(__x) {
+      return function() {
+        notenox_viewer_ui_title(__x);
+      };
+    })(title_a[ii].title);
+    href.classList.add("pure-menu-link");
+
+    var li = _li();
+    li.classList.add("pure-menu-item");
+    li.appendChild(href);
+
+
+    title_list_ele.appendChild( li )
+
+  }
+
+  //----
+
+  // sort keyword by frequency (desc)
+  // and add to left keyword list,
+  // skipping titles
+  //
+
+  var kw_a = [];
+  for (var _kw in data.freq.keyword) {
+    if ( _kw.match(/^title:/) ) { continue; }
+    kw_a.push( { "keyword": _kw, "freq" : data.freq.keyword[_kw] } )
+  }
+
+  kw_a.sort( function(x,y) { if (x.freq < y.freq) { return 1; } return -1; } );
+
+  var kw_list_ele = document.getElementById("notenox-ui-keyword-list");
+  kw_list_ele.innerHTML = '';
+  for (var ii=0; ii<kw_a.length; ii++) {
+
+    var href = _a( kw_a[ii].keyword + " (" + kw_a[ii].freq + ")", "#keyword=" + kw_a[ii].keyword);
+    href.onclick = (function(__x) {
+      return function() {
+        notenox_viewer_ui_keyword(__x);
+      };
+    })(kw_a[ii].keyword);
+    href.classList.add("pure-menu-link");
+
+
+    var li = _li();
+    li.classList.add("pure-menu-item");
+    li.appendChild(href);
+
+    kw_list_ele.appendChild( li )
+
+  }
+
+
+}
+
+function _notenox_viewer_post_init(data) {
   data = ((typeof data === "undefined") ? g_notenox : data);
 
   // sort title by last time an entry was updated (desc)

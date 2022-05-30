@@ -2,8 +2,12 @@
   "id": "7fe7f3d6-a77b-d703-4a39-bc38ed346c3f",
   "timestamp": 1653906574.604,
   "keyword": [
+    "title:programming",
     "programming",
-    "title: programming ; flask ; web ; server ; webdev "
+    "flask",
+    "web",
+    "server",
+    "webdev"
   ],
   "extra": [],
   "note": "Flask mega tutorial and 'admin page' tutorial on how to create tables and do api requests (in Flask)",

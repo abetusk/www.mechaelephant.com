@@ -1,0 +1,80 @@
+<!doctype html>
+
+<!--
+  To the extent possible under law, the person who associated CC0 with
+  this project has waived all copyright and related or neighboring rights
+  to this project.
+    
+  You should have received a copy of the CC0 legalcode along with this
+  work.  If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+    <title>Responsive Side Menu &ndash; Layout Examples &ndash; Pure</title>
+    <link rel="stylesheet" href="css/pure-min.css">
+    <link rel="stylesheet" href="css/pure-styles.css">
+    <link rel="stylesheet" href="css/notenox-styles.css">
+</head>
+<body>
+
+<div id="layout">
+
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+      <span>
+      <svg viewBox="0 0 100 80" width="40" height="40">
+        <rect width="80" height="20" rx='12'></rect>
+        <rect y="30" width="80" height="20" rx='12'></rect>
+        <rect y="60" width="80" height="20" rx='12'></rect>
+      </svg>
+      </span>
+
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="#notenox">notenox</a>
+
+            <a class="pure-menu-heading" href="#title">title</a>
+
+            <ul class='pure-menu-list' id='notenox-ui-title-list'>
+
+
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">a</a></li>
+                <li class="pure-menu-item"><a href="#b" class="pure-menu-link">b</a></li>
+                <li class="pure-menu-item"><a href="#c" class="pure-menu-link">c</a></li>
+
+            </ul>
+
+            <a class="pure-menu-heading" href="#kw">keyword</a>
+            <ul class='pure-menu-list' id='notenox-ui-keyword-list'>
+
+                <li class="pure-menu-item"><a href="#x" class="pure-menu-link">x</a></li>
+                <li class="pure-menu-item"><a href="#y" class="pure-menu-link">y</a></li>
+                <li class="pure-menu-item"><a href="#z" class="pure-menu-link">z</a></li>
+
+            </ul>
+
+
+        </div>
+    </div>
+
+
+    <div id="main">
+
+        <section id='notenox-ui-section'>
+        </section>
+
+    </div>
+</div>
+
+<script src="js/pure-side-menu-ui.js"></script>
+<script src="js/notenox-viewer.js"></script>
+
+</body>
+</html>
+
