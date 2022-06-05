@@ -295,6 +295,26 @@
     "note": "Vegan Braanz Taco Truck: you own a vegain brain taco truck that serves vegan braanz (a vegan replacement for brains) to the horde of zombies. You have to manuver the truck though the horde of zombies, which are attacked to food and noise. The truck makes a chiming noise when it has ingrediants to serve. You collect ingredients from the mini-marts and shopping centers littered in the post apacolyptic landscape to supply the truck. The truck can run over zombies at a point cost. Zombies are maybe put into cages at the end of the truck so they can be converted back to human at the base camp. Idea is to combine some aspects of unrailed and overcooked. Maybe different zombies require different recipes.",
     "link": []
   },
+  "0e68491f-b63b-5119-d733-a30b7914f0a1": {
+    "id": "0e68491f-b63b-5119-d733-a30b7914f0a1",
+    "timestamp": 1654435869.681,
+    "keyword": [
+      "title:startup",
+      "startup",
+      "business",
+      "advice",
+      "ycombinator",
+      "startup school",
+      "design"
+    ],
+    "extra": [],
+    "note": "Garry Tan talks about 'Design for Startups'. Besides the standard advice, there's some good references. Clifford Nass and Byron Reeves 'The Media Equation' (1996) talk about how people treat technology like they treat people (with politeness, respond to perceived state, etc.). UI-Patterns.com has a list of patterns for 'best practice' UI design patterns.",
+    "link": [
+      "https://youtu.be/9urYWGx2uNk",
+      "https://en.wikipedia.org/wiki/The_Media_Equation",
+      "https://ui-patterns.com/"
+    ]
+  },
   "0f1ffe5b-fbdd-6f79-7035-e430e21b7ef3": {
     "id": "0f1ffe5b-fbdd-6f79-7035-e430e21b7ef3",
     "timestamp": 1622685842.339,
