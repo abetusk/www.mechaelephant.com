@@ -3881,6 +3881,27 @@
       "https://jcmit.net/disk2015.htm"
     ]
   },
+  "b14710bf-8cc0-fe97-5be9-ff12387420a7": {
+    "id": "b14710bf-8cc0-fe97-5be9-ff12387420a7",
+    "timestamp": 1656447570.885,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "power supply",
+      "buck converter",
+      "automotive",
+      "oshw",
+      "olimex"
+    ],
+    "extra": [],
+    "note": "Olimex has a board that uses an LM2576 buck converter that can provide 3A worth of current and comes in fixed 3.3v, 5v, 12v and 15v as well as an adjustable version. The buck converters themselves look to be well suited to automotive applications and are relatively cheap.",
+    "link": [
+      "https://www.olimex.com/Products/Power/DCDC-36-5-12/",
+      "https://www.olimex.com/Products/Power/DCDC-36-5-12/resources/DCDC-36-5_12_Rev_B.pdf",
+      "https://www.olimex.com/Products/Power/DCDC-36-5-12/resources/DCDC-36-5-12-dimensions.png",
+      "https://www.mouser.com/c/semiconductors/power-management-ics/voltage-regulators-voltage-controllers/switching-voltage-regulators/?series=LM2576"
+    ]
+  },
   "b2e8252d-9c42-ff0b-5ae1-01e9032ec37d": {
     "id": "b2e8252d-9c42-ff0b-5ae1-01e9032ec37d",
     "timestamp": 1622786604.528,
