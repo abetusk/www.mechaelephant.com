@@ -1,0 +1,17 @@
+{
+  "id": "f46d7274-18db-3290-8484-7f590ae25481",
+  "timestamp": 1660491596.323,
+  "keyword": [
+    "title:software development",
+    "software development",
+    "testing",
+    "tdd",
+    "test driven design"
+  ],
+  "extra": [],
+  "note": "Ian Cooper gives a talk (2017) at DevTernity talking about 'TDD, Where Dit It All Go Wrong'.\n* Test behaviors not modules. The API or public facing contract is what you should be testing, not the implementation details. The details can change underneath while still providing a consistent API so this is why TDD (as it's implemented) is slow and brittle\n* Recommends reading 'Test-Driven Development' by Kent Beck\n* Unit test refers to the test in isolation, not the method/class underneath",
+  "link": [
+    "https://www.youtube.com/watch?v=EZ05e7EMOLM",
+    "https://web.archive.org/web/20220531054907/https://www.youtube.com/watch?v=EZ05e7EMOLM"
+  ]
+}
