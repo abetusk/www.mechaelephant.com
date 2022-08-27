@@ -1,0 +1,23 @@
+{
+  "id": "29a4bf94-eceb-d58a-84fe-f52e7381a439",
+  "timestamp": 1661626860.055,
+  "keyword": [
+    "title:computer science",
+    "computer science",
+    "algorithm",
+    "sort",
+    "quicksort"
+  ],
+  "extra": [],
+  "note": "Talks about the verious degenerate cases and potential attack on qsort by fashioning the input to create the worst case scenario",
+  "link": [
+    "http://calmerthanyouare.org/2014/06/11/algorithmic-complexity-attacks-and-libc-qsort.html",
+    "https://web.archive.org/web/20220311124139/http://calmerthanyouare.org/2014/06/11/algorithmic-complexity-attacks-and-libc-qsort.html",
+    "https://www.cs.dartmouth.edu/~doug/",
+    "https://web.archive.org/web/20220713073234/https://www.cs.dartmouth.edu/~doug/",
+    "https://news.ycombinator.com/item?id=7878012",
+    "https://www.cs.dartmouth.edu/~doug/mdmspe.pdf",
+    "https://nicknash.me/2012/07/31/adversaries/",
+    "https://web.archive.org/web/20210622141252/https://nicknash.me/2012/07/31/adversaries/"
+  ]
+}
