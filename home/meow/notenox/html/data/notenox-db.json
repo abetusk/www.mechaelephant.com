@@ -2326,6 +2326,28 @@
       "https://www.bismarckanalysis.com/Machine_Tools_Case_Study.pdf"
     ]
   },
+  "66c4e175-fe92-b5d5-d460-85eab8743b5f": {
+    "id": "66c4e175-fe92-b5d5-d460-85eab8743b5f",
+    "timestamp": 1661871282.644,
+    "keyword": [
+      "title:generative art",
+      "generative art",
+      "art",
+      "color",
+      "color theory",
+      "hsv",
+      "hsb",
+      "hsl"
+    ],
+    "extra": [],
+    "note": "Steve from Stevesmakerspace created a simple visualization of HSB colors from a list of hand curated palettes (taken from coolors.co) to try and find patterns in the choices. Looking at them myself, I see the standard 'primary + neighbors and opposite' but also a kind of 'spiral' out from the center. Then there are 'lopsided' palettes that don't seem to conform to color theory that's normally discussed. I suspect these lopsided ones are because of the mismatch between HSV and CIE but the visualization at least starts to get at what's similar about some of the color palettes. The next question is what is a good visualization for CIE for hand curated color palettes that will give some insight into why hand curated palettes are so much better than random ones.\nAs a side note, Steve uses a perlin noise field overlay for some of the 2d flow field art to create a sort of random grouping of elements from the same color. This adds some local spatial cohesion to the elements by having them be similar colors that adds a lot of visual interest.",
+    "link": [
+      "https://editor.p5js.org/StevesMakerspace/sketches/5xGHBHmQR",
+      "https://web.archive.org/web/20220830144911/https://editor.p5js.org/StevesMakerspace/sketches/5xGHBHmQR",
+      "https://medialab.github.io/iwanthue/theory/",
+      "https://github.com/medialab/iwanthue"
+    ]
+  },
   "67d1b3ff-12d2-b3d2-873d-598ac669e580": {
     "id": "67d1b3ff-12d2-b3d2-873d-598ac669e580",
     "timestamp": 1637265040.847,
