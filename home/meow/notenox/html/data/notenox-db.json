@@ -4604,6 +4604,30 @@
       "https://web.archive.org/web/20220214034411/https://karl-voit.at/2020/10/23/avoid-web-forums/"
     ]
   },
+  "ca31fe05-0489-9fee-40ca-9a1a844cbf3b": {
+    "id": "ca31fe05-0489-9fee-40ca-9a1a844cbf3b",
+    "timestamp": 1662337599.33,
+    "keyword": [
+      "title:fxhash",
+      "fxhash",
+      "nft",
+      "cryptocurrency",
+      "tezos",
+      "xtz",
+      "fxtext",
+      "markdown"
+    ],
+    "extra": [],
+    "note": "fxhash links for quick reference",
+    "link": [
+      "https://github.com/fxhash/specifications/blob/main/articles/fx-markdown.md",
+      "https://github.com/fxhash/fxhash-api",
+      "https://github.com/micromark/micromark-extension-directive#syntax",
+      "https://github.com/fxhash/specifications/blob/main/general/tezos-storage-pointers.md",
+      "https://assets.tqtezos.com/docs/token-contracts/fa2/2-fa2-nft-tutorial/",
+      "https://www.fxhash.xyz/article/fx(text)"
+    ]
+  },
   "cb945466-f0ec-f4dd-60cb-9be56ea867cb": {
     "id": "cb945466-f0ec-f4dd-60cb-9be56ea867cb",
     "timestamp": 1630272440.408,
