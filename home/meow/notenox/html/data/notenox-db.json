@@ -3938,6 +3938,33 @@
     "note": "Programatic logging suggestions\n* Log after executing the action, not before. Lack of a log entry means the action failed.\n* Indicate parameters in an easily parseable and consistent way (`... [url={}]`)\n* Differentiate between WARNING and ERROR\n* INFO is for business and DEBUG is for technology",
     "link": []
   },
+  "ab691e8b-74f5-1732-cecd-8648e94a6d27": {
+    "id": "ab691e8b-74f5-1732-cecd-8648e94a6d27",
+    "timestamp": 1662391229.95,
+    "keyword": [
+      "title:computer science",
+      "computer science",
+      "algorithms",
+      "algorithm",
+      "compression",
+      "zstd",
+      "zstandard",
+      "zlib",
+      "gzip",
+      "gz",
+      "entropy",
+      "random walk",
+      "jarek duda",
+      "duda"
+    ],
+    "extra": [],
+    "note": "Jarek Duda has done work on assymetric numeral systems, , constrained coding, joint reconstruction codes and maximal entropy random walk, to name a few. The assymetric numeral system ideas are (apparently) used in zstd to acheive higher compression rates that can run at faster speeds. The maximum entroyp random walks help is getting agreement between random walks and some quantum mechanic predictions.",
+    "link": [
+      "https://th.if.uj.edu.pl/~dudaj/",
+      "https://en.wikipedia.org/wiki/Maximal_entropy_random_walk",
+      "https://web.archive.org/web/20220905101444/https://th.if.uj.edu.pl/~dudaj/"
+    ]
+  },
   "ac125593-0f9e-4a0b-b6cc-4590ded2e62e": {
     "id": "ac125593-0f9e-4a0b-b6cc-4590ded2e62e",
     "timestamp": 1646772077.48,
