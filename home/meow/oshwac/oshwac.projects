@@ -1,0 +1,20 @@
+#!/bin/bash
+
+limit=100
+offset=100
+
+max_offset=2000
+
+mkdir -p data
+
+for offset in `seq 0 $limit $max_offset` ; do
+
+  echo "$offset / $max_offset"
+
+  curl -s \
+    --location \
+    --request GET 'https://certificationapi.oshwa.org/api/projects?offset='${offset}'&limit='${limit} \
+    --header 'Authorization: Bearer '`cat bearer_token`  > data/projects_s${offset}.json
+
+
+done

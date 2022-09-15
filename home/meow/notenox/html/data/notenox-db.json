@@ -616,6 +616,23 @@
       "https://open.spotify.com/episode/41G5sIcfrno0EXiYK8LUnh"
     ]
   },
+  "18f922c8-0bf1-a12b-bc1f-ac63b1f4533b": {
+    "id": "18f922c8-0bf1-a12b-bc1f-ac63b1f4533b",
+    "timestamp": 1662400131.347,
+    "keyword": [
+      "title:economics",
+      "economics",
+      "future predictions",
+      "poverty",
+      "energy"
+    ],
+    "extra": [],
+    "note": "Article talks about how weath, as essentially measured by energy, is the predictor for poverty reduction. The article claims that in order for people to enjoy the level of energy usage the USA or Europeans do, it would take about a doubling of current global energy usage. Assuming 1.1% population growth and 2.5% energy growth, this gives around 50 years before poverty (has the potential to) drops below 1%.",
+    "link": [
+      "https://omnibudsman.substack.com/p/all-poverty-is-energy-poverty",
+      "https://web.archive.org/web/20220905150835/https://omnibudsman.substack.com/p/all-poverty-is-energy-poverty"
+    ]
+  },
   "195ec9ef-ad61-1095-c899-884e2de0bd5b": {
     "id": "195ec9ef-ad61-1095-c899-884e2de0bd5b",
     "timestamp": 1637269034.684,
@@ -5194,6 +5211,24 @@
     "link": [
       "https://nn.labml.ai/",
       "https://github.com/labmlai/annotated_deep_learning_paper_implementations"
+    ]
+  },
+  "e36e78ea-5cbd-bd1c-34e8-ecf60e526467": {
+    "id": "e36e78ea-5cbd-bd1c-34e8-ecf60e526467",
+    "timestamp": 1662487079.177,
+    "keyword": [
+      "title:politics",
+      "politics",
+      "democracy",
+      "decline",
+      "democracy",
+      "autocracy"
+    ],
+    "extra": [],
+    "note": "Our World in Data article about how democracy is in decline",
+    "link": [
+      "https://ourworldindata.org/less-democratic",
+      "https://web.archive.org/web/20220906175720/https://ourworldindata.org/less-democratic"
     ]
   },
   "e3d02f1c-8d08-5a33-4a9a-b983a4c711dc": {

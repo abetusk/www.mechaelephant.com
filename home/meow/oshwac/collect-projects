@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm -f projects.ajson
+
+find data -type f -name '*.json' | \
+  xargs -n1 jq -c '.items[]'  >> projects.ajson
+
