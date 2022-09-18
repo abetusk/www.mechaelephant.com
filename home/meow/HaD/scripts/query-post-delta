@@ -1,0 +1,82 @@
+#!/bin/bash
+
+WD="$HOME/bin/HaD"
+
+cd $WD
+
+DB="HaD.sqlite3"
+LASTFN="post_id.latest"
+
+per_page=100
+max_offset=50000
+
+lastpostid=`cat $LASTFN | egrep -v '^#'`
+max_offset=`echo "$lastpostid + 10000" | bc `
+
+rm -f $DB.ready
+
+rm -rf data.posts_delta
+mkdir -p data.posts_delta
+
+echo "# lastpostid: $lastpostid, s:0 d:100 max_offset:$max_offset"
+
+runninglastid="$lastpostid"
+
+for offset in `seq 0 100 $max_offset` ; do
+  ofn="data.posts_delta/posts_s${offset}.json"
+  echo "# >>> $offset / $max_offset"
+  curl -s 'https://public-api.wordpress.com/wp/v2/sites/156670177/posts?offset='${offset}'&per_page='${per_page} > $ofn
+
+  ll=`jq '. | length' $ofn`
+  if [[ "$ll" -eq 0 ]] ; then
+    break
+  fi
+
+  maxid=`jq '.[].id' $ofn | sort -n | tail -n1`
+
+  echo "# maxid: $maxid (runninglastid: $runninglastid)"
+
+  if [[ "$maxid" -gt "$runninglastid" ]] ; then
+    runninglastid="$maxid"
+  fi
+
+  if [[ "$maxid" -lt "$lastpostid" ]] ; then
+
+    echo "# maxid $maxid < listpostid $lastpostid, stopping"
+    break
+  fi
+
+done
+
+rm -f xx
+
+for fn in `find data.posts_delta -type f -name '*.json'` ; do
+  echo "# $fn"
+
+  qq='"id":.id, '
+  qq=$qq'"date":.date, '
+  qq=$qq'"date_gmt":.date_gmt, '
+  qq=$qq'"guid":.guid.rendered, '
+  qq=$qq'"modified":.modified, '
+  qq=$qq'"modified_gmt":.modified_gmt, '
+  qq=$qq'"slug":.slug, '
+  qq=$qq'"type":.type, '
+  qq=$qq'"link":.link, '
+  qq=$qq'"title":.title.rendered, '
+  qq=$qq'"content":.content.rendered, '
+  qq=$qq'"excerpt":.excerpt.rendered, '
+  qq=$qq'"author":.author, '
+  qq=$qq'"featured_media":.featured_media, '
+  qq=$qq'"category_post_id": (.categories | join(",")) , '
+  qq=$qq'"tag_post_id": (.tags | join(","))  '
+
+  jq -c ".[] | { $qq } " $fn | \
+    ./ajson-sqlite3-replace $DB
+
+done
+
+gzip -f -k $DB
+
+echo $runninglastid > $LASTFN
+touch $DB.ready
+

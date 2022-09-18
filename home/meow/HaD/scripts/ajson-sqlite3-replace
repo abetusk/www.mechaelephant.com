@@ -1,0 +1,45 @@
+#!/bin/python3
+
+import sys
+import sqlite3
+import json
+
+DB = "HaD.sqlite3"
+
+con = sqlite3.connect(DB)
+cur = con.cursor()
+
+replace_query = """
+insert or replace into post
+(post_id, date, date_gmt, guid, modified, modified_gmt, slug, type, link, title, content, excerpt, author, featured_media, category_post_id, tag_post_id )
+values 
+( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+"""
+
+hdr = [ "id", "date",
+       "date_gmt", "guid",
+       "modified", "modified_gmt",
+       "slug", "type",
+       "link", "title",
+       "content", "excerpt",
+       "author", "featured_media",
+       "category_post_id", "tag_post_id" ]
+
+count=0
+
+for line in sys.stdin:
+
+  line = line.strip()
+  if len(line)==0: continue
+  if line[0] == '#': continue
+  jline = json.loads(line)
+
+  vals = []
+  for h in hdr:
+    vals.append( jline[h] )
+  e = cur.execute(replace_query, tuple(vals));
+  count+=1
+  #print(count)
+
+con.commit()
+con.close()
