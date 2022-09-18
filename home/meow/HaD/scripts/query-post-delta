@@ -67,10 +67,17 @@ for fn in `find data.posts_delta -type f -name '*.json'` ; do
   qq=$qq'"excerpt":.excerpt.rendered, '
   qq=$qq'"author":.author, '
   qq=$qq'"featured_media":.featured_media, '
-  qq=$qq'"category_post_id": (.categories | join(",")) , '
-  qq=$qq'"tag_post_id": (.tags | join(","))  '
+  #qq=$qq'"category_post_id": (.categories | join(",")) , '
+  #qq=$qq'"tag_post_id": (.tags | join(","))  '
 
-  jq -c ".[] | { $qq } " $fn | \
+  qq=$qq'"category_post_id": ([ (.categories[] | tostring) ]  | join(",")) , '
+  qq=$qq'"tag_post_id": ([ (.tags[] | tostring) ]  | join(","))  '
+
+  #jq -c '.[] ' $fn | \
+  #  jq -c ' . | { '"$qq"' }' | \
+  #  ./ajson-sqlite3-replace $DB
+
+  jq -c '.[] | { '"$qq"' } ' $fn | \
     ./ajson-sqlite3-replace $DB
 
 done
