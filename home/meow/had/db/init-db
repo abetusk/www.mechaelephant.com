@@ -1,0 +1,42 @@
+#!/bin/bash
+
+DBFN="HaD.sqlite3"
+
+rm -f $DBFN
+
+sqlite3 $DBFN < schema.db
+
+echo "# import tags"
+
+echo ".mode csv" > import_tag.db
+find csv -type f -name 'tags_s*.csv' | \
+  sed 's/^/.import /' | \
+  sed 's/$/ tag/' >> import_tag.db
+sqlite3 $DBFN < import_tag.db
+
+echo "# import posts"
+
+echo ".mode csv" > import_post.db
+find csv -type f -name 'posts_s*.csv' | \
+  sed 's/^/.import /' | \
+  sed 's/$/ post/' >> import_post.db
+sqlite3 $DBFN < import_post.db
+
+
+echo "# import category_post"
+
+echo 'select post_id, category_post_id from post' | \
+  sqlite3 $DBFN | \
+  ./unroll_post_array_field > category_post.csv
+echo -e ".mode csv\n.import category_post.csv category_post" | \
+  sqlite3 $DBFN
+
+echo "# import tag_post"
+
+echo 'select post_id, tag_post_id from post' | \
+  sqlite3 $DBFN | \
+  ./unroll_post_array_field > tag_post.csv
+echo -e ".mode csv\n.import tag_post.csv tag_post" | \
+  sqlite3 $DBFN
+
+echo "# done"

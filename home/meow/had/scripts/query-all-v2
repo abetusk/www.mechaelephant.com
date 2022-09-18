@@ -1,0 +1,11 @@
+#!/bin/bash
+
+per_page=100
+max_offset=50000
+
+mkdir -p data.posts
+
+for offset in `seq 0 100 $max_offset` ; do
+  echo ">>> $offset / $max_offset"
+  curl 'https://public-api.wordpress.com/wp/v2/sites/156670177/posts?offset='${offset}'&per_page='${per_page} > data.posts/posts_s${offset}.json
+done

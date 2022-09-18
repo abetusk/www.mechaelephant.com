@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+
+import sys
+
+uid = 1
+
+print("unique_id,post_id,v_id")
+
+for line in sys.stdin:
+  line = line.strip()
+  if len(line)==0: continue
+  tok = line.split("|")
+  vid = tok[1].split(",")
+
+  for v in vid:
+    print(str(uid) + "," + tok[0] + "," + str(v))
+    uid+=1

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+per_page=100
+max_page=2
+
+mkdir -p data.categories
+
+for page in `seq 1 $max_page` ; do
+  echo ">>> $page / $max_page"
+  curl 'https://public-api.wordpress.com/wp/v2/sites/156670177/categories?page='${page}'&per_page='${per_page} > data.categories/categories_s${page}.json
+done
