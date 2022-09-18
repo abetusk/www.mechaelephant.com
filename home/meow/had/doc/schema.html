@@ -1,0 +1,112 @@
+<h3 id="post"><code>post</code></h3>
+<table>
+<thead> <tr class="header"> <th>Column</th> <th>Datatype</th> <th>Description</th> </tr> </thead>
+<tbody>
+<tr class="odd"> <td><code>post_id</code></td> <td>int</td> <td>(primary key) Wordpress ID of post</td> </tr>
+<tr class="even"> <td><code>date</code></td> <td>datetime</td> <td>Date of post</td> </tr>
+<tr class="odd"> <td><code>date_gmt</code></td> <td>datetime</td> <td>GMT Date of post</td> </tr>
+<tr class="even"> <td><code>guid</code></td> <td>varchar</td> <td>Global Unique Identifier</td> </tr>
+<tr class="odd"> <td><code>modified</code></td> <td>datetime</td> <td>Modification date of post</td> </tr>
+<tr class="even"> <td><code>modified_gmt</code></td> <td>datetime</td> <td>GMT modification date of post</td> </tr>
+<tr class="odd"> <td><code>slug</code></td> <td>varchar</td> <td>Human readable name</td> </tr>
+<tr class="even"> <td><code>type</code></td> <td>varchar</td> <td>Type (“post”)</td> </tr>
+<tr class="odd"> <td><code>link</code></td> <td>varchar</td> <td>URL</td> </tr>
+<tr class="even"> <td><code>title</code></td> <td>varchar</td> <td>Title</td> </tr>
+<tr class="odd"> <td><code>content</code></td> <td>varchar</td> <td>HTML content</td> </tr>
+<tr class="even"> <td><code>excerpt</code></td> <td>varchar</td> <td>Blog excerpt of content</td> </tr>
+<tr class="odd"> <td><code>author</code></td> <td>int</td> <td>Author ID</td> </tr>
+<tr class="even"> <td><code>featured_media</code></td> <td>int</td> <td>?</td> </tr>
+<tr class="odd"> <td><code>category_post_id</code></td> <td>int</td> <td>…</td> </tr>
+<tr class="even"> <td><code>tag_post_id</code></td> <td>int</td> <td>…</td> </tr>
+</tbody>
+</table>
+
+<h6 id="indexes">Indexes</h6>
+<ul>
+<li><code>(post_id)</code></li>
+<li><code>(date)</code></li>
+<li><code>(date_gmt)</code></li>
+<li><code>(slug)</code></li>
+</ul>
+
+<h3 id="tag_post"><code>tag_post</code></h3>
+<table>
+<thead> <tr class="header"> <th>Column</th> <th>Datatype</th> <th>Description</th> </tr> </thead>
+<tbody>
+<tr class="odd"> <td><code>tag_post_id</code></td> <td>int</td> <td>primary key</td> </tr>
+<tr class="even"> <td><code>post_id</code></td> <td>int</td> <td>Post ID</td> </tr>
+<tr class="odd"> <td><code>tag_id</code></td> <td>int</td> <td>Tag ID</td> </tr>
+</tbody>
+</table>
+
+<h6 id="indexes-1">Indexes</h6>
+<ul>
+<li><code>(tag_post_id)</code></li>
+<li><code>(tag_id)</code></li>
+<li><code>(tag_post_id, tag_id)</code></li>
+</ul>
+
+<h3 id="category_post"><code>category_post</code></h3>
+<table>
+<thead> <tr class="header"> <th>Column</th> <th>Datatype</th> <th>Description</th> </tr> </thead>
+<tbody>
+<tr class="odd"> <td><code>category_post_id</code></td> <td>int</td> <td>(primary key)</td> </tr>
+<tr class="even"> <td><code>post_id</code></td> <td>int</td> <td>Post ID</td> </tr>
+<tr class="odd"> <td><code>category_id</code></td> <td>int</td> <td>Category ID</td> </tr>
+</tbody>
+</table>
+
+<h6 id="indexes-2">Indexes</h6>
+<ul>
+<li><code>(category_post_id)</code></li>
+<li><code>(category_id)</code></li>
+<li><code>(category_post_id, category_id)</code></li>
+</ul>
+
+<h3 id="tag"><code>tag</code></h3>
+<table>
+<thead> <tr class="header"> <th>Column</th> <th>Datatype</th> <th>Description</th> </tr> </thead>
+<tbody>
+<tr class="odd"> <td><code>tag_id</code></td> <td>int</td> <td>(primary key)</td> </tr>
+<tr class="even"> <td><code>count</code></td> <td>int</td> <td>Frequency count</td> </tr>
+<tr class="odd"> <td><code>description</code></td> <td>varchar</td> <td>Description of tag</td> </tr>
+<tr class="even"> <td><code>link</code></td> <td>varchar</td> <td>Wordpress link to tag element</td> </tr>
+<tr class="odd"> <td><code>name</code></td> <td>varchar</td> <td>Name of tag</td> </tr>
+<tr class="even"> <td><code>slug</code></td> <td>varchar</td> <td>Slug of tag</td> </tr>
+<tr class="odd"> <td><code>taxonomy</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="even"> <td><code>self_url</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="odd"> <td><code>collection_url</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="even"> <td><code>about_url</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="odd"> <td><code>wp_post_type_url</code></td> <td>varchar</td> <td></td> </tr>
+</tbody>
+</table>
+
+<h6 id="indexes-3">Indexes</h6>
+<ul>
+<li><code>(tag_id)</code></li>
+<li><code>(name)</code></li>
+<li><code>(link)</code></li>
+<li><code>(slug)</code></li>
+</ul>
+
+<h3 id="category"><code>category</code></h3>
+<table>
+<thead> <tr class="header"> <th>Column</th> <th>Datatype</th> <th>Description</th> </tr> </thead>
+<tbody>
+<tr class="odd"> <td><code>category_id</code></td> <td>int</td> <td>(primary key)</td> </tr>
+<tr class="even"> <td><code>count</code></td> <td>int</td> <td>Frequency count</td> </tr>
+<tr class="odd"> <td><code>description</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="even"> <td><code>link</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="odd"> <td><code>name</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="even"> <td><code>slug</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="odd"> <td><code>taxonomy</code></td> <td>varchar</td> <td></td> </tr>
+</tbody>
+</table>
+
+<h6 id="indexes-4">Indexes</h6>
+<ul>
+<li><code>(category_id)</code></li>
+<li><code>(name)</code></li>
+<li><code>(link)</code></li>
+<li><code>(slug)</code></li>
+</ul>

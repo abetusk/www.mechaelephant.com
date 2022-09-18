@@ -1,0 +1,19 @@
+#!/bin/bash
+
+mkdir -p csv
+
+for fn in `find ../data.categories -type f -name *.json` ; do
+
+  bn=`basename $fn .json`
+
+  echo "$fn --> csv/$bn.csv"
+  #jq -c '.[] | [ .id, .count, .description, .link, .name, .slug, .taxonomy, ._links.self[0].href, ._links.collection[0].href, ._links.about[0].href, ._links["wp:post_type"][0].href ]' $fn | \
+
+
+  #jq -c ' .[] | { "id":.id, "count":.count, "description":.description, "link":.link, "name":.name, "slug":.slug, "taxonomy": .taxonomy, "self_url":._links.self[0].href, "collection_url":._links.collection[0].href, "about_url":._links.about[0].href, "post_type":._links["wp:post_type"][0].href }' $fn | \
+  jq -c ' .[] | { "id":.id, "count":.count, "description":.description, "link":.link, "name":.name, "slug":.slug, "taxonomy": .taxonomy  }' $fn | \
+    jq -s | \
+    jq -rf json2csv.jq | \
+    tail -n +2 > csv/$bn.csv
+
+done

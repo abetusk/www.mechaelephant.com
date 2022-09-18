@@ -1,0 +1,40 @@
+#!/bin/bash
+
+mkdir -p csv
+
+for fn in `find ../data.posts -type f -name *.json` ; do
+
+  bn=`basename $fn .json`
+
+  echo "$fn --> csv/$bn.csv"
+  #jq -c '.[] | [ .id, .count, .description, .link, .name, .slug, .taxonomy, ._links.self[0].href, ._links.collection[0].href, ._links.about[0].href, ._links["wp:post_type"][0].href ]' $fn | \
+
+  qq='"id":.id, '
+  qq=$qq'"date":.date, '
+  qq=$qq'"date_gmt":.date_gmt, '
+  qq=$qq'"guid":.guid.rendered, '
+  qq=$qq'"modified":.modified, '
+  qq=$qq'"modified_gmt":.modified_gmt, '
+  qq=$qq'"slug":.slug, '
+  qq=$qq'"type":.type, '
+  qq=$qq'"link":.link, '
+  qq=$qq'"title":.title.rendered, '
+  qq=$qq'"content":.content.rendered, '
+  qq=$qq'"excerpt":.excerpt.rendered, '
+  qq=$qq'"author":.author, '
+  qq=$qq'"featured_media":.featured_media, '
+  #qq=$qq'"link_url":._links.self[0].href, '
+  #qq=$qq'"author_url":._links.author[0].href, '
+  #qq=$qq'"reply_url":._links.replies[0].href, '
+  #qq=$qq'"reply_url":._links.replies[0].href, '
+  #qq=$qq'"collection_url":._links.collection[0].href, '
+  #qq=$qq'"about":._links.about[0].href, '
+  qq=$qq'"category_post_id": (.categories | join(",")) , '
+  qq=$qq'"tag_post_id": (.tags | join(","))  '
+
+  jq -c ".[] | { $qq } " $fn | \
+    jq -s | \
+    jq -rf json2csv.jq | \
+    tail -n +2 > csv/$bn.csv
+
+done
