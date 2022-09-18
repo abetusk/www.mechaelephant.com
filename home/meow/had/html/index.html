@@ -21,7 +21,7 @@
   <script type='text/javascript' src='js/sql.js'></script>
   <script type='text/javascript' src='js/gunzip.min.js'></script>
 
-  <script src="js/had-db.js"></script>
+  <script src="js/HaD-db.js"></script>
 
 
 </head>
@@ -36,34 +36,12 @@
 
     <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
       <div class="input-group">
-
-        <!--
-        <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
-        <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
-        -->
-
       </div>
-
     </form>
 
-    <!-- Navbar-->
     <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
       <a class="nav-link" id="navbarModal" href="#" role="button"><i class="fas fa-gear"></i></a>
     </u>
-
-      <!--
-    <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-gear fa-fw"></i></a>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="#!">Settings</a></li>
-          <li><a class="dropdown-item" href="#!">Activity Log</a></li>
-          <li><hr class="dropdown-divider" /></li>
-          <li><a class="dropdown-item" href="#!">Logout</a></li>
-        </ul>
-      </li>
-    </ul>
-    -->
 
   </nav>
 
@@ -76,226 +54,244 @@
 
           <div class="nav">
 
-            <div class="sb-sidenav-menu-heading">Core</div>
+            <!-- <div class="sb-sidenav-menu-heading">Core</div> -->
 
+              <a class="nav-link" href="#" id='ui_nav_query'>
+                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                Query
+              </a>
+
+              <!--
               <a class="nav-link" href="index.html">
-                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                Dashboard
+                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                Chart
               </a>
+              -->
 
-              <div class="sb-sidenav-menu-heading">Interface</div>
-                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
-                  <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                  Layouts
-                  <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                </a>
-              <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-                <nav class="sb-sidenav-menu-nested nav">
-                  <a class="nav-link" href="layout-static.html">Static Navigation</a>
-                  <a class="nav-link" href="layout-sidenav-light.html">Light Sidenav</a>
-                </nav>
-              </div>
+              <hr>
 
-              <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+              <a class="nav-link" href="#" id='ui_nav_schema'>
                 <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
-                Pages
-                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                Schema
               </a>
 
-              <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
-                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                  <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
-                    Authentication
-                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                  </a>
-                  <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
-                    <nav class="sb-sidenav-menu-nested nav">
-                      <a class="nav-link" href="login.html">Login</a>
-                      <a class="nav-link" href="register.html">Register</a>
-                      <a class="nav-link" href="password.html">Forgot Password</a>
-                    </nav>
-                  </div>
-                  <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
-                      Error
-                      <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                  </a>
-                  <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
-                    <nav class="sb-sidenav-menu-nested nav">
-                      <a class="nav-link" href="401.html">401 Page</a>
-                      <a class="nav-link" href="404.html">404 Page</a>
-                      <a class="nav-link" href="500.html">500 Page</a>
-                    </nav>
-                  </div>
-              </nav>
-          </div>
+              <a class="nav-link" href="#" id='ui_nav_download'>
+                <div class="sb-nav-link-icon"><i class="fas fa-download"></i></div>
+                Download
+              </a>
 
-          <div class="sb-sidenav-menu-heading">Addons</div>
-          <a class="nav-link" href="charts.html">
-              <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-              Charts
-          </a>
-          <a class="nav-link" href="tables.html">
-              <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-              Tables
-          </a>
+
         </div>
       </div>
 
-      <div class="sb-sidenav-footer">
-        ...
-        <!--
-        <div class="small">Logged in as:</div>
-          Start Bootstrap
-          -->
-      </div>
+      <!-- <div class="sb-sidenav-footer"> ...  </div> -->
       </nav>
     </div>
 
     <div id="layoutSidenav_content">
-        <main>
-            <div class="container-fluid px-4">
 
-              <br />
-              <textarea class='form-control rounded-0' id='ok' rows='10'></textarea>
-              <br />
+      <main>
+                             
+        <!--
+          __ _ _   _  ___ _ __ _   _ 
+         / _` | | | |/ _ \ '__| | | |
+        | (_| | |_| |  __/ |  | |_| |
+         \__, |\__,_|\___|_|   \__, |
+            |_|                |___/ 
 
-                <!--
-                <h1 class="mt-4">Dashboard</h1>
-                <ol class="breadcrumb mb-4">
-                    <li class="breadcrumb-item active">Dashboard</li>
-                </ol>
-                -->
+        -->
 
-                <!--
-                <div class="row">
-                    <div class="col-xl-3 col-md-6">
-                        <div class="card bg-primary text-white mb-4">
-                            <div class="card-body">Primary Card</div>
-                            <div class="card-footer d-flex align-items-center justify-content-between">
-                                <a class="small text-white stretched-link" href="#">View Details</a>
-                                <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6">
-                        <div class="card bg-warning text-white mb-4">
-                            <div class="card-body">Warning Card</div>
-                            <div class="card-footer d-flex align-items-center justify-content-between">
-                                <a class="small text-white stretched-link" href="#">View Details</a>
-                                <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6">
-                        <div class="card bg-success text-white mb-4">
-                            <div class="card-body">Success Card</div>
-                            <div class="card-footer d-flex align-items-center justify-content-between">
-                                <a class="small text-white stretched-link" href="#">View Details</a>
-                                <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6">
-                        <div class="card bg-danger text-white mb-4">
-                            <div class="card-body">Danger Card</div>
-                            <div class="card-footer d-flex align-items-center justify-content-between">
-                                <a class="small text-white stretched-link" href="#">View Details</a>
-                                <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                -->
+        <div class="container-fluid px-4, tab-pane active" id='ui_tab_query' style='display:block;'>
 
-                <!--
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="card mb-4">
-                            <div class="card-header">
-                                <i class="fas fa-chart-area me-1"></i>
-                                Area Chart Example
-                            </div>
-                            <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="card mb-4">
-                            <div class="card-header">
-                                <i class="fas fa-chart-bar me-1"></i>
-                                Bar Chart Example
-                            </div>
-                            <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
-                        </div>
-                    </div>
-                </div>
-                -->
+          <br />
 
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <i class="fas fa-table me-1"></i>
-                        <span id='ui_datatable_name'></span>
-                    </div>
+          <button type='button' class='btn btn-secondary' id='ui_query_execute'>execute query</button>
 
-                    <div class="card-body">
-                        <table id="datatableSimple">
-
-                          <!--
-                          <thead>
-                                <tr>
-                                    <th>Name</th>
-                                    <th>Position</th>
-                                    <th>Office</th>
-                                    <th>Age</th>
-                                    <th>Start date</th>
-                                    <th>Salary</th>
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                <tr>
-                                    <td>Tiger Nixon</td>
-                                    <td>System Architect</td>
-                                    <td>Edinburgh</td>
-                                    <td>61</td>
-                                    <td>2011/04/25</td>
-                                    <td>$320,800</td>
-                                </tr>
-                                <tr>
-                                    <td>Garrett Winters</td>
-                                    <td>Accountant</td>
-                                    <td>Tokyo</td>
-                                    <td>63</td>
-                                    <td>2011/07/25</td>
-                                    <td>$170,750</td>
-                                </tr>
-                                <tr>
-                                    <td>Ashton Cox</td>
-                                    <td>Junior Technical Author</td>
-                                    <td>San Francisco</td>
-                                    <td>66</td>
-                                    <td>2009/01/12</td>
-                                    <td>$86,000</td>
-                                </tr>
-                            </tbody>
-                            -->
-                        </table>
-                    </div>
-                </div>
+          <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+            <div class='input-group'>
+              <input class='form-control' type='text' placeholder='Search text...' aria-label='Search text...' size='20' id='ui_query_quick_text'>
+              <button type='button' class='btn btn-secondary' id='ui_query_quick_execute'>quick search</button>
             </div>
-        </main>
+          </form>
+
+          <br />
+          <br />
+
+          <textarea class='form-control rounded-0' rows='10' id='ui_query_text'></textarea>
+
+          <br />
+
+          <div class="card mb-4">
+            <div class="card-header">
+              <i class="fas fa-table me-1"></i>
+              <span id='ui_datatable_name'></span>
+            </div>
+
+            <div class="card-body">
+              <table id="datatableSimple">
+              </table>
+            </div>
+          </div>
+
+        </div>
+
+        <!--
+                  _                          
+         ___  ___| |__   ___ _ __ ___   __ _ 
+        / __|/ __| '_ \ / _ \ '_ ` _ \ / _` |
+        \__ \ (__| | | |  __/ | | | | | (_| |
+        |___/\___|_| |_|\___|_| |_| |_|\__,_|
+        -->
+
+
+
+        <div class="container-fluid px-4 tab-pane" id='ui_tab_schema' style='display:none;'>
+<h3 id="post"><code>post</code></h3>
+<table>
+<thead> <tr class="header"> <th>Column</th> <th>Datatype</th> <th>Description</th> </tr> </thead>
+<tbody>
+<tr class="odd"> <td><code>post_id</code></td> <td>int</td> <td>(primary key) Wordpress ID of post</td> </tr>
+<tr class="even"> <td><code>date</code></td> <td>datetime</td> <td>Date of post</td> </tr>
+<tr class="odd"> <td><code>date_gmt</code></td> <td>datetime</td> <td>GMT Date of post</td> </tr>
+<tr class="even"> <td><code>guid</code></td> <td>varchar</td> <td>Global Unique Identifier</td> </tr>
+<tr class="odd"> <td><code>modified</code></td> <td>datetime</td> <td>Modification date of post</td> </tr>
+<tr class="even"> <td><code>modified_gmt</code></td> <td>datetime</td> <td>GMT modification date of post</td> </tr>
+<tr class="odd"> <td><code>slug</code></td> <td>varchar</td> <td>Human readable name</td> </tr>
+<tr class="even"> <td><code>type</code></td> <td>varchar</td> <td>Type (“post”)</td> </tr>
+<tr class="odd"> <td><code>link</code></td> <td>varchar</td> <td>URL</td> </tr>
+<tr class="even"> <td><code>title</code></td> <td>varchar</td> <td>Title</td> </tr>
+<tr class="odd"> <td><code>content</code></td> <td>varchar</td> <td>HTML content</td> </tr>
+<tr class="even"> <td><code>excerpt</code></td> <td>varchar</td> <td>Blog excerpt of content</td> </tr>
+<tr class="odd"> <td><code>author</code></td> <td>int</td> <td>Author ID</td> </tr>
+<tr class="even"> <td><code>featured_media</code></td> <td>int</td> <td>?</td> </tr>
+<tr class="odd"> <td><code>category_post_id</code></td> <td>int</td> <td>…</td> </tr>
+<tr class="even"> <td><code>tag_post_id</code></td> <td>int</td> <td>…</td> </tr>
+</tbody>
+</table>
+
+<h6 id="indexes">Indexes</h6>
+<ul>
+<li><code>(post_id)</code></li>
+<li><code>(date)</code></li>
+<li><code>(date_gmt)</code></li>
+<li><code>(slug)</code></li>
+</ul>
+ 
+<h3 id="tag_post"><code>tag_post</code></h3>
+<table>
+<thead> <tr class="header"> <th>Column</th> <th>Datatype</th> <th>Description</th> </tr> </thead>
+<tbody>
+<tr class="odd"> <td><code>tag_post_id</code></td> <td>int</td> <td>primary key</td> </tr>
+<tr class="even"> <td><code>post_id</code></td> <td>int</td> <td>Post ID</td> </tr>
+<tr class="odd"> <td><code>tag_id</code></td> <td>int</td> <td>Tag ID</td> </tr>
+</tbody>
+</table>
+ 
+<h6 id="indexes-1">Indexes</h6>
+<ul>
+<li><code>(tag_post_id)</code></li>
+<li><code>(tag_id)</code></li>
+<li><code>(tag_post_id, tag_id)</code></li>
+</ul>
+
+<h3 id="category_post"><code>category_post</code></h3>
+<table>
+<thead> <tr class="header"> <th>Column</th> <th>Datatype</th> <th>Description</th> </tr> </thead>
+<tbody>
+<tr class="odd"> <td><code>category_post_id</code></td> <td>int</td> <td>(primary key)</td> </tr>
+<tr class="even"> <td><code>post_id</code></td> <td>int</td> <td>Post ID</td> </tr>
+<tr class="odd"> <td><code>category_id</code></td> <td>int</td> <td>Category ID</td> </tr>
+</tbody>
+</table>
+
+<h6 id="indexes-2">Indexes</h6>
+<ul>
+<li><code>(category_post_id)</code></li>
+<li><code>(category_id)</code></li>
+<li><code>(category_post_id, category_id)</code></li>
+</ul>
+
+<h3 id="tag"><code>tag</code></h3>
+<table>
+<thead> <tr class="header"> <th>Column</th> <th>Datatype</th> <th>Description</th> </tr> </thead>
+<tbody>
+<tr class="odd"> <td><code>tag_id</code></td> <td>int</td> <td>(primary key)</td> </tr>
+<tr class="even"> <td><code>count</code></td> <td>int</td> <td>Frequency count</td> </tr>
+<tr class="odd"> <td><code>description</code></td> <td>varchar</td> <td>Description of tag</td> </tr>
+<tr class="even"> <td><code>link</code></td> <td>varchar</td> <td>Wordpress link to tag element</td> </tr>
+<tr class="odd"> <td><code>name</code></td> <td>varchar</td> <td>Name of tag</td> </tr>
+<tr class="even"> <td><code>slug</code></td> <td>varchar</td> <td>Slug of tag</td> </tr>
+<tr class="odd"> <td><code>taxonomy</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="even"> <td><code>self_url</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="odd"> <td><code>collection_url</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="even"> <td><code>about_url</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="odd"> <td><code>wp_post_type_url</code></td> <td>varchar</td> <td></td> </tr>
+</tbody>
+</table>
+ 
+<h6 id="indexes-3">Indexes</h6>
+<ul>
+<li><code>(tag_id)</code></li>
+<li><code>(name)</code></li>
+<li><code>(link)</code></li>
+<li><code>(slug)</code></li>
+</ul>
+ 
+<h3 id="category"><code>category</code></h3>
+<table>
+<thead> <tr class="header"> <th>Column</th> <th>Datatype</th> <th>Description</th> </tr> </thead>
+<tbody>
+<tr class="odd"> <td><code>category_id</code></td> <td>int</td> <td>(primary key)</td> </tr>
+<tr class="even"> <td><code>count</code></td> <td>int</td> <td>Frequency count</td> </tr>
+<tr class="odd"> <td><code>description</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="even"> <td><code>link</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="odd"> <td><code>name</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="even"> <td><code>slug</code></td> <td>varchar</td> <td></td> </tr>
+<tr class="odd"> <td><code>taxonomy</code></td> <td>varchar</td> <td></td> </tr>
+</tbody>
+</table>
+ 
+<h6 id="indexes-4">Indexes</h6>
+<ul>
+<li><code>(category_id)</code></li>
+<li><code>(name)</code></li>
+<li><code>(link)</code></li>
+<li><code>(slug)</code></li>
+</ul>
+
+        </div>
+
+        <!--
+             _                     _                 _ 
+          __| | _____      ___ __ | | ___   __ _  __| |
+         / _` |/ _ \ \ /\ / / '_ \| |/ _ \ / _` |/ _` |
+        | (_| | (_) \ V  V /| | | | | (_) | (_| | (_| |
+         \__,_|\___/ \_/\_/ |_| |_|_|\___/ \__,_|\__,_|
+
+        -->
+
+
+        <div class="container-fluid px-4 tab-pane" id='ui_tab_download' style='display:none;'>
+
+          <br>
+          <br>
+
+          <button type='button' class='btn btn-primary' id='ui_download'>
+            <i class="fas fa-download"></i>
+            Download SQLite3 Database
+          </button>
+
+          <br>
+          <br>
+
+
+        </div>
+
+      </main>
 
       <footer class="py-4 bg-light mt-auto">
         <div class="container-fluid px-4">
           <div class="d-flex align-items-center justify-content-between small">
-
-            <!--
-            <div class="text-muted">Copyright &copy; Your Website 2022</div>
-            <div>
-              <a href="#">Privacy Policy</a>
-              &middot;
-              <a href="#">Terms &amp; Conditions</a>
-            </div>
-            -->
           </div>
         </div>
       </footer>
