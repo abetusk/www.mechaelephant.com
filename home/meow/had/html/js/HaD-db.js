@@ -2,16 +2,14 @@ var g_db = {};
 
 function simple_escape_html(s) {
   s = s.toString();
-    
-  var map = {
-    '&': '&amp;',
-    '<': '&lt;',
-    '>': '&gt;',
-    '"': '&quot;',
-    "'": '&#039;'
-  };
 
-  return s.replace(/[&<>"']/g, function(m) { return map[m]; });
+  s = s.replace(/&/g, '&amp;');
+  s = s.replace(/</g, '&lt;');
+  s = s.replace(/>/g, '&gt;');
+  s = s.replace(/"/g, '&quot;');
+  s = s.replace(/'/g, '&#039;');
+
+  return s;
 }
 
 function simple_link(s) {
@@ -28,19 +26,40 @@ function simple_display(s) {
   return simple_escape_html(s);
 }
 
+function show_error(e) {
+  let msg = e.message;
+
+  let ui_error = document.getElementById("ui_error");
+  ui_error.innerHTML = "ERROR: " + msg;
+  ui_error.style["display"] = "block";
+}
+
+function clear_error() {
+  let ui_error = document.getElementById("ui_error");
+  ui_error.style["display"] = "none";
+}
+
 function ui_simple_query(query_txt) {
-  let res = g_db.exec(query_txt);
+  let res = {};
+
+  try {
+    res = g_db.exec(query_txt);
+  }
+  catch (e) {
+    show_error(e);
+    return;
+  }
+
+  clear_error();
+
+  let table = document.getElementById("datatableSimple");
+  table.innerHTML = "";
 
   if (typeof res === "undefined") { return; }
   if (res.length < 1) { return; }
 
-  console.log("cp");
-
   let col = res[0].columns;
   let val = res[0].values;
-
-  let table = document.getElementById("datatableSimple");
-  table.innerHTML = "";
 
   let thead = document.createElement("thead");
   let thead_row = thead.insertRow();
@@ -120,8 +139,6 @@ $(document).ready( function() {
 
   $("#ui_query_quick_execute").click(function(e) {
     let txt = document.getElementById("ui_query_quick_text").value;
-
-    console.log("...", txt);
 
     let query_txt = "select p.post_id, p.date, p.link, p.title  from post p \n" +
       " where ( p.title like '%" + txt + "%' or p.link like '%" + txt + "%' or p.content like '%" + txt + "%' ) \n" +
