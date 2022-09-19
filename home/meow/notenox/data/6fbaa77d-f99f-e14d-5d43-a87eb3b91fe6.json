@@ -1,0 +1,18 @@
+{
+  "id": "6fbaa77d-f99f-e14d-5d43-a87eb3b91fe6",
+  "timestamp": 1663604155.053,
+  "keyword": [
+    "title:ai",
+    "ai",
+    "artificial intelligence",
+    "stable diffusion",
+    "hugging face"
+  ],
+  "extra": [],
+  "note": "Information on the training set used for hugging face's stable diffusion model",
+  "link": [
+    "https://laion.ai/blog/laion-5b/",
+    "https://huggingface.co/datasets/laion/laion2B-en",
+    "https://github.com/rom1504/img2dataset"
+  ]
+}
