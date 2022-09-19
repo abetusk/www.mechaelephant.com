@@ -3467,6 +3467,24 @@
       "https://github.com/kripken/speak.js/"
     ]
   },
+  "9a720263-3b15-71e1-a038-d9141e1ed3af": {
+    "id": "9a720263-3b15-71e1-a038-d9141e1ed3af",
+    "timestamp": 1663604358.475,
+    "keyword": [
+      "title:copyright",
+      "copyright",
+      "stable diffusion",
+      "ai",
+      "rutkowski",
+      "art"
+    ],
+    "extra": [],
+    "note": "Talks about the ethics of scraping the web for artists works and using them in stable diffusion models. In particular, Rutkowski is a popular artist and I suspect his style is what midjourney is leaning into when people give prompts",
+    "link": [
+      "https://www.technologyreview.com/2022/09/16/1059598/this-artist-is-dominating-ai-generated-art-and-hes-not-happy-about-it/",
+      "https://web.archive.org/web/20220916160649/https://www.technologyreview.com/2022/09/16/1059598/this-artist-is-dominating-ai-generated-art-and-hes-not-happy-about-it/"
+    ]
+  },
   "9c1b5aa5-517c-4213-2925-44d5cfafe954": {
     "id": "9c1b5aa5-517c-4213-2925-44d5cfafe954",
     "timestamp": 1642667087.849,
