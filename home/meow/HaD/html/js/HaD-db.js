@@ -98,6 +98,13 @@ function switch_tab(tab_id) {
 
 }
 
+function ui_query_form(e) {
+  e.preventDefault();
+
+  console.log("...");
+
+}
+
 //----
 // CC-BY-SA  https://stackoverflow.com/users/1832062/stefanos-chrs
 // https://stackoverflow.com/a/49917066
@@ -113,6 +120,26 @@ function download(url) {
 //
 //----
 
+function query_quick_search() {
+  let txt = document.getElementById("ui_query_quick_text").value;
+
+  let query_txt = "select p.post_id, p.date, p.link, p.title  from post p \n" +
+    " where ( p.title like '%" + txt + "%' or p.link like '%" + txt + "%' or p.content like '%" + txt + "%' ) \n" +
+    " order by p.date desc limit 10\n";
+
+  let query_ele = document.getElementById("ui_query_text");
+  query_ele.value = query_txt;
+
+  ui_simple_query(query_txt);
+}
+
+function db_ready() {
+  let ele = document.getElementById("ui_db_ready");
+  ele.classList.remove("btn-danger")
+  ele.classList.add("btn-light")
+  ele.innerHTML = "DB ready";
+}
+
 $(document).ready( function() {
 
   // Use a web worker to load the SQL database so it
@@ -122,6 +149,8 @@ $(document).ready( function() {
   wurk.addEventListener('message', function(e) {
     var uintarray = e.data;
     g_db = new SQL.Database(uintarray);
+
+    db_ready();
 
     console.log("ready");
   });
@@ -138,16 +167,16 @@ $(document).ready( function() {
   });
 
   $("#ui_query_quick_execute").click(function(e) {
-    let txt = document.getElementById("ui_query_quick_text").value;
+    query_quick_search();
+    return;
+  });
 
-    let query_txt = "select p.post_id, p.date, p.link, p.title  from post p \n" +
-      " where ( p.title like '%" + txt + "%' or p.link like '%" + txt + "%' or p.content like '%" + txt + "%' ) \n" +
-      " order by p.date desc limit 10\n";
-
-    let query_ele = document.getElementById("ui_query_text");
-    query_ele.value = query_txt;
-
-    ui_simple_query(query_txt);
+  $("#ui_query_quick_text").keypress(function(e) {
+    if (e.which == 13) {
+      console.log("bang");
+      query_quick_search();
+      return false;
+    }
   });
 
 });

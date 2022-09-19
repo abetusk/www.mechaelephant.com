@@ -39,9 +39,11 @@
       </div>
     </form>
 
+    <!--
     <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
       <a class="nav-link" id="navbarModal" href="#" role="button"><i class="fas fa-gear"></i></a>
     </u>
+    -->
 
   </nav>
 
@@ -107,7 +109,7 @@
 
           <button type='button' class='btn btn-secondary' id='ui_query_execute'>execute query</button>
 
-          <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+          <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0" onsubmit='ui_query_form'>
             <div class='input-group'>
               <input class='form-control' type='text' placeholder='Search text...' aria-label='Search text...' size='20' id='ui_query_quick_text'>
               <button type='button' class='btn btn-secondary' id='ui_query_quick_execute'>quick search</button>
@@ -121,6 +123,7 @@
 
           <br />
           <button type='button' class='btn btn-danger' id='ui_error' style='display:none;'>ERROR</button>
+          <button type='button' class='btn btn-danger' id='ui_db_ready' style='display:block;'> <div class="spinner-border spinner-border-sm"></div> Database NOT Ready</button>
           <br />
 
           <div class="card mb-4">
