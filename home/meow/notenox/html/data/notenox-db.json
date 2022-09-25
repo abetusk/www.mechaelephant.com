@@ -3198,6 +3198,26 @@
       "https://www.italki.com/teachers/english"
     ]
   },
+  "8d27692c-5eab-cbf3-d750-c7b47a3e8577": {
+    "id": "8d27692c-5eab-cbf3-d750-c7b47a3e8577",
+    "timestamp": 1664138103.464,
+    "keyword": [
+      "title:ai",
+      "machine learning",
+      "ai",
+      "ml",
+      "neural network"
+    ],
+    "extra": [],
+    "note": "Fundamental papers on some of the more modern transformers, especially focusing on BERT.",
+    "link": [
+      "http://nlp.seas.harvard.edu/2018/04/03/attention.html",
+      "https://web.archive.org/web/20220913044455/http://nlp.seas.harvard.edu/2018/04/03/attention.html",
+      "https://arxiv.org/pdf/1810.04805.pdf",
+      "https://www.youtube.com/watch?v=-9vVhYEXeyQ",
+      "https://web.archive.org/web/20220624060145/https://www.youtube.com/watch?v=-9vVhYEXeyQ"
+    ]
+  },
   "8d3f1e4c-1d8b-8b83-aeed-6695aade8979": {
     "id": "8d3f1e4c-1d8b-8b83-aeed-6695aade8979",
     "timestamp": 1622733751.531,
