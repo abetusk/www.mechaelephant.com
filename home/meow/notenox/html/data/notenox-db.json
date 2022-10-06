@@ -4242,6 +4242,25 @@
       "https://www.mouser.com/c/semiconductors/power-management-ics/voltage-regulators-voltage-controllers/switching-voltage-regulators/?series=LM2576"
     ]
   },
+  "b188546f-bf54-8008-0839-de2c54c70242": {
+    "id": "b188546f-bf54-8008-0839-de2c54c70242",
+    "timestamp": 1664902533.815,
+    "keyword": [
+      "title:corporate culture",
+      "corporate culture",
+      "corporate",
+      "culture",
+      "google",
+      "lpa"
+    ],
+    "extra": [],
+    "note": "Describes the mentality at Google of 'LPA': Launch, Promote, Abandon. The idea being that career progression follows launches, so engineers would create a project, promote it, get promoted themselves and then abandon it to engineers who weren't familiar with it.",
+    "link": [
+      "https://twitter.com/lh3lh3/status/1577286423862185984",
+      "https://twitter.com/buccocapital/status/1576909546164928513",
+      "https://web.archive.org/web/20221003175520/https://twitter.com/buccocapital/status/1576909546164928513"
+    ]
+  },
   "b2e8252d-9c42-ff0b-5ae1-01e9032ec37d": {
     "id": "b2e8252d-9c42-ff0b-5ae1-01e9032ec37d",
     "timestamp": 1622786604.528,
@@ -5036,6 +5055,23 @@
       "https://web.archive.org/web/20211111080445/https://spectrum.ieee.org/an-engineers-view-of-venture-capitalists"
     ]
   },
+  "d3f67e46-4bef-d2a9-1e11-236ef466718e": {
+    "id": "d3f67e46-4bef-d2a9-1e11-236ef466718e",
+    "timestamp": 1665044652.82,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "bldc",
+      "driver",
+      "half-bridge"
+    ],
+    "extra": [],
+    "note": "MP6543HGL-Z three phase bldc motor driver. $2.95 qty 1, in stock (digikey). 2A, 3V-22V.",
+    "link": [
+      "https://www.digikey.com/en/products/detail/monolithic-power-systems-inc/MP6543HGL-Z/14640308",
+      "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP6543HGL-Z/document_id/9087/"
+    ]
+  },
   "d3fb1e45-e418-b4ae-d6ca-d9b90074b1af": {
     "id": "d3fb1e45-e418-b4ae-d6ca-d9b90074b1af",
     "timestamp": 1644871195.679,
@@ -5066,6 +5102,21 @@
     "link": [
       "https://ilr.law.uiowa.edu/print/volume-101-issue-2/copyright-for-literate-robots/",
       "https://web.archive.org/web/20210126163153/https://ilr.law.uiowa.edu/print/volume-101-issue-2/copyright-for-literate-robots/"
+    ]
+  },
+  "d5c02c37-d1be-dbf2-0483-dcf625df4ca6": {
+    "id": "d5c02c37-d1be-dbf2-0483-dcf625df4ca6",
+    "timestamp": 1664902637.644,
+    "keyword": [
+      "title:art",
+      "art",
+      "installation",
+      "electronics"
+    ],
+    "extra": [],
+    "note": "David Bowen is a 'new media' artist. The works looks to include a lot of integration with plants and flys.",
+    "link": [
+      "https://www.dwbowen.com/"
     ]
   },
   "d5ccd20a-0f86-a6ce-317b-496207bb71d0": {
