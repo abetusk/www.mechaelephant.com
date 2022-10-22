@@ -3268,6 +3268,27 @@
       "https://www.italki.com/teachers/english"
     ]
   },
+  "8cde2a92-c14c-7405-e041-73d02120ecee": {
+    "id": "8cde2a92-c14c-7405-e041-73d02120ecee",
+    "timestamp": 1666471090.505,
+    "keyword": [
+      "title:diy",
+      "diy",
+      "electronics",
+      "projects"
+    ],
+    "extra": [],
+    "note": "UV curing station for post processing of resin prints. It looks like 365nm, 385nm, 395nm and 405nm are typical/best with 365nm being the most common.\n* metallic breadbox (silver) (~$26)\n* 390nm-405nm led strip (12v, waterproof) (~$15)\n\nSome optinoal items, potentially for a similar build are:\n* countdown timer (~$15)\n* foam core (~$35)",
+    "link": [
+      "https://www.youtube.com/watch?v=4EgA5LxCO0A",
+      "https://www.youtube.com/watch?v=zWaQNVGhuyU",
+      "https://www.youtube.com/watch?v=etLOLUowvPI",
+      "amazon.com/20ft-LED-Strip-Lights-Non-Waterproof/dp/B096XJWBFC",
+      "amazon.com/Home-Stainless-kitchen-storage-16-5x10x8/dp/B00O5AHWDO",
+      "amazon.com/gp/product/B074QZMLQF",
+      "amazon.com/Century-Digital-Countdown-Repeat-Function/dp/B01D3QEK4E"
+    ]
+  },
   "8d27692c-5eab-cbf3-d750-c7b47a3e8577": {
     "id": "8d27692c-5eab-cbf3-d750-c7b47a3e8577",
     "timestamp": 1664138103.464,
