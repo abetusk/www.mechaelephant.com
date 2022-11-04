@@ -1,0 +1,30 @@
+{
+  "id": "154f721d-56a6-2acc-6f2a-d6a20721c10f",
+  "timestamp": 1666914530.623,
+  "keyword": [
+    "title:math",
+    "math",
+    "resources",
+    "link",
+    "belief propagation",
+    "random processes"
+  ],
+  "extra": [],
+  "note": "Links to belief propagation, loopy belief propagtion, gaussian belief propagation and other math resources (Dan Mackinlay)",
+  "link": [
+    "https://danmackinlay.name/notebook/state_filters.html",
+    "https://gaussianbp.github.io/",
+    "https://danmackinlay.name/notebook/gaussian_belief_propagation.html",
+    "https://danmackinlay.name/notebook/variational_message_passing.html",
+    "http://nghiaho.com/?page_id=1366",
+    "https://danmackinlay.name/notebook.html",
+    "https://danmackinlay.name/notebook/matrix_calculus.html",
+    "https://danmackinlay.name/notebook/gumbel_max.html",
+    "https://danmackinlay.name/notebook/belief_propagation.html",
+    "https://danmackinlay.name/notebook/rotationally_symmetric.html",
+    "https://danmackinlay.name/notebook/intellectual_property.html",
+    "https://danmackinlay.name/notebook/free_content.html",
+    "https://danmackinlay.name/notebook/intellectual_property.html",
+    "http://nghiaho.com/?page_id=1366"
+  ]
+}

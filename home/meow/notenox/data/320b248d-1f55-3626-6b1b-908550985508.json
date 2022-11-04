@@ -1,0 +1,20 @@
+{
+  "id": "320b248d-1f55-3626-6b1b-908550985508",
+  "timestamp": 1667152289.927,
+  "keyword": [
+    "title:programming",
+    "programming",
+    "three.js",
+    "threejs",
+    "graphics",
+    "shadow map",
+    "depth map"
+  ],
+  "extra": [],
+  "note": "tutorial on creating a shadow map in three.js (mofu-dev)",
+  "link": [
+    "https://mofu-dev.com/en/blog/threejs-shadow-map/",
+    "https://github.com/mnmxmx/threejs-shadow-map",
+    "https://web.archive.org/web/20221030175045/https://mofu-dev.com/en/blog/threejs-shadow-map/"
+  ]
+}

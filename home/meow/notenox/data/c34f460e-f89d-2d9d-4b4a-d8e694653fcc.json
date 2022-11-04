@@ -1,0 +1,17 @@
+{
+  "id": "c34f460e-f89d-2d9d-4b4a-d8e694653fcc",
+  "timestamp": 1667553598.714,
+  "keyword": [
+    "title:ml",
+    "ml",
+    "machine learning",
+    "neural networks",
+    "nn"
+  ],
+  "extra": [],
+  "note": "\"tinygrad\" (FOSS) that aims to be a tiny neural network framework that can be optimized for various situations",
+  "link": [
+    "https://tinygrad.org/",
+    "https://github.com/geohot/tinygrad"
+  ]
+}

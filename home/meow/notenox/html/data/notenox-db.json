@@ -829,6 +829,25 @@
       "https://pinouts.org/"
     ]
   },
+  "21eb5c67-7fb4-cd0c-21ee-2c11a47da8b1": {
+    "id": "21eb5c67-7fb4-cd0c-21ee-2c11a47da8b1",
+    "timestamp": 1667361441.555,
+    "keyword": [
+      "title:mathematics",
+      "mathmeatics",
+      "math",
+      "puzzle",
+      "gardner",
+      "martin gardner",
+      "say red"
+    ],
+    "extra": [],
+    "note": "\"Say Red\" origin",
+    "link": [
+      "https://web.archive.org/web/20220520202217/https://martin-gardner.org/Testimonials.html",
+      "https://martin-gardner.org/Testimonials.html"
+    ]
+  },
   "220128c5-1208-64aa-eea4-4746cc483e75": {
     "id": "220128c5-1208-64aa-eea4-4746cc483e75",
     "timestamp": 1618255463.89,
@@ -1240,6 +1259,26 @@
     "link": [
       "https://vitalik.ca/general/2021/07/29/gini.html",
       "https://web.archive.org/web/20210729222159/https://vitalik.ca/general/2021/07/29/gini.html"
+    ]
+  },
+  "320b248d-1f55-3626-6b1b-908550985508": {
+    "id": "320b248d-1f55-3626-6b1b-908550985508",
+    "timestamp": 1667152289.927,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "three.js",
+      "threejs",
+      "graphics",
+      "shadow map",
+      "depth map"
+    ],
+    "extra": [],
+    "note": "tutorial on creating a shadow map in three.js (mofu-dev)",
+    "link": [
+      "https://mofu-dev.com/en/blog/threejs-shadow-map/",
+      "https://github.com/mnmxmx/threejs-shadow-map",
+      "https://web.archive.org/web/20221030175045/https://mofu-dev.com/en/blog/threejs-shadow-map/"
     ]
   },
   "33076071-5092-a605-b417-ec871f97e3ab": {
@@ -3692,6 +3731,23 @@
       "https://web.archive.org/web/20220916160649/https://www.technologyreview.com/2022/09/16/1059598/this-artist-is-dominating-ai-generated-art-and-hes-not-happy-about-it/"
     ]
   },
+  "9be2e93f-510a-bb3b-9ba1-f6a740aab972": {
+    "id": "9be2e93f-510a-bb3b-9ba1-f6a740aab972",
+    "timestamp": 1667393679.141,
+    "keyword": [
+      "title:politics",
+      "politics",
+      "renewable",
+      "lobbying",
+      "climate denier"
+    ],
+    "extra": [],
+    "note": "Twitter thread about Droz who has various effective tactics at stopping solar.",
+    "link": [
+      "https://twitter.com/curious_founder/status/1587581943763587072",
+      "https://web.archive.org/web/20221102030224/https://twitter.com/curious_founder/status/1587581943763587072"
+    ]
+  },
   "9c1b5aa5-517c-4213-2925-44d5cfafe954": {
     "id": "9c1b5aa5-517c-4213-2925-44d5cfafe954",
     "timestamp": 1642667087.849,
@@ -4708,6 +4764,23 @@
       "https://web.archive.org/web/20221013145329/https://www.youtube.com/watch?v=ofFR1mD2UOM"
     ]
   },
+  "c34f460e-f89d-2d9d-4b4a-d8e694653fcc": {
+    "id": "c34f460e-f89d-2d9d-4b4a-d8e694653fcc",
+    "timestamp": 1667553598.714,
+    "keyword": [
+      "title:ml",
+      "ml",
+      "machine learning",
+      "neural networks",
+      "nn"
+    ],
+    "extra": [],
+    "note": "\"tinygrad\" (FOSS) that aims to be a tiny neural network framework that can be optimized for various situations",
+    "link": [
+      "https://tinygrad.org/",
+      "https://github.com/geohot/tinygrad"
+    ]
+  },
   "c427c236-1bc6-0b17-cbd5-55df42ab2596": {
     "id": "c427c236-1bc6-0b17-cbd5-55df42ab2596",
     "timestamp": 1659359924.703,
@@ -5226,6 +5299,26 @@
     "link": [
       "https://blog.dshr.org/2022/02/ee380-talk.html",
       "https://web.archive.org/web/20220214092150/https://blog.dshr.org/2022/02/ee380-talk.html"
+    ]
+  },
+  "d4d326fb-e65b-394e-765b-59215ac1d967": {
+    "id": "d4d326fb-e65b-394e-765b-59215ac1d967",
+    "timestamp": 1667553468.321,
+    "keyword": [
+      "title:mathematics",
+      "mathematics",
+      "theorem proving",
+      "proof",
+      "predicate",
+      "logic",
+      "predicate logic",
+      "propositional"
+    ],
+    "extra": [],
+    "note": "\"The Incredible Proof Machine\" (FOSS) that has an interactive propositional, predicate logic proof system to play with",
+    "link": [
+      "https://incredible.pm/",
+      "https://github.com/nomeata/incredible"
     ]
   },
   "d512d7ff-94a3-f2ce-4054-994b9843b0f3": {
