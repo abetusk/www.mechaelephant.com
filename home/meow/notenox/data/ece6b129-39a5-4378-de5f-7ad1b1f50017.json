@@ -1,0 +1,19 @@
+{
+  "id": "ece6b129-39a5-4378-de5f-7ad1b1f50017",
+  "timestamp": 1667718102.455,
+  "keyword": [
+    "title:math",
+    "math",
+    "phase transition",
+    "belief propagation",
+    "networks",
+    "sparse matricies",
+    "convergence"
+  ],
+  "extra": [],
+  "note": "Christopher Moore talks about convergence of belief propagation, phase transitions in convergence and the connection to some spectral methods. One moral is finding the ground state energy might not actually be the configuration for a netowrk (with labelled edges, MRF, etc) that you want and computing on the marginals is better. The difference between payin $10 for the ground state vs. $1 for each correct labelling of a vertex. Computing the Bethe free energy, BP can explore the landscape of possible models.\\nA note about spectral methods. For random matricies, there's the semi circle law for the eigenvalues. The 'signal' is for eigenvalues that fall outside of the random noise of the semi circular area for eigenvalues. For graphs that have hubs (what Moore calls 'sparse' but maybe have more power law like degree behavior?) trying to patch up the graph by disallowing local backtracking or other 'teleportation' methods might work.\\nFrom a high level, there's one regime where you can't guess the underlying structure because you don't have enough information, so the best you can do is random chance. There's another regime where there's a global minima but only surrounding by an exponentially small area that would converge to it. Another region where there's a global minima but exponentially many areas around it to find them, so easy to find in general.\\nMoore is concerned with that region hard to find global minima and asking questions like how to sample (e.g. get metadata) from the graph so as to give you enough information to put you in that local region to converge to the global minima.",
+  "link": [
+    "https://web.archive.org/web/20220421051109/https://www.youtube.com/watch?v=jzN37cqkB0c",
+    "https://www.youtube.com/watch?v=jzN37cqkB0c"
+  ]
+}
