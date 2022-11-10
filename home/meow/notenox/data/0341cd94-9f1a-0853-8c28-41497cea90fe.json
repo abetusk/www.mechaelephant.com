@@ -1,0 +1,19 @@
+{
+  "id": "0341cd94-9f1a-0853-8c28-41497cea90fe",
+  "timestamp": 1668080012.976,
+  "keyword": [
+    "title:math",
+    "math",
+    "reaction diffusion",
+    "art",
+    "generative"
+  ],
+  "extra": [],
+  "note": "Reaction diffusion reaction explanation from Karl Sims.\nThe idea is to consider two types of particles, A and B, where two Bs combine with an A to form another B. Further, particles will prefer to diffuse out. This leads to two equations for the different particles operating on a grid with the particles considered as concentrations on a grid. The laplacian term is meant to cause diffusion (second derivative positive -> diffuse in (basin, ++), negative -> diffuse out (top of hill, --)). The ABB term is the reaction and the F and K terms of the feed and kill terms for particles A and B respectively.",
+  "link": [
+    "http://karlsims.com/rd.html",
+    "https://web.archive.org/web/20220615040251/http://karlsims.com/rd.html",
+    "http://mrob.com/pub/comp/xmorphia/",
+    "https://web.archive.org/web/20220610024536/http://mrob.com/pub/comp/xmorphia/"
+  ]
+}
