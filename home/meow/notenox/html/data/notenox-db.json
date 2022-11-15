@@ -229,6 +229,25 @@
       "https://www.walthers.com/products/layout/structures"
     ]
   },
+  "0b057fde-759d-3288-e001-22266fe586c6": {
+    "id": "0b057fde-759d-3288-e001-22266fe586c6",
+    "timestamp": 1668542480.914,
+    "keyword": [
+      "title:project",
+      "project",
+      "electronics",
+      "acrylic",
+      "tube",
+      "LED"
+    ],
+    "extra": [],
+    "note": "Canal plastics looks to have reasonable prices on frosted acrylic tubes. The MAX9814 (from adafruit) looks to have autogain.",
+    "link": [
+      "https://www.canalplastic.com/collections/acrylic-rods-tubes/products/frosted-acrylic-tube?variant=14127205417069",
+      "https://www.adafruit.com/product/1713",
+      "https://www.reddit.com/r/arduino/comments/ymfqg1/ws2812b_in_acrylic_glass_tube_whole_lamp_has_10/"
+    ]
+  },
   "0b50cc29-4a77-b80d-f303-53a48fe554e8": {
     "id": "0b50cc29-4a77-b80d-f303-53a48fe554e8",
     "timestamp": 1631070759.855,
