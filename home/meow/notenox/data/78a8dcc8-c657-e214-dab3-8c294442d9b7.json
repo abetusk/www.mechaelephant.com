@@ -1,0 +1,16 @@
+{
+  "id": "78a8dcc8-c657-e214-dab3-8c294442d9b7",
+  "timestamp": 1669137309.888,
+  "keyword": [
+    "title:math",
+    "math",
+    "function",
+    "sigmoid"
+  ],
+  "extra": [],
+  "note": "A nice \"continuous\" binary function is the sigmoid:\n$$\n\\sigma(x) = \\frac{e^x}{1 + e^x}$$\n$$\\sigma(x) = 1-\\sigma(-x)$$",
+  "link": [
+    "https://en.wikipedia.org/wiki/Sigmoid_function",
+    "https://en.wikipedia.org/wiki/Error_function"
+  ]
+}

@@ -2979,6 +2979,22 @@
       "https://web.archive.org/web/20220826134006/https://acoup.blog/2022/08/26/collections-why-no-roman-industrial-revolution/"
     ]
   },
+  "78a8dcc8-c657-e214-dab3-8c294442d9b7": {
+    "id": "78a8dcc8-c657-e214-dab3-8c294442d9b7",
+    "timestamp": 1669137309.888,
+    "keyword": [
+      "title:math",
+      "math",
+      "function",
+      "sigmoid"
+    ],
+    "extra": [],
+    "note": "A nice \"continuous\" binary function is the sigmoid:\n$$\n\\sigma(x) = \\frac{e^x}{1 + e^x}$$\n$$\\sigma(x) = 1-\\sigma(-x)$$",
+    "link": [
+      "https://en.wikipedia.org/wiki/Sigmoid_function",
+      "https://en.wikipedia.org/wiki/Error_function"
+    ]
+  },
   "7a55f011-d3f5-dbfb-3793-c7f9c5d06df5": {
     "id": "7a55f011-d3f5-dbfb-3793-c7f9c5d06df5",
     "timestamp": 1631830254.642,
@@ -3890,6 +3906,23 @@
     "note": "mug with a cute skeleton on it",
     "link": [
       "https://www.etsy.com/listing/907424453/cute-skeleton-tiny-bones-black-mug-11oz"
+    ]
+  },
+  "9e7976f2-7838-12f7-4842-397b343046d5": {
+    "id": "9e7976f2-7838-12f7-4842-397b343046d5",
+    "timestamp": 1669135771.936,
+    "keyword": [
+      "title:scratch",
+      "scratch",
+      "ephemeral",
+      "cat",
+      "toy",
+      "cat toy"
+    ],
+    "extra": [],
+    "note": "snake cat toy",
+    "link": [
+      "https://catlovercult.com/products/snake-cat-toy"
     ]
   },
   "9eb91cc9-0af3-c502-7d1f-e3dbee4af376": {
