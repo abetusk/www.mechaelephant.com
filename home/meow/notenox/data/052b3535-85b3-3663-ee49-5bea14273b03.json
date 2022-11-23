@@ -1,0 +1,16 @@
+{
+  "id": "052b3535-85b3-3663-ee49-5bea14273b03",
+  "timestamp": 1669235107.017,
+  "keyword": [
+    "title:math",
+    "math",
+    "programming",
+    "trig",
+    "function"
+  ],
+  "extra": [],
+  "note": "CORDIC (coordinate rotation digital computer, aka Volder's algorithm) used to approximate trigonometric functions efficiently",
+  "link": [
+    "https://en.wikipedia.org/wiki/CORDIC"
+  ]
+}

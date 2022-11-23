@@ -1,4 +1,27 @@
 {
+  "0044956d-9d4f-d287-1e3c-2186c5332909": {
+    "id": "0044956d-9d4f-d287-1e3c-2186c5332909",
+    "timestamp": 1669234455.941,
+    "keyword": [
+      "title:math",
+      "math",
+      "mathematics",
+      "random sequence",
+      "sequence",
+      "halton",
+      "sobol",
+      "low discrepency",
+      "sampling"
+    ],
+    "extra": [],
+    "note": "Low discrepency sequences help with integration/sampling.\nSome common ones are Sobel, Halton and Van der Corput.",
+    "link": [
+      "https://en.wikipedia.org/wiki/Low-discrepancy_sequence",
+      "https://en.wikipedia.org/wiki/Van_der_Corput_sequence",
+      "https://en.wikipedia.org/wiki/Halton_sequence",
+      "https://en.wikipedia.org/wiki/Sobol_sequence"
+    ]
+  },
   "0129b608-2223-7cfa-4458-972dd2d599fe": {
     "id": "0129b608-2223-7cfa-4458-972dd2d599fe",
     "timestamp": 1653327237.651,
@@ -142,6 +165,22 @@
     "link": [
       "https://twitter.com/6Gems/status/1473386563904196613",
       "https://web.archive.org/web/20211221210250/https://twitter.com/6Gems/status/1473386563904196613"
+    ]
+  },
+  "052b3535-85b3-3663-ee49-5bea14273b03": {
+    "id": "052b3535-85b3-3663-ee49-5bea14273b03",
+    "timestamp": 1669235107.017,
+    "keyword": [
+      "title:math",
+      "math",
+      "programming",
+      "trig",
+      "function"
+    ],
+    "extra": [],
+    "note": "CORDIC (coordinate rotation digital computer, aka Volder's algorithm) used to approximate trigonometric functions efficiently",
+    "link": [
+      "https://en.wikipedia.org/wiki/CORDIC"
     ]
   },
   "079874ea-80eb-56bf-8e79-ee56df5e7d9a": {

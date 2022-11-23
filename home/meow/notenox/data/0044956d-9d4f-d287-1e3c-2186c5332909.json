@@ -1,0 +1,23 @@
+{
+  "id": "0044956d-9d4f-d287-1e3c-2186c5332909",
+  "timestamp": 1669234455.941,
+  "keyword": [
+    "title:math",
+    "math",
+    "mathematics",
+    "random sequence",
+    "sequence",
+    "halton",
+    "sobol",
+    "low discrepency",
+    "sampling"
+  ],
+  "extra": [],
+  "note": "Low discrepency sequences help with integration/sampling.\nSome common ones are Sobel, Halton and Van der Corput.",
+  "link": [
+    "https://en.wikipedia.org/wiki/Low-discrepancy_sequence",
+    "https://en.wikipedia.org/wiki/Van_der_Corput_sequence",
+    "https://en.wikipedia.org/wiki/Halton_sequence",
+    "https://en.wikipedia.org/wiki/Sobol_sequence"
+  ]
+}
