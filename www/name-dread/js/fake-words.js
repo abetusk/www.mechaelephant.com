@@ -151,5 +151,7 @@ var fake = {
 
 };
 
-//module.exports = fake;
+if (typeof module !== "undefined") {
+  module.exports = fake;
+}
 

@@ -31,7 +31,7 @@
       ele.innerHTML = inner_html;
     }
 
-    function _pop_fake() {
+    function _pop_identity() {
       var u = fake.user();
       var w = fake.word();
       var c = fake.color();
@@ -45,6 +45,45 @@
         "<br><br>" + p;
 
     }
+
+    function _pop_fake() {
+
+      let max_it = 10;
+
+      var w_first = fake.word();
+      for (let it=0; it<max_it; it++) {
+        if (w_first.length > 1) { break; }
+        w_first = fake.word();
+      }
+
+      var w_last = fake.word();
+      for (let it=0; it<max_it; it++) {
+        if (w_last.length > 1) { break; }
+        w_last = fake.word();
+      }
+
+
+      let w_mid = [];
+      let mid_count = Math.floor(Math.random()*3);
+      for (let i=0; i<mid_count; i++) {
+        w_mid.push( fake.word() );
+        for (let it=0; it<max_it; it++) {
+          if (w_mid[i].length > 1) { break; }
+          w_mid[i] = fake.word();
+        }
+
+      }
+
+      var x_usr = fake.user();
+      let tok = x_usr.email.split("@");
+      let domain = tok[1];
+      let email = w_first + "@" + domain;
+
+      var ele = document.getElementById('ui_display');
+
+      ele.innerHTML = w_first + " " + w_mid.join(" ") + " " + w_last + "<br><br>" + email ;
+    }
+
   </script>
 
   <body>
@@ -67,13 +106,16 @@
     <br>
     <br>
 
-    <div class='pure-g row' style='height:140px;'>
+    <div class='pure-g row' style='height:250px;'>
 
       <div class='pure-u-1-3 col'>
-        <button class='bdropinp bkeyHuge' id='ui_generate' onclick='_pop_name_dread();'>dread</button>
+        <button class='bdropinp bkeyHuge' id='ui_generate_dread' onclick='_pop_name_dread();'>dread</button>
         <br>
         <br>
-        <button class='bdropinp bkeyHuge' id='ui_generate' onclick='_pop_fake();'>name</button>
+        <button class='bdropinp bkeyHuge' id='ui_generate_identity' onclick='_pop_identity();'>name</button>
+        <br>
+        <br>
+        <button class='bdropinp bkeyHuge' id='ui_generate_name' onclick='_pop_fake();'>fake</button>
       </div>
 
       <div class='pure-u-2-3 col' style='text-align:left; border-right:100px;'>
