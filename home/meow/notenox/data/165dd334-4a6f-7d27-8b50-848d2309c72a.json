@@ -1,0 +1,19 @@
+{
+  "id": "165dd334-4a6f-7d27-8b50-848d2309c72a",
+  "timestamp": 1671302778.397,
+  "keyword": [
+    "title:economics",
+    "economics",
+    "death rate",
+    "us",
+    "population",
+    "wages"
+  ],
+  "extra": [],
+  "note": "Paul Novosad talks about death rates by degree. Death rates for 'no high school' group is significantly higher (like 10x more than college degree) but he talks about this (potentially?) being an issue with higher degree and education being more common, essentially leaving the 'no high school' cohort with only the people at higher risk but reducing the overall count. That is, education is rising over time, so the looking at the cohort without considering its size might be misleading. Some other choice graphs are that mortality rate of black men and women are decreasing with 2015 mortality rates for black men and women reaching about the same levels of the corresponding white education cohort for 1995, though the least educated white cohort are significantly at higher risk of mortality than black folks in a similar education percentile. 50+ mortality rates for the lowest educated white cohort are more from other health causes (not listed), not from diseases of despair (suicide, alcohol, overdoce, etc.). Yet another choice graph is the hourly rate by education. There's a spike in 1995 region, presumably with the advent of the internet and college/advanced degrees accounting for the wage increase being from technical fields (CS, etc.) but also what looks to be a spike in 1965 region (though it's hard to tell because the graph starts at 1965) from what I would guess is the automotive boom (all education levels rise, so presumably wouldn't be accounted by electronics boom).",
+  "link": [
+    "https://twitter.com/paulnovosad/status/1603834378861281302",
+    "https://github.com/devdatalab/paper-nra-mortality/",
+    "https://web.archive.org/web/20221217184512/https://twitter.com/paulnovosad/status/1603834378861281302"
+  ]
+}
