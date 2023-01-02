@@ -1,0 +1,16 @@
+{
+  "id": "8c04db94-e85d-43d7-75b7-77379968a226",
+  "timestamp": 1671625492.023,
+  "keyword": [
+    "title:math",
+    "math",
+    "mathematics",
+    "inequalities",
+    "mean"
+  ],
+  "extra": [],
+  "note": "HM-GM-AM-QM inequalities.\nFor $x_0, x_1, \\cdots, x_{n-1} \\in \\mathbb{R}^{+}$:\n$$\n\\begin{align}\n0 < & \\frac{n}{\\frac{1}{x_0} + \\frac{1}{x_1} + \\cdots + \\frac{1}{x_{n-1}} } \\\\\n \\le & (x_0 x_1 \\cdots x_{n-1})^{\\frac{1}{n}} \\\\\n\\le & \\frac{x_0 + x_1 + \\cdots + x_{n-1}}{n} \\\\\n\\le & (\\frac{x_0^2 + x_1^2 + \\cdots + x_{n-1}^2}{n})^{\\frac{1}{2}}\n\\end{align}\n$$",
+  "link": [
+    "https://en.wikipedia.org/wiki/HM-GM-AM-QM_inequalities"
+  ]
+}

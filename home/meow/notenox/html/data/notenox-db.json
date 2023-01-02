@@ -3606,6 +3606,22 @@
       "https://www.italki.com/teachers/english"
     ]
   },
+  "8c04db94-e85d-43d7-75b7-77379968a226": {
+    "id": "8c04db94-e85d-43d7-75b7-77379968a226",
+    "timestamp": 1671625492.023,
+    "keyword": [
+      "title:math",
+      "math",
+      "mathematics",
+      "inequalities",
+      "mean"
+    ],
+    "extra": [],
+    "note": "HM-GM-AM-QM inequalities.\nFor $x_0, x_1, \\cdots, x_{n-1} \\in \\mathbb{R}^{+}$:\n$$\n\\begin{align}\n0 < & \\frac{n}{\\frac{1}{x_0} + \\frac{1}{x_1} + \\cdots + \\frac{1}{x_{n-1}} } \\\\\n \\le & (x_0 x_1 \\cdots x_{n-1})^{\\frac{1}{n}} \\\\\n\\le & \\frac{x_0 + x_1 + \\cdots + x_{n-1}}{n} \\\\\n\\le & (\\frac{x_0^2 + x_1^2 + \\cdots + x_{n-1}^2}{n})^{\\frac{1}{2}}\n\\end{align}\n$$",
+    "link": [
+      "https://en.wikipedia.org/wiki/HM-GM-AM-QM_inequalities"
+    ]
+  },
   "8cde2a92-c14c-7405-e041-73d02120ecee": {
     "id": "8cde2a92-c14c-7405-e041-73d02120ecee",
     "timestamp": 1666471090.505,
@@ -4565,6 +4581,23 @@
       "https://th.if.uj.edu.pl/~dudaj/",
       "https://en.wikipedia.org/wiki/Maximal_entropy_random_walk",
       "https://web.archive.org/web/20220905101444/https://th.if.uj.edu.pl/~dudaj/"
+    ]
+  },
+  "ab7449cc-c612-e35d-fc5f-e49d8452e9e0": {
+    "id": "ab7449cc-c612-e35d-fc5f-e49d8452e9e0",
+    "timestamp": 1672689771.063,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "flipdot",
+      "display",
+      "mechanical"
+    ],
+    "extra": [],
+    "note": "Flipdot display for what seem to be very reasonable prices, though, as of this writing, they're out of stock. Also, blog post on driving them.",
+    "link": [
+      "https://hannio.org/en/produkt/flipdot-module-16x24-square/",
+      "https://pierremuth.wordpress.com/2021/02/17/flipping-dots-fast/"
     ]
   },
   "ac125593-0f9e-4a0b-b6cc-4590ded2e62e": {
