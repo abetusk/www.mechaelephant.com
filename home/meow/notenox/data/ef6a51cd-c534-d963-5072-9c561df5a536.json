@@ -1,0 +1,22 @@
+{
+  "id": "ef6a51cd-c534-d963-5072-9c561df5a536",
+  "timestamp": 1673303254.711,
+  "keyword": [
+    "title:electronics",
+    "electronics",
+    "controller",
+    "motor controller",
+    "pick-n-place",
+    "power",
+    "transient suppression",
+    "voltage suppression"
+  ],
+  "extra": [],
+  "note": "Thea (Stargirl) Flowers created a PnP motor controller replacement for the LumenPnP. Of note are the TMC2209 for the controller. Thea uses an SMAJ28Ca bidirectional transient voltage suppression (tvs) diode.",
+  "link": [
+    "https://blog.thea.codes/starfish-a-control-board-with-the-rp2040",
+    "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf",
+    "https://github.com/wntrblm/jellyfish-and-starfish/blob/main/reference/TMC2209_datasheet_rev1.08.pdf",
+    "https://github.com/wntrblm/jellyfish-and-starfish"
+  ]
+}

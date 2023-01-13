@@ -3863,6 +3863,22 @@
       "https://web.archive.org/web/20201205204215/https://xilinx.github.io/Vitis_Libraries/quantitative_finance/2020.1/guide_L1/brownian/bb.html"
     ]
   },
+  "943158e7-a27e-59e8-60e7-be799746e658": {
+    "id": "943158e7-a27e-59e8-60e7-be799746e658",
+    "timestamp": 1673613984.539,
+    "keyword": [
+      "title:culture",
+      "culture",
+      "shaman",
+      "dunbar"
+    ],
+    "extra": [],
+    "note": "Essay on the \"shamanistic tendencies\" of people. Talks about how mental illness is higher than if it were random chance (that is, it's probably selected, at least in the past). A choice quote:\n> Most of these people who seem marked out for greatness are left waiting for a call to adventure that never seems to come. They wear their mark like a scar, live out their invisible lives, and die the same below-average ducklings they always were.",
+    "link": [
+      "https://arcove.substack.com/p/null-call",
+      "https://web.archive.org/web/20230113023252/https://arcove.substack.com/p/null-call"
+    ]
+  },
   "94a3d2fa-01e8-5b63-2d7f-8b32c1e9fe2b": {
     "id": "94a3d2fa-01e8-5b63-2d7f-8b32c1e9fe2b",
     "timestamp": 1654355319.091,
@@ -6596,6 +6612,28 @@
       "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX20006AFOC-VY/10249519",
       "https://media.digikey.com/pdf/Data%20Sheets/Maxim%20PDFs/MAX20004_06_08_3-24-19.pdf",
       "https://twitter.com/RWB93174525/status/1543825811253379072"
+    ]
+  },
+  "ef6a51cd-c534-d963-5072-9c561df5a536": {
+    "id": "ef6a51cd-c534-d963-5072-9c561df5a536",
+    "timestamp": 1673303254.711,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "controller",
+      "motor controller",
+      "pick-n-place",
+      "power",
+      "transient suppression",
+      "voltage suppression"
+    ],
+    "extra": [],
+    "note": "Thea (Stargirl) Flowers created a PnP motor controller replacement for the LumenPnP. Of note are the TMC2209 for the controller. Thea uses an SMAJ28Ca bidirectional transient voltage suppression (tvs) diode.",
+    "link": [
+      "https://blog.thea.codes/starfish-a-control-board-with-the-rp2040",
+      "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf",
+      "https://github.com/wntrblm/jellyfish-and-starfish/blob/main/reference/TMC2209_datasheet_rev1.08.pdf",
+      "https://github.com/wntrblm/jellyfish-and-starfish"
     ]
   },
   "f01213a3-b602-1053-832e-18d3e22e8407": {
