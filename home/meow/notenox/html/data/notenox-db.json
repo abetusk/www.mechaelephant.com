@@ -2779,6 +2779,28 @@
       "https://scholar.archive.org/"
     ]
   },
+  "6984ff11-01d6-23b5-e2f4-7fc4d4d08675": {
+    "id": "6984ff11-01d6-23b5-e2f4-7fc4d4d08675",
+    "timestamp": 1673957586.988,
+    "keyword": [
+      "title:gamedev",
+      "gamedev",
+      "djisktra",
+      "dijsktra map",
+      "rogue",
+      "roguelike",
+      "motion",
+      "algorithm",
+      "programming"
+    ],
+    "extra": [],
+    "note": "Djikstra maps for motion planning and other effects. Basically a combination of calculating Voronoi regions with the distance to the key point embedded in the map and then doing motion planning or other interesting effects accordingly",
+    "link": [
+      "http://www.roguebasin.com/index.php/Dijkstra_Maps_Visualized",
+      "https://web.archive.org/web/20230107220815/http://www.roguebasin.com/index.php/Dijkstra_Maps_Visualized",
+      "https://web.archive.org/web/20221116170436/http://www.roguebasin.com/index.php/The_Incredible_Power_of_Dijkstra_Maps"
+    ]
+  },
   "69d1adc4-338b-2f06-a1a9-6b309fa7a8b7": {
     "id": "69d1adc4-338b-2f06-a1a9-6b309fa7a8b7",
     "timestamp": 1612025331.551,
