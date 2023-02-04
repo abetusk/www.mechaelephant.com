@@ -1,0 +1,20 @@
+{
+  "id": "028878a2-ba08-6bac-8ede-44e9aef4c650",
+  "timestamp": 1674563217.406,
+  "keyword": [
+    "title:gamedev",
+    "gamedev",
+    "perlin noise",
+    "perlin worm",
+    "procgen",
+    "procedural generation"
+  ],
+  "extra": [],
+  "note": "Perlin worms. Basically, create a 'worm' of N segments whose angle between segments is chosen from a Perlin noise (or other) source. Once can then animate the worm by moving through the Perlin noise texture.",
+  "link": [
+    "https://libnoise.sourceforge.net/examples/worms/index.html",
+    "https://gamedev.stackexchange.com/questions/33590/how-to-generate-caves-that-resemble-those-of-minecraft",
+    "https://gamedev.stackexchange.com/questions/53400/cave-generation-with-perlin-worms",
+    "https://web.archive.org/web/20221206013454/https://libnoise.sourceforge.net/examples/worms/index.html"
+  ]
+}

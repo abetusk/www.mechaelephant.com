@@ -96,6 +96,26 @@
       "https://web.archive.org/web/20210904053846/https://www.theguardian.com/us-news/2016/nov/09/white-voters-victory-donald-trump-exit-polls"
     ]
   },
+  "028878a2-ba08-6bac-8ede-44e9aef4c650": {
+    "id": "028878a2-ba08-6bac-8ede-44e9aef4c650",
+    "timestamp": 1674563217.406,
+    "keyword": [
+      "title:gamedev",
+      "gamedev",
+      "perlin noise",
+      "perlin worm",
+      "procgen",
+      "procedural generation"
+    ],
+    "extra": [],
+    "note": "Perlin worms. Basically, create a 'worm' of N segments whose angle between segments is chosen from a Perlin noise (or other) source. Once can then animate the worm by moving through the Perlin noise texture.",
+    "link": [
+      "https://libnoise.sourceforge.net/examples/worms/index.html",
+      "https://gamedev.stackexchange.com/questions/33590/how-to-generate-caves-that-resemble-those-of-minecraft",
+      "https://gamedev.stackexchange.com/questions/53400/cave-generation-with-perlin-worms",
+      "https://web.archive.org/web/20221206013454/https://libnoise.sourceforge.net/examples/worms/index.html"
+    ]
+  },
   "0303ddd4-a508-a96c-4b4b-7aaea2ed3f69": {
     "id": "0303ddd4-a508-a96c-4b4b-7aaea2ed3f69",
     "timestamp": 1617553230.705,
@@ -1820,6 +1840,28 @@
       "https://web.archive.org/web/20220508142625/https://theintercept.com/2022/05/08/maryland-campaign-brandy-brooks-progressive-accountability/"
     ]
   },
+  "40ed9ab9-4a6a-9eb2-11a1-dbf4f54b811b": {
+    "id": "40ed9ab9-4a6a-9eb2-11a1-dbf4f54b811b",
+    "timestamp": 1675358164.637,
+    "keyword": [
+      "title:art",
+      "art",
+      "typography",
+      "star wars",
+      "aurekfonts",
+      "sci-fi"
+    ],
+    "extra": [],
+    "note": "Aurekfonts are (mostly) libre fonts stylized in the 'Star Wars' universe style",
+    "link": [
+      "https://aurekfonts.github.io/",
+      "https://github.com/AurekFonts/AurekFonts.github.io",
+      "https://github.com/AurekFonts/Aurebesh_OmaTres",
+      "https://github.com/AurekFonts/DockingBay94",
+      "https://github.com/AurekFonts/Domabesh_Console",
+      "https://github.com/orgs/AurekFonts/repositories"
+    ]
+  },
   "43981bcc-9788-907a-c153-3ee327e2a1fa": {
     "id": "43981bcc-9788-907a-c153-3ee327e2a1fa",
     "timestamp": 1671162036.121,
@@ -1853,6 +1895,26 @@
     "link": [
       "https://www.marxists.org/reference/archive/stalin/works/1934/07/23.htm",
       "https://web.archive.org/web/20220221124723/https://www.marxists.org/reference/archive/stalin/works/1934/07/23.htm"
+    ]
+  },
+  "440c5aab-6792-da5a-d914-a7545cecf456": {
+    "id": "440c5aab-6792-da5a-d914-a7545cecf456",
+    "timestamp": 1675357792.465,
+    "keyword": [
+      "title:ml",
+      "machine learning",
+      "ml",
+      "ai",
+      "artificial intelligence",
+      "stable diffusion",
+      "music",
+      "neural network"
+    ],
+    "extra": [],
+    "note": "New round stable diffusion like neural networks for music generation",
+    "link": [
+      "https://www.kaggle.com/datasets/googleai/musiccaps",
+      "https://google-research.github.io/seanet/musiclm/examples/"
     ]
   },
   "44f92f93-6cd6-6117-69b8-2b04faab516f": {
