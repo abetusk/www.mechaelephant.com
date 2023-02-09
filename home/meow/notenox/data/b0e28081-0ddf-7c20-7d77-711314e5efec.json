@@ -1,0 +1,21 @@
+{
+  "id": "b0e28081-0ddf-7c20-7d77-711314e5efec",
+  "timestamp": 1675895480.92,
+  "keyword": [
+    "title:psychology",
+    "psychology",
+    "group dynamics",
+    "internet",
+    "culture",
+    "social media",
+    "forum",
+    "dunbar",
+    "dunbars numebr"
+  ],
+  "extra": [],
+  "note": "Talks about scaling problems inherent in online communities. The article is about a personal experience of self promotion of an article on Reddit that was welcomed by two (smaller) communities but immediately banned on a bigger one, where the reason for the ban was because of the post being marked as spam. The article goes on to talk about how a 'back of the envelope' calculation done with Dunbar's number can give an approximation of the phase transition point before the community needs to deal with scaling issues.\nThe argument is that you can trust your friends to have good faith arguments (Dunbar's number of about 150), you can trust your friends-of-friends to have good faith arguments and you can probably trust some portion of your friends of friends of friends to have good faith arguments giving us about $150^2.5$, as a rough estimate. Taking friends of friends as a lower bound and friends of friends of friends as an upper bound, this gives a window of 30k to 3M before communities need to start worrying about scaling effects.",
+  "link": [
+    "https://maximumeffort.substack.com/p/scaling-problems-in-social-control",
+    "https://web.archive.org/web/20230208194717/https://maximumeffort.substack.com/p/scaling-problems-in-social-control"
+  ]
+}

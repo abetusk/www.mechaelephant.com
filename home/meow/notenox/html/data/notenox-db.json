@@ -2531,6 +2531,23 @@
       "https://web.archive.org/web/20210313091147/http://danluu.com/empirical-pl/"
     ]
   },
+  "5c6a210b-7dd5-0a20-9165-e8013bf98e8d": {
+    "id": "5c6a210b-7dd5-0a20-9165-e8013bf98e8d",
+    "timestamp": 1675972255.832,
+    "keyword": [
+      "title:math",
+      "math",
+      "algorithm",
+      "blue noise",
+      "noise",
+      "blog"
+    ],
+    "extra": [],
+    "note": "Alan Wolfe's blog which has, among other things, many posts on blue noise and other algorithms.",
+    "link": [
+      "https://blog.demofox.org/"
+    ]
+  },
   "5de40c20-41cf-0f7b-24aa-3b0cb6753e43": {
     "id": "5de40c20-41cf-0f7b-24aa-3b0cb6753e43",
     "timestamp": 1620046123.463,
@@ -4836,6 +4853,27 @@
       "https://web.archive.org/web/20210513130419/http://www.pyrunner.com/weblog/2016/05/26/compressed-sensing-python/",
       "https://www.cvxpy.org/",
       "https://github.com/cvxpy/cvxpy"
+    ]
+  },
+  "b0e28081-0ddf-7c20-7d77-711314e5efec": {
+    "id": "b0e28081-0ddf-7c20-7d77-711314e5efec",
+    "timestamp": 1675895480.92,
+    "keyword": [
+      "title:psychology",
+      "psychology",
+      "group dynamics",
+      "internet",
+      "culture",
+      "social media",
+      "forum",
+      "dunbar",
+      "dunbars numebr"
+    ],
+    "extra": [],
+    "note": "Talks about scaling problems inherent in online communities. The article is about a personal experience of self promotion of an article on Reddit that was welcomed by two (smaller) communities but immediately banned on a bigger one, where the reason for the ban was because of the post being marked as spam. The article goes on to talk about how a 'back of the envelope' calculation done with Dunbar's number can give an approximation of the phase transition point before the community needs to deal with scaling issues.\nThe argument is that you can trust your friends to have good faith arguments (Dunbar's number of about 150), you can trust your friends-of-friends to have good faith arguments and you can probably trust some portion of your friends of friends of friends to have good faith arguments giving us about $150^2.5$, as a rough estimate. Taking friends of friends as a lower bound and friends of friends of friends as an upper bound, this gives a window of 30k to 3M before communities need to start worrying about scaling effects.",
+    "link": [
+      "https://maximumeffort.substack.com/p/scaling-problems-in-social-control",
+      "https://web.archive.org/web/20230208194717/https://maximumeffort.substack.com/p/scaling-problems-in-social-control"
     ]
   },
   "b0f4afbd-4bea-f2ca-52fa-3bba13583c59": {
