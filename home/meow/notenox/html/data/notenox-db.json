@@ -3743,6 +3743,24 @@
       "https://en.wikipedia.org/wiki/HM-GM-AM-QM_inequalities"
     ]
   },
+  "8c7d6282-b468-bca0-5c30-8d3b438c49e6": {
+    "id": "8c7d6282-b468-bca0-5c30-8d3b438c49e6",
+    "timestamp": 1676081342.729,
+    "keyword": [
+      "title:culture",
+      "culture",
+      "identity politics",
+      "social media",
+      "mastodon"
+    ],
+    "extra": [],
+    "note": "mastodon.lol is shutting down because of the community harassing the admin over trying to stop folks from harrassing harry potter fans",
+    "link": [
+      "https://web.archive.org/web/20230210210146/https://mastodon.lol/@nathan/109836633022272265",
+      "https://web.archive.org/web/20230210215038/https://mastodon.lol/@nathan/109836004635134601",
+      "https://news.ycombinator.com/item?id=34748195"
+    ]
+  },
   "8cde2a92-c14c-7405-e041-73d02120ecee": {
     "id": "8cde2a92-c14c-7405-e041-73d02120ecee",
     "timestamp": 1666471090.505,
@@ -6294,6 +6312,23 @@
     "link": [
       "https://ourworldindata.org/less-democratic",
       "https://web.archive.org/web/20220906175720/https://ourworldindata.org/less-democratic"
+    ]
+  },
+  "e3a4c447-9d27-5242-c07d-a78c5c5bb71c": {
+    "id": "e3a4c447-9d27-5242-c07d-a78c5c5bb71c",
+    "timestamp": 1676076370.446,
+    "keyword": [
+      "title:music",
+      "music",
+      "tool",
+      "aphex twin",
+      "samplebrain"
+    ],
+    "extra": [],
+    "note": "This weird tool, called samplebrain, that aphex twin and someone else open sourced that somehow takes samples a source clip, chops up samples and then tries to match them to the source sample",
+    "link": [
+      "https://gitlab.com/then-try-this/samplebrain/-/blob/production/docs/manual.md",
+      "https://gitlab.com/then-try-this/samplebrain"
     ]
   },
   "e3d02f1c-8d08-5a33-4a9a-b983a4c711dc": {

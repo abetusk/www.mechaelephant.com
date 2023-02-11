@@ -1,0 +1,17 @@
+{
+  "id": "e3a4c447-9d27-5242-c07d-a78c5c5bb71c",
+  "timestamp": 1676076370.446,
+  "keyword": [
+    "title:music",
+    "music",
+    "tool",
+    "aphex twin",
+    "samplebrain"
+  ],
+  "extra": [],
+  "note": "This weird tool, called samplebrain, that aphex twin and someone else open sourced that somehow takes samples a source clip, chops up samples and then tries to match them to the source sample",
+  "link": [
+    "https://gitlab.com/then-try-this/samplebrain/-/blob/production/docs/manual.md",
+    "https://gitlab.com/then-try-this/samplebrain"
+  ]
+}
