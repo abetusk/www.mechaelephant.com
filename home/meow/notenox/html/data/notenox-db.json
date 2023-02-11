@@ -380,6 +380,21 @@
       "https://en.wikipedia.org/wiki/Cooperative_principle"
     ]
   },
+  "0c1b385c-3db8-ea46-7a67-0c51f1638a88": {
+    "id": "0c1b385c-3db8-ea46-7a67-0c51f1638a88",
+    "timestamp": 1676146976.344,
+    "keyword": [
+      "title:social media",
+      "social media",
+      "mastodon",
+      "ranking"
+    ],
+    "extra": [],
+    "note": "list of Mastodon instances, user count and other information.",
+    "link": [
+      "https://instances.social/list/advanced#lang=&allowed=&prohibited=&min-users=&max-users="
+    ]
+  },
   "0c458be8-4924-5c03-c84a-91c243a41da8": {
     "id": "0c458be8-4924-5c03-c84a-91c243a41da8",
     "timestamp": 1632090192.951,
