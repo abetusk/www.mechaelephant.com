@@ -5,6 +5,7 @@
 
 import os, re, sys
 from datetime import datetime
+import pytz
 import json
 import time
 import bs4
@@ -36,10 +37,9 @@ def html_make_entry(ent):
 
   s = "<li>"
   s += "<a class='feed_ico' href='" + str(ent["guid"]) + "'><img style='width:16px;' src='" + ent["icon"] + "'></a> "
-  #s += "<a href='" + ent["link"] + "'>" + html.escape(ent["title"]) + "</a>"
-  s += "<a href='" + ent["link"] + "'>" + html.escape(ent["title"]).encode('ascii', 'xmlcharrefreplace').decode('utf-8') + "</a>"
-  #s += "<a href='" + ent["link"] + "'>" + cgi.escape(ent["title"]).encode('ascii', 'xmlcharrefreplace') + "</a>"
-  #s += "<p>" + bs4.BeautifulSoup(ent["description"][:m], "lxml").get_text() + "</p>"
+
+  s += "<a href='" + ent["link"] + "'>" + html.escape(str(ent["title"])).encode('ascii', 'xmlcharrefreplace').decode('utf-8') + "</a>"
+
   s += "<small class='feed_datetime'>" + str(datetime.utcfromtimestamp(int(ent["unixtime"])).strftime("%Y-%m-%d %H:%M")) + "</small> "
   s+= "</li>"
 
@@ -48,8 +48,20 @@ def html_make_entry(ent):
 
 def html_page(content):
 
-  _now = datetime.now()
-  dt = _now.strftime("%Y-%m-%d %H:%M:%S")
+  tz_utc = pytz.timezone("UTC")
+  tz_pst = pytz.timezone("PST8PDT")
+  tz_edt = pytz.timezone("EST5EDT")
+  tz_cet = pytz.timezone("CET")
+  tz_cdt = pytz.timezone("CST6CDT")
+
+  dt_utc = datetime.now(tz_utc).strftime("%Y-%m-%d %H:%M:%S %Z")
+  dt_pst = datetime.now(tz_pst).strftime("%Y-%m-%d %H:%M:%S %Z")
+  dt_edt = datetime.now(tz_edt).strftime("%Y-%m-%d %H:%M:%S %Z")
+  dt_cet = datetime.now(tz_cet).strftime("%Y-%m-%d %H:%M:%S %Z")
+  dt_cdt = datetime.now(tz_cdt).strftime("%Y-%m-%d %H:%M:%S %Z")
+
+  #_now = datetime.now()
+  #dt = _now.strftime("%Y-%m-%d %H:%M:%S")
 
   s =  "<!doctype html>\n"
   s += "<html>\n"
@@ -61,7 +73,19 @@ def html_page(content):
   s += " </head>\n"
 
   s += " <body>\n"
-  s += "  <h1>feed <small>last updated: " + dt + "</small></h1>\n"
+  #s += "  <h1>feed <small>last updated: " + dt + "</small></h1>\n"
+
+  s += "  <table>\n"
+  s += "    <tr>\n"
+  s += "      <td><h1>feed</h1></td>\n"
+  s += "      <td> <small>" + dt_utc + "</small> </td>\n"
+  s += "      <td> <small>" + dt_pst + "</small> </td>\n"
+  s += "      <td> <small>" + dt_edt + "</small> </td>\n"
+  s += "      <td> <small>" + dt_cet + "</small> </td>\n"
+  s += "      <td> <small>" + dt_cdt + "</small> </td>\n"
+  s += "    </tr>\n"
+  s += "  </table>\n"
+
   s += "    <ul>\n"
   s += content
   s += "    </ul>\n"
@@ -82,7 +106,6 @@ while True:
     url = rss_ent["url"]
     prs = rss_ent["parser"]
 
-    #stream = os.popen("./parser/" + prs + " " +  url)
     stream = os.popen(cfg["parser"] + "/" + prs + " " +  url)
     ajson = stream.read()
 
@@ -92,13 +115,24 @@ while True:
       if line[0] == '#': continue
       x = json.loads(line)
 
-      tz_type = '%z'
+      dt_fmt = "%a, %d %b %Y %H:%M:%S %z"
+
       tok = x["pubDate"].split(" ")
-      if (len(tok[5]) > 0) and (tok[5][0] != '-') and (tok[5][0] != '+'):
-        tz_type = '%Z'
+      if (len(tok)==1):
+        print("#debug:", x["pubDate"])
 
+        x["pubDate"] = re.sub(r':(\d\d)$', '\\1', x["pubDate"])
 
-      x["unixtime"] = float(datetime.strptime(x["pubDate"], "%a, %d %b %Y %H:%M:%S " + tz_type).strftime("%s"))
+        if re.search('\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d[+-]\d\d:?\d\d', x['pubDate']):
+          dt_fmt = "%Y-%m-%dT%H:%M:%S%z"
+        elif re.search('\d\d\d\d-\d\d-\d\dT\d\d:\d\d[+-]\d\d:?\d\d', x['pubDate']):
+          dt_fmt = "%Y-%m-%dT%H:%M%z"
+
+      elif (len(tok[5]) > 0) and (tok[5][0] != '-') and (tok[5][0] != '+'):
+        dt_fmt = "%a, %d %b %Y %H:%M:%S %Z"
+
+      x["unixtime"] = float(datetime.strptime(x["pubDate"], dt_fmt).strftime("%s"))
+
       x["icon"] = rss_ent["icon"]
 
       snapshot[ x["guid"] ] = x
@@ -140,7 +174,6 @@ while True:
     dtd = _now.strftime("%Y-%m-%d")
     os.system("mkdir -p " + cfg["historic"] + "/" + dtd)
 
-    #html_fn = "html/" + str(dtd) + "/" + dt
     html_fn = cfg["historic"] + "/" + str(dtd) + "/" + dt
     tmp_fn = "/tmp/" + dt
     with open(html_fn, "w") as fp:
