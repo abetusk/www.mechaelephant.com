@@ -1855,6 +1855,22 @@
       "https://web.archive.org/web/20220508142625/https://theintercept.com/2022/05/08/maryland-campaign-brandy-brooks-progressive-accountability/"
     ]
   },
+  "3f60ac42-8958-7ee8-9fb0-b3e9784905cf": {
+    "id": "3f60ac42-8958-7ee8-9fb0-b3e9784905cf",
+    "timestamp": 1677587484.225,
+    "keyword": [
+      "title:business",
+      "business",
+      "bullshit jobs",
+      "non-profit"
+    ],
+    "extra": [],
+    "note": "\"Most Data Work Seems Fundamentally Worthless\"",
+    "link": [
+      "https://ludic.mataroa.blog/blog/most-data-work-seems-fundamentally-worthless/",
+      "https://web.archive.org/web/20230228002707/https://ludic.mataroa.blog/blog/most-data-work-seems-fundamentally-worthless/"
+    ]
+  },
   "40ed9ab9-4a6a-9eb2-11a1-dbf4f54b811b": {
     "id": "40ed9ab9-4a6a-9eb2-11a1-dbf4f54b811b",
     "timestamp": 1675358164.637,
@@ -2314,6 +2330,23 @@
     "note": "Book of fate (public domain)",
     "link": [
       "https://archive.org/details/b29321876/page/n10/mode/2up"
+    ]
+  },
+  "53131600-7247-96f0-a139-4023588e6bda": {
+    "id": "53131600-7247-96f0-a139-4023588e6bda",
+    "timestamp": 1677587679.577,
+    "keyword": [
+      "title:computer science",
+      "computer science",
+      "belief propagation",
+      "algorithm",
+      "dynamic programming",
+      "cs"
+    ],
+    "extra": [],
+    "note": "Residual belief propagation",
+    "link": [
+      "https://github.com/abetusk/papers/blob/release/ComputerScience/BeliefPropagation/residual-belief-propagation_eligan-mcgraw-koller.pdf"
     ]
   },
   "540d3de8-b67a-3e50-0134-9fbe5cda1502": {
@@ -3380,6 +3413,21 @@
     "link": [
       "https://en.wikipedia.org/wiki/Sigmoid_function",
       "https://en.wikipedia.org/wiki/Error_function"
+    ]
+  },
+  "79f4714a-39a4-49e5-d791-3adadb42fa09": {
+    "id": "79f4714a-39a4-49e5-d791-3adadb42fa09",
+    "timestamp": 1677587774.052,
+    "keyword": [
+      "title:graphics",
+      "graphics"
+    ],
+    "extra": [],
+    "note": "Various grahpics papers (displacement mapped ray tracing, etc.)",
+    "link": [
+      "https://github.com/abetusk/papers/blob/release/Graphics/practical-ray-tracing-of-trimmed-nurbs-surfaces_martin-cohen-fish-shirley.pdf",
+      "https://github.com/abetusk/papers/blob/release/Graphics/tesselation-free-displacement-mapping-for-ray-tracing_thonat-beaune-sun-carr-boubekeur.pdf",
+      "https://github.com/abetusk/papers/blob/release/Graphics/ray-tracing-parametric-patches_kajiya.pdf"
     ]
   },
   "7a55f011-d3f5-dbfb-3793-c7f9c5d06df5": {

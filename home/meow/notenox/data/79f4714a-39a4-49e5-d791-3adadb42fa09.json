@@ -1,0 +1,15 @@
+{
+  "id": "79f4714a-39a4-49e5-d791-3adadb42fa09",
+  "timestamp": 1677587774.052,
+  "keyword": [
+    "title:graphics",
+    "graphics"
+  ],
+  "extra": [],
+  "note": "Various grahpics papers (displacement mapped ray tracing, etc.)",
+  "link": [
+    "https://github.com/abetusk/papers/blob/release/Graphics/practical-ray-tracing-of-trimmed-nurbs-surfaces_martin-cohen-fish-shirley.pdf",
+    "https://github.com/abetusk/papers/blob/release/Graphics/tesselation-free-displacement-mapping-for-ray-tracing_thonat-beaune-sun-carr-boubekeur.pdf",
+    "https://github.com/abetusk/papers/blob/release/Graphics/ray-tracing-parametric-patches_kajiya.pdf"
+  ]
+}
