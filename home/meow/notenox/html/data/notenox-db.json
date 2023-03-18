@@ -557,6 +557,20 @@
       "https://web.archive.org/web/20210221101020/https://www.infoq.com/presentations/dynamic-static-typing/"
     ]
   },
+  "131b2d69-bc99-49a7-8369-9abd9e2ec198": {
+    "id": "131b2d69-bc99-49a7-8369-9abd9e2ec198",
+    "timestamp": 1678244232.139,
+    "keyword": [
+      "title:laser",
+      "laser",
+      "goggles"
+    ],
+    "extra": [],
+    "note": "Laser Everything tests FreeMascot OD 8+ glasses, 190nm-450nm, 800nm-1100nm (and recommends them)",
+    "link": [
+      "https://www.youtube.com/watch?v=IA44RovxfIE"
+    ]
+  },
   "13bfd5cb-6a61-8d42-1e34-35c98362eaab": {
     "id": "13bfd5cb-6a61-8d42-1e34-35c98362eaab",
     "timestamp": 1621478040.241,
@@ -3069,6 +3083,28 @@
       "https://www.printables.com/model/2770-human-skull-anatomically-correct"
     ]
   },
+  "6b2ad4af-24b2-7fef-8478-5c4e38a2a332": {
+    "id": "6b2ad4af-24b2-7fef-8478-5c4e38a2a332",
+    "timestamp": 1678486853.391,
+    "keyword": [
+      "title:novelty",
+      "novelty",
+      "mirror",
+      "makeup",
+      "lip balm",
+      "clamshell",
+      "clam",
+      "compact"
+    ],
+    "extra": [],
+    "note": "The clam clamshell makeup kit is called a 'compact', with a standard use case being a mirror ('mirror compact'). Included are also some other novelty items like a unicorn lip balm stick, etc.  At least as of this writing, a good search option is a 'mermaid shell compact'.",
+    "link": [
+      "https://www.etsy.com/market/clam_shell_compact",
+      "amazon.com/Mirror-Double-sided-Magnification-Makeup-Compact/dp/B07WS7F6WF",
+      "amazon.com/Lip-Smacker-Unicorn-Magic-Ounce/dp/B077XC7K7V",
+      "https://trippy-daze.com/products/holographic-mermaid-shell-compact-mirror-pink"
+    ]
+  },
   "6c70ab4d-d577-5833-48f5-052d7e72dcd3": {
     "id": "6c70ab4d-d577-5833-48f5-052d7e72dcd3",
     "timestamp": 1652935934.372,
@@ -4057,6 +4093,24 @@
     "note": "Overedge catalog, list of research organizations",
     "link": [
       "https://arbesman.net/overedge/"
+    ]
+  },
+  "8f6cde10-065f-35a2-8913-6cd7218ce2f4": {
+    "id": "8f6cde10-065f-35a2-8913-6cd7218ce2f4",
+    "timestamp": 1679131530.898,
+    "keyword": [
+      "title:culture",
+      "culture",
+      "question",
+      "eric s raymond",
+      "raymond",
+      "esr"
+    ],
+    "extra": [],
+    "note": "How to ask questions the smart way by Eric S Raymond (and Rick Moen?)",
+    "link": [
+      "http://www.catb.org/~esr/faqs/smart-questions.html",
+      "https://web.archive.org/web/20230318053008/http://www.catb.org/~esr/faqs/smart-questions.html"
     ]
   },
   "9066fb92-ba5e-f2fc-a651-02119dfbac3e": {
@@ -5084,6 +5138,22 @@
       "https://web.archive.org/web/20210319131855/https://documentation.divio.com/"
     ]
   },
+  "b12293f5-0276-173b-9b8d-3590fdd96738": {
+    "id": "b12293f5-0276-173b-9b8d-3590fdd96738",
+    "timestamp": 1678682784.481,
+    "keyword": [
+      "title:diybio",
+      "diybio",
+      "diy-bio",
+      "biology",
+      "home lab"
+    ],
+    "extra": [],
+    "note": "A Tiny Green Cell has a blog which looks to be mostly about making an FPLC device",
+    "link": [
+      "https://atinygreencell.com/"
+    ]
+  },
   "b1344519-f31a-a04e-778e-6d91fae74f48": {
     "id": "b1344519-f31a-a04e-778e-6d91fae74f48",
     "timestamp": 1651776631.557,
@@ -5556,6 +5626,22 @@
     "link": [
       "https://tinygrad.org/",
       "https://github.com/geohot/tinygrad"
+    ]
+  },
+  "c40c8d17-3b9c-a79e-b6f0-08ecc30abbc9": {
+    "id": "c40c8d17-3b9c-a79e-b6f0-08ecc30abbc9",
+    "timestamp": 1678695289.236,
+    "keyword": [
+      "title:reference",
+      "reference",
+      "chernobyl",
+      "nuclear",
+      "retro"
+    ],
+    "extra": [],
+    "note": "photos of computers used in chernobyl",
+    "link": [
+      "https://www.instagram.com/thechernobylfamily/"
     ]
   },
   "c427c236-1bc6-0b17-cbd5-55df42ab2596": {
@@ -6772,6 +6858,21 @@
       "https://web.archive.org/web/20210406184622/https://people.gnome.org/~michael/blog/2021-03-22.html",
       "https://people.gnome.org/~michael/blog/2021-04-12-excommunicating.html",
       "https://web.archive.org/web/20210414072528/https://people.gnome.org/~michael/blog/2021-04-12-excommunicating.html"
+    ]
+  },
+  "eb3042b2-1434-8b7a-ca20-0430a1672304": {
+    "id": "eb3042b2-1434-8b7a-ca20-0430a1672304",
+    "timestamp": 1678243767.663,
+    "keyword": [
+      "title:laser",
+      "laser",
+      "meter"
+    ],
+    "extra": [],
+    "note": "mini laser power meter",
+    "link": [
+      "ebay.com/itm/285082370406",
+      "amazon.com/Pocket-Portable-Laser-Pointer-Module/dp/B0779PWTL9/ref=sr_1_8"
     ]
   },
   "eb66d4c2-a553-b17d-0e70-0cac0f2df3d5": {
