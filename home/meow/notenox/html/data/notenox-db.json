@@ -2385,6 +2385,24 @@
       "https://lnbig.com/#/"
     ]
   },
+  "56cbd170-22d3-1e2d-d754-bd26e0ccad66": {
+    "id": "56cbd170-22d3-1e2d-d754-bd26e0ccad66",
+    "timestamp": 1682875935.907,
+    "keyword": [
+      "title:graphics",
+      "graphics",
+      "shader",
+      "outline",
+      "3d",
+      "render"
+    ],
+    "extra": [],
+    "note": "Notes on rendering outlines",
+    "link": [
+      "https://alexanderameye.github.io/notes/rendering-outlines/",
+      "https://web.archive.org/web/20230327173046/https://alexanderameye.github.io/notes/rendering-outlines/"
+    ]
+  },
   "56e0e3e4-98f0-445c-225e-32c470efbbe0": {
     "id": "56e0e3e4-98f0-445c-225e-32c470efbbe0",
     "timestamp": 1679997703.839,
@@ -5263,6 +5281,26 @@
       "https://www.olimex.com/Products/Power/DCDC-36-5-12/resources/DCDC-36-5_12_Rev_B.pdf",
       "https://www.olimex.com/Products/Power/DCDC-36-5-12/resources/DCDC-36-5-12-dimensions.png",
       "https://www.mouser.com/c/semiconductors/power-management-ics/voltage-regulators-voltage-controllers/switching-voltage-regulators/?series=LM2576"
+    ]
+  },
+  "b152b2d8-f8b3-e2c0-ed6c-2d8aeff1ae74": {
+    "id": "b152b2d8-f8b3-e2c0-ed6c-2d8aeff1ae74",
+    "timestamp": 1682940517.099,
+    "keyword": [
+      "title:FOSS",
+      "FOSS",
+      "worth",
+      "value"
+    ],
+    "extra": [],
+    "note": "A 2008 estimate that it would take $10B to develop Linux. Another puts it at $1.4B. A 2012 puts the Debian project at $19B. A 2009 estimate puts open source software in general at $387B",
+    "link": [
+      "https://www.linuxfoundation.org/press/press-release/linux-foundation-publishes-study-estimating-the-value-of-linux",
+      "https://web.archive.org/web/20230130181428/https://www.linuxfoundation.org/press/press-release/linux-foundation-publishes-study-estimating-the-value-of-linux",
+      "https://www.linuxfoundation.jp/events/2008/10/estimating-the-total-cost-of-a-linux-distribution/",
+      "https://web.archive.org/web/20230201030944/https://www.linuxfoundation.jp/events/2008/10/estimating-the-total-cost-of-a-linux-distribution/",
+      "https://www.computerworld.com/article/2481784/how-many-billions-is-open-source-software-worth-.html",
+      "https://web.archive.org/web/20201101101004/https://www.computerworld.com/article/2481784/how-many-billions-is-open-source-software-worth-.html"
     ]
   },
   "b188546f-bf54-8008-0839-de2c54c70242": {
