@@ -288,6 +288,29 @@
       "https://www.walthers.com/products/layout/structures"
     ]
   },
+  "0af9993a-a2f4-ce22-74e2-911573ac71fb": {
+    "id": "0af9993a-a2f4-ce22-74e2-911573ac71fb",
+    "timestamp": 1683721944.042,
+    "keyword": [
+      "title:cryptocurrency",
+      "cryptocurrency",
+      "web3",
+      "generative art",
+      "art",
+      "criminal",
+      "money laundering",
+      "crime",
+      "corruption"
+    ],
+    "extra": [],
+    "note": "Ilja Borisovs (Shvembldr) is an artist in Latvia that has been earning money from generative art cryptocurrency sales and been charged with money laundering by his government.",
+    "link": [
+      "https://www.art-is-crime.com/",
+      "https://web.archive.org/web/20230128131730/https://www.art-is-crime.com/",
+      "https://twitter.com/shvembldr/status/1655955228364259330",
+      "https://web.archive.org/web/20230510122959/https://twitter.com/shvembldr/status/1655955228364259330"
+    ]
+  },
   "0b057fde-759d-3288-e001-22266fe586c6": {
     "id": "0b057fde-759d-3288-e001-22266fe586c6",
     "timestamp": 1668542480.914,
@@ -441,6 +464,23 @@
       "https://youtu.be/9urYWGx2uNk",
       "https://en.wikipedia.org/wiki/The_Media_Equation",
       "https://ui-patterns.com/"
+    ]
+  },
+  "0f11f2a1-4b8e-d766-955f-d9060bb9e854": {
+    "id": "0f11f2a1-4b8e-d766-955f-d9060bb9e854",
+    "timestamp": 1683134502.072,
+    "keyword": [
+      "title:public domain",
+      "public domain",
+      "book",
+      "sayings",
+      "mottoes"
+    ],
+    "extra": [],
+    "note": "A book of sundial mottoes",
+    "link": [
+      "https://publicdomainreview.org/collection/sundial-mottoes",
+      "https://archive.org/details/bookofsundialmot00hyat/bookofsundialmot00hyat"
     ]
   },
   "0f1ffe5b-fbdd-6f79-7035-e430e21b7ef3": {
@@ -1415,6 +1455,29 @@
     "link": [
       "https://andrewbatson.com/2021/03/16/misunderstanding-malthus-mistake/",
       "https://web.archive.org/web/20210320025041/https://andrewbatson.com/2021/03/16/misunderstanding-malthus-mistake/"
+    ]
+  },
+  "2d821c2b-725f-174f-3d85-39bd1c990628": {
+    "id": "2d821c2b-725f-174f-3d85-39bd1c990628",
+    "timestamp": 1683286553.892,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "artificial intelligence",
+      "machine learning",
+      "neural network",
+      "foss",
+      "open source",
+      "politics",
+      "business"
+    ],
+    "extra": [],
+    "note": "A leaked document from Google describes the current state of the open source community and it's reaction to a lot of the large, closed and restricted models, noting that Google doesn't have a moat and neither does OpenAI",
+    "link": [
+      "https://www.semianalysis.com/p/google-we-have-no-moat-and-neither",
+      "https://web.archive.org/web/20230505044443/https://www.semianalysis.com/p/google-we-have-no-moat-and-neither",
+      "https://twitter.com/jelleprins/status/1654197249981796358",
+      "https://web.archive.org/web/20230505063301/https://twitter.com/jelleprins/status/1654197249981796358"
     ]
   },
   "2eaf17de-f3a8-453a-7f48-bf35c1a48ab7": {
