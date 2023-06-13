@@ -206,6 +206,143 @@ var epiteth = [
   "Zuchequon", "Feaster from Stars", "Sky-Devil", "Ossadagowah"
 ];
 
+var aesthetics = [
+  "1950s Suburbia", "2000's Autumn", "2014-era tumblr", "2014 Girly", "2020 Alt", "2K Animecore", "Abstract Tech", "Acid Pixie",
+  "Acidwave", "Acubi", "Adventure Pulp", "Adventurecore", "Aetherpunk", "Afrofuturism", "Afro-Victorian", "After Hours", "Agropeople", "Ah Beng",
+  "Alien", "Alternative", "Americana", "Analog Horror", "American Pioneers", "American Revolution", "American Thanksgiving", "American Tourist Traps", "Ancient Egypt", "Androgynous",
+  "Anemoiacore", "Angelcore", "Anglocore", "Anglo Gothic", "Angura", "Animecore", "Antique Grunge", "Anti-Fashion", "Arcade", "Arcadecore",
+  "Art Academia", "Arts and Crafts Movement", "Art Deco", "Art Hoe", "Art Nouveau", "Asian Baby Girl", "Athlete", "Atompunk", "Auroracore", "Australiana",
+  "Australian Outback", "Autumn Academia", "Autumn", "Avant Apocalypse", "Avant-garde", "Babycore", "Babygirl", "Back-to-School", "Baddie", "Ballet Academia",
+  "Balletcore", "Baltic Violence Tumblr", "Barbiecore", "Bardcore", "Baroque", "Bastardcore", "Bauhaus", "BDSM", "Beach Bunny", "Beach Day",
+  "Beatnik", "Biker", "Bimbocore", "Biopunk", "Bizarro Fiction", "Black-Holed Meme", "Bloomcore", "Bodikon", "Bohemian", "Bombacore",
+  "Bookstore Girl", "Bosozoku", "Boujee", "Breakcore", "Britpop", "Bro", "Bronzepunk", "Bubble Bujo", "Bubble Goth", "Bubblegum Bitch",
+  "Bubblegum Witch", "Cabincore", "Cagole", "Camp", "Campcore", "Cargopunk", "Carnivalcore", "Cartelcore", "Cartooncore", "Casino",
+  "Cassette Futurism", "Celtic", "Changelingcore", "Chaotic Academia", "Chav", "Cheiron Crush", "Cherry Emoji Twitter", "Chic Modernist", "Cholo", "Christcore",
+  "Christian Girl Autumn", "Christmas", "Chunyu", "City Pop", "Classic Academia", "Classic Lolita", "Classicism", "Cleancore", "Clockpunk", "Clowncore",
+  "Club", "Club Kids", "Coastal Grandmother", "Cutecore", "Cyber Stylin'", "Coffee House", "Coffinwood", "Comfy", "Common White Girl", "Concore",
+  "Constructivism", "Corporate", "Corporate Memphis", "Corporate Punk", "Cottagecore", "Cottagegore", "Coquette Academia", "Coquette", "Country", "Cozy Childhood Hideaway",
+  "C-Pop", "Crackhead", "Craftcore", "Cripplepunk", "Crowcore", "Crustpunk", "Cryptid Academia", "Cryptidcore", "Cubism", "Cuddle Party",
+  "Cultcore", "Cult Party Kei", "Cyberdelic", "Cyber Fairy Grunge", "Cyberghetto", "Cybergoth", "Cybergrunge", "CyberneticPunk", "Cyberparadism", "Cyberpop",
+  "Cyberprep", "Cyberpunk", "Danish Pastel", "DarkErrorcore", "Dark Academia", "Dark Fantasy", "Dark Naturalism", "Dark Nautical", "Dark Nymphet", "Dark Paradise",
+  "Darkcore", "Darkest Academia", "Daydreampunk", "Dazecore", "De Stijl", "Deathcore", "Deathrock", "Decopunk", "Decora", "Delicate Sweet",
+  "Desertwave", "Desi Romantic Academia", "Dethereal", "Devilcore", "Dieselpunk", "Diner", "Dionysism", "Dollette", "Dolly Kei", "Doodlecore",
+  "Downtown Girl", "Dracopunk", "Dragoncore", "Drain", "Dreamcore", "Dreamy", "Drugcore", "Dual Kawaii", "Dullcore", "Dungeon Synth",
+  "E-Boy", "E-Girl", "Earthcore", "ElectroPop 08", "Electro Swing", "Elizabethan England", "Emo", "English Major", "Equestrian", "Erokawa",
+  "Eshay", "Ethereal", "Europunk", "Expressionism", "Fairy Academia", "Fairy Grunge", "Fairy Kei", "Fairy Tale", "Fairycore", "Fanfare",
+  "Fantasy", "Fantasy Astronomy", "Fashwave", "Farmer's Daughter", "Fauvism", "Femboy", "Femcel Weeaboo", "Femme Fatale", "Feralcore", "Film Noir",
+  "Flapper", "Flat Design", "Folk Punk", "Foodie", "Forestpunk", "French Girl", "French Girly", "Frogcore", "Frutiger Aero", "Frutiger Metro",
+  "Funky Seasons", "Furry", "Futurism", "Gadgetpunk", "Game Night", "Gamercore", "Gamine", "Geek", "Gen X Soft Club", "Ghostcore",
+  "Girl-Next-Door", "Glam Girl", "Glamorous Los Angeles", "Glam Rock", "Glitchcore", "Gloomcore", "Glowwave", "Goblin Academia", "Goblincore", "Golden Age of Detective Fiction",
+  "Golden Hour", "Gopnik", "Gorecore", "Gorpcore", "Goth", "Gothcore", "Gothic", "Gothic Lolita", "Grandmillenial", "Grandparentcore",
+  "Greaser", "Green Academia", "Grifes", "Grindhouse", "Groundcore", "Grunge", "Gurokawa", "Gyaru", "Hackercore", "Halloween",
+  "Hallyu", "Happycore", "Hatecore", "Hauntology", "Haussmann Paris", "Health Goth", "Heatwave", "Heistcore", "Hellenic", "Helvetica Aqua Aero",
+  "Hermaphroditus", "Hermitpunk", "Hexatron", "Hi-NRG", "High School Dream", "Hikecore", "Hime Lolita", "Hip-Hop", "Hipness Purgatory", "Hippie",
+  "Hipster", "Historical Americana", "Holosexual", "Honeycore", "Horror", "Horror Academia", "Hot Topic", "Hustlewave", "Hydrogen", "Hyperpop",
+  "Icepunk", "Imaginarium", "Impressionism", "Indie", "Indie Kid", "Indie Sleaze", "Indicolite", "Internet Academia", "Italo Disco", "Italian Mafia",
+  "Italian Renaissance", "Jamcore", "Jersey Shore", "Joyride", "Juggalo", "Jungle Grunge", "Junglecore", "Karasu Zoku", "Kawaii", "Kawaii Gamer",
+  "Key West Kitten", "Kidcore", "Kid Science", "Kimoicore", "Kinderwhore", "Kingcore", "King Gas", "Kiwiana", "Knightcore", "Kogal",
+  "Kuromicore", "La Sape", "Labcore", "Laborwave", "Lagenlook", "Larme Kei", "Late 2000s Elementary School", "Libertywave", "Light Academia", "Lightcore",
+  "Lightningwave", "Lil Girl", "Liminal Space", "Lit Kid", "Lo-Fi", "Lobotomy-Chic", "Lolita", "Long Island", "Lounge", "Lovecore",
+  "Lunarpunk", "Macaute", "Mad Scientist", "Magewave", "Magical Girls", "Maidcore", "Mallgoth", "Mall Ninja", "Maximalism", "McBling",
+  "Meatcore", "Medicalcore", "Medieval", "MTV Green Sky", "Memphis", "Mermaid", "Metal", "Metalcore", "Metalheart", "Metrosexual",
+  "Miami Metro", "Midwest Emo", "Midwest Gothic", "Military", "Milk", "Mind Murder", "Miniaturecore", "Minimalism", "Minivan Rock", "Miscellaneous Academia",
+  "Mizuiro", "Mod", "Modern Brazil", "Modernism", "Mori Kei", "Morute", "Mote Kei", "Mulchcore", "Mushroomcore", "Mosscore",
+  "MS Paint", "Musical Academia", "Mythpunk", "Nanchatte Seifuku", "Nanopunk", "NATOwave", "Naturecore", "Nautical", "Nazi Chic", "Neoclassicism",
+  "Neko", "Neo-Romanism", "Neo-Tokyo", "Nerd", "Nerdcore", "New England Gothic", "New Age", "New Money", "New Romantic", "New Wave",
+  "Night Luxe", "Nintencore", "Normcore", "Northerness", "Nostalgiacore", "Nuclear", "Nu-Goth", "Nymphet", "Ocean Academia", "Ocean Grunge",
+  "Old Hollywood", "Old Memecore", "Old Money", "Old Web", "Onii Kei", "Oshare Kei", "Otaku", "Otherkin", "Pachuco", "Pale Grunge",
+  "Paleocore", "Palewave", "Paramilitary", "Party Animal", "Party Kei", "Pastel Academia", "Pastel Goth", "Pastel Punk", "PC Music", "Peach",
+  "Pearly", "Peoplehood", "Photorealism", "Pink Parisian", "Pink Princess", "Pink Pilates Princess", "Pin-up", "Pirate", "Pixel Cutie", "Pixiecore",
+  "Plaguecore", "Plant Mom", "Playboy", "Pop Art", "Pop Kei", "Post-Apocalyptic", "Post-Impressionism", "Post-Punk", "Post-rock", "Powwow Step",
+  "Prairiecore", "Pre-Raphaelite", "Prehistoricore", "Preppy", "Pretty Preppy", "Pride flags", "Princecore", "Princesscore", "Printcore", "Progressive Academia",
+  "Psychedelica", "Punk", "Purism", "Quality Tumblr", "Queencore", "Queer Academia", "Queercore", "R%26B", "Racaille", "Ragecore",
+  "Rainbowcore", "Rainy Day", "Randumb", "Rangercore", "Ratcore", "Ravencore", "Raver", "Real Life Super Hero", "Realism", "Reefwave",
+  "Regency", "Regional Gothic", "Retro-Futurism", "Rivethead", "Roaring 20s", "Robotics Kids", "Rock", "Rockabilly", "Rocketpunk", "Rococo",
+  "Roguecore", "Rollerwave", "Roma", "Romantic Academia", "Romantic Goth", "Romantic Italian", "Romanticism", "Rotcore", "Royalcore", "Rusticcore",
+  "Sadpeople", "Salon Kei", "Salvagepunk", "Sandalpunk", "Sanriocore", "Scene", "Schizowave", "Science Academia", "Scoutcore", "Scrapbook",
+  "Scrapper", "Seapunk", "Selkiecore", "Shabby Chic", "Shanzhai", "Shamate", "Sharpies", "Shibuya Punk", "Shironuri", "Shoegaze",
+  "Sigilkore", "Sizz", "Skater", "Skinheads", "Slimepunk", "Sloanie", "Slutcore", "Smilecore", "Snowdrop", "Snow Bunny",
+  "Soft Apocalypse", "Soft Grunge", "Soft indie", "Soft Macabre", "Softie", "Soggy", "Solarpunk", "Southern Belle", "Southern Gothic", "Sovietwave",
+  "Spacecore", "Space Cowboy", "Sparklecore", "Spiritcore", "Spring", "Spy Fiction", "Starrflesh", "Steampunk", "Steelpunk", "Stilyagi",
+  "Stimwave", "Stonepunk", "Stoner", "Stripcore", "Studyblr", "Studyplace", "Suburban Gothic", "Sukeban", "Summer", "Superflat Pop",
+  "Suprematism", "Surf Crush", "Surrealism", "Surreal Memer", "Swenkas", "Swordpunk", "Synthwave", "Skeuomorphism", "Tacticool", "Taisho Roman",
+  "Takenokozoku", "Tanbi Kei", "TangoCore", "Technical Scene", "Technocore", "Technozen", "Techwear", "Teddies", "Teenage Dream", "Teenqueen",
+  "Teethcore", "Terrorwave", "Teslapunk", "That Girl", "Theatre Academia", "Theatre Kids", "Thrasher", "Thriftcore", "Tiki", "Tinkercore",
+  "Tinycore", "Tomboy", "Toxic Core", "Trad Goth", "Traditional Korean", "Trailer Park Princess", "Trashcore", "Trashy Raver", "Traumacore", "Trenchcore",
+  "Trendercore", "Trillwave", "Tropical", "Tumblewave", "Tupinipunk", "Tweencore", "Twee", "Ukiyo-e", "Unicorncore", "Urban Fantasy",
+  "Urbancore", "Utopian Scholastic", "VARIOUSXYZ", "Vacation Dadcore", "Vampire", "Vaporwave", "Vectorbloom", "Vectorheart", "Vibrant Academia", "Victorian",
+  "Victorian Goth", "Victorian Urban Poverty", "Viking", "Villagecore", "Villaincore", "Vintage British Sportsman", "Vintage Parisian", "Virgo's Tears", "Visual Kei", "VSCO",
+  "VSCO Preppy", "Voidcore", "Voidpunk", "Vorticism", "Vulture Culture", "Wabi-Sabi", "Waif", "Waldorf", "Wanderlust", "Warmcore",
+  "Weathercore", "Web Creep", "Weeaboo", "Weirdcore", "Werewolf", "Western", "Wetcore", "Whimsigothic", "Wild Child", "Winter",
+  "Winter Fairy Coquette", "Witchy Academia", "Witch House", "Witchcore", "Wizardcore", "Wonderland", "Woodland goth", "Wormcore", "Writer Academia", "Wuxia",
+  "XO", "Y2K", "Yakuza", "Yami Kawaii", "Yandere", "Yankeecore", "Yanki", "Youthquake", "Yume Kawaii", "Zombiecore"
+];
+
+var adjectives = [
+  "Aristotelian", "Arthurian", "Bohemian", "Brethren", "Mosaic", "Oceanic", "Proctor", "Terran", "Tudor", "abroad", "absorbing", "abstract", "academic", "accelerated", "accented",
+  "accountant", "acquainted", "acute", "addicting", "addictive", "adjustable", "admired", "adult", "adverse", "advised", "aerosol", "afraid", "aggravated", "aggressive", "agreeable", "alienate",
+  "aligned", "all-round", "alleged", "almond", "alright", "altruistic", "ambient", "ambivalent", "amiable", "amino", "amorphous", "amused", "anatomical", "ancestral", "angelic", "angrier",
+  "answerable", "antiquarian", "antiretroviral", "appellate", "applicable", "apportioned", "approachable", "appropriated", "archer", "aroused", "arrested", "assertive", "assigned", "athletic", "atrocious", "attained",
+  "authoritarian", "autobiographical", "avaricious", "avocado", "awake", "awesome", "backstage", "backwoods", "balding", "bandaged", "banded", "banned", "barreled", "battle", "beaten", "begotten",
+  "beguiled", "bellied", "belted", "beneficent", "besieged", "betting", "big-money", "biggest", "biochemical", "bipolar", "blackened", "blame", "blessed", "blindfolded", "bloat", "blocked",
+  "blooded", "blue-collar", "blushing", "boastful", "bolder", "bolstered", "bonnie", "bored", "boundary", "bounded", "bounding", "branched", "brawling", "brazen", "breeding", "bridged",
+  "brimming", "brimstone", "broadest", "broiled", "broker", "bronze", "bruising", "buffy", "bullied", "bungling", "burial", "buttery", "candied", "canonical", "cantankerous", "cardinal",
+  "carefree", "caretaker", "casual", "cathartic", "causal", "chapel", "characterized", "charcoal", "cheeky", "cherished", "chipotle", "chirping", "chivalrous", "circumstantial", "civic", "civil",
+  "civilised", "clanking", "clapping", "claptrap", "classless", "cleansed", "cleric", "cloistered", "codified", "colloquial", "colour", "combat", "combined", "comely", "commissioned", "commonplace",
+  "commuter", "commuting", "comparable", "complementary", "compromising", "conceding", "concentrated", "conceptual", "conditioned", "confederate", "confident", "confidential", "confining", "confuse", "congressional", "consequential",
+  "conservative", "constituent", "contaminated", "contemporaneous", "contraceptive", "convertible", "convex", "cooked", "coronary", "corporatist", "correlated", "corroborated", "cosmic", "cover", "crash", "crypto",
+  "culminate", "cushioned", "dandy", "dashing", "dazzled", "decreased", "decrepit", "dedicated", "defaced", "defective", "defenseless", "deluded", "deodorant", "departed", "depress", "designing",
+  "despairing", "destitute", "detective", "determined", "devastating", "deviant", "devilish", "devoted", "diagonal", "dictated", "didactic", "differentiated", "diffused", "dirtier", "disabling", "disconnected",
+  "discovered", "disdainful", "diseased", "disfigured", "disheartened", "disheveled", "disillusioned", "disparate", "dissident", "doable", "doctrinal", "doing", "dotted", "double-blind", "downbeat", "dozen",
+  "draining", "draught", "dread", "dried", "dropped", "dulled", "duplicate", "eaten", "echoing", "economical", "elaborated", "elastic", "elective", "electoral", "elven", "embryo",
+  "emerald", "emergency", "emissary", "emotional", "employed", "enamel", "encased", "encrusted", "endangered", "engraved", "engrossing", "enlarged", "enlisted", "enlivened", "ensconced", "entangled",
+  "enthralling", "entire", "envious", "eradicated", "eroded", "esoteric", "essential", "evaporated", "ever-present", "evergreen", "everlasting", "exacting", "exasperated", "excess", "exciting", "executable",
+  "existent", "exonerated", "exorbitant", "exponential", "export", "extraordinary", "exultant", "exulting", "facsimile", "fading", "fainter", "faith-based", "fallacious", "faltering", "famous", "fancier",
+  "fast-growing", "fated", "favourable", "fearless", "feathered", "fellow", "fermented", "ferocious", "fiddling", "filling", "firmer", "fitted", "flammable", "flawed", "fledgling", "fleshy",
+  "flexible", "flickering", "floral", "flowering", "flowing", "foggy", "folic", "foolhardy", "foolish", "footy", "forehand", "forked", "formative", "formulaic", "foul-mouthed", "fractional",
+  "fragrant", "fraudulent", "freakish", "freckled", "freelance", "freight", "fresh", "fretted", "frugal", "fulfilling", "fuming", "funded", "funny", "garbled", "gathered", "geologic",
+  "geometric", "gibberish", "gilded", "ginger", "glare", "glaring", "gleaming", "glorified", "glorious", "goalless", "gold-plated", "goody", "grammatical", "grande", "grateful", "gratuitous",
+  "graven", "greener", "grinding", "grizzly", "groaning", "grudging", "guaranteed", "gusty", "half-breed", "hand-held", "handheld", "hands-off", "hard-pressed", "harlot", "healing", "healthier",
+  "healthiest", "heart", "heart-shaped", "heathen", "hedonistic", "heralded", "herbal", "high-density", "high-performance", "high-res", "high-yield", "hissy", "hitless", "holiness", "homesick", "honorable",
+  "hooded", "hopeless", "horrendous", "horrible", "hot-button", "huddled", "human", "humbling", "humid", "humiliating", "hypnotized", "idealistic", "idiosyncratic", "ignited", "illustrated", "illustrative",
+  "imitated", "immense", "immersive", "immigrant", "immoral", "impassive", "impressionable", "improbable", "impulsive", "in-between", "in-flight", "inattentive", "inbound", "inbounds", "incalculable", "incomprehensible",
+  "indefatigable", "indigo", "indiscriminate", "indomitable", "inert", "inflate", "inform", "inheriting", "injured", "injurious", "inking", "inoffensive", "insane", "insensible", "insidious", "insincere",
+  "insistent", "insolent", "insufferable", "intemperate", "interdependent", "interesting", "interfering", "intern", "interpreted", "intersecting", "intolerable", "intolerant", "intuitive", "irresolute", "irritate", "jealous",
+  "jerking", "joining", "joint", "journalistic", "joyful", "keyed", "knowing", "lacklustre", "laden", "lagging", "lamented", "laughable", "layered", "leather", "leathern", "leery",
+  "left-footed", "legible", "leisure", "lessening", "liberating", "life-size", "lifted", "lightest", "limitless", "listening", "literary", "liver", "livid", "lobster", "locked", "long-held",
+  "long-lasting", "long-running", "long-suffering", "loudest", "loveliest", "low-budget", "low-carb", "lowering", "lucid", "luckless", "lusty", "luxurious", "magazine", "maniac", "manmade", "maroon",
+  "mastered", "mated", "material", "materialistic", "meaningful", "measuring", "mediaeval", "medical", "meditated", "medley", "melodic", "memorable", "memorial", "metabolic", "metallic", "metallurgical",
+  "metering", "midair", "midterm", "midway", "mighty", "migrating", "mind-blowing", "mind-boggling", "minor", "mirrored", "misguided", "misshapen", "mitigated", "mixed", "modernized", "molecular",
+  "monarch", "monastic", "morbid", "motley", "motorized", "mounted", "multi-million", "multidisciplinary", "muscled", "muscular", "muted", "mysterious", "mythic", "nail-biting", "natural", "nauseous",
+  "negative", "networked", "neurological", "neutered", "newest", "night", "nitrous", "no-fly", "noncommercial", "nonsense", "north", "nuanced", "occurring", "offensive", "oldest", "oncoming",
+  "one-eyed", "one-year", "onstage", "onward", "opaque", "open-ended", "operating", "opportunist", "opposing", "opt-in", "ordinate", "outdone", "outlaw", "outsized", "overboard", "overheated",
+  "oversize", "overworked", "oyster", "paced", "panting", "paralyzed", "paramount", "parental", "parted", "partisan", "passive", "pastel", "patriot", "peacekeeping", "pedestrian", "peevish",
+  "penal", "penned", "pensive", "perceptual", "perky", "permissible", "pernicious", "perpetuate", "perplexed", "pervasive", "petrochemical", "philosophical", "picturesque", "pillaged", "piped", "piquant",
+  "pitching", "plausible", "pliable", "plumb", "politician", "polygamous", "poorest", "portmanteau", "posed", "positive", "possible", "postpartum", "prank", "pre-emptive", "precocious", "predicted",
+  "premium", "preparatory", "prerequisite", "prescient", "preserved", "presidential", "pressed", "pressurized", "presumed", "prewar", "priced", "pricier", "primal", "primer", "primetime", "printed",
+  "private", "problem", "procedural", "process", "prodigious", "professional", "programmed", "progressive", "prolific", "promising", "promulgated", "pronged", "proportionate", "protracted", "pulled", "pulsed",
+  "purgatory", "quick", "rapid-fire", "raunchy", "razed", "reactive", "readable", "realizing", "recognised", "recovering", "recurrent", "recycled", "redeemable", "reflecting", "regal", "registering",
+  "reliable", "reminiscent", "remorseless", "removable", "renewable", "repeating", "repellent", "reserve", "resigned", "respectful", "rested", "restrict", "resultant", "retaliatory", "retiring", "revelatory",
+  "reverend", "reversing", "revolving", "ridiculous", "right-hand", "ringed", "risque", "robust", "roomful", "rotating", "roused", "rubber", "run-down", "running", "runtime", "rustling",
+  "safest", "salient", "sanctioned", "saute", "saved", "scandalized", "scarlet", "scattering", "sceptical", "scheming", "scoundrel", "scratched", "scratchy", "scrolled", "seated", "second-best",
+  "segregated", "self-taught", "semiautomatic", "senior", "sensed", "sentient", "sexier", "shadowy", "shaken", "shaker", "shameless", "shaped", "shiny", "shipped", "shivering", "shoestring",
+  "short", "short-lived", "signed", "simplest", "simplistic", "sizable", "skeleton", "skinny", "skirting", "skyrocketed", "slamming", "slanting", "slapstick", "sleek", "sleepless", "sleepy",
+  "slender", "slimmer", "smacking", "smokeless", "smothered", "smouldering", "snuff", "socialized", "solid-state", "sometime", "sought", "spanking", "sparing", "spattered", "specialized", "specific",
+  "speedy", "spherical", "spiky", "spineless", "sprung", "squint", "stainless", "standing", "starlight", "startled", "stately", "statewide", "stereoscopic", "sticky", "stimulant", "stinky",
+  "stoked", "stolen", "storied", "strained", "strapping", "strengthened", "stubborn", "stylized", "suave", "subjective", "subjugated", "subordinate", "succeeding", "suffering", "summary", "sunset",
+  "sunshine", "supernatural", "supervisory", "supply-side", "surrogate", "suspended", "suspenseful", "swarthy", "sweating", "sweeping", "swinging", "swooning", "sympathize", "synchronized", "synonymous", "synthetic",
+  "tailed", "tallest", "tangible", "tanked", "tarry", "technical", "tectonic", "telepathic", "tenderest", "territorial", "testimonial", "theistic", "thicker", "threatening", "tight-lipped", "timed",
+  "timely", "timid", "torrent", "totalled", "tougher", "traditional", "transformed", "trapped", "traveled", "traverse", "treated", "trial", "trunk", "trusting", "trying", "twisted",
+  "two-lane", "tyrannical", "unaided", "unassisted", "unassuming", "unattractive", "uncapped", "uncomfortable", "uncontrolled", "uncooked", "uncooperative", "underground", "undersea", "undisturbed", "unearthly", "uneasy",
+  "unequal", "unfazed", "unfinished", "unforeseen", "unforgivable", "unidentified", "unimaginative", "uninspired", "unintended", "uninvited", "universal", "unmasked", "unorthodox", "unparalleled", "unpleasant", "unprincipled",
+  "unread", "unreasonable", "unregulated", "unreliable", "unremitting", "unsafe", "unsanitary", "unsealed", "unsuccessful", "unsupervised", "untimely", "unwary", "unwrapped", "uppity", "upstart", "useless",
+  "utter", "valiant", "valid", "valued", "vanilla", "vaulting", "vaunted", "veering", "vegetative", "vented", "verbal", "verifying", "veritable", "versed", "vinyl", "virgin",
+  "visceral", "visual", "voluptuous", "walk-on", "wanton", "warlike", "washed", "waterproof", "waved", "weakest", "well-bred", "well-chosen", "well-informed", "wetting", "wheeled", "whirlwind",
+  "widen", "widening", "willful", "willing", "winnable", "winningest", "wireless", "wistful", "woeful", "wooded", "woodland", "wordless", "workable", "worldly", "worldwide", "worst-case",
+  "worsted", "worthless"
+];
+
+
 var spell = [
     {
         "name": "Acid Arrow",
@@ -35680,6 +35817,9 @@ function dread_name() {
 
   var mg = music_genres[ _irnd(music_genres.length) ];
 
+  var adj = adjectives[ _irnd(adjectives.length) ];
+  var aes = aesthetics[ _irnd(aesthetics.length) ];
+
   m = m.replace(/Adult|Young/, '');
   m = m.replace(/^(.*) *, *(.*)$/, '$2 $1');
 
@@ -35703,6 +35843,9 @@ function dread_name() {
   result["condiment"] = cms;
   result["appliance"] = ap;
   result["music_genre"] = mg;
+
+  result["adjective"] = adj ;
+  result["aesthetic"] = aes ;
 
   choice.push( sp + " " + ep);
   choice.push( sp + " " + m);
@@ -35736,6 +35879,12 @@ function dread_name() {
     choice.push( spell_tok[0] + " " +  monster_tok.join(" ")  + " " +  spell_tok[ spell_tok.length-1 ]);
   }
 
+  choice.push( adj + " " + aes + " " + ep  + " " + ob);
+  choice.push( adj + " " + aes + " " + ob);
+  choice.push( adj + " " + ep + " " + ob);
+  choice.push( aes  + " " + ep + " " + ob);
+  choice.push( adj + " " + aes  + " " + ep );
+
   result["choice"] = choice;
 
   return result;
@@ -35755,9 +35904,13 @@ if (typeof module !== "undefined") {
       epiteth : epiteth,
       spell : spell,
       monster : monster,
-      item : item
+      item : item,
+      adjectives : adjectives,
+      aesthetics : aesthetics
     },
     dread_name : dread_name
 
   };
+
+  console.log(dread_name());
 }
