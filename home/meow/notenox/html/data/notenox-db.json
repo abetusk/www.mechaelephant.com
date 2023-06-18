@@ -813,6 +813,22 @@
       "https://github.com/bobricius"
     ]
   },
+  "181e5f04-6b79-8173-bc2c-007f5892ad44": {
+    "id": "181e5f04-6b79-8173-bc2c-007f5892ad44",
+    "timestamp": 1684887901.263,
+    "keyword": [
+      "title:business",
+      "business",
+      "kanban",
+      "CRM"
+    ],
+    "extra": [],
+    "note": "Kanboard is a FOSS (self hosted) minimal kanban board for project management",
+    "link": [
+      "https://docs.kanboard.org/v1/admin/installation/",
+      "https://github.com/kanboard/kanboard"
+    ]
+  },
   "181edcc2-fad7-2ba1-43d2-e44d9fcbed9b": {
     "id": "181edcc2-fad7-2ba1-43d2-e44d9fcbed9b",
     "timestamp": 1616967605.551,
@@ -2881,6 +2897,21 @@
       "https://watson.brown.edu/costsofwar/figures/2021/WarDeathToll",
       "https://web.archive.org/web/20220319050856/https://www.brown.edu/news/2021-09-01/costsofwar",
       "https://web.archive.org/web/20220309124327/https://watson.brown.edu/costsofwar/figures/2021/WarDeathToll"
+    ]
+  },
+  "62ad887d-17f0-32a2-662f-e5584998f4a5": {
+    "id": "62ad887d-17f0-32a2-662f-e5584998f4a5",
+    "timestamp": 1685897487.473,
+    "keyword": [
+      "title:links",
+      "links",
+      "science"
+    ],
+    "extra": [],
+    "note": "Lemire has some science links",
+    "link": [
+      "https://lemire.me/blog/2023/06/03/science-and-technogy-links-june-3-2023/",
+      "https://web.archive.org/web/20230603233155/https://lemire.me/blog/2023/06/03/science-and-technogy-links-june-3-2023/"
     ]
   },
   "6340353e-9a28-fd3e-4ffb-ca08f24d53eb": {
@@ -5647,6 +5678,26 @@
       "https://web.archive.org/web/20201029023818/https://www.southwestjournal.com/news/city-hall/2015/06/council-committee-backs-measure-lifting-parking-requirements-along-transit-corridors/"
     ]
   },
+  "bc1d43d4-877d-ec12-0275-9f18e8fca8b5": {
+    "id": "bc1d43d4-877d-ec12-0275-9f18e8fca8b5",
+    "timestamp": 1684887801.512,
+    "keyword": [
+      "title:computer science",
+      "algorithm",
+      "computer science",
+      "mathematics",
+      "noise",
+      "blue noise",
+      "stippling"
+    ],
+    "extra": [],
+    "note": "Stippling and Blue Noise (2011)",
+    "link": [
+      "https://www.joesfer.com/?p=108",
+      "https://web.archive.org/web/20230523012409/https://www.joesfer.com/?p=108",
+      "https://news.ycombinator.com/item?id=36032039"
+    ]
+  },
   "bcd78a00-165d-d6d7-19c8-6ff286f061ad": {
     "id": "bcd78a00-165d-d6d7-19c8-6ff286f061ad",
     "timestamp": 1614720581.712,
@@ -5950,6 +6001,22 @@
     "note": "Generative Art Conference (high acceptance rate)",
     "link": [
       "https://www.generativeart.com/"
+    ]
+  },
+  "c5f0e8de-4f93-379c-0e56-b6d7e61376a0": {
+    "id": "c5f0e8de-4f93-379c-0e56-b6d7e61376a0",
+    "timestamp": 1687077314.303,
+    "keyword": [
+      "title:art",
+      "art",
+      "screen printing",
+      "silk screen"
+    ],
+    "extra": [],
+    "note": "Ben Krasnow has a good tutorial on how to do screen printing. Materials are a film emulsion, vellum paper (30lbs) and pre-stretched canvas. To use the screen, it has to sit above the work and come into momentary contact.",
+    "link": [
+      "https://www.youtube.com/watch?v=NS8Q9LUIKA8",
+      "https://www.atlasscreensupply.com/store/p/772-DuraCap-11-x-14.aspx"
     ]
   },
   "c631ac2e-19ec-ae30-f351-deb81f58da34": {
