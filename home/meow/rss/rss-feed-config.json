@@ -9,10 +9,14 @@
     { "url":"https://blog.arduino.cc/rss", "parser":"rss-pull", "icon":"assets/arduino.ico"},
     { "url":"http://www.evilmadscientist.com/backend/geeklog.rss", "parser":"rss-pull", "icon":"assets/emsl.ico"},
     { "url":"https://hackspace.raspberrypi.com/feed", "parser":"rss-pull-hackspace", "icon":"assets/hackspace.png"},
-    { "url":"https://www.sparkfun.com/feeds/news", "parser":"rss-pull", "icon":"assets/sparkfun.ico"},
     { "url":"https://www.cnx-software.com/feed/", "parser":"rss-pull", "icon":"assets/cnx-software.ico"}
   ],
+
+  "_comment": [
+    { "date": "2023-07-12", "note": "getting 403 error when trying to pull RSS feed from SparkFun from mechaelephant.com (104.131.245.144). From my personal computer it seems ok. Looks like they aggressively don't want bots pulling their RSS feed?" }
+  ],
   "_rss": [
+    { "url":"https://www.sparkfun.com/feeds/news", "parser":"rss-pull", "icon":"assets/sparkfun.ico"},
     { "url":"https://stacker.news/rss", "parser":"rss-pull-sn", "icon":"assets/stacker-news.ico"}
   ],
 
