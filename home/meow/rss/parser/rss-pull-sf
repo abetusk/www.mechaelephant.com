@@ -1,0 +1,18 @@
+#!/bin/bash
+
+feed="$1"
+
+if [[ "$feed" == "" ]] ; then
+  echo "provide rss feed"
+  exit 1
+fi
+
+wget -q "$feed" -o /dev/null -O - | \
+  xmltojson | \
+  jq -c \
+    '.feed.entry[] | { "feed": "'$feed'", "guid": .id , "title": .title, "link": .link.href, "description": .summary["$t"], "content": .content["$t"], "pubDate": .updated } '
+
+#  jq -c \
+#    '.rss.channel.item[] | { "feed": "'$feed'", "guid":.guid["$t"], "title" : .title, "link":.link, "description":.description, "content":.["content:encoded"], "pubDate":.pubDate } '
+
+
