@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# check for notenox note updates and update as appropriate
+#
+
+gitdir="$HOME/git/www.mechaelephant.com"
+sched_db="$gitdir/www/sched/data/sched.json"
+sched_www_dir="/var/www/sched/data"
+
+pushd ${gitdir} 2> /dev/null > /dev/null
+git pull --no-edit > /dev/null
+cp -f ${sched_db} ${sched_www_dir}
+popd 2> /dev/null > /dev/null

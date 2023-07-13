@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# check for notenox note updates and update as appropriate
+#
+
+gitdir="$HOME/git/www.mechaelephant.com"
+noxdb="$gitdir/home/meow/notenox/html/data/notenox-db.json"
+noxwwwdir="/var/www/notenox/data"
+
+pushd $gitdir 2> /dev/null > /dev/null
+git pull --no-edit > /dev/null
+cp -f $noxdb $noxwwwdir
+popd 2> /dev/null > /dev/null

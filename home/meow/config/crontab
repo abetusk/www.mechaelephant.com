@@ -1,0 +1,2 @@
+#cron min hour day-month month day-week cmd
+0,15,30,45 * * * * $HOME/bin/HaD/query-post-delta >> $HOME/data/log/HaD-db.log

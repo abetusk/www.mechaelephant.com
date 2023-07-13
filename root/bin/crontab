@@ -1,0 +1,6 @@
+# min hour day-month month day-week cmd
+* * * * * /root/bin/sq_collect.py >> /root/log/sq_collect.log 2>> /root/log/sq_collect.err
+* * * * * /root/bin/update-notenox >> /root/log/update-notenox.log 2>> /root/log/update-notenox.err
+* * * * * /root/bin/update-sched >> /root/log/update-sched.log 2>> /root/log/update-sched.err
+* * * * * /root/bin/update-HaD-db >> /root/log/update-HaD-db.log 2>> /root/log/update-HaD-db.err
+

@@ -1,0 +1,23 @@
+#!/bin/bash 
+
+verbose=0
+
+rdyfn=/home/abetusk/bin/HaD/HaD.sqlite3.ready 
+srcfn=/home/abetusk/bin/HaD/HaD.sqlite3.gz
+dstfn=/var/www/HaD-DB/data/HaD.sqlite3.gz
+
+if [[ -e "$rdyfn" ]] ; then
+  if [[ -e "$srcfn" ]] ; then
+    if [[ "$verbose" -eq 1 ]] ; then
+      echo "# MOVING"
+    fi
+
+    chown www-data:www-data "$srcfn"
+    mv -f "$srcfn" "$dstfn"
+  elif [[ "$verbose" -eq 1 ]] ; then
+    echo "# NON EXISTENT"
+  fi
+elif [[ "$verbose" -eq 1 ]] ; then
+  echo "# NOT MOVING"
+fi
+
