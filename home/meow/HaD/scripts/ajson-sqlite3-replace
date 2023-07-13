@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+#
+# LICENSE: CC0
+#
+####
+#
+# Take 'ajson' (JSON with each line as distinct array) file
+# of HaD DB entries and put them into the sqlite3 database.
+#
+####
 
 import sys
 import sqlite3

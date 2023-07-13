@@ -1,4 +1,21 @@
 #!/bin/bash
+#
+# LICENSE: CC0
+#
+####
+#
+# Do an incrmental update of the database using the wordpress API
+# for HaD posts, going back as much as needed.
+#
+# The curl request below takes batches of 100, going back until
+# it finds the maximum ID the 'post_id.latest' file and removing
+# the 'HaD.sqlite3.ready' indicator file.
+# It then inserts into the SQLLite3 database, 'HaD.sqlite3.ready",
+# via the 'ajson-sqlite3-replace' script, nad updates a
+# file that indicates the database is
+# ready to be copied over.
+#
+####
 
 WD="$HOME/bin/HaD"
 
