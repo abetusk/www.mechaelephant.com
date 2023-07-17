@@ -16,6 +16,7 @@
     { "date": "2023-07-12", "note": "getting 403 error when trying to pull RSS feed from SparkFun from mechaelephant.com (104.131.245.144). From my personal computer it seems ok. Looks like they aggressively don't want bots pulling their RSS feed?" }
   ],
   "_rss": [
+    { "url":"https://www.raspberrypi.com/news/feed/", "parser":"rss-pull", "icon":"assets/raspberrypi.ico"},
     { "url":"https://www.sparkfun.com/feeds/news", "parser":"rss-pull", "icon":"assets/sparkfun.ico"},
     { "url":"https://stacker.news/rss", "parser":"rss-pull-sn", "icon":"assets/stacker-news.ico"}
   ],
