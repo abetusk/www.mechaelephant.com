@@ -5975,6 +5975,25 @@
       "https://web.archive.org/web/20220801114004/https://docs.google.com/document/d/1f6HPQbUjslcbjVHkJkAgYmQmBV3PRRHEcx4WL5rxuE8/preview"
     ]
   },
+  "c42b5b39-9511-242c-8bfd-752549e32862": {
+    "id": "c42b5b39-9511-242c-8bfd-752549e32862",
+    "timestamp": 1690151527.857,
+    "keyword": [
+      "title:gamedev",
+      "gamedev",
+      "game development",
+      "game",
+      "wfc",
+      "wave function collapse",
+      "merrell"
+    ],
+    "extra": [],
+    "note": "Discusses block based method for wave function collapse. Start from a known good state, take out a small chunk and then try to fill in. If successful, keep it, if not, try again. Can mix the blocks and do multiple passes to get good mixing",
+    "link": [
+      "https://youtu.be/zIRTOgfsjl0",
+      "https://web.archive.org/web/20230417202255/https://www.youtube.com/watch?v=zIRTOgfsjl0"
+    ]
+  },
   "c45588fb-4c31-5283-8af3-6f705458d540": {
     "id": "c45588fb-4c31-5283-8af3-6f705458d540",
     "timestamp": 1650557991.134,
@@ -7660,6 +7679,26 @@
     "note": "More anti-cryptocurrency FUD by Dan Olson and Chelsea from The Financial Diet",
     "link": [
       "https://www.youtube.com/watch?v=8St36RjHd2E"
+    ]
+  },
+  "f625a2d7-42cf-500b-50e7-07cd3326e0a0": {
+    "id": "f625a2d7-42cf-500b-50e7-07cd3326e0a0",
+    "timestamp": 1690151059.432,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "artificial intelligence",
+      "neural networks",
+      "gzip",
+      "knn"
+    ],
+    "extra": [],
+    "note": "The recent 'gzip + knn outperforms nn' for text classification articles",
+    "link": [
+      "https://codeconfessions.substack.com/p/decoding-the-acl-paper-gzip-and-knn",
+      "https://web.archive.org/web/20230721114221/https://codeconfessions.substack.com/p/decoding-the-acl-paper-gzip-and-knn",
+      "https://twitter.com/abhi9u/status/1683141215871705088",
+      "https://github.com/cyrilou242/ftcc"
     ]
   },
   "f65404ea-ae90-02fa-300d-131e4dd4e4f9": {

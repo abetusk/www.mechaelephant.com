@@ -1,0 +1,19 @@
+{
+  "id": "c42b5b39-9511-242c-8bfd-752549e32862",
+  "timestamp": 1690151527.857,
+  "keyword": [
+    "title:gamedev",
+    "gamedev",
+    "game development",
+    "game",
+    "wfc",
+    "wave function collapse",
+    "merrell"
+  ],
+  "extra": [],
+  "note": "Discusses block based method for wave function collapse. Start from a known good state, take out a small chunk and then try to fill in. If successful, keep it, if not, try again. Can mix the blocks and do multiple passes to get good mixing",
+  "link": [
+    "https://youtu.be/zIRTOgfsjl0",
+    "https://web.archive.org/web/20230417202255/https://www.youtube.com/watch?v=zIRTOgfsjl0"
+  ]
+}
