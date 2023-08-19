@@ -48,7 +48,15 @@
     {"Date": "2023-08-12 00:00:00", "Title": "* toronto from"},
 
     {"Date": "2023-08-16 00:00:00", "Title": "* 13:00 pickup -> 13:20 doc"},
-    {"Date": "2023-08-16 00:00:00", "Title": "* 17:00 pickup -> 17:30 ?"}
+    {"Date": "2023-08-16 00:00:00", "Title": "* 17:00 pickup -> 17:30 ?"},
+
+    {"Date": "2023-08-19 00:00:00", "Title": "* 9:30 pickup -> 10:00 acupuncture (m)\n* 14:45 swimming"},
+    {"Date": "2023-08-20 00:00:00", "Title": "* 9:30 pickup -> 10:00 swimming"},
+    {"Date": "2023-08-22 00:00:00", "Title": "* 12:30 pickup -> 13:00 swimming"},
+
+    {"Date": "2023-08-23 00:00:00", "Title": "* dentist (m) (1pm?)"},
+    {"Date": "2023-08-30 00:00:00", "Title": "* 14:30 pickup -> 15:00 derm (m)"}
+
 
   ]
 }
