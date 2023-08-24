@@ -55,8 +55,50 @@
     {"Date": "2023-08-22 00:00:00", "Title": "* 12:30 pickup -> 13:00 swimming"},
 
     {"Date": "2023-08-23 00:00:00", "Title": "* dentist (m) (1pm?)"},
-    {"Date": "2023-08-30 00:00:00", "Title": "* 14:30 pickup -> 15:00 derm (m)"}
+    {"Date": "2023-08-30 00:00:00", "Title": "* 14:30 pickup -> 15:00 derm (m)"},
 
+    {"Date": "2023-08-26 00:00:00", "Title": "* 14:30 pickup -> 14:45 swim (m)"},
+    {"Date": "2023-09-02 00:00:00", "Title": "* 14:30 pickup -> 14:45 swim (m)"},
+    {"Date": "2023-09-09 00:00:00", "Title": "* 14:30 pickup -> 14:45 swim (m)"},
+    {"Date": "2023-09-16 00:00:00", "Title": "* 14:30 pickup -> 14:45 swim (m)"},
+    {"Date": "2023-09-23 00:00:00", "Title": "* 14:30 pickup -> 14:45 swim (m)"},
+    {"Date": "2023-09-30 00:00:00", "Title": "* 14:30 pickup -> 14:45 swim (m)"},
+
+    {"Date": "2023-08-27 00:00:00", "Title": "* 9:30 pickup -> 10:00 swim (m)"},
+    {"Date": "2023-09-03 00:00:00", "Title": "* 9:30 pickup -> 10:00 swim (m)"},
+    {"Date": "2023-09-10 00:00:00", "Title": "* 9:30 pickup -> 10:00 swim (m)"},
+    {"Date": "2023-09-17 00:00:00", "Title": "* 9:30 pickup -> 10:00 swim (m)"},
+    {"Date": "2023-09-24 00:00:00", "Title": "* 9:30 pickup -> 10:00 swim (m)"},
+    {"Date": "2023-10-01 00:00:00", "Title": "* 9:30 pickup -> 10:00 swim (m)"},
+
+    {"Date": "2023-08-29 00:00:00", "Title": "* 12:30 pickup -> 13:00 swim (m)"},
+    {"Date": "2023-09-05 00:00:00", "Title": "* 12:30 pickup -> 13:00 swim (m)"},
+    {"Date": "2023-09-12 00:00:00", "Title": "* 12:30 pickup -> 13:00 swim (m)"},
+    {"Date": "2023-09-19 00:00:00", "Title": "* 12:30 pickup -> 13:00 swim (m)"},
+    {"Date": "2023-09-26 00:00:00", "Title": "* 12:30 pickup -> 13:00 swim (m)"},
+    {"Date": "2023-10-03 00:00:00", "Title": "* 12:30 pickup -> 13:00 swim (m)"},
+
+    {"Date": "2023-08-28 00:00:00", "Title": "* 13:30 pickup weg (d)"},
+    {"Date": "2023-09-04 00:00:00", "Title": "* 13:30 pickup weg (d)"},
+    {"Date": "2023-09-11 00:00:00", "Title": "* 13:30 pickup weg (d)"},
+    {"Date": "2023-09-18 00:00:00", "Title": "* 13:30 pickup weg (d)"},
+    {"Date": "2023-09-25 00:00:00", "Title": "* 13:30 pickup weg (d)"},
+    {"Date": "2023-10-02 00:00:00", "Title": "* 13:30 pickup weg (d)"},
+
+    {"Date": "2023-08-30 00:00:00", "Title": "* 13:30 pickup weg (d)"},
+    {"Date": "2023-09-06 00:00:00", "Title": "* 13:30 pickup weg (d)"},
+    {"Date": "2023-09-13 00:00:00", "Title": "* 13:30 pickup weg (d)"},
+    {"Date": "2023-09-20 00:00:00", "Title": "* 13:30 pickup weg (d)"},
+    {"Date": "2023-09-27 00:00:00", "Title": "* 13:30 pickup weg (d)"},
+    {"Date": "2023-10-04 00:00:00", "Title": "* 13:30 pickup weg (d)"},
+
+    {"Date": "2023-09-06 00:00:00", "Title": "* 15:15 pickup -> 15:40 endocronologist (m)"},
+    {"Date": "2023-09-07 00:00:00", "Title": "* 8:15 pickup -> 8:40 eye (m)"},
+    {"Date": "2023-09-11 00:00:00", "Title": "* 1pm teeth (?) (m)"},
+
+
+
+    {"Date": "2024-01-01 00:00:00", "Title": " "}
 
   ]
 }
