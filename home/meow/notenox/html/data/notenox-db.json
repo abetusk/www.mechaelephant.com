@@ -4265,6 +4265,27 @@
       "https://web.archive.org/web/20220624060145/https://www.youtube.com/watch?v=-9vVhYEXeyQ"
     ]
   },
+  "8d32dc48-dd32-6fe7-a758-5d7ee40d33ea": {
+    "id": "8d32dc48-dd32-6fe7-a758-5d7ee40d33ea",
+    "timestamp": 1693241077.423,
+    "keyword": [
+      "title:gamedev",
+      "gamedev",
+      "generative",
+      "generative art",
+      "wfc",
+      "neural network",
+      "rnn",
+      "ml",
+      "model synthesis",
+      "zelda"
+    ],
+    "extra": [],
+    "note": "using rnn for generating zelda maps",
+    "link": [
+      "https://voxely.net/blog/using-a-rnn-for-2d-tile-map-synthesis/"
+    ]
+  },
   "8d3b239c-0a4c-4d31-d8db-7972a382006e": {
     "id": "8d3b239c-0a4c-4d31-d8db-7972a382006e",
     "timestamp": 1682982840.781,
