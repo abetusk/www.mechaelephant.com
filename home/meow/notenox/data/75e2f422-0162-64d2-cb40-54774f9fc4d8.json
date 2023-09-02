@@ -1,0 +1,17 @@
+{
+  "id": "75e2f422-0162-64d2-cb40-54774f9fc4d8",
+  "timestamp": 1693668802.733,
+  "keyword": [
+    "title:math",
+    "math",
+    "gibbs sampling",
+    "markov chains",
+    "automatic differentiation"
+  ],
+  "extra": [],
+  "note": "Talks about how Gibbs sampling is innefficient and automatic differentiation is better",
+  "link": [
+    "https://elevanth.org/blog/2017/11/28/build-a-better-markov-chain/",
+    "https://web.archive.org/web/20230215204923/https://elevanth.org/blog/2017/11/28/build-a-better-markov-chain/"
+  ]
+}
