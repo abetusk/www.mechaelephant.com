@@ -1,0 +1,19 @@
+{
+  "id": "e810e902-7978-3127-0d2d-17cd786ba71f",
+  "timestamp": 1695131984.639,
+  "keyword": [
+    "title:ml",
+    "ml",
+    "machine learning",
+    "micrograd",
+    "neural network",
+    "compiler",
+    "python"
+  ],
+  "extra": [],
+  "note": "Talks about speeding up micrograd by compiling to C.",
+  "link": [
+    "https://bernsteinbear.com//blog/compiling-ml-models/",
+    "https://github.com/tekknolagi/tekknolagi.github.com"
+  ]
+}

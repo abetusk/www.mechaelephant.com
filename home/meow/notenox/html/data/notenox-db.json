@@ -7399,6 +7399,25 @@
       "https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0071292"
     ]
   },
+  "e810e902-7978-3127-0d2d-17cd786ba71f": {
+    "id": "e810e902-7978-3127-0d2d-17cd786ba71f",
+    "timestamp": 1695131984.639,
+    "keyword": [
+      "title:ml",
+      "ml",
+      "machine learning",
+      "micrograd",
+      "neural network",
+      "compiler",
+      "python"
+    ],
+    "extra": [],
+    "note": "Talks about speeding up micrograd by compiling to C.",
+    "link": [
+      "https://bernsteinbear.com//blog/compiling-ml-models/",
+      "https://github.com/tekknolagi/tekknolagi.github.com"
+    ]
+  },
   "e8727ad7-e12d-f483-e03c-c7c33e50b2f2": {
     "id": "e8727ad7-e12d-f483-e03c-c7c33e50b2f2",
     "timestamp": 1645595134.712,
