@@ -1,0 +1,20 @@
+{
+  "id": "7e3acb3a-a702-55da-fbf2-9a9283fa2db3",
+  "timestamp": 1695133005.602,
+  "keyword": [
+    "title:sysadmin",
+    "sysadmin",
+    "devops",
+    "system administration",
+    "email",
+    "dovecot",
+    "spam",
+    "spamassassin"
+  ],
+  "extra": [],
+  "note": "configuring spamassassin and dovecot",
+  "link": [
+    "https://bobcares.com/blog/postfix-dovecot-spamassassin/",
+    "https://web.archive.org/web/20210420144246/https://bobcares.com/blog/postfix-dovecot-spamassassin/"
+  ]
+}
