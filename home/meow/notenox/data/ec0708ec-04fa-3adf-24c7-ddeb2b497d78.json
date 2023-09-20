@@ -1,0 +1,20 @@
+{
+  "id": "ec0708ec-04fa-3adf-24c7-ddeb2b497d78",
+  "timestamp": 1695133640.336,
+  "keyword": [
+    "title:sysadmin",
+    "sysadmin",
+    "devops",
+    "system administration",
+    "email",
+    "dovecot",
+    "spam",
+    "spamassassin"
+  ],
+  "extra": [],
+  "note": "configuring spamassassin and dovecot (again)\nInclude the following character string to test spam filter:\nXJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X",
+  "link": [
+    "https://www.binarytides.com/install-spamassassin-with-postfix-dovecot/",
+    "https://web.archive.org/web/20230330233353/https://www.binarytides.com/install-spamassassin-with-postfix-dovecot/"
+  ]
+}
