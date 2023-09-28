@@ -7506,6 +7506,26 @@
       "https://www.gwei.at/"
     ]
   },
+  "ea32d3fd-bbbe-11f7-a25d-6bd0ee84d17c": {
+    "id": "ea32d3fd-bbbe-11f7-a25d-6bd0ee84d17c",
+    "timestamp": 1695862497.833,
+    "keyword": [
+      "title:gamedev",
+      "gamedev",
+      "offgrid",
+      "boris-the-brave",
+      "tile",
+      "tiling",
+      "irregular"
+    ],
+    "extra": [],
+    "note": "Irregular tiling with a 1:1 mapping to uniform (square) grids",
+    "link": [
+      "https://gitlab.com/chriscox/offgrid/-/wikis/home",
+      "https://gitlab.com/chriscox/offgrid",
+      "https://twitter.com/boris_brave/status/1706292199808233906"
+    ]
+  },
   "ea3d0d27-52e7-2241-144a-915fba0cc035": {
     "id": "ea3d0d27-52e7-2241-144a-915fba0cc035",
     "timestamp": 1616408642.672,
