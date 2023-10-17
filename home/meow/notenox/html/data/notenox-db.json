@@ -5924,6 +5924,24 @@
       "https://web.archive.org/web/20210526062847/http://www.huppi.com/kangaroo/CIAtimeline.html"
     ]
   },
+  "b76419f4-5295-c8f4-9791-4a89b5d5c7e7": {
+    "id": "b76419f4-5295-c8f4-9791-4a89b5d5c7e7",
+    "timestamp": 1697535303.719,
+    "keyword": [
+      "title:math",
+      "math",
+      "collatz",
+      "turing machine",
+      "conjecture"
+    ],
+    "extra": [],
+    "note": "BB(3,3) halts iff the Collatz conjecture always converges",
+    "link": [
+      "https://www.sligocki.com//2023/10/16/bb-3-3-is-hard.html",
+      "https://github.com/sligocki/sligocki.github.io",
+      "https://github.com/sligocki/busy-beaver"
+    ]
+  },
   "b8073131-0770-0d9c-b398-d6b9b378406f": {
     "id": "b8073131-0770-0d9c-b398-d6b9b378406f",
     "timestamp": 1660043137.827,
