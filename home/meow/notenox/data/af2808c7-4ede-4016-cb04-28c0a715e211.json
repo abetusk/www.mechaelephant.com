@@ -1,0 +1,18 @@
+{
+  "id": "af2808c7-4ede-4016-cb04-28c0a715e211",
+  "timestamp": 1698152100.63,
+  "keyword": [
+    "title:gamedev",
+    "gamedev",
+    "camera",
+    "interpolation",
+    "game",
+    "mario"
+  ],
+  "extra": [],
+  "note": "A simple camera rule that follows has the camera stay fixed if the avatar is mostly static and stays within a region but allows for camera following and leading when the avatar bumps into other outer boundaries",
+  "link": [
+    "https://twitter.com/karl_zylinski/status/1716489281865241004",
+    "https://web.archive.org/web/20231024125409/https://twitter.com/karl_zylinski/status/1716489281865241004"
+  ]
+}
