@@ -1921,6 +1921,27 @@
       "https://web.archive.org/web/20211111231122/https://blog.chain.link/build-deploy-and-sell-your-own-dynamic-nft/"
     ]
   },
+  "3a2e7a69-cfdf-89f8-5370-c3ac57075d36": {
+    "id": "3a2e7a69-cfdf-89f8-5370-c3ac57075d36",
+    "timestamp": 1698845686.484,
+    "keyword": [
+      "title:biology",
+      "biology",
+      "mental health",
+      "denisovans",
+      "genetic",
+      "genes",
+      "zinc",
+      "omega-3",
+      "omega-5"
+    ],
+    "extra": [],
+    "note": "There might be a common genetic trait relating to zinc uptake and it's association to mental health. Omega-3 or omega-5 might be needed to help zinc uptake.",
+    "link": [
+      "https://www.sciencedaily.com/releases/2023/10/231030110005.htm",
+      "https://news.ycombinator.com/item?id=38082980"
+    ]
+  },
   "3a3c88b6-5fbc-5d18-b6f1-ea676570407c": {
     "id": "3a3c88b6-5fbc-5d18-b6f1-ea676570407c",
     "timestamp": 1610576836.431,
@@ -6029,6 +6050,25 @@
     "link": [
       "https://www.qotile.net/nft/",
       "https://web.archive.org/web/20220620150401/https://www.qotile.net/nft/"
+    ]
+  },
+  "b8109de3-633b-9f15-da76-2e88ab78316b": {
+    "id": "b8109de3-633b-9f15-da76-2e88ab78316b",
+    "timestamp": 1699189661.61,
+    "keyword": [
+      "title:ml",
+      "ml",
+      "machine learning",
+      "kalman filter",
+      "kalman",
+      "tutorial",
+      "math",
+      "probability"
+    ],
+    "extra": [],
+    "note": "\"Poor Man's Explanaation of Kalman Filtering\" by Plessis",
+    "link": [
+      "https://archive.org/details/poor-mans-explanation-of-kalman-filtering/page/n5/mode/2up"
     ]
   },
   "b971e9fd-c0b8-8c4c-84aa-93903347d270": {
