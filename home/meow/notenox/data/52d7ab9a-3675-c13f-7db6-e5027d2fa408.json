@@ -1,0 +1,18 @@
+{
+  "id": "52d7ab9a-3675-c13f-7db6-e5027d2fa408",
+  "timestamp": 1701984856.933,
+  "keyword": [
+    "title:biology",
+    "biology",
+    "scaling law",
+    "power law",
+    "metabolic rate",
+    "kleiber's law"
+  ],
+  "extra": [],
+  "note": "Kleiber's law is an empirical observation that the the basal metabolic rate of an animal tends to scale as 3/4. That is $B \\propto M^{\\frac{3}{4}}$.\nNaively, it's expected to be 2/3 from a surface area to 3d mass argument. It turns out that it's most likely the nutrient dispersion through the circulatory system to the mass.",
+  "link": [
+    "https://en.wikipedia.org/wiki/Kleiber%27s_law",
+    "https://en.wikipedia.org/wiki/Basal_metabolic_rate"
+  ]
+}
