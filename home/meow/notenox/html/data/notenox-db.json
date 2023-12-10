@@ -1645,6 +1645,22 @@
       "https://bisq.network/"
     ]
   },
+  "30c066e2-8bc8-e0f9-7f35-27c2dcf7f691": {
+    "id": "30c066e2-8bc8-e0f9-7f35-27c2dcf7f691",
+    "timestamp": 1702248693.11,
+    "keyword": [
+      "title:cryptocurrency",
+      "cryptocurrency",
+      "bitcoin",
+      "molly white",
+      "diehl"
+    ],
+    "extra": [],
+    "note": "Talks about some cryptocurrency/bitcoin haters",
+    "link": [
+      "https://finance.yahoo.com/news/crypto-return-puts-no-coiner-161548725.html#"
+    ]
+  },
   "31279980-16ce-cfb1-cfb5-d17663981696": {
     "id": "31279980-16ce-cfb1-cfb5-d17663981696",
     "timestamp": 1627620634.517,
@@ -5708,6 +5724,23 @@
       "https://surma.dev/things/webgpu/",
       "https://web.archive.org/web/20220308161452/https://surma.dev/things/webgpu/",
       "https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/"
+    ]
+  },
+  "ac52099c-d5a3-9d2c-cdd8-a32e632b3417": {
+    "id": "ac52099c-d5a3-9d2c-cdd8-a32e632b3417",
+    "timestamp": 1702248784.022,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "connectors",
+      "books",
+      "pinout"
+    ],
+    "extra": [],
+    "note": "Presumably an invaluable resource on discovering what connector you have is, where to get it etc. Also pinouts.ru",
+    "link": [
+      "https://connectorbook.com/",
+      "https://pinouts.ru/"
     ]
   },
   "ac94782b-8733-4e92-44d6-1bd23f3c71a4": {
