@@ -2390,6 +2390,25 @@
       "https://web.archive.org/web/20211019191310/https://www.youtube.com/watch?v=0xP9do7ryO8"
     ]
   },
+  "4a0c577e-883e-7087-f899-444ad7844ce6": {
+    "id": "4a0c577e-883e-7087-f899-444ad7844ce6",
+    "timestamp": 1703050220.044,
+    "keyword": [
+      "title:graphics",
+      "graphics",
+      "webgpu",
+      "web",
+      "gpu",
+      "javascript",
+      "c++"
+    ],
+    "extra": [],
+    "note": "Learn WebGPU",
+    "link": [
+      "https://eliemichel.github.io/LearnWebGPU/",
+      "https://github.com/eliemichel/LearnWebGPU"
+    ]
+  },
   "4a5a7724-7255-75b4-b6ed-9c8e8779d9ca": {
     "id": "4a5a7724-7255-75b4-b6ed-9c8e8779d9ca",
     "timestamp": 1670065374.944,
