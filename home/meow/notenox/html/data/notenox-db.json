@@ -1455,6 +1455,22 @@
       "https://web.archive.org/web/20210622141252/https://nicknash.me/2012/07/31/adversaries/"
     ]
   },
+  "2a126a60-f222-4226-8e02-f45693cd2ecf": {
+    "id": "2a126a60-f222-4226-8e02-f45693cd2ecf",
+    "timestamp": 1705281782.273,
+    "keyword": [
+      "title:art",
+      "art",
+      "glitch art",
+      "tutorial",
+      "resource"
+    ],
+    "extra": [],
+    "note": "Glitch art resources",
+    "link": [
+      "https://www.glitchet.com/resources"
+    ]
+  },
   "2a3f120d-5f32-d260-f009-5abc4caaebd4": {
     "id": "2a3f120d-5f32-d260-f009-5abc4caaebd4",
     "timestamp": 1634671130.405,
@@ -2042,6 +2058,27 @@
     "link": [
       "https://nsarchive.gwu.edu/briefing-book/russia-programs/2017-12-12/nato-expansion-what-gorbachev-heard-western-leaders-early",
       "https://web.archive.org/web/20220331181035/https://nsarchive.gwu.edu/briefing-book/russia-programs/2017-12-12/nato-expansion-what-gorbachev-heard-western-leaders-early"
+    ]
+  },
+  "3c9413fa-73b7-74b3-d33c-604f6065341d": {
+    "id": "3c9413fa-73b7-74b3-d33c-604f6065341d",
+    "timestamp": 1704834055.225,
+    "keyword": [
+      "title:data",
+      "data",
+      "youtube",
+      "video",
+      "size",
+      "estimate"
+    ],
+    "extra": [],
+    "note": "Estimating the number of YouTube videos by doing random prefix sampling",
+    "link": [
+      "https://ethanzuckerman.com/2023/12/22/how-big-is-youtube/",
+      "https://web.archive.org/web/20240102190129/https://ethanzuckerman.com/2023/12/22/how-big-is-youtube/",
+      "https://conferences.sigcomm.org/imc/2011/docs/p371.pdf",
+      "https://news.ycombinator.com/item?id=38739563",
+      "https://tubestats.org/"
     ]
   },
   "3d3bef9f-7534-fc41-d81e-31422e7ffc59": {

@@ -1,0 +1,21 @@
+{
+  "id": "3c9413fa-73b7-74b3-d33c-604f6065341d",
+  "timestamp": 1704834055.225,
+  "keyword": [
+    "title:data",
+    "data",
+    "youtube",
+    "video",
+    "size",
+    "estimate"
+  ],
+  "extra": [],
+  "note": "Estimating the number of YouTube videos by doing random prefix sampling",
+  "link": [
+    "https://ethanzuckerman.com/2023/12/22/how-big-is-youtube/",
+    "https://web.archive.org/web/20240102190129/https://ethanzuckerman.com/2023/12/22/how-big-is-youtube/",
+    "https://conferences.sigcomm.org/imc/2011/docs/p371.pdf",
+    "https://news.ycombinator.com/item?id=38739563",
+    "https://tubestats.org/"
+  ]
+}
