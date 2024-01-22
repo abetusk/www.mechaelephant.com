@@ -2097,6 +2097,24 @@
       "https://tubestats.org/"
     ]
   },
+  "3cca6993-78dd-0a77-bcff-a108c01042da": {
+    "id": "3cca6993-78dd-0a77-bcff-a108c01042da",
+    "timestamp": 1705959604.638,
+    "keyword": [
+      "title:electroncis",
+      "electronics",
+      "motor driver",
+      "drv833",
+      "dual h-bridge",
+      "driver"
+    ],
+    "extra": [],
+    "note": "DRV8833 motor driver",
+    "link": [
+      "https://www.tindie.com/products/questwise-ventures/mini-stepper-linear-sliding-metal-actuator-ver-b/#specs",
+      "https://www.digikey.com/en/products/filter/motor-drivers-controllers/744?s=N4IgTCBcDaICYCcBuAOFBmdIC6BfIA"
+    ]
+  },
   "3d3bef9f-7534-fc41-d81e-31422e7ffc59": {
     "id": "3d3bef9f-7534-fc41-d81e-31422e7ffc59",
     "timestamp": 1642711698.504,
