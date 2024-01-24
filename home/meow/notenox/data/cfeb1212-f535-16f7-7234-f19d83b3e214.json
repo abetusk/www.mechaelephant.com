@@ -1,0 +1,18 @@
+{
+  "id": "cfeb1212-f535-16f7-7234-f19d83b3e214",
+  "timestamp": 1706115396.626,
+  "keyword": [
+    "title:unix/linux",
+    "rsync",
+    "backup",
+    "unix/linux",
+    "encrypted backup",
+    "differential backup"
+  ],
+  "extra": [],
+  "note": "Duplicity uses differential backup with encryption",
+  "link": [
+    "https://duplicity.us/FAQ.html",
+    "https://gitlab.com/duplicity/duplicity"
+  ]
+}
