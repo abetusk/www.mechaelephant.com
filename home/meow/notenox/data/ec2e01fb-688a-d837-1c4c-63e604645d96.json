@@ -1,0 +1,17 @@
+{
+  "id": "ec2e01fb-688a-d837-1c4c-63e604645d96",
+  "timestamp": 1709396681.951,
+  "keyword": [
+    "title:math",
+    "math",
+    "gershgorin disc",
+    "theorem",
+    "matrix",
+    "eigenvalue"
+  ],
+  "extra": [],
+  "note": "The Gershgorin Disc Theorem states that all eigenvalues of $N \\times N$ matrix, $A$, are contained within the union of $N$ discs in the complex plane, where the $i$th eigenvalue is contained in the disc $D_i = \\{ z \\in C : \\left| z - A _{i i}\\right| \\le r_i \\}$ and $r_i = \\sum_{i \\ne j} |A_{i j}|$.",
+  "link": [
+    "https://blogs.sas.com/content/iml/2019/05/22/gershgorin-discs-location-eigenvalues.html"
+  ]
+}
