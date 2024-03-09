@@ -1,0 +1,16 @@
+{
+  "id": "1b04b679-768d-65ef-8a27-aa022d9ffbf0",
+  "timestamp": 1710003781.782,
+  "keyword": [
+    "title:economics",
+    "economics",
+    "poverty",
+    "world data",
+    "data"
+  ],
+  "extra": [],
+  "note": "Our World in Data shas some data about poverty, child mortality, etc. This, to me, is a pretty good indicator that Pinker is pretty much correct. It seems like Kickel went through some contortions to discard data, cherry pick data and spin a narrative that was overly critical. Much of what Kickel says is not technically correct but seems to be a bit dishonest in giving context.\nIn particular:\n* the tranche of income above $5 but below $10 did shrink from 1981 to 2000 but it seems, at least naively, that the narrative could be this is because there was a migration from the $1.90 tranch upwards that only managed to then push upwards further past 2000.\n* Child mortality continues to decline\n* Litteracy continues to improve\nNotably, demacracies hasn't been going up as fast, or at all, since around 2000.",
+  "link": [
+    "https://ourworldindata.org/a-history-of-global-living-conditions"
+  ]
+}
