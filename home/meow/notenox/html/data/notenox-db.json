@@ -5726,6 +5726,26 @@
       "https://sfosc.org/"
     ]
   },
+  "a4de1331-b8fe-b820-6478-50e4d534d4b3": {
+    "id": "a4de1331-b8fe-b820-6478-50e4d534d4b3",
+    "timestamp": 1712340027.285,
+    "keyword": [
+      "title:javascript",
+      "javascript",
+      "modules",
+      "programming",
+      "debugging",
+      "pitfalls"
+    ],
+    "extra": [],
+    "note": "Some pitfalls of JS modules:\n* fully qualified paths in either importmap or import statements need to be done (error msg: \"<lib>\" matches with \"<lib>\" but is blocked by a null value)\n* to make internal objects (variables/functions) available from a module, use export. Use import elsewhere to use them (import { x } from \"./path/to/mymodule.js\")\n* can assign window values to make them globally available (in module: window.myval = val)\n* you can use objects directly as \"import { foo } from \"mymodule\", rename it as \"import { foo as bar } from \"mymodule\" or group them as \"import * as mm from \"mymodule\"\n* You can't reassign variables from a module import, but I guess it's shallow and lets you circumvent it? (import { foo } from \"mymodule\"; foo.s = \"bar\") (like const, can \"mutate\" but not change assignment)\n",
+    "link": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import",
+      "https://stackoverflow.com/questions/48168601/change-the-value-of-imported-variable-in-es6",
+      "https://stackoverflow.com/questions/64665485/can-i-mix-in-javascript-modules-with-regular-javascript"
+    ]
+  },
   "a50ce8ca-3d77-d302-1c6c-e38879f727a5": {
     "id": "a50ce8ca-3d77-d302-1c6c-e38879f727a5",
     "timestamp": 1617552953.741,
