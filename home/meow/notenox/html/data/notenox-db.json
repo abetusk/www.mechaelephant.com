@@ -2319,6 +2319,25 @@
       "https://web.archive.org/web/20220508142625/https://theintercept.com/2022/05/08/maryland-campaign-brandy-brooks-progressive-accountability/"
     ]
   },
+  "3f0f598d-240b-01bc-9023-6bff1f70169a": {
+    "id": "3f0f598d-240b-01bc-9023-6bff1f70169a",
+    "timestamp": 1714681069.038,
+    "keyword": [
+      "title:algorithm",
+      "algorithm",
+      "programming",
+      "spline",
+      "interpolation",
+      "graphics"
+    ],
+    "extra": [],
+    "note": "The hobby curve for nicer bezier curves",
+    "link": [
+      "https://github.com/abetusk/papers/blob/release/Graphics/smooth-easy-to-compute-interpolating-splines_hobby.pdf",
+      "https://www.jakelow.com/blog/hobby-curves",
+      "http://weitz.de/hobby/"
+    ]
+  },
   "3f60ac42-8958-7ee8-9fb0-b3e9784905cf": {
     "id": "3f60ac42-8958-7ee8-9fb0-b3e9784905cf",
     "timestamp": 1677587484.225,
