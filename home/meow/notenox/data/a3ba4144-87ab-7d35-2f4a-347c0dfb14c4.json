@@ -1,0 +1,16 @@
+{
+  "id": "a3ba4144-87ab-7d35-2f4a-347c0dfb14c4",
+  "timestamp": 1715016147.227,
+  "keyword": [
+    "title:math",
+    "math",
+    "relu",
+    "machine learning",
+    "stein's paradox"
+  ],
+  "extra": [],
+  "note": "Stein's paradox which claims to answer how relu might be a good choice for activation function on neural networks. The idea is that relu offers a better estimator of the mean of 3+ dimensional gaussians, even though the mean for 1-2D is just the straight mean",
+  "link": [
+    "https://joe-antognini.github.io/machine-learning/steins-paradox"
+  ]
+}
