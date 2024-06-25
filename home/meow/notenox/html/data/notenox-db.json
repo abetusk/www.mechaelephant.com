@@ -239,6 +239,22 @@
       "https://en.wikipedia.org/wiki/CORDIC"
     ]
   },
+  "07168d0e-3157-dacb-9be1-d3cd39c7b937": {
+    "id": "07168d0e-3157-dacb-9be1-d3cd39c7b937",
+    "timestamp": 1713204892.61,
+    "keyword": [
+      "title:business",
+      "business",
+      "con-artist",
+      "embezzlement"
+    ],
+    "extra": [],
+    "note": "Anecdotes on embezzelers and subsequent HN discussion",
+    "link": [
+      "https://www.stimmel-law.com/en/articles/story-1-embezzlers-are-nice-people",
+      "https://news.ycombinator.com/item?id=40042616"
+    ]
+  },
   "079874ea-80eb-56bf-8e79-ee56df5e7d9a": {
     "id": "079874ea-80eb-56bf-8e79-ee56df5e7d9a",
     "timestamp": 1608497052.757,
@@ -502,6 +518,24 @@
       "https://ui-patterns.com/"
     ]
   },
+  "0edde12f-c756-c0bd-c002-8f3f227666d9": {
+    "id": "0edde12f-c756-c0bd-c002-8f3f227666d9",
+    "timestamp": 1714682229.504,
+    "keyword": [
+      "title:algorithm",
+      "algorithm",
+      "noise",
+      "perlin noise",
+      "generative",
+      "gamedev"
+    ],
+    "extra": [],
+    "note": "FastNoiseLite (github) (mit), perlin-noise (github) (pd)",
+    "link": [
+      "https://github.com/Auburn/FastNoiseLite",
+      "https://github.com/stegu/perlin-noise/tree/master"
+    ]
+  },
   "0f11f2a1-4b8e-d766-955f-d9060bb9e854": {
     "id": "0f11f2a1-4b8e-d766-955f-d9060bb9e854",
     "timestamp": 1683134502.072,
@@ -576,6 +610,21 @@
       "https://www.jstor.org/stable/2243414",
       "https://arxiv.org/abs/0903.3528",
       "https://djalil.chafai.net/blog/2014/06/03/back-to-basics-order-statistics-of-exponential-distribution/"
+    ]
+  },
+  "117b1ddb-5735-5dc3-ef65-43863a248da1": {
+    "id": "117b1ddb-5735-5dc3-ef65-43863a248da1",
+    "timestamp": 1718025381.247,
+    "keyword": [
+      "title:math",
+      "math",
+      "chebyshev",
+      "polynomial"
+    ],
+    "extra": [],
+    "note": "Short tutorial on calculating Chebyshev polynomials",
+    "link": [
+      "https://embeddedrelated.com/showarticle/152.php"
     ]
   },
   "119089d0-1eca-edb4-5904-2b3dd55bf616": {
@@ -900,6 +949,22 @@
       "https://www.tindie.com/stores/bobricius/",
       "https://hackaday.io/bobricius",
       "https://github.com/bobricius"
+    ]
+  },
+  "16e3e534-7ff2-1c4b-e771-2777da019994": {
+    "id": "16e3e534-7ff2-1c4b-e771-2777da019994",
+    "timestamp": 1712554490.989,
+    "keyword": [
+      "title:project",
+      "project",
+      "LED",
+      "diffuser"
+    ],
+    "extra": [],
+    "note": "LED diffuser",
+    "link": [
+      "https://ebay.com/itm/156142822936",
+      "https://www.instagram.com/reel/C3654rvAH4K/"
     ]
   },
   "181e5f04-6b79-8173-bc2c-007f5892ad44": {
@@ -1408,6 +1473,23 @@
       "https://nickdrozd.github.io/"
     ]
   },
+  "253d74a5-ace6-1100-9e10-084c02674f3d": {
+    "id": "253d74a5-ace6-1100-9e10-084c02674f3d",
+    "timestamp": 1717424720.034,
+    "keyword": [
+      "title:economics",
+      "economics",
+      "bullshit jobs",
+      "carmack",
+      "graeber"
+    ],
+    "extra": [],
+    "note": "John Carmack talks about his review of \"Bullshit Jobs\" by Graeber. Carmack argues that bullshit jobs are a \"luxury good\", where social status is defined by how many subserviants people wield in an organization. Carmack argues that Graeber, and presumably others of his philosophy, decry \"duct tapers\" who patch systems together in an ad-hoc way instead of making a system more efficient from a fundamental redesign, whereas Carmack argues that system redesign is a premature optimization and when enough ad-hoc \"duct tape\" solutions have been put in place, this signals a good place to do a redisgn.",
+    "link": [
+      "https://x.com/ID_AA_Carmack/status/1796622337963389412",
+      "https://web.archive.org/web/20240602102141/https://twitter.com/x/migrate?tok=7b2265223a222f49445f41415f4361726d61636b2f7374617475732f31373936363232333337393633333839343132222c2274223a313731373332333730317d590e76b90d49be46bc67dbe791d04448"
+    ]
+  },
   "259bfd07-8c5b-2949-54ba-8753325c3342": {
     "id": "259bfd07-8c5b-2949-54ba-8753325c3342",
     "timestamp": 1694473032.49,
@@ -1536,6 +1618,24 @@
     "note": "Glitch art resources",
     "link": [
       "https://www.glitchet.com/resources"
+    ]
+  },
+  "2a3b6bbe-1a8a-206f-1bae-cde2422ebea0": {
+    "id": "2a3b6bbe-1a8a-206f-1bae-cde2422ebea0",
+    "timestamp": 1718724332.898,
+    "keyword": [
+      "title:art",
+      "art",
+      "color",
+      "palette",
+      "generative"
+    ],
+    "extra": [],
+    "note": "Eleanor Lutz has open sourced a lot of her work, including a generative palette. She does illustrations for the New York Times",
+    "link": [
+      "https://github.com/eleanorlutz/AnimatedPythonPatterns",
+      "https://github.com/eleanorlutz",
+      "https://eleanorlutz.com/"
     ]
   },
   "2a3f120d-5f32-d260-f009-5abc4caaebd4": {
@@ -1873,6 +1973,22 @@
       "https://en.wikipedia.org/wiki/Elastic_net_regularization",
       "https://www.youtube.com/watch?v=GaXfqoLR_yI",
       "https://nbviewer.jupyter.org/github/gpeyre/numerical-tours/blob/master/python/ml_2_regression.ipynb"
+    ]
+  },
+  "3384d02f-998d-e8e2-54f0-d81d8986450c": {
+    "id": "3384d02f-998d-e8e2-54f0-d81d8986450c",
+    "timestamp": 1715016025.895,
+    "keyword": [
+      "title:gpu",
+      "gpu",
+      "compute"
+    ],
+    "extra": [],
+    "note": "rental services for GPUs.",
+    "link": [
+      "https://akash.network/gpus/",
+      "https://www.gpudeploy.com/",
+      "https://news.ycombinator.com/item?id=40260259"
     ]
   },
   "33879e5b-be5a-c98e-a244-b2edd8070468": {
@@ -2287,6 +2403,26 @@
       "https://web.archive.org/web/20220508142625/https://theintercept.com/2022/05/08/maryland-campaign-brandy-brooks-progressive-accountability/"
     ]
   },
+  "3f0f598d-240b-01bc-9023-6bff1f70169a": {
+    "id": "3f0f598d-240b-01bc-9023-6bff1f70169a",
+    "timestamp": 1714681069.038,
+    "keyword": [
+      "title:algorithm",
+      "algorithm",
+      "programming",
+      "spline",
+      "interpolation",
+      "graphics"
+    ],
+    "extra": [],
+    "note": "The hobby curve for nicer bezier curves",
+    "link": [
+      "https://github.com/abetusk/papers/blob/release/Graphics/smooth-easy-to-compute-interpolating-splines_hobby.pdf",
+      "https://github.com/vlad-x/hobby-curves",
+      "https://www.jakelow.com/blog/hobby-curves",
+      "http://weitz.de/hobby/"
+    ]
+  },
   "3f60ac42-8958-7ee8-9fb0-b3e9784905cf": {
     "id": "3f60ac42-8958-7ee8-9fb0-b3e9784905cf",
     "timestamp": 1677587484.225,
@@ -2412,6 +2548,21 @@
     "link": [
       "https://www.kaggle.com/datasets/googleai/musiccaps",
       "https://google-research.github.io/seanet/musiclm/examples/"
+    ]
+  },
+  "4479092b-02ca-42bf-5cc1-b7b3cdb59b16": {
+    "id": "4479092b-02ca-42bf-5cc1-b7b3cdb59b16",
+    "timestamp": 1714682097.594,
+    "keyword": [
+      "title:art",
+      "art",
+      "generative art",
+      "font"
+    ],
+    "extra": [],
+    "note": "Teranoptia is a picture font that is set up for exquisite corpse like monster creations",
+    "link": [
+      "https://www.tunera.xyz/fonts/teranoptia/"
     ]
   },
   "44f92f93-6cd6-6117-69b8-2b04faab516f": {
@@ -2636,6 +2787,20 @@
     "note": "Norman Borlaug is credited with being the father of the \"Green Revolution\" by creating \"semi-dwarf, high-yield, disease-resistant wheat varieties\". The new strain of wheat is said to have saved billions of people from starvation.",
     "link": [
       "https://en.wikipedia.org/wiki/Norman_Borlaug"
+    ]
+  },
+  "4aceea69-6f47-a890-20db-35f4a7e45411": {
+    "id": "4aceea69-6f47-a890-20db-35f4a7e45411",
+    "timestamp": 1717680201.567,
+    "keyword": [
+      "title:economics",
+      "economics",
+      "industrial revolution"
+    ],
+    "extra": [],
+    "note": "'How big a deal was the industrial revolution?'",
+    "link": [
+      "https://lukemuehlhauser.com/industrial-revolution/"
     ]
   },
   "4ba7533e-1f0b-4db7-65a3-763227ffe0b8": {
@@ -3291,6 +3456,24 @@
       "https://www.instagram.com/brookesweston/"
     ]
   },
+  "6101eb34-0197-d05e-a89d-f23592d1c482": {
+    "id": "6101eb34-0197-d05e-a89d-f23592d1c482",
+    "timestamp": 1716655290.91,
+    "keyword": [
+      "title:politcs",
+      "politics",
+      "academia",
+      "science",
+      "corruption"
+    ],
+    "extra": [],
+    "note": "Katalin Kariko, the inventor of the mRNA vaccine method that was the bassis for the COVID-19 vaccine, talks about her failure to play politics and its effect on her career",
+    "link": [
+      "https://en.wikipedia.org/wiki/Katalin_Karik%C3%B3",
+      "https://x.com/aribidopsis/status/1793950717985579185",
+      "https://web.archive.org/web/20240525162204/https://twitter.com/x/migrate?tok=eyJlIjoiL2FyaWJpZG9wc2lzL3N0YXR1cy8xNzkzOTUwNzE3OTg1NTc5MTg1IiwidCI6MTcxNjY1NDEyNH17dAXSZCBMetvkygXDn170"
+    ]
+  },
   "61915bb5-5d1b-8bcc-e680-61f65206b5b3": {
     "id": "61915bb5-5d1b-8bcc-e680-61f65206b5b3",
     "timestamp": 1642733816.694,
@@ -3928,6 +4111,24 @@
       "https://en.wikipedia.org/wiki/J._C._Leyendecker"
     ]
   },
+  "715eff05-3b70-82ef-7578-8174ebeb5fed": {
+    "id": "715eff05-3b70-82ef-7578-8174ebeb5fed",
+    "timestamp": 1716601323.781,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "grep",
+      "unix",
+      "lore",
+      "optimization"
+    ],
+    "extra": [],
+    "note": "Talks about dirty tricks grep does to get boosts in speed (2006)",
+    "link": [
+      "https://ridiculousfish.com/blog/posts/old-age-and-treachery.html",
+      "https://web.archive.org/web/20240327103535/https://ridiculousfish.com/blog/posts/old-age-and-treachery.html"
+    ]
+  },
   "716ab47c-4e59-8096-acac-f1a0172e9f93": {
     "id": "716ab47c-4e59-8096-acac-f1a0172e9f93",
     "timestamp": 1634813988.859,
@@ -4010,6 +4211,21 @@
       "https://web.archive.org/web/20210312124841/https://zguide.zeromq.org/docs/chapter6/",
       "https://opensource.stackexchange.com/questions/1165/examples-of-companies-undercutting-smaller-companies-using-foss/11779#11779",
       "https://web.archive.org/save/https://opensource.stackexchange.com/questions/1165/examples-of-companies-undercutting-smaller-companies-using-foss/11779"
+    ]
+  },
+  "759b1927-c4cf-838c-e7a6-f018f2b095a0": {
+    "id": "759b1927-c4cf-838c-e7a6-f018f2b095a0",
+    "timestamp": 1718388663.364,
+    "keyword": [
+      "title:craft",
+      "craft",
+      "papercraft",
+      "make"
+    ],
+    "extra": [],
+    "note": "templatemaker.nl, Site that creates templates for boxes and shapes (proprietary)",
+    "link": [
+      "https://www.templatemaker.nl/en/"
     ]
   },
   "75e2f422-0162-64d2-cb40-54774f9fc4d8": {
@@ -4314,6 +4530,21 @@
       "https://www.mit.edu/~jcb/tact.html",
       "https://web.archive.org/web/20210428111806/https://www.mit.edu/~jcb/tact.html",
       "https://web.archive.org/web/20210625145257/https://status451.com/2016/01/06/splain-it-to-me/"
+    ]
+  },
+  "7cc673a1-c76b-7cae-94c4-1ede1b1a4f27": {
+    "id": "7cc673a1-c76b-7cae-94c4-1ede1b1a4f27",
+    "timestamp": 1719108352.12,
+    "keyword": [
+      "title:psychology",
+      "psychology",
+      "aphantasia"
+    ],
+    "extra": [],
+    "note": "Aphantasia is the inability to visualize objects. Estimated 3.9% of people have it.",
+    "link": [
+      "https://www.theguardian.com/wellness/2024/feb/26/what-is-aphantasia-like",
+      "https://web.archive.org/web/20240622112042/https://www.theguardian.com/wellness/2024/feb/26/what-is-aphantasia-like"
     ]
   },
   "7cf0da15-13ab-25a2-66ea-17d40f51a8ab": {
@@ -4976,6 +5207,23 @@
       "https://arbesman.net/overedge/"
     ]
   },
+  "8ee42630-d827-096b-0e5f-bb023f18f6e3": {
+    "id": "8ee42630-d827-096b-0e5f-bb023f18f6e3",
+    "timestamp": 1717424064.111,
+    "keyword": [
+      "title:economics",
+      "economics",
+      "class",
+      "inequality",
+      "capital"
+    ],
+    "extra": [],
+    "note": "Book review that talks about Milanovic's new book \"Visions of Inequality\", trying to grapple with inequality and the issues of class (I guess).",
+    "link": [
+      "https://www.dissentmagazine.org/article/inequality-without-class/",
+      "https://web.archive.org/web/20240603002431/https://www.dissentmagazine.org/article/inequality-without-class/"
+    ]
+  },
   "8f598a5f-72d2-4b7c-53e9-ea0423d70af5": {
     "id": "8f598a5f-72d2-4b7c-53e9-ea0423d70af5",
     "timestamp": 1702569576.741,
@@ -5233,6 +5481,22 @@
     "link": [
       "https://twitter.com/jonatanpallesen/status/1737194396951474216",
       "https://web.archive.org/web/20231221163317/https://twitter.com/jonatanpallesen/status/1737194396951474216"
+    ]
+  },
+  "96cc44eb-0103-f945-136a-de28cee0adc3": {
+    "id": "96cc44eb-0103-f945-136a-de28cee0adc3",
+    "timestamp": 1719037157.842,
+    "keyword": [
+      "title:algorithm",
+      "algorithm",
+      "dithering",
+      "floyd-steinberg",
+      "atkinson"
+    ],
+    "extra": [],
+    "note": "Short article on floyd-steinberg and atkinson dithering. Ultimately pretty simple. The FS algorithm goes in a single sweep of a grayscale image. If the pixel is greater than some threshold (0.5), it's on. For the overflow (pixel[pos]-threshold) distribute to nearest neighbor pixels after it: [+1,7/16], [+w-1,3/16], [+w,5/16], [+w+1,1/16]",
+    "link": [
+      "https://beyondloom.com/blog/dither.html"
     ]
   },
   "971a28b4-1446-cb07-98fb-14e91fdf27e6": {
@@ -5675,6 +5939,22 @@
       "https://archive.org/details/thisonetime"
     ]
   },
+  "a3ba4144-87ab-7d35-2f4a-347c0dfb14c4": {
+    "id": "a3ba4144-87ab-7d35-2f4a-347c0dfb14c4",
+    "timestamp": 1715016147.227,
+    "keyword": [
+      "title:math",
+      "math",
+      "relu",
+      "machine learning",
+      "stein's paradox"
+    ],
+    "extra": [],
+    "note": "Stein's paradox which claims to answer how relu might be a good choice for activation function on neural networks. The idea is that relu offers a better estimator of the mean of 3+ dimensional gaussians, even though the mean for 1-2D is just the straight mean",
+    "link": [
+      "https://joe-antognini.github.io/machine-learning/steins-paradox"
+    ]
+  },
   "a3ee5a7e-ef55-c412-6bd3-72febe8cadae": {
     "id": "a3ee5a7e-ef55-c412-6bd3-72febe8cadae",
     "timestamp": 1617553941.543,
@@ -5724,6 +6004,26 @@
       "https://github.com/dirkriehle/coss-course",
       "https://a16z.com/2019/10/04/commercializing-open-source/",
       "https://sfosc.org/"
+    ]
+  },
+  "a4de1331-b8fe-b820-6478-50e4d534d4b3": {
+    "id": "a4de1331-b8fe-b820-6478-50e4d534d4b3",
+    "timestamp": 1712340027.285,
+    "keyword": [
+      "title:javascript",
+      "javascript",
+      "modules",
+      "programming",
+      "debugging",
+      "pitfalls"
+    ],
+    "extra": [],
+    "note": "Some pitfalls of JS modules:\n* fully qualified paths in either importmap or import statements need to be done (error msg: \"<lib>\" matches with \"<lib>\" but is blocked by a null value)\n* to make internal objects (variables/functions) available from a module, use export. Use import elsewhere to use them (import { x } from \"./path/to/mymodule.js\")\n* can assign window values to make them globally available (in module: window.myval = val)\n* you can use objects directly as \"import { foo } from \"mymodule\", rename it as \"import { foo as bar } from \"mymodule\" or group them as \"import * as mm from \"mymodule\"\n* You can't reassign variables from a module import, but I guess it's shallow and lets you circumvent it? (import { foo } from \"mymodule\"; foo.s = \"bar\") (like const, can \"mutate\" but not change assignment)\n",
+    "link": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import",
+      "https://stackoverflow.com/questions/48168601/change-the-value-of-imported-variable-in-es6",
+      "https://stackoverflow.com/questions/64665485/can-i-mix-in-javascript-modules-with-regular-javascript"
     ]
   },
   "a50ce8ca-3d77-d302-1c6c-e38879f727a5": {
@@ -6019,6 +6319,22 @@
     "link": [
       "https://hannio.org/en/produkt/flipdot-module-16x24-square/",
       "https://pierremuth.wordpress.com/2021/02/17/flipping-dots-fast/"
+    ]
+  },
+  "abae77c3-7973-07d5-6e22-ebec491d1acd": {
+    "id": "abae77c3-7973-07d5-6e22-ebec491d1acd",
+    "timestamp": 1712338325.425,
+    "keyword": [
+      "title:javascript",
+      "javascript",
+      "modules",
+      "programming",
+      "web"
+    ],
+    "extra": [],
+    "note": "description of js modules and how to use them (MDN)",
+    "link": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
     ]
   },
   "abf2500f-093a-908e-70dc-5677fc61f8a8": {
@@ -6320,6 +6636,24 @@
       "https://web.archive.org/web/20210604051229/https://brendangregg.com/blog/2021-06-04/an-unbelievable-demo.html"
     ]
   },
+  "b2f966f4-1d49-e8b7-42be-6a6aa24fdf84": {
+    "id": "b2f966f4-1d49-e8b7-42be-6a6aa24fdf84",
+    "timestamp": 1712937582.385,
+    "keyword": [
+      "title:osh",
+      "osh",
+      "asic",
+      "open souce chip",
+      "chip",
+      "fab"
+    ],
+    "extra": [],
+    "note": "Open Source Chip Community (China)",
+    "link": [
+      "https://github.com/OSCC-Project",
+      "https://github.com/OSCC-Project/iEDA"
+    ]
+  },
   "b42cd5e0-40b8-74bb-7252-a8a67e55b97f": {
     "id": "b42cd5e0-40b8-74bb-7252-a8a67e55b97f",
     "timestamp": 1631830055.493,
@@ -6585,6 +6919,20 @@
       "https://web.archive.org/web/20201029023818/https://www.southwestjournal.com/news/city-hall/2015/06/council-committee-backs-measure-lifting-parking-requirements-along-transit-corridors/"
     ]
   },
+  "bbb254ee-0e45-f258-22b2-aaea04dab8eb": {
+    "id": "bbb254ee-0e45-f258-22b2-aaea04dab8eb",
+    "timestamp": 1718025943.863,
+    "keyword": [
+      "title:cryptocurrency",
+      "cryptocurrency",
+      "bitcoin"
+    ],
+    "extra": [],
+    "note": "Article that talks about bitcoin from the perspective of an argentinian and, I suspect, someone who's been in the space a while",
+    "link": [
+      "https://maraoz.com/2024/06/10/bitcoin/"
+    ]
+  },
   "bbeec8ff-5b5a-b250-e43b-afe2009fa901": {
     "id": "bbeec8ff-5b5a-b250-e43b-afe2009fa901",
     "timestamp": 1690718658.49,
@@ -6651,6 +6999,22 @@
     "link": [
       "https://jakobgreenfeld.com/epsilon-method",
       "https://web.archive.org/web/20220815113034/https://jakobgreenfeld.com/epsilon-method"
+    ]
+  },
+  "be78c571-116d-f919-299e-6d5992a0408a": {
+    "id": "be78c571-116d-f919-299e-6d5992a0408a",
+    "timestamp": 1718726223.749,
+    "keyword": [
+      "title:art",
+      "art",
+      "textures"
+    ],
+    "extra": [],
+    "note": "cc0 resources for textures, sometimes with depth maps",
+    "link": [
+      "https://cc0-textures.com/c/paper",
+      "https://ambientcg.com/",
+      "https://publicdomaintextures.com/elementor-112/"
     ]
   },
   "be794515-35c7-5bf6-9ee6-8045d7325153": {
@@ -6758,6 +7122,20 @@
     "link": [
       "https://twitter.com/Rainmaker1973/status/1391057806078320640",
       "https://web.archive.org/save/https://twitter.com/Rainmaker1973/status/1391057806078320640"
+    ]
+  },
+  "c15d00d8-20b7-4a29-a746-a559bcd885e1": {
+    "id": "c15d00d8-20b7-4a29-a746-a559bcd885e1",
+    "timestamp": 1719113744.871,
+    "keyword": [
+      "title:psychology",
+      "psychology",
+      "aphantasia"
+    ],
+    "extra": [],
+    "note": "quantitative study on trying to measure aphantasia (aphantasics) by testing recall of a picture by trying to draw it. The hypothesis is that aphantasics use more language scaffolding to reconstruct a scene. Aphantasics apparently had better spatial accuracy and fewer memory errors. N=123",
+    "link": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7856239/"
     ]
   },
   "c1db14c5-81a5-0652-b8dd-e572028672ce": {
@@ -8062,6 +8440,24 @@
       "https://web.archive.org/web/20210122010621/https://twitter.com/Beelzebimbo/status/1352311232276041728"
     ]
   },
+  "e5a4de43-7920-bec1-3bac-470384d5b3d0": {
+    "id": "e5a4de43-7920-bec1-3bac-470384d5b3d0",
+    "timestamp": 1717560365.913,
+    "keyword": [
+      "title:ml",
+      "ml",
+      "machine learning",
+      "neural network",
+      "transformer",
+      "attention",
+      "ai"
+    ],
+    "extra": [],
+    "note": "illustrated transformer blog post",
+    "link": [
+      "https://jalammar.github.io/illustrated-transformer/"
+    ]
+  },
   "e5db1c1e-858a-c3f9-6352-d3e1960aaab2": {
     "id": "e5db1c1e-858a-c3f9-6352-d3e1960aaab2",
     "timestamp": 1646673824.57,
@@ -8448,6 +8844,22 @@
     "note": "The Gershgorin Disc Theorem states that all eigenvalues of $N \\times N$ matrix, $A$, are contained within the union of $N$ discs in the complex plane, where the $i$th eigenvalue is contained in the disc $D_i = \\{ z \\in C : \\left| z - A _{i i}\\right| \\le r_i \\}$ and $r_i = \\sum_{i \\ne j} |A_{i j}|$.",
     "link": [
       "https://blogs.sas.com/content/iml/2019/05/22/gershgorin-discs-location-eigenvalues.html"
+    ]
+  },
+  "ec51cb25-57cb-21f0-79e7-c4970e8575cd": {
+    "id": "ec51cb25-57cb-21f0-79e7-c4970e8575cd",
+    "timestamp": 1712767556.948,
+    "keyword": [
+      "title:public domain",
+      "public domain",
+      "how to",
+      "cigarette cards",
+      "gallaher"
+    ],
+    "extra": [],
+    "note": "NY public library digital collections 'how to' gallaher cards",
+    "link": [
+      "https://digitalcollections.nypl.org/search/index?utf8=%E2%9C%93&keywords=gallaher++how+to+do+it#"
     ]
   },
   "ec71b480-0d49-5004-0e7f-1e4f0f816018": {
@@ -9086,6 +9498,21 @@
     "link": [
       "https://medium.com/lessons-from-history/why-wasnt-the-steam-engine-invented-in-china-bec3177d0c58",
       "https://web.archive.org/web/20221212143549/https://medium.com/lessons-from-history/why-wasnt-the-steam-engine-invented-in-china-bec3177d0c58"
+    ]
+  },
+  "fbcbdcfb-fea1-e6ef-0dd2-476320adc8c4": {
+    "id": "fbcbdcfb-fea1-e6ef-0dd2-476320adc8c4",
+    "timestamp": 1719017776.851,
+    "keyword": [
+      "title:misc",
+      "misc",
+      "tesla something or other",
+      "heap"
+    ],
+    "extra": [],
+    "note": "Something about tesla and hardware, maybe 'open' in some vapid way",
+    "link": [
+      "https://www.infoq.com/presentations/tesla-vpp/"
     ]
   },
   "fc43b091-203e-5705-524b-08f97abfcdf8": {

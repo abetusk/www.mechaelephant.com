@@ -1,0 +1,20 @@
+{
+  "id": "3f0f598d-240b-01bc-9023-6bff1f70169a",
+  "timestamp": 1714681069.038,
+  "keyword": [
+    "title:algorithm",
+    "algorithm",
+    "programming",
+    "spline",
+    "interpolation",
+    "graphics"
+  ],
+  "extra": [],
+  "note": "The hobby curve for nicer bezier curves",
+  "link": [
+    "https://github.com/abetusk/papers/blob/release/Graphics/smooth-easy-to-compute-interpolating-splines_hobby.pdf",
+    "https://github.com/vlad-x/hobby-curves",
+    "https://www.jakelow.com/blog/hobby-curves",
+    "http://weitz.de/hobby/"
+  ]
+}

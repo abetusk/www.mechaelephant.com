@@ -1,0 +1,18 @@
+{
+  "id": "0edde12f-c756-c0bd-c002-8f3f227666d9",
+  "timestamp": 1714682229.504,
+  "keyword": [
+    "title:algorithm",
+    "algorithm",
+    "noise",
+    "perlin noise",
+    "generative",
+    "gamedev"
+  ],
+  "extra": [],
+  "note": "FastNoiseLite (github) (mit), perlin-noise (github) (pd)",
+  "link": [
+    "https://github.com/Auburn/FastNoiseLite",
+    "https://github.com/stegu/perlin-noise/tree/master"
+  ]
+}

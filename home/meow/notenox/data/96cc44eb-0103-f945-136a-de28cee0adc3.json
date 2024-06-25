@@ -1,0 +1,16 @@
+{
+  "id": "96cc44eb-0103-f945-136a-de28cee0adc3",
+  "timestamp": 1719037157.842,
+  "keyword": [
+    "title:algorithm",
+    "algorithm",
+    "dithering",
+    "floyd-steinberg",
+    "atkinson"
+  ],
+  "extra": [],
+  "note": "Short article on floyd-steinberg and atkinson dithering. Ultimately pretty simple. The FS algorithm goes in a single sweep of a grayscale image. If the pixel is greater than some threshold (0.5), it's on. For the overflow (pixel[pos]-threshold) distribute to nearest neighbor pixels after it: [+1,7/16], [+w-1,3/16], [+w,5/16], [+w+1,1/16]",
+  "link": [
+    "https://beyondloom.com/blog/dither.html"
+  ]
+}
