@@ -3524,6 +3524,24 @@
       "https://web.archive.org/web/20230603233155/https://lemire.me/blog/2023/06/03/science-and-technogy-links-june-3-2023/"
     ]
   },
+  "62cb39d6-302f-33a8-92e8-5e9eab6939b6": {
+    "id": "62cb39d6-302f-33a8-92e8-5e9eab6939b6",
+    "timestamp": 1719542897.926,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "llm",
+      "language",
+      "single source"
+    ],
+    "extra": [],
+    "note": "LLM with prompting to create translation of spoken language (Kalamang) with only one textbook (fed as input)",
+    "link": [
+      "https://x.com/jxmnop/status/1805756434824806499",
+      "https://arxiv.org/abs/2309.16575",
+      "https://web.archive.org/web/20240626100102/https://twitter.com/x/migrate?tok=7b2265223a222f6a786d6e6f702f7374617475732f31383035373536343334383234383036343939222c2274223a313731393339363036327d9a3b97da38e477a599240de94cfca19e"
+    ]
+  },
   "6340353e-9a28-fd3e-4ffb-ca08f24d53eb": {
     "id": "6340353e-9a28-fd3e-4ffb-ca08f24d53eb",
     "timestamp": 1608224257.332,
@@ -5531,6 +5549,21 @@
     "link": [
       "https://www.jasonhickel.org/blog/2019/2/3/pinker-and-global-poverty",
       "https://web.archive.org/web/20240226145850/https://www.jasonhickel.org/blog/2019/2/3/pinker-and-global-poverty"
+    ]
+  },
+  "984523c2-265f-1efc-5ed8-bf3ecbf2cd13": {
+    "id": "984523c2-265f-1efc-5ed8-bf3ecbf2cd13",
+    "timestamp": 1719542068.612,
+    "keyword": [
+      "title:academia",
+      "academia",
+      "career",
+      "advice"
+    ],
+    "extra": [],
+    "note": "'Ten Lessons I Wish I Had Been Taught' by Gian-Carlo Rota from MIT applied math. Some cherry picked advice:\n* Write a long introduction. It's a gift to future readers to allow them an good intro to the subject and a good shout out to all the other folks who've come before.\n* Publish the same results several times. Rota talks about Riesz having 'perfectly formed' papers but this was because Riesz had shopped and refined the idea around in lesser journals. Also worth noting that lesser journals have been known to publish great results precisely because they were too new for larger journals. Publishing in lesser journals could not only spread ideas (and help refine them) but could also lay the groundwork for larger acceptance to filter back into the bigger journals.\n* Every mathematician has only a few tricks. This was said about Erdos as a derogatory remark but Rota notes that this is true of almost every mathematician.",
+    "link": [
+      "https://github.com/abetusk/papers/blob/release/Misc/ten-lessons-i-wish-i-had-been-taught_rota.pdf"
     ]
   },
   "98a8a742-6373-7a25-80dc-7389bfab253c": {
