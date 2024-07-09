@@ -1173,6 +1173,28 @@
       "https://web.archive.org/web/20221209053401/https://ansuz.sooke.bc.ca/entry/23"
     ]
   },
+  "1e71a01a-b130-41e5-213e-dbc09cea25c2": {
+    "id": "1e71a01a-b130-41e5-213e-dbc09cea25c2",
+    "timestamp": 1720558242.395,
+    "keyword": [
+      "title:algorithm",
+      "algorithm",
+      "simd",
+      "optimization",
+      "cpu",
+      "gpu",
+      "bst",
+      "tree",
+      "data structure",
+      "computer science"
+    ],
+    "extra": [],
+    "note": "'Triangle' layout of (leaf?) elements to keep locality for lower level optimizations (caching/simd).",
+    "link": [
+      "https://clement-jean.github.io/simd_binary_search_tree/",
+      "https://dl.acm.org/doi/10.1145/1807167.1807206"
+    ]
+  },
   "1e99bf6e-11b2-923c-0eab-85c6a025d256": {
     "id": "1e99bf6e-11b2-923c-0eab-85c6a025d256",
     "timestamp": 1624529118.218,
