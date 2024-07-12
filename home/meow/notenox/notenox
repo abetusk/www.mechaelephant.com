@@ -69,10 +69,16 @@ var option = {
   "config": false,
   "config_file" : CONFIG_FILE,
   "enable" : false,
+  "db" : "",
   "out_dir": "./"
 };
 
 var override_option = {};
+
+//---
+//---
+//---
+
 
 function update_option(dat, override) {
   override = ((typeof override === "undefined") ? {} : override);
@@ -86,12 +92,94 @@ function update_option(dat, override) {
       //
       if ( !(key in override) ) {
         option[key] = dat[key];
+
+        if ((key == "out_dir") ||
+            (key == "db")) {
+          option[key] = option[key].replace( '~', process.env.HOME );
+        }
+
       }
 
     }
 
   }
 }
+
+function flush_db() {
+}
+
+function list_kw() {
+  let db = JSON.parse(fs.readFileSync( option.db ));
+
+  let _kw_list = [];
+  let _kw_map = {};
+
+  for (let _id in db) {
+    let kw = db[_id].keyword;
+
+    for (let ii=0; ii<kw.length; ii++) {
+
+      if (!(kw[ii] in _kw_map)) {
+        _kw_map[ kw[ii] ] = _kw_list.length;
+        _kw_list.push( { "kw": kw[ii], "freq": 0 } );
+      }
+      let _idx = _kw_map[ kw[ii] ];
+      _kw_list[_idx].freq++;
+    }
+
+  }
+
+  _kw_list.sort( function(a,b) {
+    if (a.freq < b.freq) { return -1; }
+    if (a.freq > b.freq) { return  1; }
+    return 0;
+  });
+
+  for (let ii=0; ii<_kw_list.length; ii++) {
+    console.log(_kw_list[ii].kw, _kw_list[ii].freq);
+  }
+
+
+
+}
+
+function list_title() {
+  let db = JSON.parse(fs.readFileSync( option.db ));
+
+  let _title_list = [];
+  let _title_map = {};
+
+  for (let _id in db) {
+    let kw = db[_id].keyword;
+
+    for (let ii=0; ii<kw.length; ii++) {
+      if ( kw[ii].match( '^title:' ) ) {
+
+        if (!(kw[ii] in _title_map)) {
+          _title_map[ kw[ii] ] = _title_list.length;
+          _title_list.push( { "title": kw[ii], "freq": 0 } );
+        }
+        let _idx = _title_map[ kw[ii] ];
+        _title_list[_idx].freq++;
+      }
+    }
+
+  }
+
+  _title_list.sort( function(a,b) {
+    if (a.freq < b.freq) { return -1; }
+    if (a.freq > b.freq) { return  1; }
+    return 0;
+  });
+
+  for (let ii=0; ii<_title_list.length; ii++) {
+    console.log(_title_list[ii].title.split(":")[1], _title_list[ii].freq);
+  }
+}
+
+//---
+//---
+//---
 
 var note_info = {
   "id": guid(),
@@ -196,26 +284,42 @@ if (option.debug) {
   process.exit(0);
 }
 
+let OP = undefined
+
 if (parser.optind() < process.argv.length) {
-  note_info.note = process.argv[parser.optind()];
+  OP = process.argv[parser.optind()];
+  //note_info.note = process.argv[parser.optind()];
 }
 
-if (typeof note_info.note === "undefined") {
-  show_help(process.stderr);
-  process.exit(-1);
-}
+if      (OP == "flush") { flush_db(); }
+else if (OP == "kw")    { list_kw(); }
+else if (OP == "title") { list_title(); }
+else {
 
-// only interprets '\n'
-//
-if (option.enable) {
-  var _re = /\\n/g;
-  note_info.note = note_info.note.replace(_re, "\n");
-}
+  note_info.note = OP;
 
-if (!option.silent) {
-  console.log(JSON.stringify(note_info, null, 2));
-}
+  if (typeof note_info.note === "undefined") {
+    show_help(process.stderr);
+    process.exit(-1);
+  }
 
-if (option.save) {
-  var ret = fs.writeFileSync( option.out_dir + "/" + note_info.id + ".json", JSON.stringify(note_info, null, 2), 'utf-8' );
+  else {
+
+    // only interprets '\n'
+    //
+    if (option.enable) {
+      var _re = /\\n/g;
+      note_info.note = note_info.note.replace(_re, "\n");
+    }
+
+    if (!option.silent) {
+      console.log(JSON.stringify(note_info, null, 2));
+    }
+
+    if (option.save) {
+      var ret = fs.writeFileSync( option.out_dir + "/" + note_info.id + ".json", JSON.stringify(note_info, null, 2), 'utf-8' );
+    }
+
+  }
+
 }
