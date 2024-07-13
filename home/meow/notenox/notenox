@@ -200,9 +200,6 @@ function _fold_w(s, w_hint, sep) {
   for (let ii=0; ii<tok.length; ii++) {
     let _t = tok[ii].split("\n");
 
-    //cur_line.push(tok[ii]);
-    //c_count += tok[ii].length + 1;
-
     cur_line.push(_t[0]);
     c_count += _t[0] + 1;
 
