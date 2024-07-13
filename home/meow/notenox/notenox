@@ -29,7 +29,8 @@ function show_help(fp) {
   fp.write("\n");
   fp.write("    notenox [-h] [-v] [-n note] [-t timestamp] [-k keyword] [-l link] [-e extra] [-I] [OP [OPVAL]]\n");
   fp.write("\n");
-  fp.write("  [OP]                        flush|kw|title|filter|help (text as note if no op found) (filter uses OPVAL)\n");
+  fp.write("  [OP]                        flush|kw|title|help (text as note if no op found)\n");
+  fp.write("  [OP OPVAL]                  kw|id <kw|id>\n");
   fp.write("  [-n|--note note ]           note (ignored if OP specified and not keyword)\n");
   fp.write("  [-t|--timestamp timestamp]  timestamp (seconds UTC, defaults to now)\n");
   fp.write("  [-k|--keyword keyword]      keyword (can be specified multiple times)\n");
@@ -251,9 +252,10 @@ function filter_keyword(kw_filter) {
 
   console.log("--------------");
   for (let ii=0; ii<ele.length; ii++) {
-    console.log( "\n" + _fold_w(ele[ii].note) + "\n" );
     console.log("id:", ele[ii].id);
-    console.log("kw:", ele[ii].keyword.join(" ,"));
+    console.log("kw:", ele[ii].keyword.join(", "));
+    console.log( "\n" + _fold_w(ele[ii].note) + "\n" );
+    console.log( "\n" + ele[ii].link.join("\n") + "\n");
     console.log("--------------");
   }
 
@@ -379,9 +381,22 @@ if (parser.optind() < process.argv.length) {
 }
 
 if      (OP == "flush") { flush_db(); }
-else if (OP == "kw")    { list_kw(); }
-else if (OP == "title") { list_title(); }
-else if (OP == "filter") { filter_keyword(OPVAL); }
+else if (OP == "kw")    {
+  if (typeof OPVAL === "undefined") {
+    list_kw();
+  }
+  else {
+    filter_keyword(OPVAL);
+  }
+}
+else if (OP == "title") {
+  if (typeof OPVAL === "undefined") {
+    list_title();
+  }
+  else  {
+    filter_keyword("title:" + OPVAL);
+  }
+}
 else if (OP == "id") { print_id(OPVAL); }
 else if (OP == "help") { show_help(process.stdout); }
 else {
