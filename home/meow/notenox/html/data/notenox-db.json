@@ -1137,7 +1137,7 @@
       "data"
     ],
     "extra": [],
-    "note": "Our World in Data shas some data about poverty, child mortality, etc. This, to me, is a pretty good indicator that Pinker is pretty much correct. It seems like Kickel went through some contortions to discard data, cherry pick data and spin a narrative that was overly critical. Much of what Kickel says is not technically correct but seems to be a bit dishonest in giving context.\nIn particular:\n* the tranche of income above $5 but below $10 did shrink from 1981 to 2000 but it seems, at least naively, that the narrative could be this is because there was a migration from the $1.90 tranch upwards that only managed to then push upwards further past 2000.\n* Child mortality continues to decline\n* Litteracy continues to improve\nNotably, demacracies hasn't been going up as fast, or at all, since around 2000.",
+    "note": "Our World in Data shas some data about poverty, child mortality, etc. This, to me, is a pretty good indicator that Pinker is pretty much correct. It seems like Kickel went through some contortions to discard data, cherry pick data and spin a narrative that was overly critical. Much of what Kickel says is not technically correct but seems to be a bit dishonest in giving context.\nIn particular:\n* the tranche of income above $5 but below $10 did shrink from 1981 to 2000 but it seems, at least naively, that the narrative could be this is because there was a migration from the $1.90 tranch upwards that only managed to then push upwards further past 2000.\n* Child mortality continues to decline\n* Litteracy continues to improve\nNotably, democracies hasn't been going up as fast, or at all, since around 2000.",
     "link": [
       "https://ourworldindata.org/a-history-of-global-living-conditions"
     ]
@@ -5886,6 +5886,24 @@
     "link": [
       "https://www.vox.com/recode/23016412/coral-reef-restoration-climate-change",
       "https://web.archive.org/web/20220505140145/https://www.vox.com/recode/23016412/coral-reef-restoration-climate-change"
+    ]
+  },
+  "9f9307ac-0df6-6b0a-42fe-fbfde8e1ce23": {
+    "id": "9f9307ac-0df6-6b0a-42fe-fbfde8e1ce23",
+    "timestamp": 1720905968.19,
+    "keyword": [
+      "title:economics",
+      "economics",
+      "wealth",
+      "income"
+    ],
+    "extra": [],
+    "note": "Talks about the difference between income and wealth (delta money aka GDP vs. stored money). Gives estimates of $454T global net wealth with $140T in the USA. GDP for the world is estimated at $105T with $27.4 for the USA. USA billionaires wealth is estimated at $5.2T (gov. spending at $6.4T).",
+    "link": [
+      "https://en.wikipedia.org/wiki/List_of_countries_by_total_wealth",
+      "https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)",
+      "https://www.noahpinion.blog/p/theres-not-that-much-wealth-in-the",
+      "https://americansfortaxfairness.org/u-s-billionaires-now-worth-record-5-2-trillion/"
     ]
   },
   "9f9f7008-2743-8f38-074e-89c35489ed89": {

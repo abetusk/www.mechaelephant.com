@@ -27,9 +27,10 @@ function show_help(fp) {
   fp.write("\n");
   fp.write("usage:\n");
   fp.write("\n");
-  fp.write("    notenox [-h] [-v] [-n note] [-t timestamp] [-k keyword] [-l link] [-e extra] [-I] [_note]\n");
+  fp.write("    notenox [-h] [-v] [-n note] [-t timestamp] [-k keyword] [-l link] [-e extra] [-I] [OP [OPVAL]]\n");
   fp.write("\n");
-  fp.write("  [-n|--note note ]           note (ignored if _note specified)\n");
+  fp.write("  [OP]                        flush|kw|title|filter|help (text as note if no op found) (filter uses OPVAL)\n");
+  fp.write("  [-n|--note note ]           note (ignored if OP specified and not keyword)\n");
   fp.write("  [-t|--timestamp timestamp]  timestamp (seconds UTC, defaults to now)\n");
   fp.write("  [-k|--keyword keyword]      keyword (can be specified multiple times)\n");
   fp.write("  [-K keywords]               add list of keywords (seperated by';')\n");
@@ -177,6 +178,90 @@ function list_title() {
   }
 }
 
+function print_id(id) {
+  let db = JSON.parse(fs.readFileSync( option.db ));
+
+  if (id in db) {
+    console.log(JSON.stringify(db[id], undefined, 2));
+  }
+}
+
+
+function _fold_w(s, w_hint, sep) {
+  w_hint = ((typeof w_hint === "undefined") ? 80 : w_hint);
+  sep = ((typeof sep === "undefined") ? " " : sep);
+  let tok = s.split(sep);
+
+  let cur_lines = [];
+
+
+  let cur_line = [];
+  let c_count = -1;
+  for (let ii=0; ii<tok.length; ii++) {
+    let _t = tok[ii].split("\n");
+
+    //cur_line.push(tok[ii]);
+    //c_count += tok[ii].length + 1;
+
+    cur_line.push(_t[0]);
+    c_count += _t[0] + 1;
+
+    if (c_count >= w_hint) {
+      cur_lines.push( cur_line.join(sep) );
+      cur_line = [];
+      c_count = -1;
+    }
+
+    for (let jj=1; jj<_t.length; jj++) {
+      cur_lines.push( cur_line.join(sep) );
+      cur_line = [ _t[jj] ];
+      c_count = _t[jj].length;
+    }
+
+  }
+  if (cur_line.length > 0) {
+    cur_lines.push( cur_line.join(sep) );
+  }
+
+  return cur_lines.join("\n");
+}
+
+function filter_keyword(kw_filter) {
+  let db = JSON.parse(fs.readFileSync( option.db ));
+
+  let ele = [];
+
+  for (let _id in db) {
+    let kw = db[_id].keyword;
+
+    let found = false;
+    for (let ii=0; ii<kw.length; ii++) {
+      if (kw[ii] == kw_filter) { found = true; break; }
+      if (kw[ii] == ("title:" + kw_filter) ) { found = true; break; }
+    }
+
+    if (found) {
+      ele.push(db[_id]);
+    }
+
+  }
+
+  ele.sort( function(a,b) {
+    if (a.timestamp < b.timestamp) { -1; }
+    if (a.timestamp > b.timestamp) {  1; }
+    return 0;
+  });
+
+  console.log("--------------");
+  for (let ii=0; ii<ele.length; ii++) {
+    console.log( "\n" + _fold_w(ele[ii].note) + "\n" );
+    console.log("id:", ele[ii].id);
+    console.log("kw:", ele[ii].keyword.join(" ,"));
+    console.log("--------------");
+  }
+
+}
+
 //---
 //---
 //---
@@ -285,18 +370,28 @@ if (option.debug) {
 }
 
 let OP = undefined
+let OPVAL = undefined;
 
 if (parser.optind() < process.argv.length) {
   OP = process.argv[parser.optind()];
+
+  if ((parser.optind()+1) < process.argv.length) {
+    OPVAL = process.argv[parser.optind()+1];
+  }
   //note_info.note = process.argv[parser.optind()];
 }
 
 if      (OP == "flush") { flush_db(); }
 else if (OP == "kw")    { list_kw(); }
 else if (OP == "title") { list_title(); }
+else if (OP == "filter") { filter_keyword(OPVAL); }
+else if (OP == "id") { print_id(OPVAL); }
+else if (OP == "help") { show_help(process.stdout); }
 else {
 
-  note_info.note = OP;
+  if (typeof OP !== "undefined") {
+    note_info.note = OP;
+  }
 
   if (typeof note_info.note === "undefined") {
     show_help(process.stderr);
