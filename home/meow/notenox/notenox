@@ -107,9 +107,29 @@ function update_option(dat, override) {
   }
 }
 
+// reads in all json data files from `out_dir` and puts them into `db` file
+//
 function flush_db() {
+  let dat_dir = option.out_dir;
+  let fns = fs.readdirSync(dat_dir);
+
+  let new_db = {};
+
+  for (let ii=0; ii<fns.length; ii++) {
+    let fn = fns[ii];
+    if (!(fn.match( '^[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}\.json$' ))) { continue; }
+
+    let fqfn = option.out_dir + "/" + fn;
+    let data = JSON.parse(fs.readFileSync(fqfn));
+
+    new_db[ data.id ] = data;
+  }
+
+  fs.writeFileSync( option.db, JSON.stringify( new_db, undefined, 2 ) );
 }
 
+// list frequency of keywords
+//
 function list_kw() {
   let db = JSON.parse(fs.readFileSync( option.db ));
 
@@ -145,6 +165,8 @@ function list_kw() {
 
 }
 
+// list all titles and frequency
+//
 function list_title() {
   let db = JSON.parse(fs.readFileSync( option.db ));
 
@@ -179,15 +201,30 @@ function list_title() {
   }
 }
 
+// lookup by id or try to prefix match
+//
 function print_id(id) {
   let db = JSON.parse(fs.readFileSync( option.db ));
 
   if (id in db) {
     console.log(JSON.stringify(db[id], undefined, 2));
   }
+  else {
+
+    for (let _id in db) {
+      if ( _id.match( '^' + id ) ) {
+        console.log(JSON.stringify(db[_id], undefined, 2));
+      }
+    }
+  }
 }
 
 
+// simple word fold
+// need to do some contortions to get intersperced '\n' to process right
+//
+// will fail if words are too long
+//
 function _fold_w(s, w_hint, sep) {
   w_hint = ((typeof w_hint === "undefined") ? 80 : w_hint);
   sep = ((typeof sep === "undefined") ? " " : sep);
@@ -224,6 +261,8 @@ function _fold_w(s, w_hint, sep) {
   return cur_lines.join("\n");
 }
 
+// pretty prints out elements, filtered by (single) keyword
+//
 function filter_keyword(kw_filter) {
   let db = JSON.parse(fs.readFileSync( option.db ));
 
@@ -245,15 +284,17 @@ function filter_keyword(kw_filter) {
   }
 
   ele.sort( function(a,b) {
-    if (a.timestamp < b.timestamp) { -1; }
-    if (a.timestamp > b.timestamp) {  1; }
+    if (a.timestamp < b.timestamp) { return -1; }
+    if (a.timestamp > b.timestamp) { return  1; }
     return 0;
   });
 
   console.log("--------------");
   for (let ii=0; ii<ele.length; ii++) {
+    let dt_str = new Date( ele[ii].timestamp*1000 ).toDateString();
     console.log("id:", ele[ii].id);
     console.log("kw:", ele[ii].keyword.join(", "));
+    console.log("ts:", dt_str, "(" + ele[ii].timestamp.toString() + ")");
     console.log( "\n" + _fold_w(ele[ii].note) + "\n" );
     console.log( "\n" + ele[ii].link.join("\n") + "\n");
     console.log("--------------");
