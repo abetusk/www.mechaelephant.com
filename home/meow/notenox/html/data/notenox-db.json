@@ -5659,6 +5659,27 @@
       "https://web.archive.org/web/20220916160649/https://www.technologyreview.com/2022/09/16/1059598/this-artist-is-dominating-ai-generated-art-and-hes-not-happy-about-it/"
     ]
   },
+  "9a9e3adb-126e-9b5e-3c30-90f0e96a9232": {
+    "id": "9a9e3adb-126e-9b5e-3c30-90f0e96a9232",
+    "timestamp": 1721300292.69,
+    "keyword": [
+      "title:FOSS",
+      "FOSS",
+      "FOSS business",
+      "startup",
+      "source available",
+      "fair source",
+      "drew devault",
+      "open source",
+      "post open"
+    ],
+    "extra": [],
+    "note": "Drew DeVault talks about the contradction of providing a FOSS project and trying to be anti-competitive with it. Further talks about (obliquely) 'open-washing' and some post-open movements trying to co-opt the 'open source' name",
+    "link": [
+      "https://drewdevault.com/2024/07/16/2024-07-16-So-you-want-to-compete-with-FOSS.html",
+      "https://web.archive.org/web/20240718091229/https://drewdevault.com/2024/07/16/2024-07-16-So-you-want-to-compete-with-FOSS.html"
+    ]
+  },
   "9be2e93f-510a-bb3b-9ba1-f6a740aab972": {
     "id": "9be2e93f-510a-bb3b-9ba1-f6a740aab972",
     "timestamp": 1667393679.141,
@@ -7209,6 +7230,20 @@
     "note": "quantitative study on trying to measure aphantasia (aphantasics) by testing recall of a picture by trying to draw it. The hypothesis is that aphantasics use more language scaffolding to reconstruct a scene. Aphantasics apparently had better spatial accuracy and fewer memory errors. N=123",
     "link": [
       "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7856239/"
+    ]
+  },
+  "c1759445-c26a-e2f6-05d6-d29386ebe749": {
+    "id": "c1759445-c26a-e2f6-05d6-d29386ebe749",
+    "timestamp": 1720935738.584,
+    "keyword": [
+      "title:politics",
+      "politics",
+      "betting"
+    ],
+    "extra": [],
+    "note": "'electionbettingodds.com'",
+    "link": [
+      "https://electionbettingodds.com/"
     ]
   },
   "c1db14c5-81a5-0652-b8dd-e572028672ce": {
