@@ -2862,6 +2862,22 @@
       "https://web.archive.org/web/20211105184716/https://twitter.com/GregDavill/status/1456225167315660800"
     ]
   },
+  "4d9791bd-1b1f-2cb4-9474-349267286dc4": {
+    "id": "4d9791bd-1b1f-2cb4-9474-349267286dc4",
+    "timestamp": 1721917202.416,
+    "keyword": [
+      "title:housing",
+      "housing",
+      "assembly line housing",
+      "mass production housing",
+      ""
+    ],
+    "extra": [],
+    "note": "Talks about the failure of Levittown, who tried to mass produce housing. Initially profitable in the 1960s, Levitt and Sons was failing by the 1970s. It's not clear why exactly they failed but a big part of it looks like restrictive policies for new housing construction and a 'degrowth' mentality for many cities.",
+    "link": [
+      "https://www.construction-physics.com/p/why-levittown-didnt-revolutionize"
+    ]
+  },
   "4e862971-2303-bf6d-9160-85fa258c112c": {
     "id": "4e862971-2303-bf6d-9160-85fa258c112c",
     "timestamp": 1641408360.289,
@@ -3076,6 +3092,23 @@
       "https://terminal.lightning.engineering/#/",
       "https://lightning.engineering/loop/",
       "https://lnbig.com/#/"
+    ]
+  },
+  "54694a3a-c77c-d796-038a-f3af728beb53": {
+    "id": "54694a3a-c77c-d796-038a-f3af728beb53",
+    "timestamp": 1721917600.152,
+    "keyword": [
+      "title:math",
+      "math",
+      "tiling",
+      "aperiodic",
+      "aperiodic tiling"
+    ],
+    "extra": [],
+    "note": "Aperiodic tiling for maze generation (?). Seomthing to do with knight's tour?",
+    "link": [
+      "https://www.sciencealert.com/physicists-have-created-the-worlds-most-fiendishly-difficult-maze",
+      "https://journals.aps.org/prx/pdf/10.1103/PhysRevX.14.031005"
     ]
   },
   "56cbd170-22d3-1e2d-d754-bd26e0ccad66": {
