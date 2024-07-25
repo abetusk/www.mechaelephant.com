@@ -829,6 +829,23 @@
       "https://twitter.com/DavidUmemoto"
     ]
   },
+  "1524b8e4-7fc7-f837-fed1-41f6ed3af36c": {
+    "id": "1524b8e4-7fc7-f837-fed1-41f6ed3af36c",
+    "timestamp": 1721924324.156,
+    "keyword": [
+      "title:music",
+      "music",
+      "fma",
+      "freemusicarchive",
+      "cc0",
+      "soundtrack"
+    ],
+    "extra": [],
+    "note": "Some cc0 'gamer beats' by HoliznaCC0 that's cc0 licensed",
+    "link": [
+      "https://freemusicarchive.org/music/holiznacc0/gamer-beats"
+    ]
+  },
   "154f721d-56a6-2acc-6f2a-d6a20721c10f": {
     "id": "154f721d-56a6-2acc-6f2a-d6a20721c10f",
     "timestamp": 1666914530.623,
@@ -4603,6 +4620,31 @@
       "https://www.mit.edu/~jcb/tact.html",
       "https://web.archive.org/web/20210428111806/https://www.mit.edu/~jcb/tact.html",
       "https://web.archive.org/web/20210625145257/https://status451.com/2016/01/06/splain-it-to-me/"
+    ]
+  },
+  "7cbd6632-ec52-b144-2efe-895a4c25ff5d": {
+    "id": "7cbd6632-ec52-b144-2efe-895a4c25ff5d",
+    "timestamp": 1721947514.877,
+    "keyword": [
+      "title:art",
+      "art",
+      "generative art",
+      "wfc",
+      "wave function collapse",
+      "wave function collapse algorithm",
+      "bsicons",
+      "map"
+    ],
+    "extra": [],
+    "note": "Chris Zetter creates random subway like maps from BSicons (cc0).",
+    "link": [
+      "https://chriszetter.com/blog/2020/06/26/generating-random-maps/",
+      "https://chriszetter.com/blog/2020/06/25/mapping-anything-with-bsicons/",
+      "https://commons.wikimedia.org/wiki/BSicon",
+      "https://commons.wikimedia.org/w/index.php?search=File%3A+intitle%3A%22BSicon%22+intitle%3A%2FBSicon+.%2A%5C.svg%2F&title=Special:Search&ns0=1&ns6=1&ns12=1&ns14=1&ns100=1&ns106=1",
+      "https://en.wikipedia.org/wiki/Template:Routemap",
+      "https://mapmaker.chriszetter.com/",
+      "https://github.com/zetter/route-map-maker"
     ]
   },
   "7cc673a1-c76b-7cae-94c4-1ede1b1a4f27": {
