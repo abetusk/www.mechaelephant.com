@@ -1246,6 +1246,21 @@
       "https://web.archive.org/web/20220302132247/https://producingoss.com/en/producingoss.html"
     ]
   },
+  "1fe67cc7-7797-f384-d0f2-6fb88f700342": {
+    "id": "1fe67cc7-7797-f384-d0f2-6fb88f700342",
+    "timestamp": 1722666091.949,
+    "keyword": [
+      "title:art",
+      "art",
+      "watercolor",
+      "japanese"
+    ],
+    "extra": [],
+    "note": "Kawase Hasui",
+    "link": [
+      "https://commons.wikimedia.org/wiki/Category:Kawase_Hasui"
+    ]
+  },
   "2109b4a0-c8e0-1065-5e26-2c433d5fc478": {
     "id": "2109b4a0-c8e0-1065-5e26-2c433d5fc478",
     "timestamp": 1648161300.333,
@@ -2363,6 +2378,25 @@
       "https://archive.bridgesmathart.org/"
     ]
   },
+  "3da04238-573a-2c1c-717b-699bb4e33364": {
+    "id": "3da04238-573a-2c1c-717b-699bb4e33364",
+    "timestamp": 1722143200.309,
+    "keyword": [
+      "title:luddite",
+      "luddite",
+      "ebert",
+      "digital",
+      "movie",
+      "theater",
+      "digital projection"
+    ],
+    "extra": [],
+    "note": "Ebert talks about how '...movie theater of the future will not use digital video projectors' (1999).",
+    "link": [
+      "https://web.archive.org/web/20240520041306/https://www.rogerebert.com/roger-ebert/start-the-revolution-without-digital",
+      "https://www.rogerebert.com/roger-ebert/start-the-revolution-without-digital"
+    ]
+  },
   "3de00cc0-ada6-08a2-6c30-459eb4190154": {
     "id": "3de00cc0-ada6-08a2-6c30-459eb4190154",
     "timestamp": 1617275231.86,
@@ -3019,6 +3053,20 @@
     "note": "Storettelling, Pixar in a box",
     "link": [
       "https://www.khanacademy.org/humanities/hass-storytelling/storytelling-pixar-in-a-box"
+    ]
+  },
+  "50a9496b-fb9e-14cc-7186-86a38b9a00a7": {
+    "id": "50a9496b-fb9e-14cc-7186-86a38b9a00a7",
+    "timestamp": 1722667904.363,
+    "keyword": [
+      "title:art",
+      "art",
+      "19th century"
+    ],
+    "extra": [],
+    "note": "List of 19th century painters by nationality (wikipedia)",
+    "link": [
+      "https://en.wikipedia.org/wiki/Category:19th-century_painters_by_nationality"
     ]
   },
   "52ba54d8-98b8-703d-9d96-2ddfb4f2201b": {
@@ -6175,6 +6223,25 @@
       "https://opreturn.net/dogecoin/node/"
     ]
   },
+  "a485b640-2b00-e136-340c-ac121513c801": {
+    "id": "a485b640-2b00-e136-340c-ac121513c801",
+    "timestamp": 1722473440.334,
+    "keyword": [
+      "title:gamedev",
+      "gamedev",
+      "procgen",
+      "texture mapping",
+      "triplanar mapping",
+      "texture bombing"
+    ],
+    "extra": [],
+    "note": "Talks about various texture mapping techniques including triplanar mapping and texture bombing. As far as I can tell, texture bombing basically takes a base texture then samples it multiple times at different angles and points to undo the checkerboard/tiling that occurs. As a simple example, I think taking two textures, one sampled simply and the other one sampled at a non-algebraic rotation and using some blending between them. The rotation ensures aperiodicity. Maybe using just one will still have artifacts, so more might be needed",
+    "link": [
+      "https://www.youtube.com/watch?v=rNuDkDhadfU",
+      "https://iquilezles.org/articles/texturerepetition/",
+      "https://github.com/simondevyoutube/ProceduralTerrain_Part5"
+    ]
+  },
   "a4c13618-36f4-5ece-780d-13f81ff668d3": {
     "id": "a4c13618-36f4-5ece-780d-13f81ff668d3",
     "timestamp": 1615257309.581,
@@ -6669,6 +6736,23 @@
     "link": [
       "https://twitter.com/karl_zylinski/status/1716489281865241004",
       "https://web.archive.org/web/20231024125409/https://twitter.com/karl_zylinski/status/1716489281865241004"
+    ]
+  },
+  "af99a60f-22c2-a2a2-b047-04d41a309b5d": {
+    "id": "af99a60f-22c2-a2a2-b047-04d41a309b5d",
+    "timestamp": 1722472822.94,
+    "keyword": [
+      "title:gamedev",
+      "gamedev",
+      "procgen",
+      "procedural generation",
+      "generative",
+      "triplanar mapping"
+    ],
+    "extra": [],
+    "note": "\"My Favorit Tools + Techniques for Procedural Gamedev\" by cprimozic, including tirplanar mapping, etc.",
+    "link": [
+      "https://cprimozic.net/blog/tools-and-techniques-for-procedural-gamedev/"
     ]
   },
   "b0e28081-0ddf-7c20-7d77-711314e5efec": {

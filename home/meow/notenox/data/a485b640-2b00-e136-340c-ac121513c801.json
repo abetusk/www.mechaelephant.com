@@ -1,0 +1,19 @@
+{
+  "id": "a485b640-2b00-e136-340c-ac121513c801",
+  "timestamp": 1722473440.334,
+  "keyword": [
+    "title:gamedev",
+    "gamedev",
+    "procgen",
+    "texture mapping",
+    "triplanar mapping",
+    "texture bombing"
+  ],
+  "extra": [],
+  "note": "Talks about various texture mapping techniques including triplanar mapping and texture bombing. As far as I can tell, texture bombing basically takes a base texture then samples it multiple times at different angles and points to undo the checkerboard/tiling that occurs. As a simple example, I think taking two textures, one sampled simply and the other one sampled at a non-algebraic rotation and using some blending between them. The rotation ensures aperiodicity. Maybe using just one will still have artifacts, so more might be needed",
+  "link": [
+    "https://www.youtube.com/watch?v=rNuDkDhadfU",
+    "https://iquilezles.org/articles/texturerepetition/",
+    "https://github.com/simondevyoutube/ProceduralTerrain_Part5"
+  ]
+}
