@@ -1,0 +1,21 @@
+{
+  "id": "9c3edfc3-f849-81c9-1cc2-b6655b304fd7",
+  "timestamp": 1723598986.994,
+  "keyword": [
+    "title:ai",
+    "ai",
+    "toy problem",
+    "ask hn",
+    "nn",
+    "neural networks"
+  ],
+  "extra": [],
+  "note": "HN thread on what 'toy' projects people used to learn neural networks",
+  "link": [
+    "https://news.ycombinator.com/item?id=41227515",
+    "https://github.com/tbensky/NeuralNetworks/blob/main/Backprop_derive/bp.pdf",
+    "https://bernsteinbear.com/blog/compiling-ml-models/",
+    "https://blog.jinay.dev/posts/backprop/",
+    "https://karpathy.github.io/2015/05/21/rnn-effectiveness/"
+  ]
+}

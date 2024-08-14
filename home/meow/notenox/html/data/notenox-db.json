@@ -1602,6 +1602,22 @@
       "https://agora.download/files/"
     ]
   },
+  "28801069-de68-7536-7eb3-d062002898cf": {
+    "id": "28801069-de68-7536-7eb3-d062002898cf",
+    "timestamp": 1723599098.012,
+    "keyword": [
+      "title:knit",
+      "knit",
+      "kniting",
+      "knitscape"
+    ],
+    "extra": [],
+    "note": "KnitScape",
+    "link": [
+      "https://depts.washington.edu/machines/projects/knitscape/",
+      "https://github.com/machineagency/knitscape"
+    ]
+  },
   "28a79331-c587-af28-6436-f5c536cb1500": {
     "id": "28a79331-c587-af28-6436-f5c536cb1500",
     "timestamp": 1625496552.28,
@@ -2534,6 +2550,23 @@
       "https://github.com/orgs/AurekFonts/repositories"
     ]
   },
+  "4273d18c-68c4-4c64-afa9-e2afc9baaf26": {
+    "id": "4273d18c-68c4-4c64-afa9-e2afc9baaf26",
+    "timestamp": 1723599172.299,
+    "keyword": [
+      "title:rf",
+      "rf",
+      "electronics",
+      "electromagnetism",
+      "antenna",
+      "waveguide"
+    ],
+    "extra": [],
+    "note": "Waveguide demystified",
+    "link": [
+      "https://youtube.com/watch?v=H09w5YSnpGI"
+    ]
+  },
   "4373f6e5-6a8f-2662-763c-7e8aba6a4043": {
     "id": "4373f6e5-6a8f-2662-763c-7e8aba6a4043",
     "timestamp": 1676942003.416,
@@ -2654,6 +2687,20 @@
       "https://twitter.com/hicetnunc2000",
       "https://www.hicetnunc.xyz",
       "https://wallet.kukai.app"
+    ]
+  },
+  "4515e50b-03b0-ee6e-ee56-54174392a005": {
+    "id": "4515e50b-03b0-ee6e-ee56-54174392a005",
+    "timestamp": 1723599329.976,
+    "keyword": [
+      "title:quote",
+      "quote",
+      "shiffman"
+    ],
+    "extra": [],
+    "note": "\"It doesn’t matter where your creativity happens as long as you put a piece of yourself in your work (and give proper credit)\" Raphael de Courville",
+    "link": [
+      "https://x.com/sableRaph/status/1821883800927768602"
     ]
   },
   "4516230f-b581-58dd-1c84-a5bbfa36d2e7": {
@@ -5866,6 +5913,27 @@
     "note": "Van Emde Boas tree as a cache oblivious data structure",
     "link": [
       "https://en.wikipedia.org/wiki/Van_Emde_Boas_tree"
+    ]
+  },
+  "9c3edfc3-f849-81c9-1cc2-b6655b304fd7": {
+    "id": "9c3edfc3-f849-81c9-1cc2-b6655b304fd7",
+    "timestamp": 1723598986.994,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "toy problem",
+      "ask hn",
+      "nn",
+      "neural networks"
+    ],
+    "extra": [],
+    "note": "HN thread on what 'toy' projects people used to learn neural networks",
+    "link": [
+      "https://news.ycombinator.com/item?id=41227515",
+      "https://github.com/tbensky/NeuralNetworks/blob/main/Backprop_derive/bp.pdf",
+      "https://bernsteinbear.com/blog/compiling-ml-models/",
+      "https://blog.jinay.dev/posts/backprop/",
+      "https://karpathy.github.io/2015/05/21/rnn-effectiveness/"
     ]
   },
   "9ca40070-a531-31c5-c5a5-3ea026e311d1": {
@@ -9906,6 +9974,21 @@
     "link": [
       "https://www.smithsonianmag.com/history/musicians-wage-war-against-evil-robots-92702721/",
       "https://web.archive.org/web/20230102183138/https://www.smithsonianmag.com/history/musicians-wage-war-against-evil-robots-92702721/"
+    ]
+  },
+  "fe1c17f4-dc7b-8441-e3fb-a3a71016ad4c": {
+    "id": "fe1c17f4-dc7b-8441-e3fb-a3a71016ad4c",
+    "timestamp": 1723599448.303,
+    "keyword": [
+      "title:conference",
+      "conference",
+      "acm",
+      "human computer interaction"
+    ],
+    "extra": [],
+    "note": "CHI 2024, computer human interaction conference",
+    "link": [
+      "https://chi2024.acm.org/"
     ]
   },
   "fe408ee0-1412-5345-3625-79c11a6b38db": {
