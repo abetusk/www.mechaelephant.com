@@ -3658,6 +3658,29 @@
       "https://web.archive.org/web/20240525162204/https://twitter.com/x/migrate?tok=eyJlIjoiL2FyaWJpZG9wc2lzL3N0YXR1cy8xNzkzOTUwNzE3OTg1NTc5MTg1IiwidCI6MTcxNjY1NDEyNH17dAXSZCBMetvkygXDn170"
     ]
   },
+  "6128c09b-f597-e1c4-5deb-e89f06897bb0": {
+    "id": "6128c09b-f597-e1c4-5deb-e89f06897bb0",
+    "timestamp": 1724685655.849,
+    "keyword": [
+      "title:art",
+      "art",
+      "ai",
+      "stable diffusion",
+      "LoRA",
+      "hugging face",
+      "training"
+    ],
+    "extra": [],
+    "note": "Artist trained a diffusion model on their own artwork and released it on hugging face. The license is not libre (afaik) but still noteworthy, imo.",
+    "link": [
+      "https://huggingface.co/alvdansen/softpasty-flux-dev",
+      "https://x.com/araminta_k/status/1827728524465053920",
+      "https://huggingface.co/docs/diffusers/en/training/lora",
+      "https://www.youtube.com/watch?v=HzGW_Kyermg",
+      "https://github.com/ostris/ai-toolkit",
+      "https://huggingface.co/ostris/FLUX.1-schnell-training-adapter"
+    ]
+  },
   "61915bb5-5d1b-8bcc-e680-61f65206b5b3": {
     "id": "61915bb5-5d1b-8bcc-e680-61f65206b5b3",
     "timestamp": 1642733816.694,
@@ -9052,6 +9075,21 @@
     "note": "svgsilh.com has some nice cc0 resources for svgs",
     "link": [
       "https://svgsilh.com/"
+    ]
+  },
+  "e970b8e6-525b-5b6f-c88d-17421e4402f1": {
+    "id": "e970b8e6-525b-5b6f-c88d-17421e4402f1",
+    "timestamp": 1723909543.231,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "sensor"
+    ],
+    "extra": [],
+    "note": "mmWave sensor",
+    "link": [
+      "https://youtube.com/watch?v=P8RO9gjs_h4",
+      "https://www.dfrobot.com/product-2793.html"
     ]
   },
   "ea32d3fd-bbbe-11f7-a25d-6bd0ee84d17c": {

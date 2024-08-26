@@ -1,0 +1,23 @@
+{
+  "id": "6128c09b-f597-e1c4-5deb-e89f06897bb0",
+  "timestamp": 1724685655.849,
+  "keyword": [
+    "title:art",
+    "art",
+    "ai",
+    "stable diffusion",
+    "LoRA",
+    "hugging face",
+    "training"
+  ],
+  "extra": [],
+  "note": "Artist trained a diffusion model on their own artwork and released it on hugging face. The license is not libre (afaik) but still noteworthy, imo.",
+  "link": [
+    "https://huggingface.co/alvdansen/softpasty-flux-dev",
+    "https://x.com/araminta_k/status/1827728524465053920",
+    "https://huggingface.co/docs/diffusers/en/training/lora",
+    "https://www.youtube.com/watch?v=HzGW_Kyermg",
+    "https://github.com/ostris/ai-toolkit",
+    "https://huggingface.co/ostris/FLUX.1-schnell-training-adapter"
+  ]
+}
