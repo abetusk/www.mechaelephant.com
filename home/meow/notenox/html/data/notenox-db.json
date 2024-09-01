@@ -2094,6 +2094,24 @@
       "https://web.archive.org/web/20220215132521/https://www.loop-news.com/p/discussing-the-line-goes-up-nft-criticism"
     ]
   },
+  "34a03bd9-b424-1016-f889-b235bcad6756": {
+    "id": "34a03bd9-b424-1016-f889-b235bcad6756",
+    "timestamp": 1725199221.792,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "machine learning",
+      "nn",
+      "neural network",
+      "doom"
+    ],
+    "extra": [],
+    "note": "Diffusion model recreating Doom engine. From what I understand, this is almost entirely done as a video feed input into the model",
+    "link": [
+      "https://gamengen.github.io/",
+      "https://arxiv.org/abs/2408.14837"
+    ]
+  },
   "353ff8ca-04b3-0e88-cdf9-aa6378d14835": {
     "id": "353ff8ca-04b3-0e88-cdf9-aa6378d14835",
     "timestamp": 1617503625.361,
@@ -9484,6 +9502,23 @@
     "link": [
       "https://bitfeed.live/",
       "https://github.com/bitfeed-project/bitfeed"
+    ]
+  },
+  "ee66ea03-c570-8322-7416-93833a159e32": {
+    "id": "ee66ea03-c570-8322-7416-93833a159e32",
+    "timestamp": 1725199057.366,
+    "keyword": [
+      "title:politics",
+      "politics",
+      "python"
+    ],
+    "extra": [],
+    "note": "Looks like a long time core developer of Python, Time Peters, was removed because of politics but under the guise of abuse",
+    "link": [
+      "https://chrismcdonough.substack.com/p/the-shameful-defenestration-of-tim",
+      "https://news.ycombinator.com/item?id=41385546",
+      "https://web.archive.org/web/20240901032905/https://news.ycombinator.com/item?id=41385546",
+      "https://web.archive.org/web/20240830212545/https://chrismcdonough.substack.com/p/the-shameful-defenestration-of-tim"
     ]
   },
   "ee77a187-6be6-734d-890e-48df21206f84": {

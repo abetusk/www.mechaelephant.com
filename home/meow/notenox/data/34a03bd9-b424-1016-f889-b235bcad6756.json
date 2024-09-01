@@ -1,0 +1,18 @@
+{
+  "id": "34a03bd9-b424-1016-f889-b235bcad6756",
+  "timestamp": 1725199221.792,
+  "keyword": [
+    "title:ai",
+    "ai",
+    "machine learning",
+    "nn",
+    "neural network",
+    "doom"
+  ],
+  "extra": [],
+  "note": "Diffusion model recreating Doom engine. From what I understand, this is almost entirely done as a video feed input into the model",
+  "link": [
+    "https://gamengen.github.io/",
+    "https://arxiv.org/abs/2408.14837"
+  ]
+}
