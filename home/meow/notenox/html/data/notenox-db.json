@@ -4975,6 +4975,22 @@
       "https://archive.org/details/mettomo00ferr/page/15/mode/thumb"
     ]
   },
+  "818a4e0d-672b-e68e-d852-4302f517bbbd": {
+    "id": "818a4e0d-672b-e68e-d852-4302f517bbbd",
+    "timestamp": 1725199623.814,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "motors",
+      "bldc"
+    ],
+    "extra": [],
+    "note": "Cheap ($20) bldc motors from waveshare. DDSM210 1rpm, 0.85Nm, UART interface, 3.8A, 216g, closed loop.",
+    "link": [
+      "https://www.waveshare.com/product/robotics/motors-servos/motors/ddsm210.htm",
+      "https://www.waveshare.com/wiki/DDSM210"
+    ]
+  },
   "83880637-15e5-ad75-ab83-e314210f4851": {
     "id": "83880637-15e5-ad75-ab83-e314210f4851",
     "timestamp": 1645263371.495,
