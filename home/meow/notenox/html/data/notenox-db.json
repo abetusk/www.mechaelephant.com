@@ -5210,6 +5210,24 @@
       "https://www.aliexpress.com/item/4000073101028.html"
     ]
   },
+  "88a1f84d-c499-c801-3c7f-84b1988d5502": {
+    "id": "88a1f84d-c499-c801-3c7f-84b1988d5502",
+    "timestamp": 1725422520.409,
+    "keyword": [
+      "title:economics",
+      "economics",
+      "FOSS",
+      "linux",
+      "open source"
+    ],
+    "extra": [],
+    "note": "'The Value of Open Source Software' by Hoffman, Nagle, Zhou. Estimates supply sisde estimate at $4.15B and demand side value at $8.8T. As of this writing, Google is estimated at $2T, Microsoft at $3T and Apple at $3.48T (Twitter at $20B).",
+    "link": [
+      "https://www.hbs.edu/ris/Publication%20Files/24-038_51f8444f-502c-4139-8bf2-56eb4b65c58a.pdf",
+      "https://github.com/abetusk/papers/blob/release/Economics/value-of-open-source-software_hoffmann-nagle-zhou.pdf",
+      "https://x.com/lemire/status/1830618114796438005"
+    ]
+  },
   "88ae8673-6f48-9494-47c0-79b7f7b29134": {
     "id": "88ae8673-6f48-9494-47c0-79b7f7b29134",
     "timestamp": 1632001397.59,
