@@ -1619,6 +1619,21 @@
       "https://agora.download/files/"
     ]
   },
+  "2866952b-2599-6448-85f6-9b53c6a9e2d1": {
+    "id": "2866952b-2599-6448-85f6-9b53c6a9e2d1",
+    "timestamp": 1725629410.415,
+    "keyword": [
+      "title:music",
+      "music",
+      "witch house",
+      "in death it ends"
+    ],
+    "extra": [],
+    "note": "Music label that has many bands I like",
+    "link": [
+      "https://aufnahmeundwiedergabe.bandcamp.com/"
+    ]
+  },
   "28801069-de68-7536-7eb3-d062002898cf": {
     "id": "28801069-de68-7536-7eb3-d062002898cf",
     "timestamp": 1723599098.012,
@@ -6831,6 +6846,24 @@
       "https://surma.dev/things/webgpu/",
       "https://web.archive.org/web/20220308161452/https://surma.dev/things/webgpu/",
       "https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/"
+    ]
+  },
+  "ac193033-059f-2a9e-217c-99b1320c8415": {
+    "id": "ac193033-059f-2a9e-217c-99b1320c8415",
+    "timestamp": 1725501911.133,
+    "keyword": [
+      "title:gamedev",
+      "gamedev",
+      "three.js",
+      "cloud",
+      "volumentric rendering"
+    ],
+    "extra": [],
+    "note": "synthesizing realistic clouds for video games",
+    "link": [
+      "https://www.guerrilla-games.com/read/synthesizing-realistic-clouds-for-video-games",
+      "https://www.guerrilla-games.com/tags/publication",
+      "https://github.com/FarazzShaikh/three-volumetric-clouds"
     ]
   },
   "ac52099c-d5a3-9d2c-cdd8-a32e632b3417": {
