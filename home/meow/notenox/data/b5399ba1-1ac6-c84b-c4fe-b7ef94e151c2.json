@@ -1,0 +1,16 @@
+{
+  "id": "b5399ba1-1ac6-c84b-c4fe-b7ef94e151c2",
+  "timestamp": 1726792789.73,
+  "keyword": [
+    "title:math",
+    "math",
+    "fibonacci",
+    "random"
+  ],
+  "extra": [],
+  "note": "Random Fibonacci numbers ($x_{n+2} = \\pm x_{n+1} \\pm x_n$), the $\\lim_{n \\to \\infty} |x_n|^{\\frac{1}{n}} = 1.13198824...$ and is called viswanath's constant",
+  "link": [
+    "https://x.com/ProbFact/status/1836435123174023327",
+    "https://en.wikipedia.org/wiki/Random_Fibonacci_sequence"
+  ]
+}

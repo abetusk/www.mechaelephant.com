@@ -1903,6 +1903,23 @@
       "https://web.archive.org/web/20210212052329/https://www.youtube.com/watch?v=95-yZ-31j9A"
     ]
   },
+  "2d4b6910-8784-5c7f-119b-3f36cb831ada": {
+    "id": "2d4b6910-8784-5c7f-119b-3f36cb831ada",
+    "timestamp": 1726294186.547,
+    "keyword": [
+      "title:math",
+      "math",
+      "misc",
+      "gradient desceent"
+    ],
+    "extra": [],
+    "note": "Barzilai–Borwein method for gradient descent which, apparently, approximates the Hessian to modify the coefficent of the gradient term. As far as I can tell, this adapts the step size to how 'steep' the curve is, going faster for steeper curves and slower for shallower landscapes.",
+    "link": [
+      "https://en.wikipedia.org/wiki/Gradient_descent#Choosing_the_step_size_and_descent_direction",
+      "https://x.com/gabrielpeyre/status/1834094591206662264",
+      "https://arxiv.org/pdf/1910.09529"
+    ]
+  },
   "2d6eb6a2-8650-7ff2-281c-7ede21cc5b7d": {
     "id": "2d6eb6a2-8650-7ff2-281c-7ede21cc5b7d",
     "timestamp": 1616215473.591,
@@ -7216,6 +7233,22 @@
       "https://en.wikipedia.org/wiki/Zener_diode"
     ]
   },
+  "b5399ba1-1ac6-c84b-c4fe-b7ef94e151c2": {
+    "id": "b5399ba1-1ac6-c84b-c4fe-b7ef94e151c2",
+    "timestamp": 1726792789.73,
+    "keyword": [
+      "title:math",
+      "math",
+      "fibonacci",
+      "random"
+    ],
+    "extra": [],
+    "note": "Random Fibonacci numbers ($x_{n+2} = \\pm x_{n+1} \\pm x_n$), the $\\lim_{n \\to \\infty} |x_n|^{\\frac{1}{n}} = 1.13198824...$ and is called viswanath's constant",
+    "link": [
+      "https://x.com/ProbFact/status/1836435123174023327",
+      "https://en.wikipedia.org/wiki/Random_Fibonacci_sequence"
+    ]
+  },
   "b599c6cc-4be6-3329-c0f9-bb461266af7c": {
     "id": "b599c6cc-4be6-3329-c0f9-bb461266af7c",
     "timestamp": 1680966609.404,
@@ -9752,6 +9785,26 @@
     "note": "1995 interview of Bill Gates about the internet with Larry King not getting it",
     "link": [
       "https://web.archive.org/web/20201218132458/https://twitter.com/theJeremyVine/status/1339696661900226562"
+    ]
+  },
+  "f20641c1-8445-6bdc-bf9a-2a4a048eba98": {
+    "id": "f20641c1-8445-6bdc-bf9a-2a4a048eba98",
+    "timestamp": 1726294330.747,
+    "keyword": [
+      "title:graphics",
+      "graphics",
+      "global illumination",
+      "3d",
+      "lighting",
+      "radiance cascade"
+    ],
+    "extra": [],
+    "note": "Radience cascades for global illumination",
+    "link": [
+      "https://jason.today/rc",
+      "https://x.com/mxacop/status/1822851233708732579?t=n_cuab0eAwcmWepMIcQx6w&s=19",
+      "https://www.youtube.com/watch?v=6O9-BUDk_-c",
+      "https://simondev.io/projects"
     ]
   },
   "f215887f-ecf7-0ab9-60f5-1d69a50d817f": {

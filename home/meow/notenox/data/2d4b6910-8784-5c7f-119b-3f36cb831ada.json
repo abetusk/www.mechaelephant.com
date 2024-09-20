@@ -1,0 +1,17 @@
+{
+  "id": "2d4b6910-8784-5c7f-119b-3f36cb831ada",
+  "timestamp": 1726294186.547,
+  "keyword": [
+    "title:math",
+    "math",
+    "misc",
+    "gradient desceent"
+  ],
+  "extra": [],
+  "note": "Barzilai–Borwein method for gradient descent which, apparently, approximates the Hessian to modify the coefficent of the gradient term. As far as I can tell, this adapts the step size to how 'steep' the curve is, going faster for steeper curves and slower for shallower landscapes.",
+  "link": [
+    "https://en.wikipedia.org/wiki/Gradient_descent#Choosing_the_step_size_and_descent_direction",
+    "https://x.com/gabrielpeyre/status/1834094591206662264",
+    "https://arxiv.org/pdf/1910.09529"
+  ]
+}
