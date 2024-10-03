@@ -683,6 +683,23 @@
       "https://web.archive.org/web/20220407235927/https://www.youtube.com/watch?v=ko6K82pXcPA"
     ]
   },
+  "11dccac6-deee-ada6-cadf-0a0073b981de": {
+    "id": "11dccac6-deee-ada6-cadf-0a0073b981de",
+    "timestamp": 1727919334.742,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "phone",
+      "osh",
+      "oshw"
+    ],
+    "extra": [],
+    "note": "mikroPhone is a libre/free/open source phone. sim7600(e).",
+    "link": [
+      "https://mikrophone.net/index.html",
+      "https://git.majstor.org/mikroPhone"
+    ]
+  },
   "12a996e5-4db8-9a53-176b-f15bcc430dca": {
     "id": "12a996e5-4db8-9a53-176b-f15bcc430dca",
     "timestamp": 1693924599.22,
@@ -4777,6 +4794,20 @@
     "note": "Seeed Studios capacitive soil moisture sensor",
     "link": [
       "https://wiki.seeedstudio.com/Grove-Capacitive_Moisture_Sensor-Corrosion-Resistant/"
+    ]
+  },
+  "7b3cb45e-c549-cb52-bfe9-9504eb09e107": {
+    "id": "7b3cb45e-c549-cb52-bfe9-9504eb09e107",
+    "timestamp": 1727592927.594,
+    "keyword": [
+      "title:art",
+      "art",
+      "libre"
+    ],
+    "extra": [],
+    "note": "Denis Salem looks to be a French libre/free advocate with a lot of CC-BY-SA art",
+    "link": [
+      "https://denissalem.tuxfamily.org/"
     ]
   },
   "7b772c87-cbc0-0c0f-dd09-be0c65c92f0b": {
