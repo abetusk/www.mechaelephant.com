@@ -7604,6 +7604,23 @@
       "https://warmplace.ru/soft/sunvox/jsplay/"
     ]
   },
+  "bd863d99-1e49-7ad8-40f6-0c607be8c73c": {
+    "id": "bd863d99-1e49-7ad8-40f6-0c607be8c73c",
+    "timestamp": 1728011809.332,
+    "keyword": [
+      "title:meager thoughts",
+      "meager thoughts",
+      "games",
+      "game",
+      "work",
+      "calculation"
+    ],
+    "extra": [],
+    "note": "Monument valley took about 10 months to develop. From Wikipedia, it looks like there were three developers and two artists. 10 months at 40 hour weeks is (5 ppl * 40 (hrs/week) * 10 months * 4 (weeks/month)) = 8000 ppl hours. Call it 10k hours to develop. The game presumably lasts 1.5 to 2.5 hours, so call it 2hrs. That means (2 play hrs / 10k ppl hrs) = .0002 play hours per people work hours, or (.0002 pphr * 60 (min/hr) * (60 s/min)) = .72 play seconds per 1 people work hour. That is, it takes 1 hour of work for about 1 second of game play.\nFrom Wikipedia again, estimated that it was 26M copies sold, so estimate 1M hours played, that's giving 100 hours of enjoyment per 1 hour developing. Another way to look at it is 1 hour of work generated 100 new people enjoying the game.",
+    "link": [
+      "https://en.wikipedia.org/wiki/Monument_Valley_(video_game)"
+    ]
+  },
   "bdd90f63-74c1-ab0d-5181-7ab4b3699b18": {
     "id": "bdd90f63-74c1-ab0d-5181-7ab4b3699b18",
     "timestamp": 1660566285.592,
