@@ -4796,6 +4796,24 @@
       "https://wiki.seeedstudio.com/Grove-Capacitive_Moisture_Sensor-Corrosion-Resistant/"
     ]
   },
+  "7b15c4c9-590d-4c47-b5f1-c3c818febf76": {
+    "id": "7b15c4c9-590d-4c47-b5f1-c3c818febf76",
+    "timestamp": 1728758699.039,
+    "keyword": [
+      "title:meager thoughts",
+      "meager thoughts",
+      "alan kay",
+      "kay",
+      "work",
+      "research"
+    ],
+    "extra": [],
+    "note": "Alan Kay said, at one point, he gave his researchers 10x more compute so they could have the freedom to explore but also so that the computers they were using were at the speed of the general population when their ideas would come to fruition.",
+    "link": [
+      "https://en.wikipedia.org/wiki/Alan_Kay",
+      "https://www.youtube.com/watch?v=gTAghAJcO1o"
+    ]
+  },
   "7b3cb45e-c549-cb52-bfe9-9504eb09e107": {
     "id": "7b3cb45e-c549-cb52-bfe9-9504eb09e107",
     "timestamp": 1727592927.594,
@@ -5358,6 +5376,23 @@
       "https://web.archive.org/web/20210918214218/https://twitter.com/olya_borderless/status/1439129386360451073",
       "https://twitter.com/olya_borderless",
       "https://www.youtube.com/c/BorderlessBitcoinTravelShow/videos"
+    ]
+  },
+  "89e92bba-9e40-a268-43a1-060c83439658": {
+    "id": "89e92bba-9e40-a268-43a1-060c83439658",
+    "timestamp": 1728757648.847,
+    "keyword": [
+      "title:meager thoughts",
+      "meager thoughts",
+      "thoughts",
+      "ai"
+    ],
+    "extra": [],
+    "note": "'Parables on Planning Power in AI' by Noam Brown (OpenAI) talks about how inference gives an 8x boost in power over learning and, from the progress curve inferred, would have to scale up the models by 10,000x (that is, use 10kx more data/energy to get the equivalent boost in performance). Spending more energy on learning might be worth it if the cumulative cost of inference would exceed the up front cost of learning but inference gives big benefits. It's clear to me that pairing inference with learning is a successful combination\nThis is well known by pairing Monte Carlo Tree Search (I guess I naively thought this was minimax with weights?) for Go and Chess (AlphaGo, DeepBlue, etc.).\nJones talks about scaling laws with board games (hex) and finds that 10x of training time compute is equivalent to 15x test time compute (inference).\nSutton says in the bitter lesson:\n'Search and learning are the\ntwo most important classes of techniques for utilizing massive amounts of computation in AI research'\nBoth search and learning are the ones that can take advantage of scaling compute.",
+    "link": [
+      "https://github.com/abetusk/papers/blob/release/MachineLearning/scaling-scaling-laws-with-board-games_jones.pdf",
+      "https://youtu.be/eaAonE58sLU?si=jlT0NWye_7Rv5r0v",
+      "https://github.com/abetusk/papers/blob/release/MachineLearning/bitter-lesson_sutton.pdf"
     ]
   },
   "8ad9f4e4-3689-a3a1-a185-072b25bd77ca": {

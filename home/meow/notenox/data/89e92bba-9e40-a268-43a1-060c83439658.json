@@ -1,0 +1,17 @@
+{
+  "id": "89e92bba-9e40-a268-43a1-060c83439658",
+  "timestamp": 1728757648.847,
+  "keyword": [
+    "title:meager thoughts",
+    "meager thoughts",
+    "thoughts",
+    "ai"
+  ],
+  "extra": [],
+  "note": "'Parables on Planning Power in AI' by Noam Brown (OpenAI) talks about how inference gives an 8x boost in power over learning and, from the progress curve inferred, would have to scale up the models by 10,000x (that is, use 10kx more data/energy to get the equivalent boost in performance). Spending more energy on learning might be worth it if the cumulative cost of inference would exceed the up front cost of learning but inference gives big benefits. It's clear to me that pairing inference with learning is a successful combination\nThis is well known by pairing Monte Carlo Tree Search (I guess I naively thought this was minimax with weights?) for Go and Chess (AlphaGo, DeepBlue, etc.).\nJones talks about scaling laws with board games (hex) and finds that 10x of training time compute is equivalent to 15x test time compute (inference).\nSutton says in the bitter lesson:\n'Search and learning are the\ntwo most important classes of techniques for utilizing massive amounts of computation in AI research'\nBoth search and learning are the ones that can take advantage of scaling compute.",
+  "link": [
+    "https://github.com/abetusk/papers/blob/release/MachineLearning/scaling-scaling-laws-with-board-games_jones.pdf",
+    "https://youtu.be/eaAonE58sLU?si=jlT0NWye_7Rv5r0v",
+    "https://github.com/abetusk/papers/blob/release/MachineLearning/bitter-lesson_sutton.pdf"
+  ]
+}
