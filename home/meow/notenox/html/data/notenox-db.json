@@ -2013,6 +2013,24 @@
       "https://web.archive.org/web/20210601230204/https://www.govtrack.us/congress/bills/116/hr7178/text"
     ]
   },
+  "2f1935c2-7ca4-272a-1bf0-1d106a58a154": {
+    "id": "2f1935c2-7ca4-272a-1bf0-1d106a58a154",
+    "timestamp": 1729310302.576,
+    "keyword": [
+      "title:algorithm",
+      "algorithm",
+      "ranking",
+      "social networking",
+      "hn",
+      "hackernews",
+      "paulgraham"
+    ],
+    "extra": [],
+    "note": "Paulgraham discusses HN's ranking, which is:\\n689138\\n\\frac{(p-1)}{(h+2)^{1.5}}\\n689138\\nWhere $ is points and $ is age in hours",
+    "link": [
+      "https://news.ycombinator.com/item?id=231209"
+    ]
+  },
   "3065ced0-076d-7dea-cafa-8b67a67683d6": {
     "id": "3065ced0-076d-7dea-cafa-8b67a67683d6",
     "timestamp": 1626106072.318,
@@ -2396,6 +2414,22 @@
     "link": [
       "http://gtfs.org/best-practices/",
       "https://github.com/google/transit/blob/master/gtfs/spec/en/reference.md"
+    ]
+  },
+  "3a75e1d9-0423-a753-ad68-4124fe8a404e": {
+    "id": "3a75e1d9-0423-a753-ad68-4124fe8a404e",
+    "timestamp": 1729310147.067,
+    "keyword": [
+      "title:politics",
+      "politics",
+      "betting",
+      "corruption"
+    ],
+    "extra": [],
+    "note": "electionbetting.com might be reporting doctored odds because of a few large bets that are skewing the probabilities",
+    "link": [
+      "https://x.com/ErrataRob/status/1847387553105895673",
+      "https://gizmodo.com/30-million-is-all-it-took-to-shift-the-odds-in-trumps-favor-on-polymarket-2000513653"
     ]
   },
   "3a78c36d-7806-81ba-8023-725e2072a294": {

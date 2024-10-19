@@ -1,0 +1,18 @@
+{
+  "id": "2f1935c2-7ca4-272a-1bf0-1d106a58a154",
+  "timestamp": 1729310302.576,
+  "keyword": [
+    "title:algorithm",
+    "algorithm",
+    "ranking",
+    "social networking",
+    "hn",
+    "hackernews",
+    "paulgraham"
+  ],
+  "extra": [],
+  "note": "Paulgraham discusses HN's ranking, which is:\\n689138\\n\\frac{(p-1)}{(h+2)^{1.5}}\\n689138\\nWhere $ is points and $ is age in hours",
+  "link": [
+    "https://news.ycombinator.com/item?id=231209"
+  ]
+}
