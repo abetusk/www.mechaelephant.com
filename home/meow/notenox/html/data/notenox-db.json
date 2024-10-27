@@ -5682,6 +5682,24 @@
       "https://web.archive.org/web/20210519185259/https://twitter.com/smdiehl/status/1393669812220465162"
     ]
   },
+  "8d768358-e5c7-0866-ca1a-4ceaef469b41": {
+    "id": "8d768358-e5c7-0866-ca1a-4ceaef469b41",
+    "timestamp": 1730044677.813,
+    "keyword": [
+      "title:architecture",
+      "architecture",
+      "olivetti",
+      "industrial town",
+      "italy",
+      "italian"
+    ],
+    "extra": [],
+    "note": "Camillo Olivetti's Ivrea was a company town that looked to be ideology driven rather business driven. The Olivetti company made typewriters and some early mainframe computers. Looks like the company was active post WWII until maybe the early to mid 1980s.",
+    "link": [
+      "https://medium.com/@danielstone/olivettis-ivrea-how-an-italian-tech-giant-built-the-world-s-most-progressive-company-town-557cb035c383",
+      "https://en.wikipedia.org/wiki/Olivetti"
+    ]
+  },
   "8e7e2e87-20c8-dc3c-4eb6-d91abe9d6c66": {
     "id": "8e7e2e87-20c8-dc3c-4eb6-d91abe9d6c66",
     "timestamp": 1654625999.428,
@@ -8722,6 +8740,22 @@
       "https://github.com/publicdomaincompany/publicdomaincompany.com",
       "https://publicdomaincompany.com/",
       "https://www.reddit.com/r/publicdomain/comments/lmz6dm/what_are_the_biggestbest_resources_for_public/"
+    ]
+  },
+  "d2868945-be6e-f017-6deb-4277bffe4c74": {
+    "id": "d2868945-be6e-f017-6deb-4277bffe4c74",
+    "timestamp": 1730044255.124,
+    "keyword": [
+      "title:business",
+      "business",
+      "goodharts law",
+      "continuous improvement",
+      "statistical process control"
+    ],
+    "extra": [],
+    "note": "Talks about steps to take to avoid Goodhart's law. Mostly a case study in Amazon's Weekly Business Review (WBR).\n\"When people are pressured to meet a target value [that is difficult/impossible/unsound] ... they can proceed\":\n* to improve the system\n* distort the system\n* distort the data\nWhen improving the system becomes overly difficult, Goodhart's law takes over.\nThe suggested solutions:\n* Make it difficult to distort the system\n* Make it difficult to distort the data\n* Give avenues to people to improve the system\nAll are necessary. The article suggests a financial department that is as separate from the rest of the other departments as possible so as to provide unbiased view of the finances and is empowered to confirm reported metrics. The WBR was created so that managers could review metrics and be in communication with other departements, review metrics and be able to change them. The WBR effectively provides the mechanism to improve the system.\nOne other point in the article is about providing many metrics to provide enough inputs into the model so that there are different avenues to try. The article warns about having a 'small, simple et of metrics' or a single 'north start' metric.",
+    "link": [
+      "https://commoncog.com/goodharts-law-not-useful/"
     ]
   },
   "d2f900a5-5f2b-0435-f2f9-6fa45eaafc4c": {

@@ -1,0 +1,16 @@
+{
+  "id": "d2868945-be6e-f017-6deb-4277bffe4c74",
+  "timestamp": 1730044255.124,
+  "keyword": [
+    "title:business",
+    "business",
+    "goodharts law",
+    "continuous improvement",
+    "statistical process control"
+  ],
+  "extra": [],
+  "note": "Talks about steps to take to avoid Goodhart's law. Mostly a case study in Amazon's Weekly Business Review (WBR).\n\"When people are pressured to meet a target value [that is difficult/impossible/unsound] ... they can proceed\":\n* to improve the system\n* distort the system\n* distort the data\nWhen improving the system becomes overly difficult, Goodhart's law takes over.\nThe suggested solutions:\n* Make it difficult to distort the system\n* Make it difficult to distort the data\n* Give avenues to people to improve the system\nAll are necessary. The article suggests a financial department that is as separate from the rest of the other departments as possible so as to provide unbiased view of the finances and is empowered to confirm reported metrics. The WBR was created so that managers could review metrics and be in communication with other departements, review metrics and be able to change them. The WBR effectively provides the mechanism to improve the system.\nOne other point in the article is about providing many metrics to provide enough inputs into the model so that there are different avenues to try. The article warns about having a 'small, simple et of metrics' or a single 'north start' metric.",
+  "link": [
+    "https://commoncog.com/goodharts-law-not-useful/"
+  ]
+}
