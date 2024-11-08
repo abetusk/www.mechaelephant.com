@@ -2026,7 +2026,7 @@
       "paulgraham"
     ],
     "extra": [],
-    "note": "Paulgraham discusses HN's ranking, which is:\\n689138\\n\\frac{(p-1)}{(h+2)^{1.5}}\\n689138\\nWhere $ is points and $ is age in hours",
+    "note": "Paul Graham discusses HN's ranking, which is:\n$\\frac{(p-1)}{(h+2)^{1.5}}$\nWhere $p$ is points and $h$ is age in hours",
     "link": [
       "https://news.ycombinator.com/item?id=231209"
     ]
@@ -9329,7 +9329,7 @@
       "nn"
     ],
     "extra": [],
-    "note": "Talks about the confusion caused from stastical insight from the 'bias vs. variance' tradeoff. Statiticians are taught about a bias variance tradeoff where high confidence in bias leads to large variance and high confidence in (small) variance leads to low confidence in bias (large bias). For KNN, K large leads to high variance but low bias. K small leads to low variance but high bias. So there's a kind of 'overfitting' intuition where you have to sacrifice one for the other.\\nNN seem to subvert this insight by providing both low variance and low bias. The move from having all data to using only a sub-set of data for training with an eye towards generalization means that the problem statement is different so generalization breaks down.",
+    "note": "Talks about the confusion caused from statistical insight from the 'bias vs. variance' trade off. Statisticians are taught about a bias variance trade off where high confidence in bias leads to large variance and high confidence in (small) variance leads to low confidence in bias (large bias). For KNN, K large leads to high variance but low bias. K small leads to low variance but high bias. So there's a kind of 'over fitting' intuition where you have to sacrifice one for the other.\nNN seem to subvert this insight by providing both low variance and low bias. The move from having all data to using only a sub-set of data for training with an eye towards generalization means that the problem statement is different so generalization breaks down.",
     "link": [
       "https://x.com/AliciaCurth/status/1841817856142348529",
       "https://github.com/abetusk/papers/blob/release/MathMisc/classical-statistics-intuitions-dont-generalize-well_curth.pdf"
