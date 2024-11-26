@@ -1996,6 +1996,23 @@
       "https://web.archive.org/web/20230505063301/https://twitter.com/jelleprins/status/1654197249981796358"
     ]
   },
+  "2e84571f-8dc1-1b49-068c-ca38999b7873": {
+    "id": "2e84571f-8dc1-1b49-068c-ca38999b7873",
+    "timestamp": 1730474606.152,
+    "keyword": [
+      "title:luddite",
+      "luddite",
+      "radio",
+      "war of the worlds",
+      "h.g. wells",
+      "wells"
+    ],
+    "extra": [],
+    "note": "Article talking about how the 'war of the worlds' radio reading was anti-radio propoganda",
+    "link": [
+      "https://newsletter.pessimistsarchive.org/p/that-war-of-the-worlds-panic-was"
+    ]
+  },
   "2eaf17de-f3a8-453a-7f48-bf35c1a48ab7": {
     "id": "2eaf17de-f3a8-453a-7f48-bf35c1a48ab7",
     "timestamp": 1622653505.909,
@@ -3319,6 +3336,24 @@
     "note": "Residual belief propagation",
     "link": [
       "https://github.com/abetusk/papers/blob/release/ComputerScience/BeliefPropagation/residual-belief-propagation_eligan-mcgraw-koller.pdf"
+    ]
+  },
+  "53a657c9-4b5c-ed5c-792d-3ecb0d59e42c": {
+    "id": "53a657c9-4b5c-ed5c-792d-3ecb0d59e42c",
+    "timestamp": 1731340417.607,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "ml",
+      "nn",
+      "llm",
+      "tutorial"
+    ],
+    "extra": [],
+    "note": "Chris Wellons 'Everything I've learned so far about running local LLMs'",
+    "link": [
+      "https://nullprogram.com/blog/2024/11/10/",
+      "https://web.archive.org/web/20241110163234/https://nullprogram.com/blog/2024/11/10/"
     ]
   },
   "53d501ce-002f-4915-226d-f4467649372e": {
@@ -10050,6 +10085,23 @@
       "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf",
       "https://github.com/wntrblm/jellyfish-and-starfish/blob/main/reference/TMC2209_datasheet_rev1.08.pdf",
       "https://github.com/wntrblm/jellyfish-and-starfish"
+    ]
+  },
+  "ef8c13cf-3183-a2b1-cd4e-1a9521eeb090": {
+    "id": "ef8c13cf-3183-a2b1-cd4e-1a9521eeb090",
+    "timestamp": 1732643344.972,
+    "keyword": [
+      "title:math",
+      "mathematics",
+      "math",
+      "pi",
+      "irrationality proof",
+      "proof"
+    ],
+    "extra": [],
+    "note": "Elementary proof of the irrationality of pi",
+    "link": [
+      "https://x.com/abakcus/status/1860495689437901132"
     ]
   },
   "f01213a3-b602-1053-832e-18d3e22e8407": {
