@@ -11,7 +11,7 @@
     "paulgraham"
   ],
   "extra": [],
-  "note": "Paulgraham discusses HN's ranking, which is:\\n689138\\n\\frac{(p-1)}{(h+2)^{1.5}}\\n689138\\nWhere $ is points and $ is age in hours",
+  "note": "Paul Graham discusses HN's ranking, which is:\n$\\frac{(p-1)}{(h+2)^{1.5}}$\nWhere $p$ is points and $h$ is age in hours",
   "link": [
     "https://news.ycombinator.com/item?id=231209"
   ]
