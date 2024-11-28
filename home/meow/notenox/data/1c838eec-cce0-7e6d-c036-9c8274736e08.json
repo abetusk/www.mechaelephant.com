@@ -1,0 +1,17 @@
+{
+  "id": "1c838eec-cce0-7e6d-c036-9c8274736e08",
+  "timestamp": 1732822827.795,
+  "keyword": [
+    "title:open source",
+    "open source",
+    "business",
+    "FOSS",
+    "sustainability"
+  ],
+  "extra": [],
+  "note": "Evan Czaplicki talks about challenges of financial stability while creating Elm. From what I understand, it looks like he kind of confuses the motivations of Open Source and has a view that it's more about either being good for business or sneaking in libertarian views into corporate america. He doesn't really talk about how Open Source was specifically adressing corporate needs, in lieu of Libre/Free Software, nor does he talk about the motivations of Libre/Free software being more geared towards providing publicly available infrastructure.\nOne major thing that stands out is his analysis of corporate backed languages and the motivations for their development, which I only obliquely understand.\nNote that Czaplicki seems to be committed to open source and his discussion is within the frame work of 'How can I still work on open source while being sustainable'.\nThere's no real discussion of hard income/financial numbers he thinks could be allocated to make things sustainable, so I'm curious as to what kind of financing he's tacitly assuming.",
+  "link": [
+    "https://www.youtube.com/watch?v=XZ3w_jec1v8",
+    "https://www.youtube.com/watch?v=0SUM4869ODc"
+  ]
+}
