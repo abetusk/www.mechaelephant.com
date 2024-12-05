@@ -5171,6 +5171,23 @@
       "https://web.archive.org/web/20211120180610/https://www.collaborativefund.com/blog/experts/"
     ]
   },
+  "7f640315-ff1c-ffc5-b04b-a812b8da7440": {
+    "id": "7f640315-ff1c-ffc5-b04b-a812b8da7440",
+    "timestamp": 1733426011.845,
+    "keyword": [
+      "title:llm",
+      "llm",
+      "open data",
+      "rag",
+      "nn",
+      "ml"
+    ],
+    "extra": [],
+    "note": "PleiAs is maybe an LLM trained on libre data",
+    "link": [
+      "https://huggingface.co/collections/PleIAs/common-models-674cd0667951ab7c4ef84cc4"
+    ]
+  },
   "7f760174-44fb-e278-56bb-05b27eec986a": {
     "id": "7f760174-44fb-e278-56bb-05b27eec986a",
     "timestamp": 1642566893.935,
@@ -9298,6 +9315,21 @@
     "link": [
       "https://www.youtube.com/watch?v=tzk03NNwQz4",
       "https://web.archive.org/web/20210423190827/https://www.youtube.com/watch?v=tzk03NNwQz4"
+    ]
+  },
+  "e271b1d0-b82d-bb52-006a-7b1792f27982": {
+    "id": "e271b1d0-b82d-bb52-006a-7b1792f27982",
+    "timestamp": 1733426451.586,
+    "keyword": [
+      "title:economy",
+      "economy",
+      "bitcoin"
+    ],
+    "extra": [],
+    "note": "'Bitcoin's Full Potential Valuation' by Jesse Myers. Notable for the breakdown of global asset landscape. Current estimate is about /bin/bash.9Q (00T), with approximate numbers of real estate ($.33Q), bonds ($.3Q), money ($.12Q), equities ($.12Q) (btc currently at around $.4T).",
+    "link": [
+      "https://www.onceinaspecies.com/p/bitcoins-full-potential-valuation",
+      "https://web.archive.org/web/20240705083813/https://www.onceinaspecies.com/p/bitcoins-full-potential-valuation"
     ]
   },
   "e305c307-61d1-0d2f-c809-46ef513bf4eb": {
