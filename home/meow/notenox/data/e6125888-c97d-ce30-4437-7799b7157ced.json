@@ -1,0 +1,19 @@
+{
+  "id": "e6125888-c97d-ce30-4437-7799b7157ced",
+  "timestamp": 1734208870.914,
+  "keyword": [
+    "title:math",
+    "math",
+    "mathematics",
+    "number theory",
+    "factorial"
+  ],
+  "extra": [],
+  "note": "J. Robinson showed a closed form formula for factorial using integer division.",
+  "link": [
+    "https://mathoverflow.net/questions/484083/closed-formula-for-the-factorial-over-naturals/484115#484115",
+    "https://www.ams.org/journals/tran/1952-072-03/S0002-9947-1952-0048374-2/",
+    "https://onlinelibrary.wiley.com/doi/10.1002/1521-3870(200201)48:1%3C93::AID-MALQ93%3E3.0.CO;2-8",
+    "https://en.wikipedia.org/wiki/Elementary_recursive_function"
+  ]
+}
