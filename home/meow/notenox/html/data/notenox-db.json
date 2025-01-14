@@ -6531,6 +6531,31 @@
       "https://chat.toplap.org/home"
     ]
   },
+  "9dd64ddd-d606-5e20-7853-acb21a5b93c6": {
+    "id": "9dd64ddd-d606-5e20-7853-acb21a5b93c6",
+    "timestamp": 1736822341.344,
+    "keyword": [
+      "title:algorithm",
+      "algorithm",
+      "multi armed bandit",
+      "math",
+      "mathematics",
+      "statistics",
+      "probability",
+      "machine learning"
+    ],
+    "extra": [],
+    "note": "Multi armed bandit as a superior method to A/B testing. Looks like there are various methods, some more sophisticated than others, than give decent results, depending on assumptions:\n* Epsilon greedy : choose a fixed probability of exploration (10%, say), otherwise choose based on the measured success rate\n* Upper Confidence Bound 1 (UCB1) : incorporate confidence bounds into the choice\n* Bayesian UCB : incorporate prior information into UCB1\n* EXP3 : update weights using an exponential parameter\n* Thompson Sampling : simulate expected value from hyper parameters of underlying distribution (I think)\nEG is simple and performs well. UCB1 is only slightly more complex and performs well. EXP3 is good for advesarial environments. Thompson is best but, as with EG and UCB1, assumes non-advesarial environments (and maybe has some assumptions about the underlying distribution of the bandits).",
+    "link": [
+      "https://stevehanov.ca/blog/index.php?id=132",
+      "https://untyped.com/untyping/2011/02/11/stop-ab-testing-and-make-out-like-a-bandit/",
+      "https://github.com/bayesianbandits/bayesianbandits",
+      "https://nerva.cs.uni-bonn.de/lib/exe/fetch.php/teaching/ws1819/vl-aau/lecturenotes17.pdf",
+      "https://www.jeremykun.com/2013/11/08/adversarial-bandits-and-the-exp3-algorithm/",
+      "https://www.jeremykun.com/2013/10/28/optimism-in-the-face-of-uncertainty-the-ucb1-algorithm/",
+      "https://jamesrledoux.com/algorithms/bandit-algorithms-epsilon-ucb-exp-python/"
+    ]
+  },
   "9de1ccd3-1a89-d414-a079-788be358f0ff": {
     "id": "9de1ccd3-1a89-d414-a079-788be358f0ff",
     "timestamp": 1608224605.69,
