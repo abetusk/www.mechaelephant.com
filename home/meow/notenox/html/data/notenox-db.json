@@ -239,6 +239,22 @@
       "https://en.wikipedia.org/wiki/CORDIC"
     ]
   },
+  "0653c5cc-edf9-8c28-6857-8ee1305b13b4": {
+    "id": "0653c5cc-edf9-8c28-6857-8ee1305b13b4",
+    "timestamp": 1737873219.003,
+    "keyword": [
+      "title:ml",
+      "ml",
+      "machine learnign",
+      "tinygrad",
+      "tutorial"
+    ],
+    "extra": [],
+    "note": "tutorial on tinygrad",
+    "link": [
+      "https://mesozoic-egg.github.io/tinygrad-notes/"
+    ]
+  },
   "07168d0e-3157-dacb-9be1-d3cd39c7b937": {
     "id": "07168d0e-3157-dacb-9be1-d3cd39c7b937",
     "timestamp": 1713204892.61,
