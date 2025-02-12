@@ -8505,6 +8505,26 @@
       "https://milan.cvitkovic.net/writing/things_youre_allowed_to_do/"
     ]
   },
+  "c741fba6-1fc7-4c61-44db-5e0a4b05887c": {
+    "id": "c741fba6-1fc7-4c61-44db-5e0a4b05887c",
+    "timestamp": 1739386694.967,
+    "keyword": [
+      "title:algorithm",
+      "algorithm",
+      "dithering",
+      "graphics",
+      "image processing",
+      "art"
+    ],
+    "extra": [],
+    "note": "Various algorithms and discussions on dithering",
+    "link": [
+      "https://tannerhelland.com/2012/12/28/dithering-eleven-algorithms-source-code.html",
+      "https://amanvir.com/blog/writing-my-own-dithering-algorithm-in-racket",
+      "https://beyondloom.com/blog/dither.html",
+      "https://brucebcampbell.wordpress.com/wp-content/uploads/2013/04/dithering-methods.pdf"
+    ]
+  },
   "c83ef056-759d-db72-e1e2-98f87c36e62e": {
     "id": "c83ef056-759d-db72-e1e2-98f87c36e62e",
     "timestamp": 1653187909.863,
