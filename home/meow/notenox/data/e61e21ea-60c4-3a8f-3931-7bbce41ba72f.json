@@ -1,0 +1,19 @@
+{
+  "id": "e61e21ea-60c4-3a8f-3931-7bbce41ba72f",
+  "timestamp": 1740677952.512,
+  "keyword": [
+    "title:programming",
+    "programming",
+    "verification",
+    "c",
+    "fil-c"
+  ],
+  "extra": [],
+  "note": "Some links on formal verification for c, c++ and more c-like languages.",
+  "link": [
+    "https://news.ycombinator.com/item?id=43186614",
+    "https://www.cofault.com/2025/02/long-story-of-division.html",
+    "https://github.com/pizlonator/llvm-project-deluge/blob/deluge/Manifesto.md",
+    "https://github.com/pizlonator/llvm-project-deluge/tree/deluge"
+  ]
+}
