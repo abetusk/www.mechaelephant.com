@@ -5640,6 +5640,23 @@
       "https://www.italki.com/teachers/english"
     ]
   },
+  "8b07559a-3a12-e5e4-8693-96fdd9580e72": {
+    "id": "8b07559a-3a12-e5e4-8693-96fdd9580e72",
+    "timestamp": 1740778864.871,
+    "keyword": [
+      "title:algorithm",
+      "algorithm",
+      "cs",
+      "geometry",
+      "convex hull"
+    ],
+    "extra": [],
+    "note": "Sort and increment algorithm in O(N ln N) time for 2d half plane cuts. Idea is to sort by angle (from origin) and then wrap around. Because of convexity, the additional half plane addition will fully make redundant any half planes for which it swallows the intersection point. Cleanup at the end to wrap around but otherwise the idea is sound.",
+    "link": [
+      "https://cp-algorithms.com/geometry/halfplane-intersection.html",
+      "http://zeyuan.allen-zhu.com/paper/2006-thesis.pdf"
+    ]
+  },
   "8c04db94-e85d-43d7-75b7-77379968a226": {
     "id": "8c04db94-e85d-43d7-75b7-77379968a226",
     "timestamp": 1671625492.023,
