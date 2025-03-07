@@ -153,13 +153,15 @@ Usage
 ---
 
 ```
-version: 0.1.0
+version: 0.2.0
 
 usage:
 
-    notenox [-h] [-v] [-n note] [-t timestamp] [-k keyword] [-l link] [-e extra] [_note]
+    notenox [-h] [-v] [-n note] [-t timestamp] [-k keyword] [-l link] [-e extra] [-I] [OP [OPVAL]]
 
-  [-n|--note note ]           note (ignored if _note specified)
+  [OP]                        flush|kw|title|all|help (text as note if no op found)
+  [OP OPVAL]                  kw|id <kw|id>
+  [-n|--note note ]           note (ignored if OP specified and not keyword)
   [-t|--timestamp timestamp]  timestamp (seconds UTC, defaults to now)
   [-k|--keyword keyword]      keyword (can be specified multiple times)
   [-K keywords]               add list of keywords (seperated by';')
@@ -167,6 +169,7 @@ usage:
   [-e|--extra extra ]         extra information (can be specified multiple times)
   [-T|--title titlename]      add special 'title' keyword to keyword (append extra keyword 'title:<titlename>' to keywords
   [-u|--id id]                set ID (defaults to random)
+  [-I]                        enable interpretation of note (interpret carriage returns)
   [-s]                        silent (don't print out note)
   [-S]                        save note (unimplemented)
   [-c <cfgfile>]              specify config file (default /home/abe/.config/notenox/notenox.conf)
