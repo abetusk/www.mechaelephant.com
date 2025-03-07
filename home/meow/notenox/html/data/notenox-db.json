@@ -7000,6 +7000,27 @@
       "https://web.archive.org/web/20211114162357/https://pbs.twimg.com/media/FEHvJQdXsAA_C6D?format=jpg&name=large"
     ]
   },
+  "a538ef6b-7634-2a71-79a7-baae7fe48aa0": {
+    "id": "a538ef6b-7634-2a71-79a7-baae7fe48aa0",
+    "timestamp": 1741367769.091,
+    "keyword": [
+      "title:machinelearning",
+      "machinelearning",
+      "ai",
+      "neural network",
+      "nn",
+      "ann",
+      "ca",
+      "cellular automata"
+    ],
+    "extra": [],
+    "note": "Differentiable logic cellular automata.",
+    "link": [
+      "https://google-research.github.io/self-organising-systems/difflogic-ca/",
+      "https://github.com/tilk/digitaljs",
+      "https://distill.pub/2020/growing-ca/"
+    ]
+  },
   "a5a68d0c-dcfe-0feb-5812-d3e3cec66550": {
     "id": "a5a68d0c-dcfe-0feb-5812-d3e3cec66550",
     "timestamp": 1611279260.552,

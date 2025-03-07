@@ -1,0 +1,21 @@
+{
+  "id": "a538ef6b-7634-2a71-79a7-baae7fe48aa0",
+  "timestamp": 1741367769.091,
+  "keyword": [
+    "title:machinelearning",
+    "machinelearning",
+    "ai",
+    "neural network",
+    "nn",
+    "ann",
+    "ca",
+    "cellular automata"
+  ],
+  "extra": [],
+  "note": "Differentiable logic cellular automata.",
+  "link": [
+    "https://google-research.github.io/self-organising-systems/difflogic-ca/",
+    "https://github.com/tilk/digitaljs",
+    "https://distill.pub/2020/growing-ca/"
+  ]
+}
