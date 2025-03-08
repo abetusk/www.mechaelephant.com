@@ -1,0 +1,16 @@
+{
+  "id": "ad8284b6-4b20-1c7a-60de-ed161a05f346",
+  "timestamp": 1741406442.379,
+  "keyword": [
+    "title:software development",
+    "software development",
+    "c",
+    "rust",
+    "language wars"
+  ],
+  "extra": [],
+  "note": "Choosing C over Rust for low level codec implementations. Talks about runtime bounds checking causing slowdowns and how Rust is not very ergonomic for low level assembly tasks/etc.",
+  "link": [
+    "https://palaiologos.rocks/posts/rust-codecs/"
+  ]
+}

@@ -7460,6 +7460,22 @@
       "https://en.wikipedia.org/wiki/Mirror_descent"
     ]
   },
+  "ad8284b6-4b20-1c7a-60de-ed161a05f346": {
+    "id": "ad8284b6-4b20-1c7a-60de-ed161a05f346",
+    "timestamp": 1741406442.379,
+    "keyword": [
+      "title:software development",
+      "software development",
+      "c",
+      "rust",
+      "language wars"
+    ],
+    "extra": [],
+    "note": "Choosing C over Rust for low level codec implementations. Talks about runtime bounds checking causing slowdowns and how Rust is not very ergonomic for low level assembly tasks/etc.",
+    "link": [
+      "https://palaiologos.rocks/posts/rust-codecs/"
+    ]
+  },
   "adb1b5ce-75fc-ad1f-0d4a-ba65de5df887": {
     "id": "adb1b5ce-75fc-ad1f-0d4a-ba65de5df887",
     "timestamp": 1645706554.835,
