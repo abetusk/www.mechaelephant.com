@@ -7207,6 +7207,23 @@
       "https://news.ycombinator.com/item?id=34237090"
     ]
   },
+  "aabee07a-ddd8-afa4-5ada-c63f62766154": {
+    "id": "aabee07a-ddd8-afa4-5ada-c63f62766154",
+    "timestamp": 1742271480.917,
+    "keyword": [
+      "title:fractal",
+      "fractal",
+      "visualization",
+      "math",
+      "programming",
+      "newton's method"
+    ],
+    "extra": [],
+    "note": "Very fast webgpu Newton's method visualization",
+    "link": [
+      "https://lukezapart.com/newtons-method"
+    ]
+  },
   "aaf82ff7-ba35-4ff4-e8d8-59b810e11a1f": {
     "id": "aaf82ff7-ba35-4ff4-e8d8-59b810e11a1f",
     "timestamp": 1634671298.897,
