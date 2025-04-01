@@ -1879,6 +1879,24 @@
       "https://en.wikisource.org/wiki/Author:Ernst_Theodor_Wilhelm_Hoffmann"
     ]
   },
+  "2ac5ea59-087f-0cf0-8405-453af29f5051": {
+    "id": "2ac5ea59-087f-0cf0-8405-453af29f5051",
+    "timestamp": 1743528524.441,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "acoustic",
+      "acoustic camera",
+      "beamforming"
+    ],
+    "extra": [],
+    "note": "Using the Python package acoular, person creates an 'acoustic camera' that uses a microphone array to localize sound and merge it with the video feed",
+    "link": [
+      "https://navat.substack.com/p/diy-acoustic-camera-using-uma-16",
+      "https://www.acoular.org/api_ref/index.html",
+      "https://github.com/f1ren/recorder"
+    ]
+  },
   "2b076b02-b9b6-b364-19d4-41cca961e320": {
     "id": "2b076b02-b9b6-b364-19d4-41cca961e320",
     "timestamp": 1648243688.475,
