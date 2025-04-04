@@ -1,0 +1,16 @@
+{
+  "id": "8b0d418c-cc06-b3a2-5440-0fbd54df64c3",
+  "timestamp": 1743789005.12,
+  "keyword": [
+    "title:electronics",
+    "electronics",
+    "motor",
+    "motor driver",
+    "h-bridge"
+  ],
+  "extra": [],
+  "note": "Video using some SMD components to drive low power motors\nIt looks like the n and p mosfets used are si2300, 1n4148 flyback diode, bc847b npn transistor to drive the h-bridge with 10k pulldown transistors on the input lines of the mosfets",
+  "link": [
+    "https://www.youtube.com/watch?v=xW2Nwg_RX84"
+  ]
+}
