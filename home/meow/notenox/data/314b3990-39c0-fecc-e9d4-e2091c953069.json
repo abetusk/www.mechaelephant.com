@@ -1,0 +1,17 @@
+{
+  "id": "314b3990-39c0-fecc-e9d4-e2091c953069",
+  "timestamp": 1744219931.415,
+  "keyword": [
+    "title:programming",
+    "programming",
+    "git",
+    "error",
+    "push",
+    "github"
+  ],
+  "extra": [],
+  "note": "Resolving '(refusing to allow a Personal Access Token to create or update workflow ...)' by creating a new classic PAT, associated to only that repo, with the 'workflow' box checked",
+  "link": [
+    "https://github.com/orgs/community/discussions/26254"
+  ]
+}
