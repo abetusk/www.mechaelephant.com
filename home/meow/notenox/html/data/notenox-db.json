@@ -3563,6 +3563,31 @@
       "https://constitutioncenter.org/blog/looking-ahead-a-supreme-court-preview-for-2023"
     ]
   },
+  "572d2fa0-2b28-7ee3-b68c-3d9fedc6a77f": {
+    "id": "572d2fa0-2b28-7ee3-b68c-3d9fedc6a77f",
+    "timestamp": 1745361916.784,
+    "keyword": [
+      "title:math",
+      "math",
+      "polynomial",
+      "interpolation",
+      "fitting",
+      "overfitting",
+      "bernstein"
+    ],
+    "extra": [],
+    "note": "Bernstein polynomials do not overfit (maybe with a regularization term). This is evocative of how NN can get better fits with more training data and/or weights",
+    "link": [
+      "https://news.ycombinator.com/item?id=43764101",
+      "https://alexshtf.github.io/2024/01/21/Bernstein.html",
+      "https://alexshtf.github.io/2024/01/25/Bernstein-Basis.html",
+      "https://alexshtf.github.io/2024/06/03/PolynomialBasesRegProps.html",
+      "https://alexshtf.github.io/2025/03/27/Free-Poly.html",
+      "https://alexshtf.github.io/2025/04/17/Polynomial-Pruning.html",
+      "https://github.com/alexshtf/alexshtf.github.io/tree/master/_posts",
+      "https://stats.stackexchange.com/questions/560383/how-can-we-explain-the-bad-reputation-of-higher-order-polynomials/560625#560625"
+    ]
+  },
   "579fe63d-76e9-c135-31b9-f58af9a6dbf9": {
     "id": "579fe63d-76e9-c135-31b9-f58af9a6dbf9",
     "timestamp": 1627916362.243,
