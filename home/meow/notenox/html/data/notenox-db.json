@@ -11269,6 +11269,23 @@
       "https://lh3.googleusercontent.com/-LJFJCT1RiYI/X9O3I3H1fkI/AAAAAAAAHdQ/wLTePUSnIlQLgHFbd24J6snaMwHkT382wCK8BGAsYHg/s0/2020-12-11.jpg"
     ]
   },
+  "ffe586ac-60c6-3ef8-6dfc-39d23af53794": {
+    "id": "ffe586ac-60c6-3ef8-6dfc-39d23af53794",
+    "timestamp": 1745476483.198,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "rnn",
+      "tile",
+      "lstm"
+    ],
+    "extra": [],
+    "note": "Looks like good success in creating tiled models with rnns",
+    "link": [
+      "https://voxely.net/blog/using-a-rnn-for-2d-tile-map-synthesis/",
+      "https://github.com/Cewein/Neuro-Procedural-Generation"
+    ]
+  },
   "fff34881-f791-236e-9a33-7eca322e60fe": {
     "id": "fff34881-f791-236e-9a33-7eca322e60fe",
     "timestamp": 1618779493.301,
