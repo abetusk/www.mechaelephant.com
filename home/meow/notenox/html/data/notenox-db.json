@@ -10850,6 +10850,22 @@
       "https://www.sensorica.co/ventures"
     ]
   },
+  "f579f0a3-bc44-21c6-cf68-8d43d87dfe80": {
+    "id": "f579f0a3-bc44-21c6-cf68-8d43d87dfe80",
+    "timestamp": 1746373409.949,
+    "keyword": [
+      "title:math",
+      "math",
+      "open-problem",
+      "sum-of-square-roots-problem"
+    ],
+    "extra": [],
+    "note": "Sum of square roots problem. It's old now but still looks to not even be known to be in NP.\nThe only insight I have is to change it into a NPP problem and use the Chayes trick. To change the numbers to actual integers, you have to premultiply and floor. It's not clear what r(n,k) looks like, and it might be doubly exponential, which might make this pretty subtle.",
+    "link": [
+      "http://www.openproblemgarden.org/op/complexity_of_square_root_sum",
+      "https://web.archive.org/web/20120205080819/https://maven.smith.edu/~orourke/TOPP/P33.html"
+    ]
+  },
   "f58efd24-6c2a-9051-19c9-ecad4e0453c3": {
     "id": "f58efd24-6c2a-9051-19c9-ecad4e0453c3",
     "timestamp": 1644883831.978,
