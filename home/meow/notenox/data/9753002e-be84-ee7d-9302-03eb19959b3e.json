@@ -1,0 +1,16 @@
+{
+  "id": "9753002e-be84-ee7d-9302-03eb19959b3e",
+  "timestamp": 1747403969.735,
+  "keyword": [
+    "title:algorithm",
+    "algorithm",
+    "hack",
+    "leap year",
+    "calendar"
+  ],
+  "extra": [],
+  "note": "Bit fiddling hack to calculate whether it's a leap year quickly",
+  "link": [
+    "https://hueffner.de/falk/blog/a-leap-year-check-in-three-instructions.html"
+  ]
+}
