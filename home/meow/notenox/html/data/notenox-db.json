@@ -10929,6 +10929,22 @@
       "https://www.sensorica.co/ventures"
     ]
   },
+  "f54e80fa-c374-5d52-1e28-b9ffc1424dce": {
+    "id": "f54e80fa-c374-5d52-1e28-b9ffc1424dce",
+    "timestamp": 1747500338.321,
+    "keyword": [
+      "title:email",
+      "email",
+      "letsencrypt",
+      "tls"
+    ],
+    "extra": [],
+    "note": "Not exactly sure what's going on here. Letsencrypt is ending TLS client authentication certificate support (June 2026?). Wildeboer talks about repurcussions of this.",
+    "link": [
+      "https://social.wildeboer.net/@jwildeboer/114516238307785904",
+      "https://letsencrypt.org/2025/05/14/ending-tls-client-authentication/"
+    ]
+  },
   "f579f0a3-bc44-21c6-cf68-8d43d87dfe80": {
     "id": "f579f0a3-bc44-21c6-cf68-8d43d87dfe80",
     "timestamp": 1746373409.949,
