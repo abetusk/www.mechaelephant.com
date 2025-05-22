@@ -1,0 +1,20 @@
+{
+  "id": "d9d9ce49-2cfe-c76f-1d64-6369fdaabb2b",
+  "timestamp": 1747877257.883,
+  "keyword": [
+    "title:programming",
+    "programming",
+    "lisp",
+    "tutorial",
+    "interpreter"
+  ],
+  "extra": [],
+  "note": "More lisp resources",
+  "link": [
+    "https://tinyscheme.sourceforge.net/home.html",
+    "https://github.com/maryrosecook/littlelisp",
+    "https://maryrosecook.com/blog/post/little-lisp-interpreter",
+    "https://norvig.com/lispy.html",
+    "https://www.reddit.com/r/lisp/comments/klszx1/best_beginner_friendly_write_a_lisp_tutorial/"
+  ]
+}

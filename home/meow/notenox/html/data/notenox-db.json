@@ -418,6 +418,22 @@
       "https://en.wikipedia.org/wiki/SARS-CoV-2_Delta_variant#Transmissibility"
     ]
   },
+  "0b6192b3-15ac-1cc5-13dd-2a973094da83": {
+    "id": "0b6192b3-15ac-1cc5-13dd-2a973094da83",
+    "timestamp": 1747888306.907,
+    "keyword": [
+      "title:writing",
+      "writing",
+      "paper",
+      "academia",
+      "science"
+    ],
+    "extra": [],
+    "note": "PhD meta game, including 'how to get your paper accepted' articles",
+    "link": [
+      "https://maxwellforbes.com/posts/how-to-get-a-paper-accepted/"
+    ]
+  },
   "0b939f87-3338-dfcb-d60b-d8ae488f6882": {
     "id": "0b939f87-3338-dfcb-d60b-d8ae488f6882",
     "timestamp": 1623612873.731,
@@ -3544,6 +3560,20 @@
     "link": [
       "https://www.sciencealert.com/physicists-have-created-the-worlds-most-fiendishly-difficult-maze",
       "https://journals.aps.org/prx/pdf/10.1103/PhysRevX.14.031005"
+    ]
+  },
+  "5661c2f5-9a76-6ac1-5f08-c2d9d8d6684c": {
+    "id": "5661c2f5-9a76-6ac1-5f08-c2d9d8d6684c",
+    "timestamp": 1747877425.25,
+    "keyword": [
+      "title:art",
+      "art",
+      "electronics"
+    ],
+    "extra": [],
+    "note": "led segment installation",
+    "link": [
+      "https://willga.llia.io/sea-of-segments/build/"
     ]
   },
   "56cbd170-22d3-1e2d-d754-bd26e0ccad66": {
@@ -9627,6 +9657,26 @@
       "https://doubleunion.org/policies/",
       "https://web.archive.org/web/20210216185037/https://doubleunion.org/policies/",
       "https://web.archive.org/web/20190410164803/https://blog.valerieaurora.org/2018/12/18/clarification-of-double-union-post/"
+    ]
+  },
+  "d9d9ce49-2cfe-c76f-1d64-6369fdaabb2b": {
+    "id": "d9d9ce49-2cfe-c76f-1d64-6369fdaabb2b",
+    "timestamp": 1747877257.883,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "lisp",
+      "tutorial",
+      "interpreter"
+    ],
+    "extra": [],
+    "note": "More lisp resources",
+    "link": [
+      "https://tinyscheme.sourceforge.net/home.html",
+      "https://github.com/maryrosecook/littlelisp",
+      "https://maryrosecook.com/blog/post/little-lisp-interpreter",
+      "https://norvig.com/lispy.html",
+      "https://www.reddit.com/r/lisp/comments/klszx1/best_beginner_friendly_write_a_lisp_tutorial/"
     ]
   },
   "da090d54-c78d-4efa-c944-af5ae0db30e5": {
