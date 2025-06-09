@@ -8836,6 +8836,24 @@
       "https://web.archive.org/web/20220420190845/https://greenwald.substack.com/p/former-intelligence-officials-citing?s=r"
     ]
   },
+  "c4ba4a61-1846-b8a9-8b95-a5a5765b53cd": {
+    "id": "c4ba4a61-1846-b8a9-8b95-a5a5765b53cd",
+    "timestamp": 1749012720.743,
+    "keyword": [
+      "title:math",
+      "math",
+      "cs",
+      "graphics",
+      "rendering",
+      "sdf",
+      "lipschitz"
+    ],
+    "extra": [],
+    "note": "'Gradients are the new intervals' talks about the paper 'Lipschitz Pruning: Hierarchical Simplifcation of Primitive-Based SDFs'.",
+    "link": [
+      "https://www.mattkeeter.com/blog/2025-05-14-gradients/"
+    ]
+  },
   "c4da1bd0-f466-d631-a0d6-f68b13b10497": {
     "id": "c4da1bd0-f466-d631-a0d6-f68b13b10497",
     "timestamp": 1631561341.336,
@@ -11548,6 +11566,23 @@
     "note": "Smithsonian collection of CC0 3D models",
     "link": [
       "https://sketchfab.com/nebulousflynn/collections/cc0"
+    ]
+  },
+  "fece56ac-ad5c-6d2e-1549-255ad4b09189": {
+    "id": "fece56ac-ad5c-6d2e-1549-255ad4b09189",
+    "timestamp": 1749433253.092,
+    "keyword": [
+      "title:internet",
+      "internet",
+      "ipv4",
+      "ipv6"
+    ],
+    "extra": [],
+    "note": "ipv4 ipv6 links",
+    "link": [
+      "https://ipv4a-5539ad.gitlab.io/",
+      "https://ipv6.hanazo.no/posts/ipv6-transition-inevitable/",
+      "https://lobste.rs/s/zjbb1m"
     ]
   },
   "ff08e215-f05d-874d-cdab-70e290c80b06": {
