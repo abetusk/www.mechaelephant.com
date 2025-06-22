@@ -6429,6 +6429,23 @@
       "https://web.archive.org/web/20230113023252/https://arcove.substack.com/p/null-call"
     ]
   },
+  "9493cc5d-48dd-0d96-572d-aec8313d1f50": {
+    "id": "9493cc5d-48dd-0d96-572d-aec8313d1f50",
+    "timestamp": 1750613722.678,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "pipes",
+      "optimization"
+    ],
+    "extra": [],
+    "note": "'How fast are Linux pipes anyway?' (2022). Does perf analysis and optimization tricks to speed up pipe processing upwards of 10x from naive implementation. It looks like the optimization might come with some race conditions if the environment isn't locked down appropriately.",
+    "link": [
+      "https://mazzo.li/posts/fast-pipes.html",
+      "https://news.ycombinator.com/item?id=31592934",
+      "https://news.ycombinator.com/item?id=37782493"
+    ]
+  },
   "94a3d2fa-01e8-5b63-2d7f-8b32c1e9fe2b": {
     "id": "94a3d2fa-01e8-5b63-2d7f-8b32c1e9fe2b",
     "timestamp": 1654355319.091,
