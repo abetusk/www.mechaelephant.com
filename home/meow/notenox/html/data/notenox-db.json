@@ -2895,6 +2895,25 @@
       "https://github.com/orgs/AurekFonts/repositories"
     ]
   },
+  "41c68a1b-750e-e3fb-a661-16d0b9086dbf": {
+    "id": "41c68a1b-750e-e3fb-a661-16d0b9086dbf",
+    "timestamp": 1750955492.589,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "system",
+      "unix",
+      "linux",
+      "device driver",
+      "usb",
+      "system programming"
+    ],
+    "extra": [],
+    "note": "'Writing a basic Linux device driver when you know nothing about Linux drivers or USB'",
+    "link": [
+      "https://crescentro.se/posts/writing-drivers/"
+    ]
+  },
   "4273d18c-68c4-4c64-afa9-e2afc9baaf26": {
     "id": "4273d18c-68c4-4c64-afa9-e2afc9baaf26",
     "timestamp": 1723599172.299,
@@ -8965,6 +8984,21 @@
       "https://www.drorpoleg.com/rise-of-the-10x-class/",
       "https://web.archive.org/web/20210420224329/https://www.drorpoleg.com/rise-of-the-10x-class/",
       "https://www.uvm.edu/pdodds/files/papers/others/1981/rosen1981a.pdf"
+    ]
+  },
+  "c6930360-440f-b3d4-e589-9244e66d0ae4": {
+    "id": "c6930360-440f-b3d4-e589-9244e66d0ae4",
+    "timestamp": 1750614893.727,
+    "keyword": [
+      "title:solar",
+      "solar",
+      "post-mortem",
+      "solar plant"
+    ],
+    "extra": [],
+    "note": "Talks about a failed attempt at creating a solar power plant in Texas (2025?). To me, it looks like one of the main issues was aging power infrastructure not being able to take the new load. Specifically, the state wanted to charge the power plant for building/upgrading new lines and slashed the output of the power plant to make sure it wouldn't overload the infrastructure. Limiting the power plant to 3 MW from 5-6MW or even 10MW meant the project became inviable.",
+    "link": [
+      "https://7goldfish.com/articles/Requiem_for_a_solar_plant.php"
     ]
   },
   "c6d879ee-945a-681d-2c6c-a9956c6cb1c6": {
