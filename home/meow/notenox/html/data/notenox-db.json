@@ -11317,6 +11317,24 @@
       "https://web.archive.org/web/20160910080305/https://diyhpl.us/~bryan/papers2/DNA/abi391/chemistry.txt"
     ]
   },
+  "f6daa857-74c5-7022-c083-0e1f3f2bf020": {
+    "id": "f6daa857-74c5-7022-c083-0e1f3f2bf020",
+    "timestamp": 1753284276.073,
+    "keyword": [
+      "title:generative",
+      "generative art",
+      "algorithmic art",
+      "meander",
+      "space filling",
+      "hamiltonian path",
+      "hamiltonian cycle"
+    ],
+    "extra": [],
+    "note": "Meander curves and code",
+    "link": [
+      "https://gitlab.com/ornamentist/meanders"
+    ]
+  },
   "f6f76913-be37-67d3-0977-87cf5b6dad66": {
     "id": "f6f76913-be37-67d3-0977-87cf5b6dad66",
     "timestamp": 1636478990.721,
