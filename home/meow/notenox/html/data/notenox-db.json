@@ -5305,6 +5305,28 @@
       "https://www.youtube.com/watch?v=gTAghAJcO1o"
     ]
   },
+  "7b1d5502-61ef-2abc-f446-8746bdfd4d1b": {
+    "id": "7b1d5502-61ef-2abc-f446-8746bdfd4d1b",
+    "timestamp": 1754705340.513,
+    "keyword": [
+      "title:music",
+      "music",
+      "generative",
+      "web audio",
+      "html",
+      "audio",
+      "webaudio"
+    ],
+    "extra": [],
+    "note": "Resources for web audio stuff, including vitalik's acid banger generative experiment",
+    "link": [
+      "https://github.com/vitling/acid-banger/tree/main",
+      "https://www.vitling.xyz/toys/acid-banger/",
+      "https://web.dev/articles/audio-scheduling",
+      "https://sonoport.github.io/web-audio-clock.html",
+      "https://github.com/cwilso/metronome/"
+    ]
+  },
   "7b3cb45e-c549-cb52-bfe9-9504eb09e107": {
     "id": "7b3cb45e-c549-cb52-bfe9-9504eb09e107",
     "timestamp": 1727592927.594,
