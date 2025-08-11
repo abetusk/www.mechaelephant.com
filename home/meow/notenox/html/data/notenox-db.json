@@ -239,6 +239,21 @@
       "https://en.wikipedia.org/wiki/CORDIC"
     ]
   },
+  "05c13829-2c34-5ac3-f168-9f3cc659a552": {
+    "id": "05c13829-2c34-5ac3-f168-9f3cc659a552",
+    "timestamp": 1754926254.838,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "tutorial",
+      "guide"
+    ],
+    "extra": [],
+    "note": "'Creating high quality electronics schematics'",
+    "link": [
+      "https://blog.poly.nomial.co.uk/2025-08-10-creating-high-quality-electronics-schematics.html"
+    ]
+  },
   "0653c5cc-edf9-8c28-6857-8ee1305b13b4": {
     "id": "0653c5cc-edf9-8c28-6857-8ee1305b13b4",
     "timestamp": 1737873219.003,
@@ -2505,6 +2520,21 @@
       "http://www.keystoneelectronics.net/ENG._DEPT/WEB_ORACLE/PDF/PDF%20CAT%20NO%20DRAWINGS/20000-29999/24881.PDF"
     ]
   },
+  "37e80575-1d0b-9e1c-245b-21d5a7f5ccf8": {
+    "id": "37e80575-1d0b-9e1c-245b-21d5a7f5ccf8",
+    "timestamp": 1754926296.199,
+    "keyword": [
+      "title:history",
+      "history",
+      "ben franklin",
+      "quotes"
+    ],
+    "extra": [],
+    "note": "Ben Franklin's 'Rules by Which a Great Empire May Be Reduced to a Small One'",
+    "link": [
+      "https://founders.archives.gov/documents/Franklin/01-20-02-0213#BNFN-01-20-02-0213-fn-0007"
+    ]
+  },
   "3810bb1a-384b-8022-29ce-7122bfc8e46e": {
     "id": "3810bb1a-384b-8022-29ce-7122bfc8e46e",
     "timestamp": 1653298790.958,
@@ -3337,6 +3367,26 @@
       "https://lukemuehlhauser.com/industrial-revolution/"
     ]
   },
+  "4b8e31ac-0e52-6ae2-a8d0-308800990f55": {
+    "id": "4b8e31ac-0e52-6ae2-a8d0-308800990f55",
+    "timestamp": 1754926170.542,
+    "keyword": [
+      "title:art",
+      "art",
+      "algorithmic",
+      "dance",
+      "choreography",
+      "live-coding",
+      "conference"
+    ],
+    "extra": [],
+    "note": "Alpaca: Algorithmic Pattern Catalogue",
+    "link": [
+      "https://algorithmicpattern.org/research-fellowship-project/",
+      "https://algorithmicpattern.org/publications/",
+      "https://2025.algorithmicpattern.org/"
+    ]
+  },
   "4ba7533e-1f0b-4db7-65a3-763227ffe0b8": {
     "id": "4ba7533e-1f0b-4db7-65a3-763227ffe0b8",
     "timestamp": 1666764527.945,
@@ -3888,6 +3938,23 @@
       "https://web.archive.org/web/20220108201437/https://zeux.io/2022/01/08/on-proebstings-law/",
       "https://web.archive.org/web/20220108231443/https://news.ycombinator.com/item?id=29855611",
       "https://web.archive.org/web/20080930075539/https://news.ycombinator.com/item?id=317213"
+    ]
+  },
+  "599498b0-9b37-a8e1-3137-f57393be6fa5": {
+    "id": "599498b0-9b37-a8e1-3137-f57393be6fa5",
+    "timestamp": 1754926104.269,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "machine-learning",
+      "resource",
+      "list",
+      "tutorial"
+    ],
+    "extra": [],
+    "note": "Curated list of AI concepts",
+    "link": [
+      "https://aman.ai/primers/ai/"
     ]
   },
   "5a60c943-b3a8-b5a1-d74a-c418e3a8f9db": {
@@ -4698,6 +4765,22 @@
       "https://trippy-daze.com/products/holographic-mermaid-shell-compact-mirror-pink"
     ]
   },
+  "6b3a5543-8bd6-dae0-6f6f-f85001ca3caf": {
+    "id": "6b3a5543-8bd6-dae0-6f6f-f85001ca3caf",
+    "timestamp": 1754926360.383,
+    "keyword": [
+      "title:speculative-science",
+      "speculative-science",
+      "space travel",
+      "science",
+      "space"
+    ],
+    "extra": [],
+    "note": "'Project Hyperion' design competition for generation ships",
+    "link": [
+      "https://www.projecthyperion.org/"
+    ]
+  },
   "6c0d1695-dcac-0b73-3a33-f8b891997fef": {
     "id": "6c0d1695-dcac-0b73-3a33-f8b891997fef",
     "timestamp": 1698157448.015,
@@ -5138,6 +5221,21 @@
       "https://web.archive.org/web/20210124214455/https://ericlippert.com/2015/05/04/wizards-and-warriors-part-three/",
       "https://web.archive.org/web/20210225134030/https://ericlippert.com/2015/05/07/wizards-and-warriors-part-four/",
       "https://news.ycombinator.com/item?id=27996684"
+    ]
+  },
+  "7696ae23-1cd6-13d2-cfe7-0e03d84a167a": {
+    "id": "7696ae23-1cd6-13d2-cfe7-0e03d84a167a",
+    "timestamp": 1754926221.694,
+    "keyword": [
+      "title:luddite",
+      "luddite",
+      "1910",
+      "industrial revolution"
+    ],
+    "extra": [],
+    "note": "'1910: The Year the Modern World Lost Its Mind'",
+    "link": [
+      "https://www.derekthompson.org/p/1910-the-year-the-modern-world-lost"
     ]
   },
   "77542abe-8673-f024-5bc4-fa2ea2e3ebc9": {
