@@ -1,0 +1,18 @@
+{
+  "id": "cf9967e7-c3e4-55e3-b520-8758affdb928",
+  "timestamp": 1755274777.784,
+  "keyword": [
+    "title:math",
+    "math",
+    "mathematics",
+    "riemann mapping",
+    "conformal map",
+    "complex analysis",
+    "schwarz-chrstoffel"
+  ],
+  "extra": [],
+  "note": "Schwarz-Christoffel mapping takes a polygon in the plane and constructs a conformal map to the upper half plane (aka implements the Riemann mapping theorem).",
+  "link": [
+    "https://en.wikipedia.org/wiki/Schwarz%E2%80%93Christoffel_mapping"
+  ]
+}

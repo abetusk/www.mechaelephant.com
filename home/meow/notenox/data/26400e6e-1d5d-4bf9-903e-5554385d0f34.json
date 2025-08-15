@@ -1,0 +1,17 @@
+{
+  "id": "26400e6e-1d5d-4bf9-903e-5554385d0f34",
+  "timestamp": 1755282403.642,
+  "keyword": [
+    "title:math",
+    "math",
+    "mathematics",
+    "dimer",
+    "domino",
+    "kasteleyn"
+  ],
+  "extra": [],
+  "note": "Kasteleyn's solution to counting the number of dimer tilings of an NxM rectangle. The forumala is closed form-ish (efficiently computable) but not immediately obvious. The arguments involve Pfaffians (Pfaffian is the square root of the matrix when the matrix is skew symmetric).",
+  "link": [
+    "https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1073&context=hmc_theses"
+  ]
+}
