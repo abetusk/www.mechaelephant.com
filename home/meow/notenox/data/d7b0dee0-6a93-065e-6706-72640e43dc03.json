@@ -1,0 +1,16 @@
+{
+  "id": "d7b0dee0-6a93-065e-6706-72640e43dc03",
+  "timestamp": 1756908369.287,
+  "keyword": [
+    "title:ml",
+    "ml",
+    "machine learning",
+    "svd",
+    "nlp"
+  ],
+  "extra": [],
+  "note": "Leland McInnes talks to Broad Institute about word embeddings. Specfically how some preprocssing, SVD and optimal transport can be used for the lions share of embeddings (without nn).",
+  "link": [
+    "https://www.youtube.com/watch?v=Z6s7PrfJlQ0&t=3084s"
+  ]
+}

@@ -5680,6 +5680,23 @@
       "https://web.archive.org/web/20210420144246/https://bobcares.com/blog/postfix-dovecot-spamassassin/"
     ]
   },
+  "7f2c23c7-d309-302e-5f40-e5ac8e889f67": {
+    "id": "7f2c23c7-d309-302e-5f40-e5ac8e889f67",
+    "timestamp": 1756909519.341,
+    "keyword": [
+      "title:diy",
+      "diy",
+      "wasp",
+      "bug",
+      "project"
+    ],
+    "extra": [],
+    "note": "Wasp blower and insect control projects using a fan to kill bugs.",
+    "link": [
+      "https://softsolder.com/2025/08/12/wasp-blower/",
+      "https://softsolder.com/2012/03/19/vermiculture-insect-control/"
+    ]
+  },
   "7f503885-8a1e-71f8-e46c-5fce58298ffc": {
     "id": "7f503885-8a1e-71f8-e46c-5fce58298ffc",
     "timestamp": 1637437223.444,
@@ -7462,6 +7479,23 @@
       "https://www.youtube.com/watch?v=rNuDkDhadfU",
       "https://iquilezles.org/articles/texturerepetition/",
       "https://github.com/simondevyoutube/ProceduralTerrain_Part5"
+    ]
+  },
+  "a4bc729a-4769-d74f-e0e2-8cae44438a80": {
+    "id": "a4bc729a-4769-d74f-e0e2-8cae44438a80",
+    "timestamp": 1756906959.564,
+    "keyword": [
+      "title:cell",
+      "cell",
+      "phone",
+      "cellular network",
+      "lte",
+      "5g"
+    ],
+    "extra": [],
+    "note": "Run an LTE network from home for 00",
+    "link": [
+      "https://lantian.pub/en/article/modify-computer/legal-lte-network-at-home-for-100-bucks.lantian/"
     ]
   },
   "a4c13618-36f4-5ece-780d-13f81ff668d3": {
@@ -10025,6 +10059,22 @@
     "link": [
       "http://www.math.buffalo.edu/mad/madgreatest.html",
       "https://web.archive.org/web/20210909113706/http://www.math.buffalo.edu/mad/madgreatest.html"
+    ]
+  },
+  "d7b0dee0-6a93-065e-6706-72640e43dc03": {
+    "id": "d7b0dee0-6a93-065e-6706-72640e43dc03",
+    "timestamp": 1756908369.287,
+    "keyword": [
+      "title:ml",
+      "ml",
+      "machine learning",
+      "svd",
+      "nlp"
+    ],
+    "extra": [],
+    "note": "Leland McInnes talks to Broad Institute about word embeddings. Specfically how some preprocssing, SVD and optimal transport can be used for the lions share of embeddings (without nn).",
+    "link": [
+      "https://www.youtube.com/watch?v=Z6s7PrfJlQ0&t=3084s"
     ]
   },
   "d82d64e3-038e-279d-a73f-11741fcac321": {
