@@ -1,0 +1,17 @@
+{
+  "id": "3ecb0075-9f44-f5cf-ebc7-d544674c4b4c",
+  "timestamp": 1757430559.484,
+  "keyword": [
+    "title:math",
+    "math",
+    "statistics",
+    "probability",
+    "data",
+    "analysis"
+  ],
+  "extra": [],
+  "note": "Anscombe's quartet is a set of four datasets that have near identical descriptive statistics but have different distributions. They consist of random lines sloping up, nearly linear lines at a different angle with one point skewing the regression up, a parabola that has the same linear regression and an x-cluster of points with a single outlier skewing the regression slope.",
+  "link": [
+    "https://en.wikipedia.org/wiki/Anscombe%27s_quartet"
+  ]
+}

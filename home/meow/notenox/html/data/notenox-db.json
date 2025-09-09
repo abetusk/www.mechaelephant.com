@@ -1779,6 +1779,24 @@
       "https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1073&context=hmc_theses"
     ]
   },
+  "271a7dcf-adb5-af00-1878-8dccf2c7ff45": {
+    "id": "271a7dcf-adb5-af00-1878-8dccf2c7ff45",
+    "timestamp": 1757249904.992,
+    "keyword": [
+      "title:math",
+      "math",
+      "art",
+      "impossible gemoetry",
+      "geometry",
+      "escher"
+    ],
+    "extra": [],
+    "note": "paper on a rendering trick to light impossible geometry",
+    "link": [
+      "https://anadodik.github.io/publication/meschers/",
+      "https://anadodik.github.io/publication/meschers/Meschers.pdf"
+    ]
+  },
   "27e767fa-8656-798d-ca22-bc6190c0e634": {
     "id": "27e767fa-8656-798d-ca22-bc6190c0e634",
     "timestamp": 1694832438.183,
@@ -2428,6 +2446,21 @@
       "https://steveblank.com/2025/07/08/blind-to-disruption-the-ceos-who-missed-the-future/"
     ]
   },
+  "33bbb8f7-3c5b-dbb9-707b-6e3c3795cc17": {
+    "id": "33bbb8f7-3c5b-dbb9-707b-6e3c3795cc17",
+    "timestamp": 1757249842.848,
+    "keyword": [
+      "title:astronomy",
+      "astronomy",
+      "galaxy",
+      "solar system"
+    ],
+    "extra": [],
+    "note": "zoomable universe within 14 billion light years",
+    "link": [
+      "http://www.atlasoftheuniverse.com/universe.html"
+    ]
+  },
   "34a03bd9-b424-1016-f889-b235bcad6756": {
     "id": "34a03bd9-b424-1016-f889-b235bcad6756",
     "timestamp": 1725199221.792,
@@ -2914,6 +2947,23 @@
       "https://web.archive.org/web/20220508142625/https://theintercept.com/2022/05/08/maryland-campaign-brandy-brooks-progressive-accountability/"
     ]
   },
+  "3ecb0075-9f44-f5cf-ebc7-d544674c4b4c": {
+    "id": "3ecb0075-9f44-f5cf-ebc7-d544674c4b4c",
+    "timestamp": 1757430559.484,
+    "keyword": [
+      "title:math",
+      "math",
+      "statistics",
+      "probability",
+      "data",
+      "analysis"
+    ],
+    "extra": [],
+    "note": "Anscombe's quartet is a set of four datasets that have near identical descriptive statistics but have different distributions. They consist of random lines sloping up, nearly linear lines at a different angle with one point skewing the regression up, a parabola that has the same linear regression and an x-cluster of points with a single outlier skewing the regression slope.",
+    "link": [
+      "https://en.wikipedia.org/wiki/Anscombe%27s_quartet"
+    ]
+  },
   "3f0f598d-240b-01bc-9023-6bff1f70169a": {
     "id": "3f0f598d-240b-01bc-9023-6bff1f70169a",
     "timestamp": 1714681069.038,
@@ -3094,6 +3144,21 @@
     "link": [
       "https://www.marxists.org/reference/archive/stalin/works/1934/07/23.htm",
       "https://web.archive.org/web/20220221124723/https://www.marxists.org/reference/archive/stalin/works/1934/07/23.htm"
+    ]
+  },
+  "43bdf7a4-2d7c-0f40-c638-5c69deb7fe17": {
+    "id": "43bdf7a4-2d7c-0f40-c638-5c69deb7fe17",
+    "timestamp": 1757249779.761,
+    "keyword": [
+      "title:graphics",
+      "graphics",
+      "ray tracing",
+      "tutorial"
+    ],
+    "extra": [],
+    "note": "'Ray Tracing in One Weekend'",
+    "link": [
+      "https://raytracing.github.io/books/RayTracingInOneWeekend.html"
     ]
   },
   "43e8cfc2-1973-c1fa-4abe-d08f0299a38d": {
