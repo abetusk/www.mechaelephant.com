@@ -239,6 +239,21 @@
       "https://en.wikipedia.org/wiki/CORDIC"
     ]
   },
+  "05c13829-2c34-5ac3-f168-9f3cc659a552": {
+    "id": "05c13829-2c34-5ac3-f168-9f3cc659a552",
+    "timestamp": 1754926254.838,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "tutorial",
+      "guide"
+    ],
+    "extra": [],
+    "note": "'Creating high quality electronics schematics'",
+    "link": [
+      "https://blog.poly.nomial.co.uk/2025-08-10-creating-high-quality-electronics-schematics.html"
+    ]
+  },
   "0653c5cc-edf9-8c28-6857-8ee1305b13b4": {
     "id": "0653c5cc-edf9-8c28-6857-8ee1305b13b4",
     "timestamp": 1737873219.003,
@@ -1153,6 +1168,21 @@
       "https://open.spotify.com/episode/41G5sIcfrno0EXiYK8LUnh"
     ]
   },
+  "18872f1c-968d-60d5-13be-7bfdc04d8d32": {
+    "id": "18872f1c-968d-60d5-13be-7bfdc04d8d32",
+    "timestamp": 1756913068.189,
+    "keyword": [
+      "title:quote",
+      "quote",
+      "invention"
+    ],
+    "extra": [],
+    "note": "From 'The Developmkent of the Incadescent Electric Lamp':\nA point which is here worthy of notice , and which , curiously enough , has not received that attention from the student , or indeed from the inventor , which it merits , is that there is a strong tendency on the part of the human brain to think in grooves . In some way or other a discovery is made and a method by means of which some pressing need of mankind can be filled is devised . Immediately inventors follow the lead given , and work on the original discovery , adhering to the lines laid down , continuing the development of the first method which was adopted . After a certain , usually a consider- able , lapse of time , some genius by the exercise of original thought strikes out in a fresh direction and devises some means of a totally distinct character by which the same end can be attained . Or some inventor , with less originality , harks back to the inception of the idea and proceeds to carry out its development along lines of his own , until his efforts are crowned with success , and similar or better re- sults , obtained probably in a commercially cheaper manner , are at- tained . At once the whole army of what may be termed improvers abandon their previous studies and rush helter - skelter to the new line of investigation . The methods they have been following are abandoned and eventually forgotten , and a new groove is laid down along which each steadily proceeds . Possibly some student , years afterwards , turns back to the point where the previous rut came to a dead end , gives his attention to the old and abandoned experiments , sees that some good may result from carrying them further , meets with some degree of success , and immediately the army of workers - up of other men's ideas come back , enthusiastically eager to improve where they have not possessed sufficient knowledge or originality to initiate.",
+    "link": [
+      "https://play.google.com/books/reader?id=kJQ3AAAAMAAJ&pg=GBS.PA4&hl=en",
+      "https://www.youtube.com/watch?v=7Sc1rjGMblM"
+    ]
+  },
   "18f922c8-0bf1-a12b-bc1f-ac63b1f4533b": {
     "id": "18f922c8-0bf1-a12b-bc1f-ac63b1f4533b",
     "timestamp": 1662400131.347,
@@ -1730,6 +1760,41 @@
       "https://fertile-soil-productions.itch.io/temple-modular-collection",
       "https://fertile-soil-productions.itch.io/",
       "https://fertile-soil-productions.itch.io/marble-track-blocks"
+    ]
+  },
+  "26400e6e-1d5d-4bf9-903e-5554385d0f34": {
+    "id": "26400e6e-1d5d-4bf9-903e-5554385d0f34",
+    "timestamp": 1755282403.642,
+    "keyword": [
+      "title:math",
+      "math",
+      "mathematics",
+      "dimer",
+      "domino",
+      "kasteleyn"
+    ],
+    "extra": [],
+    "note": "Kasteleyn's solution to counting the number of dimer tilings of an NxM rectangle. The forumala is closed form-ish (efficiently computable) but not immediately obvious. The arguments involve Pfaffians (Pfaffian is the square root of the matrix when the matrix is skew symmetric).",
+    "link": [
+      "https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1073&context=hmc_theses"
+    ]
+  },
+  "271a7dcf-adb5-af00-1878-8dccf2c7ff45": {
+    "id": "271a7dcf-adb5-af00-1878-8dccf2c7ff45",
+    "timestamp": 1757249904.992,
+    "keyword": [
+      "title:math",
+      "math",
+      "art",
+      "impossible gemoetry",
+      "geometry",
+      "escher"
+    ],
+    "extra": [],
+    "note": "paper on a rendering trick to light impossible geometry",
+    "link": [
+      "https://anadodik.github.io/publication/meschers/",
+      "https://anadodik.github.io/publication/meschers/Meschers.pdf"
     ]
   },
   "27e767fa-8656-798d-ca22-bc6190c0e634": {
@@ -2381,6 +2446,21 @@
       "https://steveblank.com/2025/07/08/blind-to-disruption-the-ceos-who-missed-the-future/"
     ]
   },
+  "33bbb8f7-3c5b-dbb9-707b-6e3c3795cc17": {
+    "id": "33bbb8f7-3c5b-dbb9-707b-6e3c3795cc17",
+    "timestamp": 1757249842.848,
+    "keyword": [
+      "title:astronomy",
+      "astronomy",
+      "galaxy",
+      "solar system"
+    ],
+    "extra": [],
+    "note": "zoomable universe within 14 billion light years",
+    "link": [
+      "http://www.atlasoftheuniverse.com/universe.html"
+    ]
+  },
   "34a03bd9-b424-1016-f889-b235bcad6756": {
     "id": "34a03bd9-b424-1016-f889-b235bcad6756",
     "timestamp": 1725199221.792,
@@ -2503,6 +2583,21 @@
       "https://electronics.stackexchange.com/questions/279935/flush-mounted-threaded-through-hole-on-pcb",
       "https://www.digikey.com/en/products/detail/24881/36-24881-1-ND/9921840?WT.z_cid=ref_netcomponents_dkc_buynow&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=buynow",
       "http://www.keystoneelectronics.net/ENG._DEPT/WEB_ORACLE/PDF/PDF%20CAT%20NO%20DRAWINGS/20000-29999/24881.PDF"
+    ]
+  },
+  "37e80575-1d0b-9e1c-245b-21d5a7f5ccf8": {
+    "id": "37e80575-1d0b-9e1c-245b-21d5a7f5ccf8",
+    "timestamp": 1754926296.199,
+    "keyword": [
+      "title:history",
+      "history",
+      "ben franklin",
+      "quotes"
+    ],
+    "extra": [],
+    "note": "Ben Franklin's 'Rules by Which a Great Empire May Be Reduced to a Small One'",
+    "link": [
+      "https://founders.archives.gov/documents/Franklin/01-20-02-0213#BNFN-01-20-02-0213-fn-0007"
     ]
   },
   "3810bb1a-384b-8022-29ce-7122bfc8e46e": {
@@ -2852,6 +2947,23 @@
       "https://web.archive.org/web/20220508142625/https://theintercept.com/2022/05/08/maryland-campaign-brandy-brooks-progressive-accountability/"
     ]
   },
+  "3ecb0075-9f44-f5cf-ebc7-d544674c4b4c": {
+    "id": "3ecb0075-9f44-f5cf-ebc7-d544674c4b4c",
+    "timestamp": 1757430559.484,
+    "keyword": [
+      "title:math",
+      "math",
+      "statistics",
+      "probability",
+      "data",
+      "analysis"
+    ],
+    "extra": [],
+    "note": "Anscombe's quartet is a set of four datasets that have near identical descriptive statistics but have different distributions. They consist of random lines sloping up, nearly linear lines at a different angle with one point skewing the regression up, a parabola that has the same linear regression and an x-cluster of points with a single outlier skewing the regression slope.",
+    "link": [
+      "https://en.wikipedia.org/wiki/Anscombe%27s_quartet"
+    ]
+  },
   "3f0f598d-240b-01bc-9023-6bff1f70169a": {
     "id": "3f0f598d-240b-01bc-9023-6bff1f70169a",
     "timestamp": 1714681069.038,
@@ -3032,6 +3144,21 @@
     "link": [
       "https://www.marxists.org/reference/archive/stalin/works/1934/07/23.htm",
       "https://web.archive.org/web/20220221124723/https://www.marxists.org/reference/archive/stalin/works/1934/07/23.htm"
+    ]
+  },
+  "43bdf7a4-2d7c-0f40-c638-5c69deb7fe17": {
+    "id": "43bdf7a4-2d7c-0f40-c638-5c69deb7fe17",
+    "timestamp": 1757249779.761,
+    "keyword": [
+      "title:graphics",
+      "graphics",
+      "ray tracing",
+      "tutorial"
+    ],
+    "extra": [],
+    "note": "'Ray Tracing in One Weekend'",
+    "link": [
+      "https://raytracing.github.io/books/RayTracingInOneWeekend.html"
     ]
   },
   "43e8cfc2-1973-c1fa-4abe-d08f0299a38d": {
@@ -3335,6 +3462,26 @@
     "note": "'How big a deal was the industrial revolution?'",
     "link": [
       "https://lukemuehlhauser.com/industrial-revolution/"
+    ]
+  },
+  "4b8e31ac-0e52-6ae2-a8d0-308800990f55": {
+    "id": "4b8e31ac-0e52-6ae2-a8d0-308800990f55",
+    "timestamp": 1754926170.542,
+    "keyword": [
+      "title:art",
+      "art",
+      "algorithmic",
+      "dance",
+      "choreography",
+      "live-coding",
+      "conference"
+    ],
+    "extra": [],
+    "note": "Alpaca: Algorithmic Pattern Catalogue",
+    "link": [
+      "https://algorithmicpattern.org/research-fellowship-project/",
+      "https://algorithmicpattern.org/publications/",
+      "https://2025.algorithmicpattern.org/"
     ]
   },
   "4ba7533e-1f0b-4db7-65a3-763227ffe0b8": {
@@ -3888,6 +4035,23 @@
       "https://web.archive.org/web/20220108201437/https://zeux.io/2022/01/08/on-proebstings-law/",
       "https://web.archive.org/web/20220108231443/https://news.ycombinator.com/item?id=29855611",
       "https://web.archive.org/web/20080930075539/https://news.ycombinator.com/item?id=317213"
+    ]
+  },
+  "599498b0-9b37-a8e1-3137-f57393be6fa5": {
+    "id": "599498b0-9b37-a8e1-3137-f57393be6fa5",
+    "timestamp": 1754926104.269,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "machine-learning",
+      "resource",
+      "list",
+      "tutorial"
+    ],
+    "extra": [],
+    "note": "Curated list of AI concepts",
+    "link": [
+      "https://aman.ai/primers/ai/"
     ]
   },
   "5a60c943-b3a8-b5a1-d74a-c418e3a8f9db": {
@@ -4698,6 +4862,22 @@
       "https://trippy-daze.com/products/holographic-mermaid-shell-compact-mirror-pink"
     ]
   },
+  "6b3a5543-8bd6-dae0-6f6f-f85001ca3caf": {
+    "id": "6b3a5543-8bd6-dae0-6f6f-f85001ca3caf",
+    "timestamp": 1754926360.383,
+    "keyword": [
+      "title:speculative-science",
+      "speculative-science",
+      "space travel",
+      "science",
+      "space"
+    ],
+    "extra": [],
+    "note": "'Project Hyperion' design competition for generation ships",
+    "link": [
+      "https://www.projecthyperion.org/"
+    ]
+  },
   "6c0d1695-dcac-0b73-3a33-f8b891997fef": {
     "id": "6c0d1695-dcac-0b73-3a33-f8b891997fef",
     "timestamp": 1698157448.015,
@@ -5140,6 +5320,21 @@
       "https://news.ycombinator.com/item?id=27996684"
     ]
   },
+  "7696ae23-1cd6-13d2-cfe7-0e03d84a167a": {
+    "id": "7696ae23-1cd6-13d2-cfe7-0e03d84a167a",
+    "timestamp": 1754926221.694,
+    "keyword": [
+      "title:luddite",
+      "luddite",
+      "1910",
+      "industrial revolution"
+    ],
+    "extra": [],
+    "note": "'1910: The Year the Modern World Lost Its Mind'",
+    "link": [
+      "https://www.derekthompson.org/p/1910-the-year-the-modern-world-lost"
+    ]
+  },
   "77542abe-8673-f024-5bc4-fa2ea2e3ebc9": {
     "id": "77542abe-8673-f024-5bc4-fa2ea2e3ebc9",
     "timestamp": 1616409803.515,
@@ -5303,6 +5498,28 @@
     "link": [
       "https://en.wikipedia.org/wiki/Alan_Kay",
       "https://www.youtube.com/watch?v=gTAghAJcO1o"
+    ]
+  },
+  "7b1d5502-61ef-2abc-f446-8746bdfd4d1b": {
+    "id": "7b1d5502-61ef-2abc-f446-8746bdfd4d1b",
+    "timestamp": 1754705340.513,
+    "keyword": [
+      "title:music",
+      "music",
+      "generative",
+      "web audio",
+      "html",
+      "audio",
+      "webaudio"
+    ],
+    "extra": [],
+    "note": "Resources for web audio stuff, including vitalik's acid banger generative experiment",
+    "link": [
+      "https://github.com/vitling/acid-banger/tree/main",
+      "https://www.vitling.xyz/toys/acid-banger/",
+      "https://web.dev/articles/audio-scheduling",
+      "https://sonoport.github.io/web-audio-clock.html",
+      "https://github.com/cwilso/metronome/"
     ]
   },
   "7b3cb45e-c549-cb52-bfe9-9504eb09e107": {
@@ -5541,6 +5758,23 @@
     "link": [
       "https://bobcares.com/blog/postfix-dovecot-spamassassin/",
       "https://web.archive.org/web/20210420144246/https://bobcares.com/blog/postfix-dovecot-spamassassin/"
+    ]
+  },
+  "7f2c23c7-d309-302e-5f40-e5ac8e889f67": {
+    "id": "7f2c23c7-d309-302e-5f40-e5ac8e889f67",
+    "timestamp": 1756909519.341,
+    "keyword": [
+      "title:diy",
+      "diy",
+      "wasp",
+      "bug",
+      "project"
+    ],
+    "extra": [],
+    "note": "Wasp blower and insect control projects using a fan to kill bugs.",
+    "link": [
+      "https://softsolder.com/2025/08/12/wasp-blower/",
+      "https://softsolder.com/2012/03/19/vermiculture-insect-control/"
     ]
   },
   "7f503885-8a1e-71f8-e46c-5fce58298ffc": {
@@ -6902,6 +7136,21 @@
       "https://karpathy.github.io/2015/05/21/rnn-effectiveness/"
     ]
   },
+  "9c9793f6-d130-b72e-e131-ca205f7205f2": {
+    "id": "9c9793f6-d130-b72e-e131-ca205f7205f2",
+    "timestamp": 1756749098.611,
+    "keyword": [
+      "title:open-source",
+      "open source ; source available "
+    ],
+    "extra": [],
+    "note": "Bear goes source-available from MIT, citing 'theft' of income by bad corporate players. Looks like Bear is a blogging platform (as of this writing 3.8k stars on GitHub).",
+    "link": [
+      "https://herman.bearblog.dev/license/",
+      "https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md",
+      "https://news.ycombinator.com/item?id=45092490"
+    ]
+  },
   "9ca40070-a531-31c5-c5a5-3ea026e311d1": {
     "id": "9ca40070-a531-31c5-c5a5-3ea026e311d1",
     "timestamp": 1608224410.199,
@@ -7310,6 +7559,23 @@
       "https://www.youtube.com/watch?v=rNuDkDhadfU",
       "https://iquilezles.org/articles/texturerepetition/",
       "https://github.com/simondevyoutube/ProceduralTerrain_Part5"
+    ]
+  },
+  "a4bc729a-4769-d74f-e0e2-8cae44438a80": {
+    "id": "a4bc729a-4769-d74f-e0e2-8cae44438a80",
+    "timestamp": 1756906959.564,
+    "keyword": [
+      "title:cell",
+      "cell",
+      "phone",
+      "cellular network",
+      "lte",
+      "5g"
+    ],
+    "extra": [],
+    "note": "Run an LTE network from home for 00",
+    "link": [
+      "https://lantian.pub/en/article/modify-computer/legal-lte-network-at-home-for-100-bucks.lantian/"
     ]
   },
   "a4c13618-36f4-5ece-780d-13f81ff668d3": {
@@ -9475,6 +9741,24 @@
       "https://www.etsy.com/listing/840732230/spooky-cats-miniature-picture-gallery"
     ]
   },
+  "cf9967e7-c3e4-55e3-b520-8758affdb928": {
+    "id": "cf9967e7-c3e4-55e3-b520-8758affdb928",
+    "timestamp": 1755274777.784,
+    "keyword": [
+      "title:math",
+      "math",
+      "mathematics",
+      "riemann mapping",
+      "conformal map",
+      "complex analysis",
+      "schwarz-chrstoffel"
+    ],
+    "extra": [],
+    "note": "Schwarz-Christoffel mapping takes a polygon in the plane and constructs a conformal map to the upper half plane (aka implements the Riemann mapping theorem).",
+    "link": [
+      "https://en.wikipedia.org/wiki/Schwarz%E2%80%93Christoffel_mapping"
+    ]
+  },
   "cfeb1212-f535-16f7-7234-f19d83b3e214": {
     "id": "cfeb1212-f535-16f7-7234-f19d83b3e214",
     "timestamp": 1706115396.626,
@@ -9857,6 +10141,22 @@
       "https://web.archive.org/web/20210909113706/http://www.math.buffalo.edu/mad/madgreatest.html"
     ]
   },
+  "d7b0dee0-6a93-065e-6706-72640e43dc03": {
+    "id": "d7b0dee0-6a93-065e-6706-72640e43dc03",
+    "timestamp": 1756908369.287,
+    "keyword": [
+      "title:ml",
+      "ml",
+      "machine learning",
+      "svd",
+      "nlp"
+    ],
+    "extra": [],
+    "note": "Leland McInnes talks to Broad Institute about word embeddings. Specfically how some preprocssing, SVD and optimal transport can be used for the lions share of embeddings (without nn).",
+    "link": [
+      "https://www.youtube.com/watch?v=Z6s7PrfJlQ0&t=3084s"
+    ]
+  },
   "d82d64e3-038e-279d-a73f-11741fcac321": {
     "id": "d82d64e3-038e-279d-a73f-11741fcac321",
     "timestamp": 1618385907.945,
@@ -9876,6 +10176,27 @@
       "https://doubleunion.org/policies/",
       "https://web.archive.org/web/20210216185037/https://doubleunion.org/policies/",
       "https://web.archive.org/web/20190410164803/https://blog.valerieaurora.org/2018/12/18/clarification-of-double-union-post/"
+    ]
+  },
+  "d89b9eb4-6b82-4aee-8d6e-b4f431e04acc": {
+    "id": "d89b9eb4-6b82-4aee-8d6e-b4f431e04acc",
+    "timestamp": 1755367626.152,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "gps",
+      "tracker",
+      "sim",
+      "modem"
+    ],
+    "extra": [],
+    "note": "walter lojack tracker",
+    "link": [
+      "https://github.com/QuickSpot/walter-hardware",
+      "https://www.dptechnics.com/en/products/walter.html",
+      "https://www.youtube.com/watch?v=6QUVzvhEhu4",
+      "https://github.com/QuickSpot/walter-hardware",
+      "https://www.crowdsupply.com/dptechnics/walter"
     ]
   },
   "d9d9ce49-2cfe-c76f-1d64-6369fdaabb2b": {
