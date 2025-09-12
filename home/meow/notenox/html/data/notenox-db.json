@@ -4319,6 +4319,25 @@
       "https://www.instagram.com/brookesweston/"
     ]
   },
+  "60204f13-159c-6fa3-2eed-b6e674c4a92e": {
+    "id": "60204f13-159c-6fa3-2eed-b6e674c4a92e",
+    "timestamp": 1757709545.196,
+    "keyword": [
+      "title:academia",
+      "academia",
+      "conferences",
+      "wiki",
+      "list",
+      "academic",
+      "paper",
+      "publishing"
+    ],
+    "extra": [],
+    "note": "WikiCFP, wiki for calls for papers",
+    "link": [
+      "http://www.wikicfp.com/cfp/"
+    ]
+  },
   "60d29c04-9a57-e771-51e2-6616840410d7": {
     "id": "60d29c04-9a57-e771-51e2-6616840410d7",
     "timestamp": 1750559434.754,
@@ -8126,7 +8145,7 @@
       "probability"
     ],
     "extra": [],
-    "note": "Multiplicative Weights Update Algorithm (MWUA) exponentially increases weight choices for sampling events. So:\n  _ {t+1} = w_t \\cdot (1 + G)$\nin the case of a positive event. I think this is effectively EXP3 for the multi-armed bandit (MAB) problem. This can be used in a variety of other contexts and gives some theoretical guarantees about convergence, regret minimization and optimality, under certain conditions.\nThe more general method is called mirror descent.",
+    "note": "Multiplicative Weights Update Algorithm (MWUA) exponentially increases weight choices for sampling events. So:\n  $w _ {t+1} = w_t \\cdot (1 + G)$\nin the case of a positive event. I think this is effectively EXP3 for the multi-armed bandit (MAB) problem. This can be used in a variety of other contexts and gives some theoretical guarantees about convergence, regret minimization and optimality, under certain conditions.\nThe more general method is called mirror descent.",
     "link": [
       "https://www.jeremykun.com/2017/02/27/the-reasonable-effectiveness-of-the-multiplicative-weights-update-algorithm/",
       "https://nisheethvishnoi.wordpress.com/wp-content/uploads/2018/05/lecture42.pdf",
@@ -10459,7 +10478,7 @@
       "bitcoin"
     ],
     "extra": [],
-    "note": "'Bitcoin's Full Potential Valuation' by Jesse Myers. Notable for the breakdown of global asset landscape. Current estimate is about /bin/bash.9Q (00T), with approximate numbers of real estate ($.33Q), bonds ($.3Q), money ($.12Q), equities ($.12Q) (btc currently at around $.4T).",
+    "note": "'Bitcoin's Full Potential Valuation' by Jesse Myers. Notable for the breakdown of global asset landscape. Current estimate is about $.9Q ($900 T), with approximate numbers of real estate ($.33Q), bonds ($.3Q), money ($.12Q), equities ($.12Q) (btc currently at around $.4T).",
     "link": [
       "https://www.onceinaspecies.com/p/bitcoins-full-potential-valuation",
       "https://web.archive.org/web/20240705083813/https://www.onceinaspecies.com/p/bitcoins-full-potential-valuation"
