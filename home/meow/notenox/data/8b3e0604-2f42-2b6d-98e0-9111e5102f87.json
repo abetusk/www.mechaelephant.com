@@ -1,0 +1,13 @@
+{
+  "id": "8b3e0604-2f42-2b6d-98e0-9111e5102f87",
+  "timestamp": 1758767740.754,
+  "keyword": [
+    "title:meager thoughts",
+    "meager thoughts",
+    "energy",
+    "economics"
+  ],
+  "extra": [],
+  "note": "As of this writing, USA prices are $0.1522 / kWh or more (NY might be higher). That's about $4.50 / day for a 30kWh home (rough average USA) or aout $1600/year. To make $100k / year from energy, assuming one could find purchasers at that price, a 2 MWh/day system (2000 kWh/day) is needed.\nAt $0.30/W for solar, with 5 hours of sunlight, and $0.05/Wh for battery, that comes out to roughly $120k + $100k = $220k for a system. This gives a rough estimate of 2 years ROI.\nSome possible use cases for selling electricity are: cryptocurrency farming, repleneshing batteries, refrigeration. The problem is that the energy needs to be used on-site or transported off site. On-site usage could suggest cryptocurrency but then you'd need mining hardware or some way to effectively lease hardware to use on-site. Off site means there's transportation. Direct energy dispersal runs into legacy grid infrastructure, having to lay your own infrastructure down (providing power to neighbors, say) or transportation of energy directly, say through batteries and depositing them that way or transporting things like ice or other energy storage deviecs.\nProviding energy locally needs local municipality buy-in. Feeding back into the grid needs buy-in from the energy company who are highly incentivized to stop you. Cryptocurrency mining is an arms race keeping up with the latest in miners to compete and use energy effectively.",
+  "link": []
+}

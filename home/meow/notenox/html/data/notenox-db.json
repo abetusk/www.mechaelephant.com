@@ -354,6 +354,24 @@
       "https://boredhoard.com/"
     ]
   },
+  "08a8f11c-e044-7641-0926-d1afceff2997": {
+    "id": "08a8f11c-e044-7641-0926-d1afceff2997",
+    "timestamp": 1758765604.496,
+    "keyword": [
+      "title:health",
+      "health",
+      "healthcare",
+      "huntington",
+      "disease",
+      "treatment"
+    ],
+    "extra": [],
+    "note": "Huntington's disease treated for first time",
+    "link": [
+      "https://www.bbc.com/news/articles/cevz13xkxpro",
+      "https://news.ycombinator.com/item?id=45358940"
+    ]
+  },
   "0951ffa8-832f-ec8b-87d4-df6433501ae3": {
     "id": "0951ffa8-832f-ec8b-87d4-df6433501ae3",
     "timestamp": 1633291269.527,
@@ -6285,6 +6303,19 @@
       "https://www.youtube.com/watch?v=xW2Nwg_RX84"
     ]
   },
+  "8b3e0604-2f42-2b6d-98e0-9111e5102f87": {
+    "id": "8b3e0604-2f42-2b6d-98e0-9111e5102f87",
+    "timestamp": 1758767740.754,
+    "keyword": [
+      "title:meager thoughts",
+      "meager thoughts",
+      "energy",
+      "economics"
+    ],
+    "extra": [],
+    "note": "As of this writing, USA prices are $0.1522 / kWh or more (NY might be higher). That's about $4.50 / day for a 30kWh home (rough average USA) or aout $1600/year. To make $100k / year from energy, assuming one could find purchasers at that price, a 2 MWh/day system (2000 kWh/day) is needed.\nAt $0.30/W for solar, with 5 hours of sunlight, and $0.05/Wh for battery, that comes out to roughly $120k + $100k = $220k for a system. This gives a rough estimate of 2 years ROI.\nSome possible use cases for selling electricity are: cryptocurrency farming, repleneshing batteries, refrigeration. The problem is that the energy needs to be used on-site or transported off site. On-site usage could suggest cryptocurrency but then you'd need mining hardware or some way to effectively lease hardware to use on-site. Off site means there's transportation. Direct energy dispersal runs into legacy grid infrastructure, having to lay your own infrastructure down (providing power to neighbors, say) or transportation of energy directly, say through batteries and depositing them that way or transporting things like ice or other energy storage deviecs.\nProviding energy locally needs local municipality buy-in. Feeding back into the grid needs buy-in from the energy company who are highly incentivized to stop you. Cryptocurrency mining is an arms race keeping up with the latest in miners to compete and use energy effectively.",
+    "link": []
+  },
   "8c04db94-e85d-43d7-75b7-77379968a226": {
     "id": "8c04db94-e85d-43d7-75b7-77379968a226",
     "timestamp": 1671625492.023,
@@ -9081,6 +9112,24 @@
     "note": "Young's inequality:\n $$ a,b \\ge 0, p,q > 1, \\frac{1}{p} + \\frac{1}{q} = 1 \\to ab \\le \\frac{a^p}{p} + \\frac{b^q}{q} $$",
     "link": [
       "https://en.wikipedia.org/wiki/Young%27s_inequality_for_products"
+    ]
+  },
+  "c2ce1624-1258-5567-cde8-b45d636bbdc1": {
+    "id": "c2ce1624-1258-5567-cde8-b45d636bbdc1",
+    "timestamp": 1758316932.737,
+    "keyword": [
+      "title:art",
+      "art",
+      "mystic",
+      "public domain",
+      "pd",
+      "occult"
+    ],
+    "extra": [],
+    "note": "Athanasius Kircher and Robert Fludd are two artists/scholars/occultists that have diagrams and other art that I like",
+    "link": [
+      "https://commons.wikimedia.org/wiki/Category:Athanasius_Kircher",
+      "https://commons.wikimedia.org/wiki/Category:De_naturae_simia...,_by_Robert_Fludd,_1618"
     ]
   },
   "c2ed3b6a-47ee-a318-f518-50397ff214db": {
