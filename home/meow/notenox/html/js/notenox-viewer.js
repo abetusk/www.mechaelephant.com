@@ -542,6 +542,8 @@ function notenox_viewer_init() {
     var _dat = JSON.parse(response);
     notenox_viewer_load_db(_dat);
     notenox_viewer_post_init();
+
+    notenox_viewer_ui_all();
   });
 }
 
