@@ -2122,6 +2122,24 @@
       "https://web.archive.org/web/20221002060107/https://www.theatlantic.com/ideas/archive/2022/10/warhol-copyright-fair-use-supreme-court-prince/671599/"
     ]
   },
+  "2ca9a9a6-cfe9-8b6f-6658-e45b596688c0": {
+    "id": "2ca9a9a6-cfe9-8b6f-6658-e45b596688c0",
+    "timestamp": 1759698021.751,
+    "keyword": [
+      "title:art",
+      "art",
+      "generative art",
+      "hobby curve",
+      "simplex noise",
+      "noise",
+      "hilbert order"
+    ],
+    "extra": [],
+    "note": "Nice article on creating swooping generative body lines that I've seen before. The idea is to create simplex noise points to give some spatial correlation, order they using a Hilbert order (overlay Hilbert curve and find index from spatial coordinates) then connect via a hobby curve. The Hilbert order isn't something I'd seen before but a nice application of the Hilbert curve to linearly order random points in 2d or 3d.",
+    "link": [
+      "https://nedbatchelder.com/blog/202509/hobby_hilbert_simplex.html"
+    ]
+  },
   "2cc5dbdc-c698-68d9-4788-17fabd9bdbb1": {
     "id": "2cc5dbdc-c698-68d9-4788-17fabd9bdbb1",
     "timestamp": 1733461216.582,
