@@ -1,0 +1,17 @@
+{
+  "id": "68ffd138-826f-d9ee-203b-5f9a396eaed6",
+  "timestamp": 1759697829.894,
+  "keyword": [
+    "title:github",
+    "github",
+    "notifications",
+    "spam",
+    "api",
+    "gh"
+  ],
+  "extra": [],
+  "note": "You can use the cli GitHub api (called 'gh') to delete notifications that are orphaned.\napt install gh\ngh auth login\ngh api /notifications | jq -r '.[].id' | xargs -n1 -I{} gh api -X DELETE /notifications/threads/{}\n",
+  "link": [
+    "https://github.com/orgs/community/discussions/63958"
+  ]
+}
