@@ -13,6 +13,7 @@
   "extra": [],
   "note": "Nice article on creating swooping generative body lines that I've seen before. The idea is to create simplex noise points to give some spatial correlation, order they using a Hilbert order (overlay Hilbert curve and find index from spatial coordinates) then connect via a hobby curve. The Hilbert order isn't something I'd seen before but a nice application of the Hilbert curve to linearly order random points in 2d or 3d.",
   "link": [
-    "https://nedbatchelder.com/blog/202509/hobby_hilbert_simplex.html"
+    "https://nedbatchelder.com/blog/202509/hobby_hilbert_simplex.html",
+    "https://github.com/nedbat/fluidity"
   ]
 }
