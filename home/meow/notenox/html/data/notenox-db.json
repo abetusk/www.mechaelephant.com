@@ -11683,6 +11683,26 @@
       "https://en.wikipedia.org/wiki/Margaret_Crane"
     ]
   },
+  "f40e013e-4aa2-50d6-94f2-534ddfc1d964": {
+    "id": "f40e013e-4aa2-50d6-94f2-534ddfc1d964",
+    "timestamp": 1759684221.801,
+    "keyword": [
+      "title:art",
+      "art",
+      "generative",
+      "hobby curve",
+      "simplex noise",
+      "hilbert sorting",
+      "sfc"
+    ],
+    "extra": [],
+    "note": "Generative art that creates 'swooping' lines by 0) picking points with simplex noise 1) ordering them using hilbert order 2) connecting them with a hobby curve. Very nice chaining of ideas.",
+    "link": [
+      "https://nedbatchelder.com/blog/202509/hobby_hilbert_simplex.html",
+      "https://github.com/nedbat/fluidity",
+      "https://charlesreid1.com/wiki/Hilbert_Sort"
+    ]
+  },
   "f46d7274-18db-3290-8484-7f590ae25481": {
     "id": "f46d7274-18db-3290-8484-7f590ae25481",
     "timestamp": 1660491596.323,
