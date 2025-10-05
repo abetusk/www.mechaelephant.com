@@ -22,12 +22,13 @@ Quick Use
 ---
 
 ```
-notenox -T mynote \
+notenox -T noteTitle \
   -K 'note ; notes ; example' \
   -k 'note taking' \
   -l 'http://example.com' \
   -l 'http://example.com/note' \
   -n "this is an example note"
+  -S
 ```
 
 Will produce:
@@ -37,7 +38,7 @@ Will produce:
   "id": "e1277ad4-30c5-6af3-89ee-7ca1bd800012",
   "timestamp": 1608835311.392,
   "keyword": [
-    "title:mynote",
+    "title:noteTitle",
     "note",
     "notes",
     "example",
@@ -113,7 +114,7 @@ Web Viewer
 First, notes must be collected into a single file for download:
 
 ```
-./notenox-org > html/data/notenox-db.json
+notenox flush
 ```
 
 To test, start a web browser in the `html` directory:
@@ -138,7 +139,8 @@ The configuration file can have the following parameters (defaults listed below)
   "debug" : false,
   "silent": false,
   "save" : false,
-  "out_dir": "./"
+  "out_dir": "./",
+  "db": "notenox-db.json"
 };
 ```
 
@@ -146,6 +148,7 @@ The configuration file can have the following parameters (defaults listed below)
 * `silent` - do not print out note
 * `save` - save to disk
 * `out_dir` - output directory to save entry to
+* `db` - output file for the collected JSON database of notes
 
 
 
@@ -171,7 +174,7 @@ usage:
   [-u|--id id]                set ID (defaults to random)
   [-I]                        enable interpretation of note (interpret carriage returns)
   [-s]                        silent (don't print out note)
-  [-S]                        save note (unimplemented)
+  [-S]                        save note
   [-c <cfgfile>]              specify config file (default /home/abe/.config/notenox/notenox.conf)
   [-D]                        debug output
   [-h]                        show help (this screen)
@@ -235,15 +238,52 @@ Here is an example note:
 Misc
 ---
 
-There is a helper command line tool called `kw` to help see what key words etc. there are:
+All functionality has been collected into the JavaScript script `notenox`.
 
 ```
-./kw [title]
+$ notenox help
+version: 0.2.0
+
+usage:
+
+    notenox [-h] [-v] [-n note] [-t timestamp] [-k keyword] [-l link] [-e extra] [-I] [OP [OPVAL]]
+
+  [OP]                        flush|kw|title|all|help (text as note if no op found)
+  [OP OPVAL]                  kw|id <kw|id>
+  [-n|--note note ]           note (ignored if OP specified and not keyword)
+  [-t|--timestamp timestamp]  timestamp (seconds UTC, defaults to now)
+  [-k|--keyword keyword]      keyword (can be specified multiple times)
+  [-K keywords]               add list of keywords (seperated by';')
+  [-l|--link link]            link (can be specified multiple times)
+  [-e|--extra extra ]         extra information (can be specified multiple times)
+  [-T|--title titlename]      add special 'title' keyword to keyword (append extra keyword 'title:<titlename>' to keywords
+  [-u|--id id]                set ID (defaults to random)
+  [-I]                        enable interpretation of note (interpret carriage returns)
+  [-s]                        silent (don't print out note)
+  [-S]                        save note (unimplemented)
+  [-c <cfgfile>]              specify config file (default /home/abe/.config/notenox/notenox.conf)
+  [-D]                        debug output
+  [-h]                        show help (this screen)
+  [-v]                        show version
 ```
 
-Just a short shell script to do some basic parsing of the `data` directory to filter out the `keyword`
-field and elements in the `keyword` field with the prefix `title:`, if the `title` option is specified.
+Elements with keywords, titles, etc. and their frequencies can be printed using:
 
+```
+$ notenox kw
+...
+$ notenox title
+...
+```
+
+Printing out the whole database can be done via:
+
+```
+$ notenox all
+{
+...
+}
+```
 
 License
 ---
@@ -254,5 +294,4 @@ to this source code.
 
 You should have received a copy of the CC0 legalcode along with this
 work.  If not, see [cc0](http://creativecommons.org/publicdomain/zero/1.0/).
-
 
