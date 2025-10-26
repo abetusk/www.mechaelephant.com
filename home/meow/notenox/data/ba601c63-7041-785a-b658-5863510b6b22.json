@@ -1,0 +1,13 @@
+{
+  "id": "ba601c63-7041-785a-b658-5863510b6b22",
+  "timestamp": 1761506666.435,
+  "keyword": [
+    "title:physics",
+    "physics",
+    "meager thoughts",
+    "intuition"
+  ],
+  "extra": [],
+  "note": "The ideal gas law has $P V = n R T$ with:\n$P$ - pressure\n$V$ - volume\n$n$ - number of particles\n$R$ - constant\n$T$ - temperature\nRearrange terms and you get $P = R \\rho T$, with $\\rho$ particle density (per unit volume). $\\rho T$ is very roughly energy density (maybe *kinetic* energy density) and with some hand-waiving, you get that pressure is pretty much defined to be proportional to energy per unit volume (amount of force exterted on a unit volume), giving us the formula.",
+  "link": []
+}
