@@ -1,0 +1,21 @@
+{
+  "id": "2025edf5-bf95-4583-9ca2-8a23c0d87fd7",
+  "timestamp": 1761610655.949,
+  "keyword": [
+    "title:meager thoughts",
+    "meager thoughst",
+    "back of the envelope calculation",
+    "calculation",
+    "energy",
+    "data center",
+    "amazon",
+    "aws",
+    "water",
+    "water consumption"
+  ],
+  "extra": [],
+  "note": "SourceMaterial reports that Amazon was hiding it's water usage numbers, presumably for reasons of public perception and optics. An internal document talks about Amazon's data centers projected to use 7.7B gallons of water a year by 2030.\n'Use' in this context is not wholly defined but if you take it to be using water by cooling and heating water from 20deg C to 100deg C (that is, boiling it) then:\n* 1gallon \\approx 3.78541 liter\n* 7.7B gallon \\approx 29B liter\n* 4184 J / (kg K) specific heat of water\n* (4186 J/(Kg C)) (80 C) (29 B Kg) -> $9.7 10^{15} J$\n* 1 kWh ~ 3.6 10^6 J -> 2.7 10^9 kWh\n* 30 kWh / day (avg. US home) -> 11 10^3 kWh / year\n* (2.7 / 11) 10^6 ~ 250,000 home/year\nDifferent calculations get close, estimating 500K to 700K (0.5-1.0 liter ~ 1 kWh). You can round up and just call it 1M.\nAt $0.15 / kWh, the cost of 7.7B gallons of water costs about $0.5B / year. It looks like annual revenue (as of this writing) is about $500B/year for Amazon.",
+  "link": [
+    "https://www.source-material.org/amazon-leak-reveals-true-data-centres-water-usage-secret-plan/"
+  ]
+}
