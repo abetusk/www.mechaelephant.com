@@ -669,6 +669,21 @@
       "https://github.com/stegu/perlin-noise/tree/master"
     ]
   },
+  "0f09facd-b534-6330-fc8c-01b63f701c78": {
+    "id": "0f09facd-b534-6330-fc8c-01b63f701c78",
+    "timestamp": 1762963380.886,
+    "keyword": [
+      "title:maps",
+      "maps",
+      "openstreetmap",
+      "self-hostd"
+    ],
+    "extra": [],
+    "note": "maps.black",
+    "link": [
+      "https://maps.black/"
+    ]
+  },
   "0f11f2a1-4b8e-d766-955f-d9060bb9e854": {
     "id": "0f11f2a1-4b8e-d766-955f-d9060bb9e854",
     "timestamp": 1683134502.072,
@@ -1850,6 +1865,21 @@
     "link": [
       "https://anadodik.github.io/publication/meschers/",
       "https://anadodik.github.io/publication/meschers/Meschers.pdf"
+    ]
+  },
+  "27a92c0b-b539-9738-201d-910544284deb": {
+    "id": "27a92c0b-b539-9738-201d-910544284deb",
+    "timestamp": 1762963418.173,
+    "keyword": [
+      "title:music",
+      "music",
+      "synth",
+      "webaudio"
+    ],
+    "extra": [],
+    "note": "MDN webaudio tutorial",
+    "link": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Simple_synth"
     ]
   },
   "27e767fa-8656-798d-ca22-bc6190c0e634": {
