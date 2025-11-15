@@ -12189,6 +12189,21 @@
       "https://archive.org/details/ioannisbaptista00pira/page/n288/mode/thumb"
     ]
   },
+  "f9cf44ad-e150-7a3f-d0c9-32330181f14b": {
+    "id": "f9cf44ad-e150-7a3f-d0c9-32330181f14b",
+    "timestamp": 1763248601.619,
+    "keyword": [
+      "title:economics",
+      "economics",
+      "ai"
+    ],
+    "extra": [],
+    "note": "Article about the hopelessness americans feel. A choice quote is JP Morgan estimating to recoup the investment in AI at %10 return would require $34.72/month from every current iPhone user until 2030.\nCurrent estimate of world population using iPhones is 1.5B, or about half of the population. Current investment in AI is estimated at $1.5T. Doubling rate of 10% is about 7 years, so, being generious and considering a 5 year doubling (~15%), then this puts it about $3T. $3T/1.5B/(5y*12m/y) ~ $33/month. Taking world population of 8.2B, this yields $3T/8.2B/(5y*12mo/y) ~ $6/mo.",
+    "link": [
+      "https://kyla.substack.com/p/30-days-9-cities-1-question-where",
+      "https://www.gartner.com/en/newsroom/press-releases/2025-09-17-gartner-says-worldwide-ai-spending-will-total-1-point-5-trillion-in-2025"
+    ]
+  },
   "fa1f267d-de6b-335e-51ab-1003889adec2": {
     "id": "fa1f267d-de6b-335e-51ab-1003889adec2",
     "timestamp": 1609321868.183,
