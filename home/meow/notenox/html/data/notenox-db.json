@@ -6229,6 +6229,20 @@
       "https://www.worldometers.info/"
     ]
   },
+  "85de2a41-3af2-44f4-8f88-18c78d7ae433": {
+    "id": "85de2a41-3af2-44f4-8f88-18c78d7ae433",
+    "timestamp": 1763842084.612,
+    "keyword": [
+      "title:cs",
+      "cs",
+      "computer-science"
+    ],
+    "extra": [],
+    "note": "Basic CS lecture. Novel result by Roughgarden and Tardos that the 'price of anarchy' in networks is bounded by 4/3. Also says explicitely '... the theory of NP-Completeness, which in some sense is a refinement of Turing's theory of undecidability.'",
+    "link": [
+      "https://www.youtube.com/watch?v=cKeuB4B1Ww8"
+    ]
+  },
   "85ed1ddd-b1d3-a97d-5e0a-9e98baa8148b": {
     "id": "85ed1ddd-b1d3-a97d-5e0a-9e98baa8148b",
     "timestamp": 1725242467.599,
@@ -10153,6 +10167,22 @@
       "https://www.olimex.com/Products/OLinuXino/A20/LIME2-SHIELD/open-source-hardware",
       "https://github.com/OLIMEX/OLINUXINO/tree/master/HARDWARE/A20-OLinuXino-LIME2/1.%20Latest%20hardware%20revision",
       "https://wiki.debian.org/CheapServerBoxHardware"
+    ]
+  },
+  "d237c66a-5877-6e79-36d5-022fcdf9a74c": {
+    "id": "d237c66a-5877-6e79-36d5-022fcdf9a74c",
+    "timestamp": 1763996577.711,
+    "keyword": [
+      "title:copyright",
+      "copyright",
+      "termination-of-transfer",
+      "roger-rabbit",
+      "jessica-rabbit"
+    ],
+    "extra": [],
+    "note": "Pluralistic talks about 'termination of transfer' option for copyright that allows authors after 35 years to regain control of their works",
+    "link": [
+      "https://pluralistic.net/2025/11/18/im-not-bad/"
     ]
   },
   "d266b506-0923-57d0-89cc-62da092c070d": {
