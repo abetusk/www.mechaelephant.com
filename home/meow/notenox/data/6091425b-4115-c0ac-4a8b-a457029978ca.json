@@ -1,0 +1,16 @@
+{
+  "id": "6091425b-4115-c0ac-4a8b-a457029978ca",
+  "timestamp": 1763999548.551,
+  "keyword": [
+    "title:math",
+    "math",
+    "mathematics",
+    "low-dimensional",
+    "embeddings"
+  ],
+  "extra": [],
+  "note": "The Johnson-Lindenstrauss lemma says that if there are $N \\in X$ points in $\\mathbb{R}^n$ with $k > 8(\\ln N)/\\eps^2$ then there is a linear map $f: \\mathbb{R}^n \\to \\mathbb{R}^k$ s.t. $(1-\\eps)||u-v||^2 \\le ||f(u) - f(v)||^2 \\le (1+\\eps)||u-v||^2$ for $u,v \\in X$",
+  "link": [
+    "https://en.wikipedia.org/wiki/Johnson%E2%80%93Lindenstrauss_lemma"
+  ]
+}
