@@ -11072,6 +11072,35 @@
       "https://web.archive.org/web/20210122010621/https://twitter.com/Beelzebimbo/status/1352311232276041728"
     ]
   },
+  "e4c8dfb8-f90d-af6e-b5bc-3ddb37757a13": {
+    "id": "e4c8dfb8-f90d-af6e-b5bc-3ddb37757a13",
+    "timestamp": 1765496702.156,
+    "keyword": [
+      "title:probability",
+      "probability",
+      "bounds"
+    ],
+    "extra": [],
+    "note": "'How to upper-bound the probability of something bad' by Aaronson. In order: 1) bound probability by 1 2) Markov's 3) independence -> Chernoff or Hoeffding 4) dependent but martingale -> Azuma 5) non-martingale but weakly correlated (low pairwise variance) -> Chebyshev 6) upper bound variation distance -> Pinsker 7) desperation -> Lovasz local lemma, concentration bounds (low degree polynomial), holders, talagrands, isoperimetric, hypercontractive 8) ignore? 9) redo approach to limit bad events 10) maybe it's not true (if it is, then maybe beyond current knowledge)",
+    "link": [
+      "https://scottaaronson.blog/?p=3712",
+      "https://en.wikipedia.org/wiki/Markov%27s_inequality",
+      "https://en.wikipedia.org/wiki/Boole%27s_inequality",
+      "https://en.wikipedia.org/wiki/Chernoff_bound",
+      "https://en.wikipedia.org/wiki/Hoeffding%27s_inequality",
+      "https://en.wikipedia.org/wiki/Martingale_(probability_theory)",
+      "https://en.wikipedia.org/wiki/Azuma%27s_inequality",
+      "https://en.wikipedia.org/wiki/Chebyshev%27s_inequality",
+      "https://en.wikipedia.org/wiki/Total_variation_distance_of_probability_measures",
+      "https://en.wikipedia.org/wiki/Pinsker%27s_inequality",
+      "https://en.wikipedia.org/wiki/Lov%C3%A1sz_local_lemma",
+      "https://www.microsoft.com/en-us/research/wp-content/uploads/2017/03/polycon.pdf",
+      "https://en.wikipedia.org/wiki/H%C3%B6lder%27s_inequality",
+      "https://en.wikipedia.org/wiki/Talagrand%27s_concentration_inequality",
+      "https://en.wikipedia.org/wiki/Isoperimetric_inequality",
+      "https://www.cs.cmu.edu/~odonnell/boolean-analysis/lecture16.pdf"
+    ]
+  },
   "e4dda6a5-4797-b92a-7d2c-031f746169b8": {
     "id": "e4dda6a5-4797-b92a-7d2c-031f746169b8",
     "timestamp": 1728430915.594,
