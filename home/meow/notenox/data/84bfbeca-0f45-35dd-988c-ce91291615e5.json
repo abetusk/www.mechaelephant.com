@@ -1,0 +1,18 @@
+{
+  "id": "84bfbeca-0f45-35dd-988c-ce91291615e5",
+  "timestamp": 1765490815.502,
+  "keyword": [
+    "title:programming",
+    "programming",
+    "simulation",
+    "cloth",
+    "physics"
+  ],
+  "extra": [],
+  "note": "cloth simulations. 'Efficient simulation of inextensible cloth' is interesting. The idea is to let the physics play out and then project the solution back onto the manifold (afaiu). I think this is a general type of strategy to attack these types of problems.",
+  "link": [
+    "https://dl.acm.org/doi/10.1145/1276377.1276438",
+    "https://dl.acm.org/doi/10.1145/280814.280821",
+    "http://davidharmon.co/papers/esic.pdf"
+  ]
+}

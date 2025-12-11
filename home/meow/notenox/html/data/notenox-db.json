@@ -1648,6 +1648,26 @@
       "https://web.archive.org/web/20220801195007/https://two-wrongs.com/markov-chains-for-queueing-systems"
     ]
   },
+  "229e2191-01fd-b728-ffdc-086143cf652d": {
+    "id": "229e2191-01fd-b728-ffdc-086143cf652d",
+    "timestamp": 1765490210.021,
+    "keyword": [
+      "title:science",
+      "science",
+      "writing",
+      "distill",
+      "research"
+    ],
+    "extra": [],
+    "note": "distll.pub is a now 'on hiatus' on-line publication that had many beautiful articles mostly on NN and AI (circa 2016-2021). Their content and source are all published under a libre/free license. Their post on why they went on Hiatus is interesting, talking about how there are competing goals and that self publishing better serves the research and expository goals. One choice quote: 'But for every paper [that can benefit from peer review] there are thousands of papers whose audience is a handful of the same researchers we ask to perform review.'",
+    "link": [
+      "https://distill.pub/2021/distill-hiatus/",
+      "https://github.com/distillpub",
+      "https://distill.pub/about/",
+      "https://distill.pub/2016/augmented-rnns/",
+      "https://distill.pub/"
+    ]
+  },
   "23071832-d06b-4595-27b5-217222ecfeb4": {
     "id": "23071832-d06b-4595-27b5-217222ecfeb4",
     "timestamp": 1664225782.22,
@@ -1700,6 +1720,20 @@
     "note": "Introduction to Flow Matching and Diffusion Models, video and lecture series.",
     "link": [
       "https://diffusion.csail.mit.edu/"
+    ]
+  },
+  "2408f8f9-84ef-6697-4f52-9f35ade1fb61": {
+    "id": "2408f8f9-84ef-6697-4f52-9f35ade1fb61",
+    "timestamp": 1765496203.775,
+    "keyword": [
+      "title:meager thoughts",
+      "meager thoughts",
+      "prediction markets"
+    ],
+    "extra": [],
+    "note": "Article on prediction markets talk about the failure of prediction markets to catch on. I think they've kind of missed the mark. Here's my take:\nPrediction markets have failed for a combination of fuzzy criteria and the ability to bet on instruments directly. If the prediction market is something like cryptocurrency, energy, scientific research or some other idea, these usually can be invested in or bet on directly. For example, buying cryptocurrency directly or even going short. Energy can be invested in by investing in energy stock or investing in solar or batteries directly, or coal/oil for the otehr side. Scientific advancements often have companies that leverage the gains in some form or another.\nThe successful prediction markets, sports and politics betting, both have sharp success and failure criteria as well as limited options to profit directly from. For both sports and politics, the prediction market is specifically designed so as not to influence the outcome and is explicitely illegal if it did affect the outcome.\nPrediction markets, as they're proposed, are meant to incentivize advancement. For advancement that can be incentivized, there are already outlets to do so (stocks, bonds, direct investment). For sports and politics, they're easily corrputed so the prediction is designed to be observational with any influence being a failure condition of the prediction market.\nMeaning, the most successful prediction markets are ones that are specifically designed so that they can't influence the outcome. For other areas where we might want the prediction markets to affect the outcome, there are already markets to help facilitate the influence, namely through direct investment.\nThe prediction markets are a derivative market whose value is a signal into the underlying asset. If the prediction market were to influence the underlying asset, this most likely points to a failure condition.",
+    "link": [
+      "https://worksinprogress.co/issue/why-prediction-markets-arent-popular/"
     ]
   },
   "24450e95-788e-205b-672e-bd8690ef3a38": {
@@ -6214,6 +6248,24 @@
       "https://sunkencastles.com/in-other-media/"
     ]
   },
+  "84bfbeca-0f45-35dd-988c-ce91291615e5": {
+    "id": "84bfbeca-0f45-35dd-988c-ce91291615e5",
+    "timestamp": 1765490815.502,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "simulation",
+      "cloth",
+      "physics"
+    ],
+    "extra": [],
+    "note": "cloth simulations. 'Efficient simulation of inextensible cloth' is interesting. The idea is to let the physics play out and then project the solution back onto the manifold (afaiu). I think this is a general type of strategy to attack these types of problems.",
+    "link": [
+      "https://dl.acm.org/doi/10.1145/1276377.1276438",
+      "https://dl.acm.org/doi/10.1145/280814.280821",
+      "http://davidharmon.co/papers/esic.pdf"
+    ]
+  },
   "8513c87f-3f00-8427-872f-e06969ce6c6c": {
     "id": "8513c87f-3f00-8427-872f-e06969ce6c6c",
     "timestamp": 1636294032.079,
@@ -9333,6 +9385,22 @@
       "https://web.archive.org/web/20230915125813/https://billwillingham.substack.com/p/more-about-fables-in-the-public-domain"
     ]
   },
+  "c1ea52ec-b485-d0b7-d1e7-5b8561622dbb": {
+    "id": "c1ea52ec-b485-d0b7-d1e7-5b8561622dbb",
+    "timestamp": 1765491677.635,
+    "keyword": [
+      "title:math",
+      "math",
+      "feynman",
+      "trick",
+      "integral"
+    ],
+    "extra": [],
+    "note": "Talks about Feynman's trick for integration.",
+    "link": [
+      "https://zackyzz.github.io/feynman.html"
+    ]
+  },
   "c2119d01-e653-5ae4-1524-3a9f5b8443b1": {
     "id": "c2119d01-e653-5ae4-1524-3a9f5b8443b1",
     "timestamp": 1634671552.967,
@@ -10968,6 +11036,25 @@
       "https://openhome.cc/eGossip/WebAssembly/",
       "https://github.com/abramhindle/impractical-wasm",
       "https://pengowray.github.io/wasm-ops/"
+    ]
+  },
+  "e4b7e27c-6c84-d642-26ff-c679a675559c": {
+    "id": "e4b7e27c-6c84-d642-26ff-c679a675559c",
+    "timestamp": 1765494409.581,
+    "keyword": [
+      "title:architecture",
+      "architecture",
+      "ornamentation",
+      "baumol"
+    ],
+    "extra": [],
+    "note": "Talks about the decline of ornamentation as being culturally driven, not economically driven as is the common theory. The economic argument is that industrialization brought cheap mass production so even if labor intensive processes didn't increase in cost, they couldn't compete with the lowering cost of everything else (basically, this is the so-called 'Baumol cost disease'). Instead, the article argues that it was culturally based (from Bauhaus and Le Corbusier), even if it remains a mystery of how the change took root.\nSome choice pieces of information from the article:\n* Agustus Pugin was the sole designer of many of the gothic revival seen in mid 19th century, prevelant because of reproduction technology.\n* 'Perhaps surprisingly, technology revolutionized the productivity of the creative artist long before it revolutionized any otehr part of the production chain'",
+    "link": [
+      "https://worksinprogress.co/issue/the-beauty-of-concrete/",
+      "https://en.wikipedia.org/wiki/Baumol_effect",
+      "https://en.wikipedia.org/wiki/Augustus_Pugin",
+      "https://en.wikipedia.org/wiki/James_Gibbs",
+      "https://en.wikipedia.org/wiki/Architectural_terracotta"
     ]
   },
   "e4bd8f9d-08e7-e293-d52d-65331625197f": {
