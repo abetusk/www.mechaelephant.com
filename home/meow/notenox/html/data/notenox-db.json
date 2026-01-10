@@ -6065,6 +6065,25 @@
     "note": "For any rapid change where there is widespread adoption from technology, there will be a pressure to prioritize adoption over diligence. The rise of scammers happens, in part, because scammers can take advantage of the rapid adoption to hide their theft, leading to a rise in scams with the rise in use of a technology. If the technology leads to underlying benefit, the rise in scams is invevitable and is a direct consequence of the adoption.",
     "link": []
   },
+  "7dcd9d72-fb9c-6ce9-05cd-5999163d6c2e": {
+    "id": "7dcd9d72-fb9c-6ce9-05cd-5999163d6c2e",
+    "timestamp": 1768023277.882,
+    "keyword": [
+      "title:electronics",
+      "motor",
+      "electronics",
+      "bldc",
+      "driver",
+      "tmc6300"
+    ],
+    "extra": [],
+    "note": "scottbez1/smartknob is a project that uses a gimbal motor and a tmc6300 BLDC driver. Sparkfun has a tmc6300 breakout (OSH).",
+    "link": [
+      "https://github.com/scottbez1/smartknob",
+      "https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_base-ibom.html",
+      "https://www.sparkfun.com/sparkfun-brushless-motor-driver-3-phase-tmc6300.html"
+    ]
+  },
   "7e3acb3a-a702-55da-fbf2-9a9283fa2db3": {
     "id": "7e3acb3a-a702-55da-fbf2-9a9283fa2db3",
     "timestamp": 1695133005.602,
