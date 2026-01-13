@@ -8023,6 +8023,33 @@
       "https://stackoverflow.com/questions/64665485/can-i-mix-in-javascript-modules-with-regular-javascript"
     ]
   },
+  "a4e8c514-fdd3-1a3b-239a-3b57a7112d02": {
+    "id": "a4e8c514-fdd3-1a3b-239a-3b57a7112d02",
+    "timestamp": 1768344580.186,
+    "keyword": [
+      "title:FOSS",
+      "FOSS",
+      "economics",
+      "cathedral",
+      "bazaar",
+      "esr",
+      "linux",
+      "torvalds",
+      "gnu",
+      "business",
+      "funding",
+      "sustainability"
+    ],
+    "extra": [],
+    "note": "Josh Bressers talks about how the bazaar turned into a megachurch but that much of the load bearing projects are still in the bazaar. Bressers also wrote 'Open Source is one person'. Linked articles include 'Hobbyist Maintainers Economic Gravity Well' by Depierre and 'You Are All On The Hobbyists Maintainers' Turf Now' by Depierre.",
+    "link": [
+      "https://opensourcesecurity.io/2026/01-cathedral-megachurch-bazaar/",
+      "https://opensourcesecurity.io/2025/08-oss-one-person/",
+      "https://www.softwaremaxims.com/blog/open-source-hobbyists-turf",
+      "https://opensourcesecurity.io/2025/2025-06-hobbyist-thomas-depierre/",
+      "https://www.softwaremaxims.com/blog/hobbyist-gravity-well"
+    ]
+  },
   "a50ce8ca-3d77-d302-1c6c-e38879f727a5": {
     "id": "a50ce8ca-3d77-d302-1c6c-e38879f727a5",
     "timestamp": 1617552953.741,
