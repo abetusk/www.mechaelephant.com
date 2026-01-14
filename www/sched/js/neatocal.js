@@ -35,6 +35,8 @@ var NEATOCAL_PARAM = {
   "ics_imports": [],
   "ics": false,
 
+  "firefox_hack": true,
+
   "color_cell": [],
 
   // Putting data in cells can alter the cell/row height,
@@ -941,6 +943,22 @@ function neatocal_post_process() {
       ele.style.background = color_cell[i].color;
     }
   }
+
+  if (NEATOCAL_PARAM.firefox_hack) {
+
+    if ((typeof navigator !== "undefined") &&
+        (typeof navigator.userAgent !== "undefined") &&
+        (navigator.userAgent.search( /^Mozilla/ ) == 0) &&
+        (typeof screen !== "undefined") &&
+        (screen.width < 768) ) {
+
+      let ui_tr_month_name = document.getElementById("ui_tr_month_name");
+      if (NEATOCAL_PARAM.cell_height) {
+        ui_tr_month_name.style.height = NEATOCAL_PARAM.cell_height;
+      }
+    }
+  }
+
 }
 
 function loadXHR(url, _cb, _errcb) {
@@ -1538,7 +1556,7 @@ function neatocal_init() {
 
   // JSON data file
   //
-  datafn_param = sp.get("data");
+  let datafn_param = sp.get("data");
 
   //---
 
