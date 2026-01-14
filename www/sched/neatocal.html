@@ -1,0 +1,133 @@
+<!--
+
+MIT License
+
+Copyright (c) 2022 Neatnik LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Neato Calendar</title>
+
+<meta property="og:title" content="Neat Calendar">
+<meta property="og:description" content="A simple printable calendar with the full year on a single page">
+
+<link rel='stylesheet' href='css/Oswald.css'>
+
+<script type='text/javascript' src='js/neatocal.js'></script>
+<link rel='stylesheet' href='css/neatocal.css'>
+
+</head>
+
+<body>
+
+  <!-- INFO -->
+
+  <div id="ui_info" style='display:none;'>
+    <p> If you print this page, you’ll get a nifty calendar that displays
+        all of the year’s dates on a single page. It will automatically
+        fit on a single sheet of paper of any size. For best results,
+        adjust your print settings to landscape orientation and disable
+        the header and footer.
+    </p>
+
+    <p> Take in the year all at once. Fold it up and carry it with you.
+        Jot down your notes on it. Plan things out and observe the
+        passage of time. Above all else, be kind to others.
+    </p>
+
+    <p> You can addin URL parameters to change the year, display style, start month, etc.
+
+    <ul>
+      <li> year </li>
+      <li> start_month  </li>
+      <li> n_month </li>
+      <li> layout (`default` or `aligned-weekdays`)</li>
+      <li> start_day (only valid with aligned-weekdays layout)</li>
+      <li> highlight_color </li>
+      <li> weekday_code </li>
+      <li> month_code </li>
+      <li> show_moon_phase (`true` or `false`)</li>
+      <li> moon_phase_style (`css`, `symbol`, or `name`)</li>
+      <li> moon_phase_position (`below` or `inline`)</li>
+      <li> moon_phase_display (`changes` or `all`)</li>
+      <li> help </li>
+    </ul>
+
+    For example <a href='?year=2030'>`?year=2030`</a>
+
+    </p>
+
+    <p style="font-size: 80%; color: #999;">
+      <a href="https://github.com/abetusk/neatocal">Source code</a></p>
+    <p style="font-size: 80%; color: #999;">Based on <a href="https://neatnik.net/">Neatnik's</a> &#183;
+      original <a href="https://github.com/neatnik/calendar">source code</a></p>
+  </div>
+
+  <!-- INFO -->
+
+
+
+  <div id="ui_header">
+    <div id='ui_year'>
+        <span>YYYY</span>
+    </div>
+    <div id="ics_legend" class="ics-legend"></div>
+  </div>
+
+  <table id='ui_table'>
+    <thead id='ui_thead'>
+      <tr id='ui_tr_month_name'>
+        <th>Jan</th>
+        <th>Feb</th>
+        <th>Mar</th>
+        <th>Apr</th>
+        <th>May</th>
+        <th>Jun</th>
+        <th>Jul</th>
+        <th>Aug</th>
+        <th>Sep</th>
+        <th>Oct</th>
+        <th>Nov</th>
+        <th>Dec</th>
+      </tr>
+    </thead>
+
+    <tbody id='ui_tbody'>
+    </tbody>
+
+  </table>
+
+  <div id="ics_drop_overlay" class="ics-drop-overlay">
+    <div class="ics-drop-box">
+      <div class="ics-drop-title">Drop .ics files to import</div>
+      <div class="ics-drop-subtitle">Click to choose files</div>
+      <input id="ics_file_input" type="file" accept=".ics,text/calendar" multiple>
+    </div>
+  </div>
+
+</body>
+
+<script>
+  neatocal_init();
+</script>
+</html>

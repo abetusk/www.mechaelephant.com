@@ -1,0 +1,305 @@
+/*
+
+MIT License
+
+Copyright (c) 2022 Neatnik LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+
+@media print {
+  @page {
+    margin: 0;
+  }
+  #ui_info {
+    display: none;
+  }
+  .ics-drop-overlay {
+    display: none;
+  }
+  .ics-legend {
+    display: none;
+  }
+}
+
+html {
+  font-family: 'Oswald';
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#ui_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2em;
+  padding: 0 1em 0.4em;
+  flex: 0 0 auto;
+}
+
+#ui_year {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  height: calc(100% - 4em);
+  border-collapse: separate;
+  border-spacing: .5em 0;
+}
+
+td, th {
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid #888;
+  padding: .3vmin .3vmin;
+  font-size: .9vmin;
+  font-weight: 300;
+  color: #000;
+}
+
+th {
+  font-size: 1.1vmin;
+  /* font-size: var(--month-font-size); */
+  padding: 0;
+}
+
+td:empty {
+  border: 0;
+}
+
+.date {
+  display: inline-block;
+  width: 1.1em;
+}
+
+.day {
+  display: inline-block;
+  text-align: center;
+  width: 1em;
+  color: #888;
+}
+
+.weekend {
+  /* background: #d8d8d8; */
+  background: #eee;
+  font-weight: 400;
+}
+
+p {
+  margin: 0 0 .5em 0;
+  text-align: center;
+}
+
+* {
+  color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+#ui_info {
+  font-family: 'Inter', sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5em 2em;
+  width: calc(100% - 6em);
+  background: #333;
+  color: #eee;
+  padding: 1em 1em .5em 1em;
+  font-size: 2vmax;
+  border-radius: .2em;
+}
+#ui_info p {
+  text-align: left;
+  margin: 0 0 1em 0;
+  line-height: 135%;
+}
+#ui_info a {
+  color: inherit;
+}
+
+/* Moon phase styles */
+.moon-container {
+  display: block;
+  text-align: center;
+  margin-top: 0.2em;
+}
+
+.moon-inline {
+  margin-left: 0.2em;
+}
+
+.moon-symbol {
+  font-size: 1.1em;
+}
+
+.moon-name {
+  font-size: 0.7em;
+  color: #666;
+  text-transform: none;
+}
+
+.moon-phase {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+
+.moon-phase svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.event {
+  font-size: .7vmin;
+  line-height: 1.2;
+  margin-top: 0.2em;
+  padding: 0.05em 0.3em;
+  background: #dfe7f7;
+  color: #222;
+  border-radius: 0.3em;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+
+.event-span {
+  border-radius: 0;
+  margin-left: -0.1em;
+  margin-right: -0.1em;
+}
+
+.event-span-start {
+  border-top-left-radius: 0.3em;
+  border-bottom-left-radius: 0.3em;
+}
+
+.event-span-end {
+  border-top-right-radius: 0.3em;
+  border-bottom-right-radius: 0.3em;
+}
+
+.ics-drop-overlay {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(20, 20, 20, 0.6);
+  z-index: 9999;
+}
+
+.ics-drop-overlay.visible {
+  display: flex;
+}
+
+.ics-drop-box {
+  background: #f7f2e8;
+  border: 2px dashed #a68a64;
+  padding: 2em 3em;
+  text-align: center;
+  color: #3d3326;
+  border-radius: 0.5em;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.ics-drop-title {
+  font-size: 2vmax;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.ics-drop-subtitle {
+  margin-top: 0.6em;
+  font-size: 1.2vmax;
+  text-transform: none;
+}
+
+#ics_file_input {
+  display: none;
+}
+
+.ics-legend {
+  color: #3d3326;
+  width: 100%;
+  font-size: 0.9vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6em 1em;
+}
+
+.ics-legend-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+}
+
+.ics-legend-row:last-child {
+  margin-bottom: 0;
+}
+
+.ics-legend-swatch {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+
+.ics-legend-name {
+  cursor: pointer;
+  text-transform: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ics-legend-input {
+  width: 100%;
+  font-size: inherit;
+  font-family: inherit;
+  border: 1px solid #a68a64;
+  border-radius: 0.2em;
+  padding: 0.2em 0.4em;
+  color: inherit;
+  background: #fffaf0;
+}
+
+.ics-legend-palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+  max-width: 12em;
+}
+
+.ics-legend-palette-item {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
