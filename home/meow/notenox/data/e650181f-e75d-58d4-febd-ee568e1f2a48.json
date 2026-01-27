@@ -1,0 +1,20 @@
+{
+  "id": "e650181f-e75d-58d4-febd-ee568e1f2a48",
+  "timestamp": 1769540369.367,
+  "keyword": [
+    "title:math",
+    "math",
+    "computer science",
+    "power law",
+    "random sat",
+    "sat",
+    "3-sat",
+    "levy stable",
+    "phase transition"
+  ],
+  "extra": [],
+  "note": "Browsing 'Bounds on the Satisfiability Threshold for Power Law Distributed Random SAT' by Friedrich, Krohmer, Rothernberger, Sauerwald, Sutton:\n* $m$ clauses, $n$ variables, ratio $m/n$\n* $\\beta \\sim (2k-1)/(k-1)$, power law exponent\n* $\\beta \\le (2k-1)/(k-1) - \\epsilon$ has $k$ largest variables in too many clauses ($2^k$ finite, causes contradiction, $O(\\log n)$ clauses of top $k$ variables)\n* for some fixed ratio $\\kappa = m/n$, $\\beta \\ge (2k-1)/(k-1) + \\epsilon$ has large variance of variables in clauses which can be reduced down to a 2-sat instance\nSo the idea is that if $\\beta$ is too small, this generates a lot of grumblers which cause contradictions. For $\\beta$ too high, this causes a lot of gabbers, which allows for easy influence and is easily satisfied. When grumblers and gabbers are kept in check while maintaining clause-variable ratio below a critical value, then instances aren't almost sure sat or unsat (by this method). Not sure what the region looks like or what the values of $\\kappa$ are.",
+  "link": [
+    "https://github.com/abetusk/papers/blob/release/ComputerScience/random-sat-power-law.pdf"
+  ]
+}
