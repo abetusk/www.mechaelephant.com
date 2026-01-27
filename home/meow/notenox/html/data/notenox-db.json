@@ -9395,6 +9395,27 @@
       "https://lotta-stoever.net/"
     ]
   },
+  "bff7b529-6aad-ec61-926a-3cd923e17c47": {
+    "id": "bff7b529-6aad-ec61-926a-3cd923e17c47",
+    "timestamp": 1769495005.996,
+    "keyword": [
+      "title:game",
+      "game",
+      "gamebiz",
+      "business",
+      "marketing",
+      "indie game"
+    ],
+    "extra": [],
+    "note": "Articles on (mostly) how to market your game (on steam). This is for indie games. Main idea is to have a good game, all else is trying to lift a corpse. Assuming the game is good, the main idea is that wishlisting on steam gives a good indicator of success. Chris Zukowski estimates 100/500/1200/7000 wishlists are bronze/silver/gold/diamond with gross earnings approximately $0-$10k/$10k-$250k/$250k-$1M/$1M+. This works out to about $100/wishlist, which means, I'm guessing, one wishlist drags in maybe 10x more people (depending on game price tag) over the lifetime of the released game.\nOther advice is to not target social media unless targetting devs for some reason. The major source of wishlisting is from festivals. There are links to festivals that can be particpated in. Big festivals should be gone to only after reaching a certain wishlist threshold (?).\nSecond major source of wishlists is streamers, with 500 cold calls and an expected 1-4% conversion (5-10 will play it).\nCapsule art for the game is important and is one of the only expenses the sources recommend spending money on ($500-$1500, depending on capsule artist, ~10hrs work?). Finding capsule artists can be done by cold emailing studios whose capsule art you like and seeing who they used (they'll probably be forthcoming).\nThere are many other resources, including popular genres (how many released, median income) etc. Other important features are trailer tailoring, crafting the demo etc.",
+    "link": [
+      "https://www.reddit.com/r/IndieDev/comments/1q33eea/my_summary_of_indie_game_dev_marketing_advice/?share_id=SX8ri-cSPDn--9eLylXZR&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=1",
+      "https://howtomarketagame.com/2022/04/18/what-genres-are-popular-on-steam-in-2022/",
+      "https://howtomarketagame.com/benchmarks/",
+      "https://www.youtube.com/watch?v=z7Jj3KuvpPc&feature=youtu.be",
+      "https://docs.google.com/spreadsheets/d/1NGseGNHv6Tth5e_yuRWzeVczQkzqXXGF4k16IsvyiTE/edit?gid=0#gid=0"
+    ]
+  },
   "c011d0cf-c69c-90ee-89cd-901331b9cf42": {
     "id": "c011d0cf-c69c-90ee-89cd-901331b9cf42",
     "timestamp": 1659364950.569,
