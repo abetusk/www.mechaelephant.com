@@ -1,0 +1,18 @@
+{
+  "id": "5be0a7c6-a9f0-3611-f289-17fed3ba5895",
+  "timestamp": 1770221082.182,
+  "keyword": [
+    "title:math",
+    "math",
+    "metamath",
+    "proof verification"
+  ],
+  "extra": [],
+  "note": "metamath looks to be a 'toy' automated theoerm checker. The draw is it's simplicity, relying on straight substitution.",
+  "link": [
+    "https://github.com/metamath",
+    "https://us.metamath.org/mpeuni/mmset.html#overview",
+    "https://github.com/metamath/metamath-book",
+    "https://us.metamath.org/"
+  ]
+}

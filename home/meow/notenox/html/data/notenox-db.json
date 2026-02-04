@@ -4419,6 +4419,24 @@
       "https://web.archive.org/web/20230401124319/https://blog.thea.codes/a-reply-to-josef-prusa/"
     ]
   },
+  "5be0a7c6-a9f0-3611-f289-17fed3ba5895": {
+    "id": "5be0a7c6-a9f0-3611-f289-17fed3ba5895",
+    "timestamp": 1770221082.182,
+    "keyword": [
+      "title:math",
+      "math",
+      "metamath",
+      "proof verification"
+    ],
+    "extra": [],
+    "note": "metamath looks to be a 'toy' automated theoerm checker. The draw is it's simplicity, relying on straight substitution.",
+    "link": [
+      "https://github.com/metamath",
+      "https://us.metamath.org/mpeuni/mmset.html#overview",
+      "https://github.com/metamath/metamath-book",
+      "https://us.metamath.org/"
+    ]
+  },
   "5c1602bf-dd00-a1a9-e353-a73c07a27141": {
     "id": "5c1602bf-dd00-a1a9-e353-a73c07a27141",
     "timestamp": 1617553649.583,
@@ -7125,6 +7143,24 @@
     "link": [
       "https://zenzoa.itch.io/beepster",
       "https://github.com/zenzoa/beepster"
+    ]
+  },
+  "9315a868-a0e9-09cc-dd0a-75c4801f4cea": {
+    "id": "9315a868-a0e9-09cc-dd0a-75c4801f4cea",
+    "timestamp": 1770050902.551,
+    "keyword": [
+      "title:economics",
+      "economics",
+      "superstar",
+      "long tail",
+      "music",
+      "movie",
+      "games"
+    ],
+    "extra": [],
+    "note": "Money and Macro discusses the paradox that we see low risk big blockbusters that make a profusion sequals and content primarily from established franchises while still having a rich long tail of independent contant. The idea is that big budget studios only invest in superstars (> $150M+) which favors established franchises while smaller projects get the lower tiered funding (< $10M-). Interesting, there seems to be a dead zone around $10M-$150M (for movies at least).",
+    "link": [
+      "https://www.youtube.com/watch?v=KgZzr8Y05BU"
     ]
   },
   "931dbf44-ec17-810b-cb61-ce94208bb0f6": {
