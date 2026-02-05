@@ -8035,6 +8035,23 @@
       "https://github.com/simondevyoutube/ProceduralTerrain_Part5"
     ]
   },
+  "a485d587-5dfc-eb2c-6f66-1d85941532d5": {
+    "id": "a485d587-5dfc-eb2c-6f66-1d85941532d5",
+    "timestamp": 1770306615.119,
+    "keyword": [
+      "title:engineering",
+      "engineering",
+      "cluster",
+      "data center"
+    ],
+    "extra": [],
+    "note": "comma.ai talks about running a 4PB local cluster. It looks like they're focusing on self driving cars? Tinybox pro v2 (2cpu, 8gpu) for compute, dell r630 + r730 with SSDs (~4PB), 3 100Gbps z9264f switches, 2 infiniband switches. Servers have ubuntu with pxeboot managed by salt. Storage use mkv (~1TB/s), ~300TB cache. Slurm for workload management mostly running pytorch and miniray (lightweight custom task scheduler).",
+    "link": [
+      "https://blog.comma.ai/datacenter/",
+      "https://tinycorp.myshopify.com/products/tinybox-pro-v2",
+      "https://github.com/commaai"
+    ]
+  },
   "a4bc729a-4769-d74f-e0e2-8cae44438a80": {
     "id": "a4bc729a-4769-d74f-e0e2-8cae44438a80",
     "timestamp": 1756906959.564,
