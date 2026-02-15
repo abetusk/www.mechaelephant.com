@@ -8995,6 +8995,22 @@
       "https://en.wikipedia.org/wiki/Random_Fibonacci_sequence"
     ]
   },
+  "b539ce23-3c87-5b0a-e1e7-8ec3f128f689": {
+    "id": "b539ce23-3c87-5b0a-e1e7-8ec3f128f689",
+    "timestamp": 1771193315.782,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "microgpt",
+      "karpathy"
+    ],
+    "extra": [],
+    "note": "microgpt implementation in around 200 LoC.",
+    "link": [
+      "https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95",
+      "https://karpathy.github.io/2026/02/12/microgpt/"
+    ]
+  },
   "b599c6cc-4be6-3329-c0f9-bb461266af7c": {
     "id": "b599c6cc-4be6-3329-c0f9-bb461266af7c",
     "timestamp": 1680966609.404,

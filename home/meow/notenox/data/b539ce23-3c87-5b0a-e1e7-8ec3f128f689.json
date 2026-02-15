@@ -1,0 +1,16 @@
+{
+  "id": "b539ce23-3c87-5b0a-e1e7-8ec3f128f689",
+  "timestamp": 1771193315.782,
+  "keyword": [
+    "title:ai",
+    "ai",
+    "microgpt",
+    "karpathy"
+  ],
+  "extra": [],
+  "note": "microgpt implementation in around 200 LoC.",
+  "link": [
+    "https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95",
+    "https://karpathy.github.io/2026/02/12/microgpt/"
+  ]
+}
