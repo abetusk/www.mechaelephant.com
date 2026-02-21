@@ -2749,6 +2749,22 @@
       "https://dogecoin.gg/"
     ]
   },
+  "37346ff0-8d09-b0a6-8b29-ee057a66584a": {
+    "id": "37346ff0-8d09-b0a6-8b29-ee057a66584a",
+    "timestamp": 1771698712.544,
+    "keyword": [
+      "title:journal",
+      "jounral",
+      "bullet journaling",
+      "note"
+    ],
+    "extra": [],
+    "note": "Talks about limiting journaling to 1-2 sentences at the end of the day to limit scope, record the important parts and keep consistency. The idea came from the game 'Thousand Year Old Vampire' where a limited number of experiences and memories can be stored (e.g. 2-5 each) and how you eventually forget what it was like to be human.",
+    "link": [
+      "https://alexanderbjoy.com/two-sentence-journal/",
+      "https://alexanderbjoy.com/two-sentence-journal-approaches/"
+    ]
+  },
   "37c778ee-a122-4d4c-dc5a-c321fa6767f4": {
     "id": "37c778ee-a122-4d4c-dc5a-c321fa6767f4",
     "timestamp": 1637412237.377,
@@ -10357,6 +10373,22 @@
       "https://www.survivallaserusa.com/Safety_Goggles/cat1667093_1527285.aspx"
     ]
   },
+  "ccfad181-b9f6-872b-ad69-f2f5d13516f0": {
+    "id": "ccfad181-b9f6-872b-ad69-f2f5d13516f0",
+    "timestamp": 1771699255.769,
+    "keyword": [
+      "title:math",
+      "math",
+      "turbulence",
+      "physics",
+      "phase transition"
+    ],
+    "extra": [],
+    "note": "Nigel Goldenfeld talks about turbulence. The big takeaway is that the predator-prey model has some quantities that are similar to turbulence.\nOne (hypothesized) aspect of turbulence is that energy transports to lower/upper scales without friction (without heat loss). Eventually physical system size takes over and it meets a smallest scale and dissipates as friction/heat, but for many length scales before then, the transport is frictionless.\nThe Reylnolds number is a quantity that says at what energy (speed of liquid) it changes from laminar flow to turbulence, the higher Reynolds number the quicker it happens (e.g. honey has low Reynolds number).\nExperiments can be done to see how 'puffs' of localized high energy turbulence die off when inserted into liquid traveling below the turbulence speed. These puffs die off with a power law.\nTake a predator-prey model and see if for initial conditions of population sizes it reaches equilibrium or extinction. Under suitable setup, this behaves as the puff experiment above.",
+    "link": [
+      "https://www.youtube.com/watch?v=LW1C-HVJN-o"
+    ]
+  },
   "cd0529fb-bba3-f9bd-63a5-21280a426f6a": {
     "id": "cd0529fb-bba3-f9bd-63a5-21280a426f6a",
     "timestamp": 1621947010.743,
@@ -11163,6 +11195,22 @@
     "link": [
       "https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/",
       "https://zkp.science/"
+    ]
+  },
+  "deee40f3-946f-da0c-5a97-22ddd8fbb5a0": {
+    "id": "deee40f3-946f-da0c-5a97-22ddd8fbb5a0",
+    "timestamp": 1771698575.714,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "notation",
+      "languages"
+    ],
+    "extra": [],
+    "note": "Offset as byte offset, size as byte length, count as in number of elements / stride, index for offset elements by stride. The idea that this is pedantic but help limit confusion. Another suggestion is to prefer 'big-endian' naming that puts the concept or group before the finer grained logistics. e.g. 'source_index', 'target_index' rather than 'index_src' etc. Yet another is to talk about 'index' for 0-based arrays and 'number' for 1-based arrays. e.g. C's indices vs. shell/awk column number.",
+    "link": [
+      "https://tigerbeetle.com/blog/2026-02-16-index-count-offset-size/",
+      "https://news.ycombinator.com/item?id=47058584"
     ]
   },
   "e02c0886-e01f-6e76-d6b6-cfbfd25ee515": {

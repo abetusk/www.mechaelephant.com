@@ -1,0 +1,16 @@
+{
+  "id": "deee40f3-946f-da0c-5a97-22ddd8fbb5a0",
+  "timestamp": 1771698575.714,
+  "keyword": [
+    "title:programming",
+    "programming",
+    "notation",
+    "languages"
+  ],
+  "extra": [],
+  "note": "Offset as byte offset, size as byte length, count as in number of elements / stride, index for offset elements by stride. The idea that this is pedantic but help limit confusion. Another suggestion is to prefer 'big-endian' naming that puts the concept or group before the finer grained logistics. e.g. 'source_index', 'target_index' rather than 'index_src' etc. Yet another is to talk about 'index' for 0-based arrays and 'number' for 1-based arrays. e.g. C's indices vs. shell/awk column number.",
+  "link": [
+    "https://tigerbeetle.com/blog/2026-02-16-index-count-offset-size/",
+    "https://news.ycombinator.com/item?id=47058584"
+  ]
+}

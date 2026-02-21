@@ -1,0 +1,16 @@
+{
+  "id": "ccfad181-b9f6-872b-ad69-f2f5d13516f0",
+  "timestamp": 1771699255.769,
+  "keyword": [
+    "title:math",
+    "math",
+    "turbulence",
+    "physics",
+    "phase transition"
+  ],
+  "extra": [],
+  "note": "Nigel Goldenfeld talks about turbulence. The big takeaway is that the predator-prey model has some quantities that are similar to turbulence.\nOne (hypothesized) aspect of turbulence is that energy transports to lower/upper scales without friction (without heat loss). Eventually physical system size takes over and it meets a smallest scale and dissipates as friction/heat, but for many length scales before then, the transport is frictionless.\nThe Reylnolds number is a quantity that says at what energy (speed of liquid) it changes from laminar flow to turbulence, the higher Reynolds number the quicker it happens (e.g. honey has low Reynolds number).\nExperiments can be done to see how 'puffs' of localized high energy turbulence die off when inserted into liquid traveling below the turbulence speed. These puffs die off with a power law.\nTake a predator-prey model and see if for initial conditions of population sizes it reaches equilibrium or extinction. Under suitable setup, this behaves as the puff experiment above.",
+  "link": [
+    "https://www.youtube.com/watch?v=LW1C-HVJN-o"
+  ]
+}
