@@ -4091,6 +4091,22 @@
       "https://journals.aps.org/prx/pdf/10.1103/PhysRevX.14.031005"
     ]
   },
+  "5511b64c-0b3d-c0d3-b1cc-2eeefafdd574": {
+    "id": "5511b64c-0b3d-c0d3-b1cc-2eeefafdd574",
+    "timestamp": 1772315168.357,
+    "keyword": [
+      "title:ml",
+      "ml",
+      "machine learning",
+      "attention",
+      "neural networks"
+    ],
+    "extra": [],
+    "note": "3blue1brown video on attention (ch. 6 in a deep learning series). He takes a simple example of 'fluffy blue creature'. Token 'creature' sits in some initial high embedded space (as does 'fluffy' and 'blue') but can have multiple meanings (e.g. 'mole' can be an animal, something on skin, or a spy).\nAs I understand it, the query matrix, 'Q', attempts to place the token creature into a smaller dimensional embedding that represents the actual meaning of the token in the sentence. The key matrix, 'K', is applied to tokens before the query token to see if they're conceptually in the same 'concept space' (that is, the lower dimensional embedding), with higher signal meaning they're closer in that smaller embedded space. If the query and key vector do produce a signal, we want to know how much to shift the original token vector, and that's what the 'V' matrix is.\nSo, 'Q' is the attempt at embedding the token in the space, 'K' is the embedding of tokens precedding the query token, giving higher signal if the tokens support the embedding, and 'V' is the amount to shift the original token by to move it to the better value.\n3b1b shows som numbers, with 12,288 dimensions for the original token embedding and 128 dimensions for the query and key embedding. The size of the value matrix is 12,288^2 but because of compressions reasons (?) it's stored as an outer product of (12,288 x 128) . (128 . 12,288)",
+    "link": [
+      "https://www.youtube.com/watch?v=eMlx5fFNoYc"
+    ]
+  },
   "5661c2f5-9a76-6ac1-5f08-c2d9d8d6684c": {
     "id": "5661c2f5-9a76-6ac1-5f08-c2d9d8d6684c",
     "timestamp": 1747877425.25,
