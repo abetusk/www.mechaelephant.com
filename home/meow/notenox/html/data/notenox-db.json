@@ -9388,6 +9388,24 @@
       "https://web.archive.org/web/20201029023818/https://www.southwestjournal.com/news/city-hall/2015/06/council-committee-backs-measure-lifting-parking-requirements-along-transit-corridors/"
     ]
   },
+  "bb767919-1883-8188-d35a-2c393794e339": {
+    "id": "bb767919-1883-8188-d35a-2c393794e339",
+    "timestamp": 1772306058.941,
+    "keyword": [
+      "title:game",
+      "game",
+      "game development",
+      "game business",
+      "business",
+      "prototyping",
+      "indie game"
+    ],
+    "extra": [],
+    "note": "4 bits of advice for indie game developer, from 'heat signature', 'gunpoint' and 'tactical breach wizards' studio.\n1. Stay small. More team members increases burn rate without providing significant throughput or speed. Smaller expenses means larger runway for more experimentation and refining. His point is that hiring is that more people are good for known tasks ('churn') but aren't good for discovery tasks that are needed at the indie scale.\n2. Pick something prototypable. Use the prototype to refine and focus vision.\n3. Test. Try for 2-5 rounds of 100-2k people. Get average rating and elements the players didn't like about your game. Do not use the same pool for different rounds of testing (independence). If the critiques don't make sense or you don't understand why the rating is low, then do in-person testing to get fine-grained detail about what the player is struggling with or doesn't like. This stage will reduce variance and increase mean of chances of success. Without it, the game is almost surely DOA. Testing only gives you signal with good predictive power.\n4. Price is solved. Ask players what they'd pay for it and charge that.\nMinimize time to prototype. Spend most of your time in a loop of developing and testing. Provide some safety margin at the end to take care of any last minute upsets.\n'... that comes down to giving yourself as much time as possible, and checking in with players to make sure you’re spending it well.'",
+    "link": [
+      "https://www.pentadact.com/2026-01-08-15-years-of-indie-dev-in-4-bits-of-advice/"
+    ]
+  },
   "bbb254ee-0e45-f258-22b2-aaea04dab8eb": {
     "id": "bbb254ee-0e45-f258-22b2-aaea04dab8eb",
     "timestamp": 1718025943.863,
