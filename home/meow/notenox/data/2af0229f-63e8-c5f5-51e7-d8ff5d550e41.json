@@ -1,0 +1,17 @@
+{
+  "id": "2af0229f-63e8-c5f5-51e7-d8ff5d550e41",
+  "timestamp": 1772400087.268,
+  "keyword": [
+    "title:ml",
+    "ml",
+    "embedding",
+    "tokenizer",
+    "llm"
+  ],
+  "extra": [],
+  "note": "Tokenization is the process of converting text to discrete tokens. There are a few methods but, conceptually, they all try to assign integer IDs to parts of words. Tokenization by simple character count is too course, I guess, so methods to capture more of the structure of words and language, without blowing up exponentially, are used. It sounds like a count of unique tokens can be in the 30k-200k range.\nOnce tokenization occurs, embedding is done. This puts tokens into a higher dimensional space, supposedly usually in the range of 1000 or so. The idea is that the embedding captures more of the semantic structure of words so that neural networks have more signal to train on. One (standard?) way the embedding is done is to train a single hidden layer neural network in a 'bag of words' model that will try to predict a masked word. The output layer will give a probability of the resulting word. Once this simple embedding NN has been trained, the hidden layer is taken and used to embed (strings of tokens) into the higher dimensional space. So the embedding NN is V x E x V, with the initial V being the sum of one-hot vectors (the bag of words), E being the embedding dimension (~1k say), and V being the tokenization dimension (~30k-200k, say).\nThe whole 'attention', positional encoding, etc. is augmenting this embedding.",
+  "link": [
+    "https://huggingface.co/spaces/hesamation/primer-llm-embedding",
+    "https://www.kdnuggets.com/2018/04/implementing-deep-learning-methods-feature-engineering-text-data-cbow.html"
+  ]
+}
