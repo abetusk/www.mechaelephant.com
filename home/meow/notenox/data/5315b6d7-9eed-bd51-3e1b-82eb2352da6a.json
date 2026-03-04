@@ -1,0 +1,18 @@
+{
+  "id": "5315b6d7-9eed-bd51-3e1b-82eb2352da6a",
+  "timestamp": 1772593501.557,
+  "keyword": [
+    "title:graphics",
+    "graphics",
+    "rendering",
+    "tutorial",
+    "book"
+  ],
+  "extra": [],
+  "note": "Graphics programming resources, along with 'ray tracing in one weekend' series (cc0 online book).",
+  "link": [
+    "https://develop--gpvm-website.netlify.app/resources/",
+    "https://raytracing.github.io/",
+    "https://github.com/RayTracing/raytracing.github.io"
+  ]
+}

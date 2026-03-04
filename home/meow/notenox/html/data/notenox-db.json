@@ -4054,6 +4054,24 @@
       "https://github.com/abetusk/papers/blob/release/ComputerScience/BeliefPropagation/residual-belief-propagation_eligan-mcgraw-koller.pdf"
     ]
   },
+  "5315b6d7-9eed-bd51-3e1b-82eb2352da6a": {
+    "id": "5315b6d7-9eed-bd51-3e1b-82eb2352da6a",
+    "timestamp": 1772593501.557,
+    "keyword": [
+      "title:graphics",
+      "graphics",
+      "rendering",
+      "tutorial",
+      "book"
+    ],
+    "extra": [],
+    "note": "Graphics programming resources, along with 'ray tracing in one weekend' series (cc0 online book).",
+    "link": [
+      "https://develop--gpvm-website.netlify.app/resources/",
+      "https://raytracing.github.io/",
+      "https://github.com/RayTracing/raytracing.github.io"
+    ]
+  },
   "53a657c9-4b5c-ed5c-792d-3ecb0d59e42c": {
     "id": "53a657c9-4b5c-ed5c-792d-3ecb0d59e42c",
     "timestamp": 1731340417.607,
