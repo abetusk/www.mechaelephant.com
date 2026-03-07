@@ -3452,6 +3452,22 @@
       "https://raytracing.github.io/books/RayTracingInOneWeekend.html"
     ]
   },
+  "43c9bd48-cdca-755d-398a-6b754e48058a": {
+    "id": "43c9bd48-cdca-755d-398a-6b754e48058a",
+    "timestamp": 1772859079.265,
+    "keyword": [
+      "title:graphics",
+      "graphics",
+      "fog",
+      "rendering",
+      "blog"
+    ],
+    "extra": [],
+    "note": "Simple exponential falloff fog calculation. Also has a good blog list.",
+    "link": [
+      "https://forwardscattering.org/post/72"
+    ]
+  },
   "43e8cfc2-1973-c1fa-4abe-d08f0299a38d": {
     "id": "43e8cfc2-1973-c1fa-4abe-d08f0299a38d",
     "timestamp": 1711039418.03,
