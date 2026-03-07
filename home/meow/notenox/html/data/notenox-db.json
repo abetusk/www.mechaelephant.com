@@ -6466,6 +6466,25 @@
       "https://www.waveshare.com/wiki/DDSM210"
     ]
   },
+  "82728ad0-46a7-2b01-2d8e-23d30773b890": {
+    "id": "82728ad0-46a7-2b01-2d8e-23d30773b890",
+    "timestamp": 1772858768.471,
+    "keyword": [
+      "title:meager thoughts",
+      "meager thoughts",
+      "programming languages",
+      "software development",
+      "corporate",
+      "business"
+    ],
+    "extra": [],
+    "note": "A blog post on the 'XYZ ABC' problem:\n> ... The first group says 'it’s so awesome, look at features X, Y and Z'. The second group says ' ... it caused problems A, B and C'\nThe blog post goes on to make an analogy with D&D intelligence vs. wisdom in regards to Golang ('You’ve missed the point if you agree that '#Golang is badly designed' and 'People find it easy to write good software in #Golang.'\nAs a rough metric, programming languages have some major axies: Speed at which development can occur, compiled/runtime execution speed of the program (or how easy it is to make performant), ecosystem of tools/libraries and maturity, and where on the corporate/low-discretion/high-discretion/high-autonomy/expressivity a language is.\nThe last term ('low-discretion' vs. 'high-discretion' language) is often discounted but, in my opinion, is often the major driving force of adoption. Tech adoption, and programming languages in particular, are often driven by business interests, which desire low-discretion languages. This means that language debates are worse than mistaking programmer velocity for execution speed or features vs. maturity as those debates miss the main driving force entirely, which is how attractive a language is to a corporation.",
+    "link": [
+      "https://nigeltao.github.io/blog/2019/xyz-abc-problem.html",
+      "https://web.archive.org/web/20210306150046/https://ftp.osuosl.org/pub/fosdem/2021/D.perl/programming_lang_for_free_software.mp4",
+      "http://blog.gmarceau.qc.ca/2009/05/speed-size-and-dependability-of.html"
+    ]
+  },
   "83880637-15e5-ad75-ab83-e314210f4851": {
     "id": "83880637-15e5-ad75-ab83-e314210f4851",
     "timestamp": 1645263371.495,
