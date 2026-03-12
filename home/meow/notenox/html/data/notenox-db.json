@@ -2908,6 +2908,28 @@
       "https://web.archive.org/web/20210422121832/https://opensource.google/docs/using/agpl-policy/"
     ]
   },
+  "3936986a-7898-6971-42a4-219353df800a": {
+    "id": "3936986a-7898-6971-42a4-219353df800a",
+    "timestamp": 1773285149.003,
+    "keyword": [
+      "title:math",
+      "math",
+      "asin",
+      "mathematical functions",
+      "function",
+      "numerical methods",
+      "nist"
+    ],
+    "extra": [],
+    "note": "'faster asin() was hiding in plain sight' along with links to HN comments, NIST library of mathematical functions and some links to remez and misc. topics.",
+    "link": [
+      "https://16bpp.net/blog/post/faster-asin-was-hiding-in-plain-sight/",
+      "https://dlmf.nist.gov/",
+      "https://github.com/samhocevar/lolremez",
+      "https://en.wikipedia.org/wiki/Remez_algorithm",
+      "https://en.wikipedia.org/wiki/Minimax_approximation_algorithm"
+    ]
+  },
   "397bdedc-b28c-bea6-48e0-ff95c2bc0faf": {
     "id": "397bdedc-b28c-bea6-48e0-ff95c2bc0faf",
     "timestamp": 1762574384.607,
