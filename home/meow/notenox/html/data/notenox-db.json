@@ -1284,6 +1284,23 @@
       "https://www.youtube.com/watch?v=7Sc1rjGMblM"
     ]
   },
+  "18ebaea7-3598-e710-74c1-5c77aa3f3e18": {
+    "id": "18ebaea7-3598-e710-74c1-5c77aa3f3e18",
+    "timestamp": 1773420133.233,
+    "keyword": [
+      "title:data",
+      "data",
+      "dataset",
+      "language",
+      "mozilla",
+      "libre"
+    ],
+    "extra": [],
+    "note": "Mozilla collection of datasets (audio files of different spoken languages?) under various cc licenses, many libre",
+    "link": [
+      "https://datacollective.mozillafoundation.org/datasets"
+    ]
+  },
   "18f922c8-0bf1-a12b-bc1f-ac63b1f4533b": {
     "id": "18f922c8-0bf1-a12b-bc1f-ac63b1f4533b",
     "timestamp": 1662400131.347,
@@ -6679,6 +6696,21 @@
     "note": "NIST National Standard Reference Data",
     "link": [
       "https://www.nist.gov/srd"
+    ]
+  },
+  "854fba88-b233-fdc8-6c1c-1bd0865b0bf0": {
+    "id": "854fba88-b233-fdc8-6c1c-1bd0865b0bf0",
+    "timestamp": 1773360237.237,
+    "keyword": [
+      "title:art",
+      "art",
+      "public domain",
+      "museum"
+    ],
+    "extra": [],
+    "note": "europeana.eu has a lot of pd and libre/free licensed works",
+    "link": [
+      "https://www.europeana.eu/en"
     ]
   },
   "85972f07-dabf-b60b-3c72-5fe014577370": {
