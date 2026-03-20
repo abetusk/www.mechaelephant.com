@@ -2103,6 +2103,30 @@
       "https://web.archive.org/web/20210126094437/https://stacker.com/stories/4906/manufacturing-history-year-you-were-born"
     ]
   },
+  "292096f2-bebe-2fe2-0fad-2d72ab35afcc": {
+    "id": "292096f2-bebe-2fe2-0fad-2d72ab35afcc",
+    "timestamp": 1773965453.647,
+    "keyword": [
+      "title:gamedev",
+      "gamedev",
+      "graphics",
+      "dithering",
+      "pixel art",
+      "3d",
+      "programming"
+    ],
+    "extra": [],
+    "note": "Texel marching and texel splatting are techniques to make things look like pixel art without the shimmer that often happens. I don't fully understand but the idea is some sort of permutation of rendering onto a small cube map around the player camera then rendering the cube map. Since the rendering is done once onto the cube map, the shimmer goes away while moving inside of it, including rotations. The issue comes with figuring out how to interpolate between cube maps as the player moves through the space.",
+    "link": [
+      "https://tesseractc.at/shadowglass",
+      "https://www.youtube.com/watch?v=GhlTMsPoaJw",
+      "https://dylanebert.com/texel-splatting/",
+      "https://arxiv.org/abs/2603.14587",
+      "https://shaderbits.com/blog/octahedral-impostors/",
+      "https://www.youtube.com/watch?v=892KL5EKLiA&t=1s",
+      "https://news.ycombinator.com/item?id=47406160"
+    ]
+  },
   "299edd3b-2027-da00-0748-3e6a7bf348d9": {
     "id": "299edd3b-2027-da00-0748-3e6a7bf348d9",
     "timestamp": 1608678719.041,
