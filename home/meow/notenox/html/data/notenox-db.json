@@ -942,6 +942,24 @@
       "https://www.youtube.com/watch?v=IA44RovxfIE"
     ]
   },
+  "135de858-29ba-7e19-8f00-6979906bd918": {
+    "id": "135de858-29ba-7e19-8f00-6979906bd918",
+    "timestamp": 1773986502.786,
+    "keyword": [
+      "title:web",
+      "web",
+      "webring",
+      "small web",
+      "indie web"
+    ],
+    "extra": [],
+    "note": "'wander' small web ring thing by susam",
+    "link": [
+      "https://susam.net/wander/",
+      "https://codeberg.org/susam/wander#readme",
+      "https://susam.net/wander/wander.js"
+    ]
+  },
   "13bfd5cb-6a61-8d42-1e34-35c98362eaab": {
     "id": "13bfd5cb-6a61-8d42-1e34-35c98362eaab",
     "timestamp": 1621478040.241,
@@ -4791,6 +4809,22 @@
     "note": "blog post about building an open source saas business (web analytics)",
     "link": [
       "https://plausible.io/blog/building-open-source"
+    ]
+  },
+  "5ed7d8fd-b2a5-67b8-4c99-f20a5d227319": {
+    "id": "5ed7d8fd-b2a5-67b8-4c99-f20a5d227319",
+    "timestamp": 1773986357.518,
+    "keyword": [
+      "title:math",
+      "math",
+      "nesbit",
+      "inequality"
+    ],
+    "extra": [],
+    "note": "'Shape of inequalities', including Nesbitt's inequality ( a/(b+c) + b/(a+c) + c/(a_b) >= 3/2 ).",
+    "link": [
+      "https://www.andreinc.net/2026/03/16/the-shape-of-inequalities/",
+      "https://www.andreinc.net/2025/03/17/the-trickonometry-of-math-olympiad-inequalities/#nesbitts-inequality"
     ]
   },
   "5ffcc674-7e5a-0d1b-d3ed-e6f6b6897039": {
