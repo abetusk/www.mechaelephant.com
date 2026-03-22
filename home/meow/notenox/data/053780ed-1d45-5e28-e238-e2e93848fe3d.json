@@ -1,0 +1,18 @@
+{
+  "id": "053780ed-1d45-5e28-e238-e2e93848fe3d",
+  "timestamp": 1774206086.498,
+  "keyword": [
+    "title:programming",
+    "programming",
+    "ffmpeg",
+    "video editing",
+    "video",
+    "editing"
+  ],
+  "extra": [],
+  "note": "ffmpeg has a DSL for rendering vector graphics that interact with the video feed called 'drawvg'.",
+  "link": [
+    "https://ayosec.github.io/ffmpeg-drawvg/",
+    "https://ayosec.github.io/ffmpeg-drawvg/playground/docs/langref.html"
+  ]
+}
