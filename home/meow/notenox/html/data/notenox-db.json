@@ -671,6 +671,27 @@
     "note": "Vegan Braanz Taco Truck: you own a vegain brain taco truck that serves vegan braanz (a vegan replacement for brains) to the horde of zombies. You have to manuver the truck though the horde of zombies, which are attacked to food and noise. The truck makes a chiming noise when it has ingrediants to serve. You collect ingredients from the mini-marts and shopping centers littered in the post apacolyptic landscape to supply the truck. The truck can run over zombies at a point cost. Zombies are maybe put into cages at the end of the truck so they can be converted back to human at the base camp. Idea is to combine some aspects of unrailed and overcooked. Maybe different zombies require different recipes.",
     "link": []
   },
+  "0d0315fe-51e4-7b2e-9855-7c0b7f397dc6": {
+    "id": "0d0315fe-51e4-7b2e-9855-7c0b7f397dc6",
+    "timestamp": 1774659842.537,
+    "keyword": [
+      "title:math",
+      "math",
+      "art",
+      "escher",
+      "droste",
+      "3b1b",
+      "conformal",
+      "complex"
+    ],
+    "extra": [],
+    "note": "3b1b video and other misc. notes on Escher's droste pictures",
+    "link": [
+      "https://www.youtube.com/watch?v=ldxFjLJ3rVY",
+      "https://news.ycombinator.com/item?id=47490609",
+      "https://www.ams.org/notices/200304/fea-escher.pdf"
+    ]
+  },
   "0df6ae28-f8d6-32a8-d0c9-945af95f0c6a": {
     "id": "0df6ae28-f8d6-32a8-d0c9-945af95f0c6a",
     "timestamp": 1723764802.788,
@@ -5939,6 +5960,27 @@
       "https://www.a2k-coalition.org/"
     ]
   },
+  "750cf1b1-bf78-4867-fdfb-a9cc329b0cb7": {
+    "id": "750cf1b1-bf78-4867-fdfb-a9cc329b0cb7",
+    "timestamp": 1774494689.416,
+    "keyword": [
+      "title:politics",
+      "politics",
+      "class",
+      "populism",
+      "conservatism",
+      "democracy",
+      "USA",
+      "left"
+    ],
+    "extra": [],
+    "note": "Dustin Guastella on Doomscroll talks about failures of the new left and his new book, 'Rustin's challenge'.\n* MANGOS - Media, academics, artists, NGOs, comprises the major influence of what the media dialogue and inform policy on the left\n* MANGO is comprised of professional managerial class (PMC) so has issues that relate to their class stratum and retaining power\n* MANGO PMCs adapt to spectacle and attention as a strategy to gain influence, power and money\n* A point made is that many seemingly radical ideas are actually in line with a neo-liberal agenda, such as 'defund the police' which superficially sounds radical but is what's happening with most of the police force in the USA, outside of some small counterexamples (like NYC)\n* Another example is legalizating drugs as a solution instead of investing heavily in addiction treatment and control\n* Today, socialization happens with others in the class startum, if at all, a departure from even 30 years ago\n* Many right wing voters want someone to talk about the globalized labor market that has devastated wages\n* Identifies 2000s as pivotal moment with after effects of NAFTA, China into WTO and repeal of Glass-Stiegal\n* Argues that knowledge culture should be global but goods should be local and finance should be 'domesticated' (paraphrasing Keynes)\n* Argues that new left is still in a mind set of 1960s globalism that does away with nation states and promotes globalization while failing to understand how it undermines national progress (esp. USA)\n* Talks about diluting fascism to describe Trump, especially as last gilded age had many Trump like characters and what we might call 'facsist' today well before 1940s fascism\n* Suggests 'national populist' or 'right-wing populist' as accurate way to describe Trump\n* Infrastructure requires timelines and access to capital that private interests don't have\n* Rustin (1960s) noticed that globalization was getting rid of ability of workforce to sell (physical) labor at decent price\n* New left substitutes politics for self expression (or mistakes self expression for politics)\n* Many of the pushback against social norms adopted by the left would not only alienate the left from the population and wouldn't provide a program for progress moving forward, but would be adopted by entrenched power as accomodation (identity politics, drugs, prostitution, gambling, etc.)\n* Argues that Rustin saw breaking down racial inequality so that economic equality could flourish. Instead economic equality got decimated",
+    "link": [
+      "https://www.youtube.com/watch?v=Bgk65ZmEyvA",
+      "https://www.damagemag.com/",
+      "https://www.workingclasspolitics.org/"
+    ]
+  },
   "751ccc98-a522-ff7d-9581-fa52642855f8": {
     "id": "751ccc98-a522-ff7d-9581-fa52642855f8",
     "timestamp": 1609805421.574,
@@ -6809,6 +6851,24 @@
       "https://sunkencastles.com/in-other-media/"
     ]
   },
+  "840012fd-d1cb-5bf8-ed25-706917c874a3": {
+    "id": "840012fd-d1cb-5bf8-ed25-706917c874a3",
+    "timestamp": 1774675353.869,
+    "keyword": [
+      "title:algorithms",
+      "algorithms",
+      "lz77",
+      "compression",
+      "gzip"
+    ],
+    "extra": [],
+    "note": "Some references, including an rfc, for gzip and lz77",
+    "link": [
+      "https://datatracker.ietf.org/doc/html/rfc1951",
+      "https://github.com/madler/zlib/blob/develop/contrib/puff/puff.c",
+      "https://news.ycombinator.com/item?id=47499262"
+    ]
+  },
   "84bfbeca-0f45-35dd-988c-ce91291615e5": {
     "id": "84bfbeca-0f45-35dd-988c-ce91291615e5",
     "timestamp": 1765490815.502,
@@ -7067,6 +7127,24 @@
     "note": "flywire fixture",
     "link": [
       "https://www.aliexpress.com/item/4000073101028.html"
+    ]
+  },
+  "883a36f9-4e13-491e-97db-509364b560eb": {
+    "id": "883a36f9-4e13-491e-97db-509364b560eb",
+    "timestamp": 1774676575.939,
+    "keyword": [
+      "title:color",
+      "color",
+      "theory",
+      "nuclear reactor"
+    ],
+    "extra": [],
+    "note": "'Why so many control rooms were seafoam green' ... because of the father of color theory, Faber Birren, who had a color palette for industrial plants which included green to reduce eye fatigue. Nuclear reactor green is #9FE2BF ? (wikipedia)",
+    "link": [
+      "https://bethmathews.substack.com/p/why-so-many-control-rooms-were-seafoam",
+      "https://archive.org/details/colorforinterior0000birr/page/n5/mode/2up",
+      "https://mag.uchicago.edu/arts-humanities/shades-meaning",
+      "https://en.wikipedia.org/wiki/Spring_green#Sea_foam_green"
     ]
   },
   "88a1f84d-c499-c801-3c7f-84b1988d5502": {
@@ -8845,6 +8923,21 @@
       "https://www.importyeti.com/faqs"
     ]
   },
+  "a881ee33-89be-f05e-7b19-58e7897399a4": {
+    "id": "a881ee33-89be-f05e-7b19-58e7897399a4",
+    "timestamp": 1774675513.255,
+    "keyword": [
+      "title:internet",
+      "internet",
+      "ipv4",
+      "ipv6"
+    ],
+    "extra": [],
+    "note": "'IP addresses through 2025'",
+    "link": [
+      "https://blog.apnic.net/2026/01/20/ip-addresses-through-2025/"
+    ]
+  },
   "a8900a1f-4038-9379-979b-94b94f8d51a6": {
     "id": "a8900a1f-4038-9379-979b-94b94f8d51a6",
     "timestamp": 1618908183.249,
@@ -10114,6 +10207,21 @@
     "note": "Traffic jam simulation on complexity-explorables",
     "link": [
       "https://www.complexity-explorables.org/explorables/berlin-8-am/"
+    ]
+  },
+  "c09549f4-122e-66fe-8830-1b959308acaf": {
+    "id": "c09549f4-122e-66fe-8830-1b959308acaf",
+    "timestamp": 1774676635.503,
+    "keyword": [
+      "title:archive",
+      "archive",
+      "pictures",
+      "encyclopedia"
+    ],
+    "extra": [],
+    "note": "personal enclypedia from pictures and families stories",
+    "link": [
+      "https://whoami.wiki/blog/personal-encyclopedias"
     ]
   },
   "c0e682be-c04a-4d70-6d0a-6e6c8c1411e7": {

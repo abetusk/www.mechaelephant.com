@@ -1,0 +1,18 @@
+{
+  "id": "840012fd-d1cb-5bf8-ed25-706917c874a3",
+  "timestamp": 1774675353.869,
+  "keyword": [
+    "title:algorithms",
+    "algorithms",
+    "lz77",
+    "compression",
+    "gzip"
+  ],
+  "extra": [],
+  "note": "Some references, including an rfc, for gzip and lz77",
+  "link": [
+    "https://datatracker.ietf.org/doc/html/rfc1951",
+    "https://github.com/madler/zlib/blob/develop/contrib/puff/puff.c",
+    "https://news.ycombinator.com/item?id=47499262"
+  ]
+}
