@@ -6574,6 +6574,22 @@
       "https://en.wikipedia.org/wiki/Nightmask"
     ]
   },
+  "7d12281e-e620-81f5-bc64-256bcb6cb0f6": {
+    "id": "7d12281e-e620-81f5-bc64-256bcb6cb0f6",
+    "timestamp": 1777444068.721,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "rust",
+      "cve",
+      "bug"
+    ],
+    "extra": [],
+    "note": "Rust bugs, mostly doing with bad usage patterns on system utils, ignoring errors or incorrect string handling (utf8 vs raw bytes). Claims most C bugs, including many GNU core utils, are mostly buffer overruns",
+    "link": [
+      "https://corrode.dev/blog/bugs-rust-wont-catch/"
+    ]
+  },
   "7d145a86-8637-c08a-6860-14fbf1bccb53": {
     "id": "7d145a86-8637-c08a-6860-14fbf1bccb53",
     "timestamp": 1612297632.42,
