@@ -8092,6 +8092,22 @@
       "https://hueffner.de/falk/blog/a-leap-year-check-in-three-instructions.html"
     ]
   },
+  "97cad701-5fc9-f3bd-0d80-bdcd2d0d779b": {
+    "id": "97cad701-5fc9-f3bd-0d80-bdcd2d0d779b",
+    "timestamp": 1778352326.404,
+    "keyword": [
+      "title:robotics",
+      "robotics",
+      "lattice",
+      "bldc"
+    ],
+    "extra": [],
+    "note": "Open source robot to build lattice structures.",
+    "link": [
+      "https://gitlab.cba.mit.edu/miana/milabot-actuator-v1",
+      "https://gitlab.cba.mit.edu/miana/milabot-actuator-v1"
+    ]
+  },
   "98056877-ecf0-520a-fe25-2732a373b664": {
     "id": "98056877-ecf0-520a-fe25-2732a373b664",
     "timestamp": 1709426480.889,
@@ -12975,6 +12991,23 @@
       "http://hobbymaths.blogspot.com/2015/09/visualizing-patterns-in-sets-of-complex.html",
       "https://math.stackexchange.com/questions/733754/visually-stunning-math-concepts-which-are-easy-to-explain?page=1&tab=votes#tab-top",
       "https://web.archive.org/web/20210506172115/http://hobbymaths.blogspot.com/2015/09/visualizing-patterns-in-sets-of-complex.html"
+    ]
+  },
+  "ee22026b-5008-503c-44fa-5faff4995b9f": {
+    "id": "ee22026b-5008-503c-44fa-5faff4995b9f",
+    "timestamp": 1778352176.355,
+    "keyword": [
+      "title:music",
+      "music",
+      "lo-bit",
+      "gameboy",
+      "gba",
+      "chiptune"
+    ],
+    "extra": [],
+    "note": "Video on FMS (frequency modulation synth) program for the GBA.",
+    "link": [
+      "https://www.youtube.com/watch?v=YiDGel8fcfQ"
     ]
   },
   "ee5906cf-89e0-328b-59e9-c8565797356c": {
