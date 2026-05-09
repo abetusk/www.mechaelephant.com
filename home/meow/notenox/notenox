@@ -14,8 +14,8 @@
 
 var fs = require('fs');
 
-NOTENOX_VERSION = "0.2.0";
-CONFIG_FILE = process.env.HOME + "/.config/notenox/notenox.conf";
+var NOTENOX_VERSION = "0.2.0";
+var CONFIG_FILE = process.env.HOME + "/.config/notenox/notenox.conf";
 
 function show_version(fp) {
   fp.write("version: " + NOTENOX_VERSION + "\n");

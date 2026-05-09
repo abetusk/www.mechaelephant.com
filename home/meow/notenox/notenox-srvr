@@ -1,0 +1,166 @@
+#!/usr/bin/env node
+
+/*
+ To the extent possible under law, the person who associated CC0 with
+ this source code has waived all copyright and related or neighboring rights
+ to this source code.
+
+ You should have received a copy of the CC0 legalcode along with this
+ work.  If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+*/
+
+// local webserver to take care of 'notenox_add.html'
+//
+
+
+var CONFIG_FILE = process.env.HOME + "/.config/notenox/notenox.conf";
+
+
+var http = require("http"),
+    url = require("url"),
+    path = require("path"),
+    fs = require("fs");
+
+var childproc = require("child_process");
+
+//let port = process.argv[2] || 8888;
+let port = 8888;
+let OP = 'launch';
+
+var option = {
+  "debug" : false,
+  "silent": false,
+  "save" : false,
+  "config": false,
+  "config_file" : CONFIG_FILE,
+  "enable" : false,
+  "html_dir": "./",
+  "db" : "",
+  "out_dir": "./"
+};
+
+function update_option(dat, override) {
+  override = ((typeof override === "undefined") ? {} : override);
+  for (var key in option) {
+
+    // update the option if it's in our custom config
+    //
+    if (key in dat) {
+
+      // but not if it's specified on the command line
+      //
+      if ( !(key in override) ) {
+        option[key] = dat[key];
+
+        if ((key == "html_dir") ||
+            (key == "out_dir") ||
+            (key == "db")) {
+          option[key] = option[key].replace( '~', process.env.HOME );
+        }
+
+      }
+
+    }
+
+  }
+}
+
+
+// reads in all json data files from `out_dir` and puts them into `db` file
+//
+function flush_db() {
+  let dat_dir = option.out_dir;
+  let fns = fs.readdirSync(dat_dir);
+  let new_db = {};
+  for (let ii=0; ii<fns.length; ii++) {
+    let fn = fns[ii];
+    if (!(fn.match( '^[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}\.json$' ))) { continue; }
+    let fqfn = option.out_dir + "/" + fn;
+    let data = JSON.parse(fs.readFileSync(fqfn));
+    new_db[ data.id ] = data;
+  }
+  fs.writeFileSync( option.db, JSON.stringify( new_db, undefined, 2 ) );
+}
+
+function write_note(note_info) {
+  let ret = fs.writeFileSync( option.out_dir + "/" + note_info.id + ".json", JSON.stringify(note_info, null, 2), 'utf-8' );
+}
+
+
+if (fs.existsSync(option.config_file)) {
+  var cfg_dat = JSON.parse(fs.readFileSync(option.config_file));
+  update_option(cfg_dat);
+}
+else { }
+
+http.createServer(function(request, response) {
+
+  let HTML_DIR = "./";
+  if ("html_dir" in option) { HTML_DIR = option.html_dir; }
+
+
+  if (request.method == 'POST') {
+    let body = '';
+    request.on('data', function(_chunk) { body += _chunk; });
+    request.on('end', function() {
+      response.writeHead(201, { 'Content-Type': 'application/json' });
+      response.end(JSON.stringify({ 'message': "success", "data" : body }));
+
+      let json_data = JSON.parse(body);
+
+
+      write_note( json_data );
+      console.log( json_data.id );
+    });
+    return;
+  }
+
+
+  let base_url = 'http://' + request.headers.host + '/';
+  let uri = new url.URL( request.url, base_url );
+
+  let param = uri.pathname.split("&");
+
+  //let filename = path.join(process.cwd(), param[0]);
+  let filename = path.join(HTML_DIR, param[0]);
+
+  let contentTypesByExtension = {
+    '.html': "text/html",
+    '.css':  "text/css",
+    '.js':   "text/javascript"
+  };
+
+  fs.exists(filename, function(exists) {
+    if(!exists) {
+      response.writeHead(404, {"Content-Type": "text/plain"});
+      response.write("404 Not Found\n");
+      response.end();
+      return;
+    }
+
+    if (fs.statSync(filename).isDirectory()) filename += '/index.html';
+
+    fs.readFile(filename, "binary", function(err, file) {
+      if(err) {        
+        response.writeHead(500, {"Content-Type": "text/plain"});
+        response.write(err + "\n");
+        response.end();
+        return;
+      }
+
+      let headers = {};
+      let contentType = contentTypesByExtension[path.extname(filename)];
+      if (contentType) headers["Content-Type"] = contentType;
+      response.writeHead(200, headers);
+      response.write(file, "binary");
+      response.end();
+    });
+  });
+}).listen(parseInt(port, 10));
+
+if (OP == 'launch') {
+  let iport = parseInt(port);
+  childproc.exec("firefox 'http://localhost:" + iport.toString() + "/notenox_add.html&foo=bar'");
+}
+
+console.log("Static file server running at\n  => http://localhost:" + port + "/\nCTRL + C to shutdown");
