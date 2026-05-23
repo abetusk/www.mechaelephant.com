@@ -1,0 +1,21 @@
+{
+  "id": "72b06d91-e14e-fed4-4f4c-77db7624ef8c",
+  "timestamp": 1779556730.574,
+  "keyword": [
+    "title:math",
+    "math",
+    "mathematics",
+    "machine learning",
+    "gradient descent",
+    "convex optimization",
+    "quadratic sandwich",
+    "strong convexity",
+    "lipschitz continuous",
+    "lipschitz"
+  ],
+  "extra": [],
+  "note": "Talks about the 'quadratic sandwich', where if a function is Lipschitz continuous (L-smooth), bounding the function and it's gradient from above and convex, bounding the function and it's gradient from below, we expect gradient descent to work well.\n\nThe analogy they give is 'ice' where if you make a step forward and there's no drag, the guess will shoot off.",
+  "link": [
+    "https://fedemagnani.github.io/math/2026/04/08/the-quadratic-sandwich.html"
+  ]
+}

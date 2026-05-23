@@ -1,0 +1,21 @@
+{
+  "id": "d8c83fea-5777-0927-2fd0-885a6c3ec2c5",
+  "timestamp": 1779556873.921,
+  "keyword": [
+    "title:math",
+    "math",
+    "mathematics",
+    "factorial"
+  ],
+  "extra": [],
+  "note": "\"Fast\" factorial function, introducing the swinging factorial ($n! / \\lfloor n / 2\\rfloor ! ^2$).",
+  "link": [
+    "https://oeis.org/A000142/a000142.pdf",
+    "http://www.luschny.de/math/factorial/FastFactorialFunctions.htm",
+    "http://www.luschny.de/math/factorial/SwingIntro.pdf",
+    "http://www.luschny.de/math/swing/SwingingFactorial.html",
+    "https://oeis.org/A056040",
+    "https://math.stackexchange.com/questions/3692793/swinging-factorial-and-swinging-constant",
+    ""
+  ]
+}
