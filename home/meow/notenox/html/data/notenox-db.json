@@ -967,6 +967,26 @@
       "https://git.majstor.org/mikroPhone"
     ]
   },
+  "1267f37d-8bee-fd26-7f8d-16ab0bbc589f": {
+    "id": "1267f37d-8bee-fd26-7f8d-16ab0bbc589f",
+    "timestamp": 1779808055.047,
+    "keyword": [
+      "title:open-hardware",
+      "open-hardware",
+      "open hardware",
+      "hardware",
+      "chip",
+      "design",
+      "silicon"
+    ],
+    "extra": [],
+    "note": "Resources some open hardware chip design organizations and software.",
+    "link": [
+      "https://www.siliconimist.com/p/the-open-source-silicon-business",
+      "https://github.com/aesc-silicon",
+      "https://github.com/The-OpenROAD-Project"
+    ]
+  },
   "12a996e5-4db8-9a53-176b-f15bcc430dca": {
     "id": "12a996e5-4db8-9a53-176b-f15bcc430dca",
     "timestamp": 1693924599.22,
@@ -6366,6 +6386,21 @@
       "https://en.wikipedia.org/wiki/Error_function"
     ]
   },
+  "78cba5b6-03ee-1c52-d360-0351ad45a834": {
+    "id": "78cba5b6-03ee-1c52-d360-0351ad45a834",
+    "timestamp": 1779807921.023,
+    "keyword": [
+      "title:music",
+      "music",
+      "comic",
+      "tutorial"
+    ],
+    "extra": [],
+    "note": "\"Additive synth comic\"",
+    "link": [
+      "https://melatonin.dev/additive-synth-comic/what-is-a-harmonic/"
+    ]
+  },
   "79299340-a577-c2ce-1295-06308583fcbb": {
     "id": "79299340-a577-c2ce-1295-06308583fcbb",
     "timestamp": 1727586795.159,
@@ -8247,6 +8282,27 @@
     "note": "[Adafruit] has a diy boost converter.",
     "link": [
       "https://learn.adafruit.com/diy-boost-calc?view=all"
+    ]
+  },
+  "98f661b1-8cb1-7914-7d39-521d02efd199": {
+    "id": "98f661b1-8cb1-7914-7d39-521d02efd199",
+    "timestamp": 1779899407.966,
+    "keyword": [
+      "title:meager thoughts",
+      "meager thoughts",
+      "programming",
+      "politics",
+      "FOSS",
+      "open source",
+      "programming languages",
+      "software development",
+      "business",
+      "corporate"
+    ],
+    "extra": [],
+    "note": "In my opinion, these are the major points for programming language wars:\n\n* Execution speed: Speed of execution of compiled/interpreted program on some host computer\n* Development speed: Speed at which a programmer can create a program that executes\n* Correctness: How bug/error prone the language is and how well it can be avoided\n* Maturity: How large, mature and robust the ecosystem is for libraries and help with development\n* Prosaicness: How high of a skill ceiling there is, how well proficiency helps in development and how fungible programmers are\n\nFrom my personal observation, before 2010s, execution speed vs. development speed was the major fight (e.g. Pascal vs. C, etc.). More recently, there's been a groundswell for correctness (e.g. Rust). Maturity has always been in the background, especially for more senior technical folk.\n\nThe one that has always been there, but without being explicitly identified, at least to me, is prosaicness. I think this was around since the beginning, under various guises, but I missed it. I believe prosaicness is the driving force for adoption for many languages (e.g. Java, XML, Go) and is probably the one that has the most impact on adoption.",
+    "link": [
+      ""
     ]
   },
   "999e69f1-0dd9-84d1-4f17-3aa774e752c3": {
