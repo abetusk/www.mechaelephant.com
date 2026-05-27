@@ -1,0 +1,21 @@
+{
+  "id": "98f661b1-8cb1-7914-7d39-521d02efd199",
+  "timestamp": 1779899407.966,
+  "keyword": [
+    "title:meager thoughts",
+    "meager thoughts",
+    "programming",
+    "politics",
+    "FOSS",
+    "open source",
+    "programming languages",
+    "software development",
+    "business",
+    "corporate"
+  ],
+  "extra": [],
+  "note": "In my opinion, these are the major points for programming language wars:\n\n* Execution speed: Speed of execution of compiled/interpreted program on some host computer\n* Development speed: Speed at which a programmer can create a program that executes\n* Correctness: How bug/error prone the language is and how well it can be avoided\n* Maturity: How large, mature and robust the ecosystem is for libraries and help with development\n* Prosaicness: How high of a skill ceiling there is, how well proficiency helps in development and how fungible programmers are\n\nFrom my personal observation, before 2010s, execution speed vs. development speed was the major fight (e.g. Pascal vs. C, etc.). More recently, there's been a groundswell for correctness (e.g. Rust). Maturity has always been in the background, especially for more senior technical folk.\n\nThe one that has always been there, but without being explicitly identified, at least to me, is prosaicness. I think this was around since the beginning, under various guises, but I missed it. I believe prosaicness is the driving force for adoption for many languages (e.g. Java, XML, Go) and is probably the one that has the most impact on adoption.",
+  "link": [
+    ""
+  ]
+}
