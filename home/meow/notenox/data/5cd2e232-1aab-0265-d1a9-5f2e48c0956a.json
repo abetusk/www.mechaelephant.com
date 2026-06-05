@@ -1,0 +1,25 @@
+{
+  "id": "5cd2e232-1aab-0265-d1a9-5f2e48c0956a",
+  "timestamp": 1780626841.001,
+  "keyword": [
+    "title:programming",
+    "networking",
+    "transfer",
+    "quic",
+    ""
+  ],
+  "extra": [],
+  "note": "Resources on faster transport programs.\n\nTransfer over TCP is very slow for large files. Aspera is one option that's used (was used?) for large file transfer, achieving much higher bandwidth than with scp, say.\n\nAspera is proprietary and patented, with the patent expiring 2031 or so, I believe.\n\nAspera uses FASP (fast and secure protocol). It looks like both Tsunami and UDT 'break' the TCP bottleneck but it's unclear to me if they offer secure transfer, making Aspera/FASP the better solution for many people.\n\nOn a little more investigation, UDT is pretty low level, so maybe there's a way to secure and sign blocks that can be added as an extension to UDT.\n",
+  "link": [
+    "https://www.ccdatalab.org/blog/a-desperate-plea-for-a-free-software-alternative-to-aspera",
+    "https://news.ycombinator.com/item?id=21898072",
+    "https://en.wikipedia.org/wiki/Fast_and_Secure_Protocol",
+    "https://en.wikipedia.org/wiki/Tsunami_UDP_Protocol",
+    "https://en.wikipedia.org/wiki/UDP-based_Data_Transfer_Protocol",
+    "https://datatracker.ietf.org/doc/html/draft-gg-udt-03#page-18",
+    "https://udt.sourceforge.io/doc/udt-ccc-sc05-v10.pdf",
+    "https://udt.sourceforge.io/",
+    "https://en.wikipedia.org/wiki/QUIC",
+    "https://fast-data-transfer.github.io/"
+  ]
+}
