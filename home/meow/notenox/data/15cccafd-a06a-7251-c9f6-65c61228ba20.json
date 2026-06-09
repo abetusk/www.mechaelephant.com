@@ -1,0 +1,17 @@
+{
+  "id": "15cccafd-a06a-7251-c9f6-65c61228ba20",
+  "timestamp": 1781016845.995,
+  "keyword": [
+    "title:electronics",
+    "motor",
+    "bldc",
+    "tiny motor"
+  ],
+  "extra": [],
+  "note": "1/150 scale RC toyota probox car.\n\nCircuit looks to be pretty straight forward:\n\n* DRV8835 to power the small motors\n* attiny1616\n* TARS5833 3.7v -> 3.3v voltage regulator\n* PIC79603 IR receiver\n\n",
+  "link": [
+    "https://www.youtube.com/watch?v=FrbVzrdw9Tk",
+    "https://www.hackster.io/news/building-a-functional-rc-car-at-1-150-scale-894b36d39990",
+    "https://drive.google.com/file/d/1x4pXpJdGDKiCDyDL6an7v57AdFdN-5PC/view?pli=1"
+  ]
+}

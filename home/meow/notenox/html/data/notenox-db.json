@@ -108,6 +108,24 @@
       "https://github.com/NixOS/nixpkgs/issues/126677"
     ]
   },
+  "0209e661-d7bc-8e3b-f3e3-3711a0ac802f": {
+    "id": "0209e661-d7bc-8e3b-f3e3-3711a0ac802f",
+    "timestamp": 1781016693.004,
+    "keyword": [
+      "title:programming",
+      "art",
+      "creative coding",
+      "framework",
+      "generative"
+    ],
+    "extra": [],
+    "note": "thi.ng by Karsten Schmidt",
+    "link": [
+      "https://thi.ng/",
+      "https://github.com/thi-ng/umbrella",
+      "https://www.creativeapplications.net/people/karsten-schmidt/"
+    ]
+  },
   "02729b64-c3c9-a495-f56b-b331718fde80": {
     "id": "02729b64-c3c9-a495-f56b-b331718fde80",
     "timestamp": 1631077220.607,
@@ -1249,6 +1267,23 @@
     "note": "Save git credentials:\ngit config credential.helper store\ngit config --global credential.helper 'cache --timeout 7200'\n",
     "link": [
       "https://stackoverflow.com/questions/6565357/git-push-requires-username-and-password"
+    ]
+  },
+  "15cccafd-a06a-7251-c9f6-65c61228ba20": {
+    "id": "15cccafd-a06a-7251-c9f6-65c61228ba20",
+    "timestamp": 1781016845.995,
+    "keyword": [
+      "title:electronics",
+      "motor",
+      "bldc",
+      "tiny motor"
+    ],
+    "extra": [],
+    "note": "1/150 scale RC toyota probox car.\n\nCircuit looks to be pretty straight forward:\n\n* DRV8835 to power the small motors\n* attiny1616\n* TARS5833 3.7v -> 3.3v voltage regulator\n* PIC79603 IR receiver\n\n",
+    "link": [
+      "https://www.youtube.com/watch?v=FrbVzrdw9Tk",
+      "https://www.hackster.io/news/building-a-functional-rc-car-at-1-150-scale-894b36d39990",
+      "https://drive.google.com/file/d/1x4pXpJdGDKiCDyDL6an7v57AdFdN-5PC/view?pli=1"
     ]
   },
   "15fd3147-c6b8-0645-b656-70838e3c468a": {
@@ -8286,6 +8321,20 @@
     "note": "'Ten Lessons I Wish I Had Been Taught' by Gian-Carlo Rota from MIT applied math. Some cherry picked advice:\n* Write a long introduction. It's a gift to future readers to allow them an good intro to the subject and a good shout out to all the other folks who've come before.\n* Publish the same results several times. Rota talks about Riesz having 'perfectly formed' papers but this was because Riesz had shopped and refined the idea around in lesser journals. Also worth noting that lesser journals have been known to publish great results precisely because they were too new for larger journals. Publishing in lesser journals could not only spread ideas (and help refine them) but could also lay the groundwork for larger acceptance to filter back into the bigger journals.\n* Every mathematician has only a few tricks. This was said about Erdos as a derogatory remark but Rota notes that this is true of almost every mathematician.",
     "link": [
       "https://github.com/abetusk/papers/blob/release/Misc/ten-lessons-i-wish-i-had-been-taught_rota.pdf"
+    ]
+  },
+  "98a39458-2ea6-f0f4-226b-8a86af186334": {
+    "id": "98a39458-2ea6-f0f4-226b-8a86af186334",
+    "timestamp": 1781016913.917,
+    "keyword": [
+      "title:art",
+      "creative coding",
+      "mixed media"
+    ],
+    "extra": [],
+    "note": "creativeapplications.net",
+    "link": [
+      "https://www.creativeapplications.net/"
     ]
   },
   "98a8a742-6373-7a25-80dc-7389bfab253c": {
