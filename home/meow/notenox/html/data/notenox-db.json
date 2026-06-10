@@ -9310,6 +9310,23 @@
       "https://luke.hsiao.dev/blog/housing-documentation/"
     ]
   },
+  "a9478828-2c3f-9cc8-57f7-73e38bbe2514": {
+    "id": "a9478828-2c3f-9cc8-57f7-73e38bbe2514",
+    "timestamp": 1781116941.402,
+    "keyword": [
+      "title:math",
+      "math",
+      "mathematics",
+      "puzzle"
+    ],
+    "extra": [],
+    "note": "Propagating bits on a grid",
+    "link": [
+      "https://jasonfantl.com/posts/Propagating-Bit-on-Grid/",
+      "https://www.youtube.com/watch?v=P7-Xtkra2s4",
+      "https://people.lids.mit.edu/yp/homepage/data/2020_2dgrid.pdf"
+    ]
+  },
   "a9731fe1-98f6-db19-3e26-f1e6f8b346ad": {
     "id": "a9731fe1-98f6-db19-3e26-f1e6f8b346ad",
     "timestamp": 1634143980.715,
@@ -12817,6 +12834,20 @@
     "link": [
       "https://www.kaloh.xyz/p/an-introduction-to-tezos-nft-marketplaces",
       "https://web.archive.org/web/20220223054440/https://www.kaloh.xyz/p/an-introduction-to-tezos-nft-marketplaces?utm_source=url"
+    ]
+  },
+  "e8850006-dc33-dcfb-ad20-2116793ed908": {
+    "id": "e8850006-dc33-dcfb-ad20-2116793ed908",
+    "timestamp": 1781117093.789,
+    "keyword": [
+      "title:math",
+      "mathematics",
+      "analysis"
+    ],
+    "extra": [],
+    "note": "Bolzano-Weirstrass theorem:\n\n> Each infinite bounded sequence in $\\mathbb{R}^n$ has a convergent subsequence\n\nLemma:\n\n> Every infinite sequence $(x_n)$ in $\\mathbb{R}$ has an infinite monotone subsequence\n\n",
+    "link": [
+      "https://en.wikipedia.org/wiki/Bolzano%E2%80%93Weierstrass_theorem"
     ]
   },
   "e8e018fd-6ae7-20a3-9cae-0b4491ade717": {

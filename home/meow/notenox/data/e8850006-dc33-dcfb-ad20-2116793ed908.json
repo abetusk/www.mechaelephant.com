@@ -1,0 +1,14 @@
+{
+  "id": "e8850006-dc33-dcfb-ad20-2116793ed908",
+  "timestamp": 1781117093.789,
+  "keyword": [
+    "title:math",
+    "mathematics",
+    "analysis"
+  ],
+  "extra": [],
+  "note": "Bolzano-Weirstrass theorem:\n\n> Each infinite bounded sequence in $\\mathbb{R}^n$ has a convergent subsequence\n\nLemma:\n\n> Every infinite sequence $(x_n)$ in $\\mathbb{R}$ has an infinite monotone subsequence\n\n",
+  "link": [
+    "https://en.wikipedia.org/wiki/Bolzano%E2%80%93Weierstrass_theorem"
+  ]
+}
