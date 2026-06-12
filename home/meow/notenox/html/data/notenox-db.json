@@ -75,6 +75,24 @@
       "https://www.aliexpress.com/item/3256803882787451.html"
     ]
   },
+  "0178c199-ac00-078a-1ab4-ad577d6027aa": {
+    "id": "0178c199-ac00-078a-1ab4-ad577d6027aa",
+    "timestamp": 1781234146.458,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "llm",
+      "vintage"
+    ],
+    "extra": [],
+    "note": "LLM tutorial/writeup where training data is \"vintage\" (only from pre-1900s).\n\nAka: a Victorian LLM.\n\nLinks have other vintage LLMs",
+    "link": [
+      "https://crlf.link/log/entries/260525-1/",
+      "https://github.com/croqaz/vintage-LLM",
+      "https://huggingface.co/croqaz/vintage-LLM-340m-v1-base",
+      "https://crlf.link/log/entries/260428-1/"
+    ]
+  },
   "01e8e955-536d-4b95-8219-346c022ffa49": {
     "id": "01e8e955-536d-4b95-8219-346c022ffa49",
     "timestamp": 1631729360.83,
