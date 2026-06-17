@@ -1,0 +1,16 @@
+{
+  "id": "95d4b970-869c-d418-7490-437921bf38fa",
+  "timestamp": 1781707911.334,
+  "keyword": [
+    "title:ai",
+    "math",
+    "programming",
+    "language",
+    "machine learning"
+  ],
+  "extra": [],
+  "note": "nathan.rs : \"unbounded n-gram\"\n\nTake a text, create a suffix array. When doing lookup, weight by (exponential decay of) suffixes of query strings to provide diversity.",
+  "link": [
+    "https://nathan.rs/posts/unbounded-n-gram/"
+  ]
+}

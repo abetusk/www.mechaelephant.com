@@ -8174,6 +8174,22 @@
       "https://web.archive.org/web/20210916102724/https://www.nslookup.io/learning/dns-record-types/"
     ]
   },
+  "95d4b970-869c-d418-7490-437921bf38fa": {
+    "id": "95d4b970-869c-d418-7490-437921bf38fa",
+    "timestamp": 1781707911.334,
+    "keyword": [
+      "title:ai",
+      "math",
+      "programming",
+      "language",
+      "machine learning"
+    ],
+    "extra": [],
+    "note": "nathan.rs : \"unbounded n-gram\"\n\nTake a text, create a suffix array. When doing lookup, weight by (exponential decay of) suffixes of query strings to provide diversity.",
+    "link": [
+      "https://nathan.rs/posts/unbounded-n-gram/"
+    ]
+  },
   "95ff3fbd-7d4b-3f65-e0d4-e65fac5794eb": {
     "id": "95ff3fbd-7d4b-3f65-e0d4-e65fac5794eb",
     "timestamp": 1621249554.21,
