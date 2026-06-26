@@ -8908,6 +8908,29 @@
       "https://www.staples.com/epson-ecotank-photo-et-8550-wireless-wide-format-color-all-in-one-inkjet-printer-c11cj21201/product_24503591"
     ]
   },
+  "a20995e5-8e62-14a7-89c7-0b36d9f18e4c": {
+    "id": "a20995e5-8e62-14a7-89c7-0b36d9f18e4c",
+    "timestamp": 1782502894.558,
+    "keyword": [
+      "title:algorithm",
+      "algorithm",
+      "parallel",
+      "gpu",
+      "parenthesis",
+      "matching"
+    ],
+    "extra": [],
+    "note": "Resources on parenthesis matching.",
+    "link": [
+      "https://williamdue.github.io/blog/parallel-parentheses-matching",
+      "https://news.ycombinator.com/item?id=48678623",
+      "https://github.com/raphlinus/raphlinus.github.io/issues/66",
+      "https://arxiv.org/abs/2205.11659",
+      "https://raphlinus.github.io/gpu/2020/09/05/stack-monoid.html",
+      "https://news.ycombinator.com/item?id=24385095",
+      "https://news.ycombinator.com/item?id=27164009"
+    ]
+  },
   "a2f77d5d-2cef-02f4-2e4e-3edec5576bd7": {
     "id": "a2f77d5d-2cef-02f4-2e4e-3edec5576bd7",
     "timestamp": 1608851681.266,
