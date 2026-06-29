@@ -1,0 +1,19 @@
+{
+  "id": "34eedaf1-a625-0b19-7b36-ea538cc68230",
+  "timestamp": 1782739275.397,
+  "keyword": [
+    "title:history",
+    "history",
+    "typography",
+    "arabic",
+    "font"
+  ],
+  "extra": [],
+  "note": "\"An interactive introduction to the terrific experience of rendering Arabic typography and its technical debt\" by Vita Nouva.\n\nSome other random links as well.",
+  "link": [
+    "https://lr0.org/blog/p/arabic/",
+    "https://blog.plover.com/lang/bismillah.html",
+    "https://github.com/aliftype/amiri/blob/main/OFL.txt",
+    "https://github.com/harfbuzz/harfbuzz"
+  ]
+}
