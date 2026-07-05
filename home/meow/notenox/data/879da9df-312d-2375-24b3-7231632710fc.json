@@ -1,0 +1,20 @@
+{
+  "id": "879da9df-312d-2375-24b3-7231632710fc",
+  "timestamp": 1783271374.149,
+  "keyword": [
+    "title:sysadmin",
+    "sysadmin",
+    "linux",
+    "shell",
+    "top",
+    "htop",
+    "btop",
+    "system"
+  ],
+  "extra": [],
+  "note": "Explanation of fields present in htop display.\n\nNote that btop is a nicer more graphical version as recommended by folks on the most recent HN thread for this article.\n",
+  "link": [
+    "https://peteris.rocks/blog/htop/",
+    "https://news.ycombinator.com/item?id=48784777"
+  ]
+}

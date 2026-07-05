@@ -4952,6 +4952,19 @@
       "https://web.archive.org/web/20210126004354/https://twitter.com/NataniaBarron/status/1353866167568445441"
     ]
   },
+  "5bb134c6-a1ef-8943-6121-1b33dc77fc21": {
+    "id": "5bb134c6-a1ef-8943-6121-1b33dc77fc21",
+    "timestamp": 1783271813.098,
+    "keyword": [
+      "title:gamedev",
+      "gamedev"
+    ],
+    "extra": [],
+    "note": "Resources for gamedev",
+    "link": [
+      "https://owlcat.games/learning"
+    ]
+  },
   "5bb270f0-40d5-b88b-2c3b-6e21819b7dda": {
     "id": "5bb270f0-40d5-b88b-2c3b-6e21819b7dda",
     "timestamp": 1635744005.688,
@@ -7455,6 +7468,26 @@
     "note": "List of (hopefuly public domain) art from different museums",
     "link": [
       "https://www.artnome.com/art-data"
+    ]
+  },
+  "879da9df-312d-2375-24b3-7231632710fc": {
+    "id": "879da9df-312d-2375-24b3-7231632710fc",
+    "timestamp": 1783271374.149,
+    "keyword": [
+      "title:sysadmin",
+      "sysadmin",
+      "linux",
+      "shell",
+      "top",
+      "htop",
+      "btop",
+      "system"
+    ],
+    "extra": [],
+    "note": "Explanation of fields present in htop display.\n\nNote that btop is a nicer more graphical version as recommended by folks on the most recent HN thread for this article.\n",
+    "link": [
+      "https://peteris.rocks/blog/htop/",
+      "https://news.ycombinator.com/item?id=48784777"
     ]
   },
   "87d07934-3fe0-33c2-c627-55837db91b6c": {
@@ -10163,6 +10196,22 @@
       "https://karpathy.github.io/2026/02/12/microgpt/"
     ]
   },
+  "b599069c-f37e-5921-f1ff-780c22ded5a2": {
+    "id": "b599069c-f37e-5921-f1ff-780c22ded5a2",
+    "timestamp": 1783271444.478,
+    "keyword": [
+      "title:algorithm",
+      "algorithm",
+      "bwt",
+      "burrows-wheeler transform",
+      "compression"
+    ],
+    "extra": [],
+    "note": "\"Suffix BWT vs cyclic shift BWT ...\"",
+    "link": [
+      "https://purplesyringa.moe/blog/suffix-bwt-vs-cyclic-shift-bwt-and-fast-computation/"
+    ]
+  },
   "b599c6cc-4be6-3329-c0f9-bb461266af7c": {
     "id": "b599c6cc-4be6-3329-c0f9-bb461266af7c",
     "timestamp": 1680966609.404,
@@ -12110,6 +12159,26 @@
     "link": [
       "http://www.math.buffalo.edu/mad/madgreatest.html",
       "https://web.archive.org/web/20210909113706/http://www.math.buffalo.edu/mad/madgreatest.html"
+    ]
+  },
+  "d7888452-a722-0e44-44b5-0fb23657c866": {
+    "id": "d7888452-a722-0e44-44b5-0fb23657c866",
+    "timestamp": 1783271782.561,
+    "keyword": [
+      "title:textbook",
+      "textbook",
+      "teaching",
+      "math",
+      "mathematics"
+    ],
+    "extra": [],
+    "note": "\"No bullshit\" guides to variety of topics.",
+    "link": [
+      "https://minireference.gumroad.com/",
+      "https://github.com/minireference",
+      "https://minireference.com/",
+      "https://www.softcover.io/",
+      "https://github.com/minireference/softcover"
     ]
   },
   "d7b0dee0-6a93-065e-6706-72640e43dc03": {
