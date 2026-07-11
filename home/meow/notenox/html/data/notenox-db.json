@@ -8578,6 +8578,24 @@
       "https://amanvir.com/guten"
     ]
   },
+  "9a58d1c9-a4d8-c8a1-15ff-6f46635f3dd0": {
+    "id": "9a58d1c9-a4d8-c8a1-15ff-6f46635f3dd0",
+    "timestamp": 1783805242.662,
+    "keyword": [
+      "title:diybio",
+      "diybio",
+      "dna",
+      "sequencing"
+    ],
+    "extra": [],
+    "note": "\"How to sequence your own DNA at home\" (using MinION). I'm not sure what the coverage is like or even if it's whole genome but I suspect it is whole genome and decent coverage.\n\nThe Odin has 30x whole genome sequencing for $600.\n\nHN discussion linked.\n\n",
+    "link": [
+      "https://bradleywoolf.com/links-1/sequencing-my-own-dna-at-home",
+      "https://www.the-odin.com/whole-genome-sequencing-30x/",
+      "https://news.ycombinator.com/item?id=48812156",
+      ""
+    ]
+  },
   "9a720263-3b15-71e1-a038-d9141e1ed3af": {
     "id": "9a720263-3b15-71e1-a038-d9141e1ed3af",
     "timestamp": 1663604358.475,
