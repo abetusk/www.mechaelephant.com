@@ -4892,6 +4892,19 @@
       "https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40"
     ]
   },
+  "5aeba1f7-cdb7-8c9a-d47e-58e8c33c624c": {
+    "id": "5aeba1f7-cdb7-8c9a-d47e-58e8c33c624c",
+    "timestamp": 1783996245.128,
+    "keyword": [
+      "title:house",
+      "house"
+    ],
+    "extra": [],
+    "note": "heated mats for stairs (snow melting)",
+    "link": [
+      "https://heattrak.com/?country=US"
+    ]
+  },
   "5aec1b0f-811d-31cf-0219-2ab4b183f07c": {
     "id": "5aec1b0f-811d-31cf-0219-2ab4b183f07c",
     "timestamp": 1643840958.564,
@@ -5037,6 +5050,23 @@
     "link": [
       "http://danluu.com/empirical-pl/",
       "https://web.archive.org/web/20210313091147/http://danluu.com/empirical-pl/"
+    ]
+  },
+  "5c495d37-dec4-831e-21d1-6e5be83bfd44": {
+    "id": "5c495d37-dec4-831e-21d1-6e5be83bfd44",
+    "timestamp": 1783996213.48,
+    "keyword": [
+      "title:copyright",
+      "copyright",
+      "cc0",
+      "public domain",
+      "germany"
+    ],
+    "extra": [],
+    "note": "From a CC0  FAQ:\n\n> Do I have to attribute the person who applied CC0 to their work?\n\n> No, there is no legal requirement that you attribute the affirmer ...\n\nFrom a Berlin Universities Publishing FAQ:\n\n> ... Since a waiver of copyright protection is not possible under German copyright law, CC0 is equivalent to a waiver of all possible rights and legal claims by the creator.",
+    "link": [
+      "https://wiki.creativecommons.org/wiki/CC0_FAQ#What_is_the_difference_between_CC0_and_the_Public_Domain_Mark_.28.22PDM.22.29.3F",
+      "https://www.berlin-universities-publishing.de/en/beratung/lizenzen/cc-lizenzen-fragen/cc-lizenzen-was-ist-cc0.html"
     ]
   },
   "5c6a210b-7dd5-0a20-9165-e8013bf98e8d": {
