@@ -7790,6 +7790,29 @@
       "https://news.ycombinator.com/item?id=34748195"
     ]
   },
+  "8cb78f96-ec71-2094-fc50-51cec5ac3bf7": {
+    "id": "8cb78f96-ec71-2094-fc50-51cec5ac3bf7",
+    "timestamp": 1784271178.331,
+    "keyword": [
+      "title:research",
+      "research",
+      "style",
+      "anonymous",
+      "psuedononymous",
+      "linguistic computing",
+      "stylometry"
+    ],
+    "extra": [],
+    "note": "Resources on style matching through statistical analysis (stylometry).\n\nTalks about \"burrows' delta method\" along with others.",
+    "link": [
+      "https://www.tandfonline.com/doi/abs/10.1080/09296174.2011.533591?journalCode=njql20",
+      "https://academic.oup.com/dsh/article-abstract/17/3/267/929277?login=false",
+      "https://news.ycombinator.com/item?id=33756141",
+      "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise_distances_chunked.html",
+      "https://hn.algolia.com/?q=stylometry",
+      "https://aclanthology.org/W15-0709.pdf"
+    ]
+  },
   "8cde2a92-c14c-7405-e041-73d02120ecee": {
     "id": "8cde2a92-c14c-7405-e041-73d02120ecee",
     "timestamp": 1666471090.505,
@@ -8483,6 +8506,26 @@
     "note": "'Ten Lessons I Wish I Had Been Taught' by Gian-Carlo Rota from MIT applied math. Some cherry picked advice:\n* Write a long introduction. It's a gift to future readers to allow them an good intro to the subject and a good shout out to all the other folks who've come before.\n* Publish the same results several times. Rota talks about Riesz having 'perfectly formed' papers but this was because Riesz had shopped and refined the idea around in lesser journals. Also worth noting that lesser journals have been known to publish great results precisely because they were too new for larger journals. Publishing in lesser journals could not only spread ideas (and help refine them) but could also lay the groundwork for larger acceptance to filter back into the bigger journals.\n* Every mathematician has only a few tricks. This was said about Erdos as a derogatory remark but Rota notes that this is true of almost every mathematician.",
     "link": [
       "https://github.com/abetusk/papers/blob/release/Misc/ten-lessons-i-wish-i-had-been-taught_rota.pdf"
+    ]
+  },
+  "989cfdf9-f929-bef3-3d7f-5e4754d23e23": {
+    "id": "989cfdf9-f929-bef3-3d7f-5e4754d23e23",
+    "timestamp": 1784272300.06,
+    "keyword": [
+      "title:gamedev",
+      "gamedev",
+      "game",
+      "arcade",
+      "foss"
+    ],
+    "extra": [],
+    "note": "resources for some FOSS clones of arcade games:\n\n* burger space (burger time)\n* hurry curry (overcooked)\n",
+    "link": [
+      "https://hurrycurry.org/",
+      "https://www.lemonamiga.com/forum/viewtopic.php?t=18833",
+      "https://flathub.org/en/apps/in.p1x.TanksOfFreedom",
+      "https://github.com/amilich/isometric-city",
+      ""
     ]
   },
   "98a39458-2ea6-f0f4-226b-8a86af186334": {

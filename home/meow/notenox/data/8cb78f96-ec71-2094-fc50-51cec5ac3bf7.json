@@ -1,0 +1,23 @@
+{
+  "id": "8cb78f96-ec71-2094-fc50-51cec5ac3bf7",
+  "timestamp": 1784271178.331,
+  "keyword": [
+    "title:research",
+    "research",
+    "style",
+    "anonymous",
+    "psuedononymous",
+    "linguistic computing",
+    "stylometry"
+  ],
+  "extra": [],
+  "note": "Resources on style matching through statistical analysis (stylometry).\n\nTalks about \"burrows' delta method\" along with others.",
+  "link": [
+    "https://www.tandfonline.com/doi/abs/10.1080/09296174.2011.533591?journalCode=njql20",
+    "https://academic.oup.com/dsh/article-abstract/17/3/267/929277?login=false",
+    "https://news.ycombinator.com/item?id=33756141",
+    "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise_distances_chunked.html",
+    "https://hn.algolia.com/?q=stylometry",
+    "https://aclanthology.org/W15-0709.pdf"
+  ]
+}
