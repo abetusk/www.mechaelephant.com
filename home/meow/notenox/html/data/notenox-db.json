@@ -9964,6 +9964,23 @@
       "https://www.youtube.com/watch?v=HrVtA-ue-x0"
     ]
   },
+  "af01e3f8-48dc-3c31-215e-6321dd29a12c": {
+    "id": "af01e3f8-48dc-3c31-215e-6321dd29a12c",
+    "timestamp": 1784800921.851,
+    "keyword": [
+      "title:teaching",
+      "teaching",
+      "books",
+      "computer science",
+      "textbook"
+    ],
+    "extra": [],
+    "note": "\"Computer science form the bottom up\"",
+    "link": [
+      "https://www.bottomupcs.com/",
+      "https://github.com/ianw/bottomupcs"
+    ]
+  },
   "af2808c7-4ede-4016-cb04-28c0a715e211": {
     "id": "af2808c7-4ede-4016-cb04-28c0a715e211",
     "timestamp": 1698152100.63,
@@ -13290,6 +13307,19 @@
       "https://www.ftis.org/index.html"
     ]
   },
+  "ea989ab2-d524-6761-9972-b4e7a08e20d6": {
+    "id": "ea989ab2-d524-6761-9972-b4e7a08e20d6",
+    "timestamp": 1784798826.71,
+    "keyword": [
+      "title:programming",
+      "programming"
+    ],
+    "extra": [],
+    "note": "\"What every computer science major should know\" by Matt Might.",
+    "link": [
+      "https://matt.might.net/articles/what-cs-majors-should-know/"
+    ]
+  },
   "eadbb583-e153-81f1-1b56-7442f34c959d": {
     "id": "eadbb583-e153-81f1-1b56-7442f34c959d",
     "timestamp": 1620677760.77,
@@ -13664,6 +13694,21 @@
       "https://news.ycombinator.com/item?id=41385546",
       "https://web.archive.org/web/20240901032905/https://news.ycombinator.com/item?id=41385546",
       "https://web.archive.org/web/20240830212545/https://chrismcdonough.substack.com/p/the-shameful-defenestration-of-tim"
+    ]
+  },
+  "ee712c5b-c0de-baef-cfa4-27d58e8b6700": {
+    "id": "ee712c5b-c0de-baef-cfa4-27d58e8b6700",
+    "timestamp": 1784805250.84,
+    "keyword": [
+      "title:social",
+      "social",
+      "business",
+      "learning"
+    ],
+    "extra": [],
+    "note": "Blog post on \"rise of the expert beginner\" by Erik Dietrich.\n\nThis blog has a bowling anecdote:\n\n> Most people who bowl put a thumb and two fingers in the ball ... With no patience for learning that, I discovered I could do a pretty good job ... by ... chucking the ball down the lane.\n\n> ... I rocketed up past 130, 140, and all the way into the 160 range within a few months of playing in the league.\n\n> But then a strange thing happened. I stopped improving. Right at about 160, I topped out.\n\n> I asked ... what I could do to [to improve] ...\n\n> \"There’s nothing you can do to improve as long as you keep bowling like that. You’ve maxed out. If you want to get better, you’re going to have to learn to bowl properly.\"\n>\n> \"You need a different ball, a different style of throwing it, and you need to put your fingers in it like a big boy. And the worst part is that you’re going to get way worse before you get better, and it will be a good bit of time before you get back to and surpass your current average.\"\n\nHe goes on to talk about Dreyfus's model of skill acquisition: Novice -> Advanced Beginner -> Competent -> Proficient -> Expert. \"The Advanced Beginner stage is the last one in which the skill acquirer has no understanding of the big picture. As such, it’s the last phase in which the acquirer might confuse himself with an Expert. \" \n\n> They fail even while convinced that the failure is everyone else’s fault, and the nature of the game is such that blaming others is easy and handy to relieve any cognitive dissonance. They come to the conclusion that they’ve quickly reached Expert status and there’s nowhere left to go. They’ve officially become Expert Beginners, and they’re ready to entrench themselves into some niche in an organization and collect a huge paycheck because no one around them, including them, realizes that they can do a lot better.",
+    "link": [
+      "https://daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/"
     ]
   },
   "ee77a187-6be6-734d-890e-48df21206f84": {
@@ -14322,6 +14367,21 @@
     "link": [
       "https://medium.com/lessons-from-history/why-wasnt-the-steam-engine-invented-in-china-bec3177d0c58",
       "https://web.archive.org/web/20221212143549/https://medium.com/lessons-from-history/why-wasnt-the-steam-engine-invented-in-china-bec3177d0c58"
+    ]
+  },
+  "fbbd8f5c-76d3-a94a-e023-6c0219810c5f": {
+    "id": "fbbd8f5c-76d3-a94a-e023-6c0219810c5f",
+    "timestamp": 1784800160.972,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "hype",
+      "reality"
+    ],
+    "extra": [],
+    "note": "\"Awesome cold showers\" - an awesome list that tempers hype with reality. Some choice examples:\n\n> [on verification techniques] Extensive literature review showing that formal methods are hard to learn, extremely expensive to apply, and often miss critical bugs.\n\n> [on static vs. dynamic typing]  A review of all the available literature (up to 2014), showing that the solid research is inconclusive, while the conclusive research had methodological issues.\n\n> Benchmarking cutting-edge graph-processing algorithms running on 128-core clusters against a single-threaded 2014 Macbook Pro. The laptop consistently wins, sometimes by an order of magnitude.\n\n",
+    "link": [
+      "https://github.com/hwayne/awesome-cold-showers"
     ]
   },
   "fbcbdcfb-fea1-e6ef-0dd2-476320adc8c4": {

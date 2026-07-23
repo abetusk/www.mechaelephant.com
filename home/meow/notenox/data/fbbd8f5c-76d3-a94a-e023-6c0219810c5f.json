@@ -1,0 +1,15 @@
+{
+  "id": "fbbd8f5c-76d3-a94a-e023-6c0219810c5f",
+  "timestamp": 1784800160.972,
+  "keyword": [
+    "title:programming",
+    "programming",
+    "hype",
+    "reality"
+  ],
+  "extra": [],
+  "note": "\"Awesome cold showers\" - an awesome list that tempers hype with reality. Some choice examples:\n\n> [on verification techniques] Extensive literature review showing that formal methods are hard to learn, extremely expensive to apply, and often miss critical bugs.\n\n> [on static vs. dynamic typing]  A review of all the available literature (up to 2014), showing that the solid research is inconclusive, while the conclusive research had methodological issues.\n\n> Benchmarking cutting-edge graph-processing algorithms running on 128-core clusters against a single-threaded 2014 Macbook Pro. The laptop consistently wins, sometimes by an order of magnitude.\n\n",
+  "link": [
+    "https://github.com/hwayne/awesome-cold-showers"
+  ]
+}
