@@ -1,0 +1,18 @@
+{
+  "id": "dce8a34f-f603-aa94-570d-267fbc8014f1",
+  "timestamp": 1784843473.452,
+  "keyword": [
+    "title:ai",
+    "ai",
+    "artificial intelligence",
+    "llm",
+    "open source"
+  ],
+  "extra": [],
+  "note": "allenai.org looks to be a company with a commitment to releasing an open source LLM.",
+  "link": [
+    "https://allenai.org/olmo",
+    "https://github.com/allenai/OLMo-core/",
+    "https://huggingface.co/allenai"
+  ]
+}
