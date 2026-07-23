@@ -1843,6 +1843,22 @@
       "https://github.com/wagiminator/Power-Boards"
     ]
   },
+  "212ac351-7cab-caf2-a42d-61d4fc6fd86c": {
+    "id": "212ac351-7cab-caf2-a42d-61d4fc6fd86c",
+    "timestamp": 1784810943.687,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "cheatsheat",
+      "api"
+    ],
+    "extra": [],
+    "note": "Programming cheat sheats",
+    "link": [
+      "https://overapi.com/",
+      "https://github.com/code9media/overthecs.github.io"
+    ]
+  },
   "214822b7-1227-60c8-737a-66c53f498809": {
     "id": "214822b7-1227-60c8-737a-66c53f498809",
     "timestamp": 1658043672.275,
@@ -5013,6 +5029,23 @@
     "link": [
       "https://blog.thea.codes/a-reply-to-josef-prusa/",
       "https://web.archive.org/web/20230401124319/https://blog.thea.codes/a-reply-to-josef-prusa/"
+    ]
+  },
+  "5bd2087f-22cd-af5a-654f-08f6a8168606": {
+    "id": "5bd2087f-22cd-af5a-654f-08f6a8168606",
+    "timestamp": 1784806240.407,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "sql",
+      "sqlite",
+      "database",
+      "backup"
+    ],
+    "extra": [],
+    "note": "\"How to corrup an SQLite database file\"",
+    "link": [
+      "https://sqlite.org/howtocorrupt.html"
     ]
   },
   "5be0a7c6-a9f0-3611-f289-17fed3ba5895": {
@@ -13394,6 +13427,22 @@
       "https://en.wikipedia.org/wiki/Girih_tiles",
       "https://en.wikipedia.org/wiki/Truchet_tiles",
       "https://archive.bridgesmathart.org/2018/bridges2018-39.pdf"
+    ]
+  },
+  "eb8e1c64-1030-6902-3416-f13d4b846cfb": {
+    "id": "eb8e1c64-1030-6902-3416-f13d4b846cfb",
+    "timestamp": 1784805415.29,
+    "keyword": [
+      "title:list",
+      "list",
+      "hn",
+      "hackernews",
+      "aggregator"
+    ],
+    "extra": [],
+    "note": "\"HN Hall of Fame\" - ranked, organized, searchable link of HN \"all time great\" posts of HN.",
+    "link": [
+      "https://www.orangecrumbs.com/hall/browse/"
     ]
   },
   "ebe46eba-499d-2174-4916-9ea808a9e322": {
