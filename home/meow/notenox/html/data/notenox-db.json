@@ -4165,6 +4165,23 @@
       "https://lukemuehlhauser.com/industrial-revolution/"
     ]
   },
+  "4b893446-d37d-423b-4ea7-2859ce9ad37e": {
+    "id": "4b893446-d37d-423b-4ea7-2859ce9ad37e",
+    "timestamp": 1785187143.81,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "midi",
+      "music",
+      "hardware"
+    ],
+    "extra": [],
+    "note": "Jamcorder is a hardware device that records the midi output. The idea is that you can jam on your midi piano and have it saved automatically.\n\nBlog post \"hardware is not so hard\" about building and sourcing the components for the mid-run for the device.\n\nNot OSHW.",
+    "link": [
+      "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
+      "https://jamcorder.com/"
+    ]
+  },
   "4b8e31ac-0e52-6ae2-a8d0-308800990f55": {
     "id": "4b8e31ac-0e52-6ae2-a8d0-308800990f55",
     "timestamp": 1754926170.542,
@@ -7157,6 +7174,25 @@
     "link": [
       "https://www.waveshare.com/product/robotics/motors-servos/motors/ddsm210.htm",
       "https://www.waveshare.com/wiki/DDSM210"
+    ]
+  },
+  "81b5a96a-aa63-d49e-b10e-1773fd84e611": {
+    "id": "81b5a96a-aa63-d49e-b10e-1773fd84e611",
+    "timestamp": 1785186927.835,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "artificial intelligence",
+      "llm",
+      "testing",
+      "ttd",
+      "programming"
+    ],
+    "extra": [],
+    "note": "Talks about using coding agents to essentially create a transpiler for their Ruby  (on rails) to Rust/Crystal/Typescript/Go/etc. The compiler is called Roundhouse.\n\nThe conversion was done by creating specifications, including tests, that the LLM then used to create the various versions. The article has a lot of interesting points, a few of which highlighted:\n\n* The idea that \"invalid states are unrepresentable\" yields better/faster/more robust code falls flat on its face because the LLMs can transpile to a strongly typed language from a pseudo-weakly typed language (the source language must have some implicit types so the conversion is unambiguous)\n\n* Coding agents can now take the place of standards bodies because of the speed at which specs can be fleshed out, implemented and verified\n\n* Jevon's paradox will probably be in full effect because the demand for people to manage coding agents, make specs that do the thing people want, etc. will only go up. The takeaway, for me, is that this is a path that Jevon's paradox can take effect, rather than some vague statement about it\n\nI'm sure I'm missing some subtler points but the overall gist seems to be source code will go by the way of assembly. We can let programs create source code at the current tier of abstraction and, so long as we have some assurances the program is running on spec, this will be fine. It further lays out a path ahead and what to expect from coding agents as they get better.\n",
+    "link": [
+      "https://intertwingly.net/blog/2026/06/27/Conformance-vs-Comprehension.html",
+      "https://en.wikipedia.org/wiki/Jevons_paradox"
     ]
   },
   "82728ad0-46a7-2b01-2d8e-23d30773b890": {

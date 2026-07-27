@@ -1,0 +1,17 @@
+{
+  "id": "4b893446-d37d-423b-4ea7-2859ce9ad37e",
+  "timestamp": 1785187143.81,
+  "keyword": [
+    "title:electronics",
+    "electronics",
+    "midi",
+    "music",
+    "hardware"
+  ],
+  "extra": [],
+  "note": "Jamcorder is a hardware device that records the midi output. The idea is that you can jam on your midi piano and have it saved automatically.\n\nBlog post \"hardware is not so hard\" about building and sourcing the components for the mid-run for the device.\n\nNot OSHW.",
+  "link": [
+    "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
+    "https://jamcorder.com/"
+  ]
+}
