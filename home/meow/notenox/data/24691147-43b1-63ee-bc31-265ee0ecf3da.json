@@ -1,0 +1,15 @@
+{
+  "id": "24691147-43b1-63ee-bc31-265ee0ecf3da",
+  "timestamp": 1785381477.804,
+  "keyword": [
+    "title:electronics",
+    "electronics",
+    "mosfet"
+  ],
+  "extra": [],
+  "note": "Mosfet suggestions (microcontroller use, ~.1A):\n\n* 2n7002\n\n* bs170",
+  "link": [
+    "https://www.digikey.com/en/products/detail/diotec-semiconductor/2N7002/13163336",
+    "https://www.digikey.com/en/products/detail/umw/BS170FTA/24890184"
+  ]
+}

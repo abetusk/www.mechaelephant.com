@@ -2117,6 +2117,21 @@
       "https://news.ycombinator.com/item?id=39087837"
     ]
   },
+  "24691147-43b1-63ee-bc31-265ee0ecf3da": {
+    "id": "24691147-43b1-63ee-bc31-265ee0ecf3da",
+    "timestamp": 1785381477.804,
+    "keyword": [
+      "title:electronics",
+      "electronics",
+      "mosfet"
+    ],
+    "extra": [],
+    "note": "Mosfet suggestions (microcontroller use, ~.1A):\n\n* 2n7002\n\n* bs170",
+    "link": [
+      "https://www.digikey.com/en/products/detail/diotec-semiconductor/2N7002/13163336",
+      "https://www.digikey.com/en/products/detail/umw/BS170FTA/24890184"
+    ]
+  },
   "248b74fa-2302-e883-bd14-7f2597954502": {
     "id": "248b74fa-2302-e883-bd14-7f2597954502",
     "timestamp": 1637273956.661,
@@ -3209,6 +3224,20 @@
     "link": [
       "https://opensource.google/docs/using/agpl-policy/",
       "https://web.archive.org/web/20210422121832/https://opensource.google/docs/using/agpl-policy/"
+    ]
+  },
+  "390a2328-bbff-f2dc-d912-4ab871d82563": {
+    "id": "390a2328-bbff-f2dc-d912-4ab871d82563",
+    "timestamp": 1785381518.882,
+    "keyword": [
+      "title:music",
+      "music",
+      "music theory"
+    ],
+    "extra": [],
+    "note": "\"Harmony Explained: Progress Towards A Scientific Theory of Music\" - Wilkerson (2012)",
+    "link": [
+      "https://arxiv.org/abs/1202.4212"
     ]
   },
   "3936986a-7898-6971-42a4-219353df800a": {
