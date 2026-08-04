@@ -5288,6 +5288,23 @@
       "https://www.andreinc.net/2025/03/17/the-trickonometry-of-math-olympiad-inequalities/#nesbitts-inequality"
     ]
   },
+  "5f0df3c2-a172-574d-bca7-8ed8412dd3a1": {
+    "id": "5f0df3c2-a172-574d-bca7-8ed8412dd3a1",
+    "timestamp": 1785810791.739,
+    "keyword": [
+      "title:math",
+      "math",
+      "mathematics",
+      "economics",
+      "probability",
+      "games"
+    ],
+    "extra": [],
+    "note": "Rahim Nathwani has some good programs on different ideas, including the Kelly criteria, Monty Hall, Berkson's paradox (how selection bias can create spurious correlations), etc.\n",
+    "link": [
+      "https://tools.encona.com/"
+    ]
+  },
   "5f89ee31-10f2-69f8-c485-5a96328a40fe": {
     "id": "5f89ee31-10f2-69f8-c485-5a96328a40fe",
     "timestamp": 1780507498.811,
@@ -9671,6 +9688,21 @@
     "link": [
       "https://www.vitling.xyz/toys/acid-banger/",
       "https://github.com/vitling"
+    ]
+  },
+  "a92eab1e-b8ff-c952-b0b3-83896a391ed9": {
+    "id": "a92eab1e-b8ff-c952-b0b3-83896a391ed9",
+    "timestamp": 1785810712.243,
+    "keyword": [
+      "title:economics",
+      "economics",
+      "wealth",
+      "wealth distribution"
+    ],
+    "extra": [],
+    "note": "\n53% of americans own some sort of stock.\n\ntop 10% of stock investors own 10 times as much as the lowest 60%.\n\ntop 10% of income earners own 70% of the stock market.\n\n\nI'm having trouble understanding what constitutes 'normal' for power law distributions. Asking Google's AI (2026-08), it looks like the power law exponent for the US is roughly 1.7-2, Sweden is 1.4-1.5, Germany is 1.3-1.6.\n\nI have to wrap my head around how to do this calculation.",
+    "link": [
+      "https://usafacts.org/articles/what-percentage-of-americans-own-stock/"
     ]
   },
   "a93b62b7-0ad6-931e-ecf1-c831d2f58617": {
