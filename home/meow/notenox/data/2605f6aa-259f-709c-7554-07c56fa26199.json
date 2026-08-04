@@ -1,0 +1,23 @@
+{
+  "id": "2605f6aa-259f-709c-7554-07c56fa26199",
+  "timestamp": 1785814149.608,
+  "keyword": [
+    "title:computing",
+    "computing",
+    "Moore's law",
+    "Proebsting's Law",
+    "computing power",
+    "exponential growth",
+    "compiler",
+    "gpu",
+    "flop",
+    "price"
+  ],
+  "extra": [],
+  "note": "GPU price per flop is still dropping exponentially.\n\nProebsting's law says that compiler advances double computing power every 18 years.\n\nBattery technology is dropping in cost exponentially.",
+  "link": [
+    "https://web.archive.org/web/20250330101143/https://ourworldindata.org/grapher/gpu-price-performance?yScale=log",
+    "https://zeux.io/2022/01/08/on-proebstings-law/",
+    "https://ourworldindata.org/battery-price-decline"
+  ]
+}
