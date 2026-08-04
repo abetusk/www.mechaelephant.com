@@ -1,0 +1,16 @@
+{
+  "id": "eb05024e-a2ae-ef47-cd55-7dd3721ca9e4",
+  "timestamp": 1785852859.829,
+  "keyword": [
+    "title:programming",
+    "programming",
+    "sqlite",
+    "sql",
+    "testing"
+  ],
+  "extra": [],
+  "note": "\"Reliability Lessons from SQLite\" - Richard Hipp, SSW 2026.\n\nTalks about testing for SQLite. Hipp is the original developer and one of three current maintainers.",
+  "link": [
+    "https://www.youtube.com/watch?v=V_qzqY1bb7I"
+  ]
+}
