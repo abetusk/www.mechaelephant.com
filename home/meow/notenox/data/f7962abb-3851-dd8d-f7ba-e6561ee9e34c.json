@@ -1,0 +1,19 @@
+{
+  "id": "f7962abb-3851-dd8d-f7ba-e6561ee9e34c",
+  "timestamp": 1786376104.47,
+  "keyword": [
+    "title:cs",
+    "cs",
+    "computer science",
+    "sat",
+    "sat solver",
+    "3sat"
+  ],
+  "extra": [],
+  "note": "lymphosat is (semi?) vibe coded to include a host of different solvers that hyperspecialize on a problem to beat out the best solvers on the SAT Competition 2026 (SC26).\n\nMost solvers got 133-135/191 whereas lymphosat got 146/191, 8% better than the state of the art.\n\nThe name is inspired from biology by emulating, at a high level, how our immune system fights disease (finding patterns in disease vectors and specializing).\n\nCode is said to 'be released with the paper' but I can't find it through a shallow search.",
+  "link": [
+    "https://c.mov/lymphosat/",
+    "https://c.mov/lymphosat/lymphosat.pdf",
+    ""
+  ]
+}

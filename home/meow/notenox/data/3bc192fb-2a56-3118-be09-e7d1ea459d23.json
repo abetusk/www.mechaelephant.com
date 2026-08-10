@@ -1,0 +1,16 @@
+{
+  "id": "3bc192fb-2a56-3118-be09-e7d1ea459d23",
+  "timestamp": 1786375724.524,
+  "keyword": [
+    "title:ai",
+    "ai",
+    "llm",
+    "fpga"
+  ],
+  "extra": [],
+  "note": "Using a Kria KV260 fpga to bake an LLM into it, giving ~60k tok/s. The model is tiny, with only something like 3mb of memory, but still interesting.",
+  "link": [
+    "https://www.mikeayles.com/blog/on-chip-llm-kv260/",
+    "https://github.com/MichaelAyles/kev-gpt"
+  ]
+}

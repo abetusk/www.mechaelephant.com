@@ -1,0 +1,17 @@
+{
+  "id": "f946d4ce-5f7f-b756-5ffd-4df0cc1cf182",
+  "timestamp": 1786376434.305,
+  "keyword": [
+    "title:programming",
+    "programming",
+    "gaussian splatting",
+    "art"
+  ],
+  "extra": [],
+  "note": "\"Painting with Gaussians\"\n\n2d gaussian splatting that uses some tricks to mimic painter strokes (edge aware transforms, etc.).",
+  "link": [
+    "https://yogthos.net/posts/2026-08-03-splat-painter.html",
+    "https://github.com/yogthos/splat-painter",
+    "https://yogthos.net/posts/2025-12-11-edge-aware-pixelation.html"
+  ]
+}
