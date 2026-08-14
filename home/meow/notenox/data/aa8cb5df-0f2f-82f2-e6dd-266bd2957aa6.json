@@ -1,0 +1,25 @@
+{
+  "id": "aa8cb5df-0f2f-82f2-e6dd-266bd2957aa6",
+  "timestamp": 1786673924.311,
+  "keyword": [
+    "title:ai",
+    "ai",
+    "colorization",
+    "gan",
+    "dnn",
+    "neural network",
+    "nn",
+    "ann"
+  ],
+  "extra": [],
+  "note": "Not many resources for black and white colorization. Also, the ones available have succumbed to bit-rot and are probably very slow.",
+  "link": [
+    "https://arxiv.org/pdf/1512.03385",
+    "https://cs231n.stanford.edu/reports/2022/pdfs/109.pdf",
+    "https://richzhang.github.io/colorization/",
+    "https://github.com/richzhang/colorization",
+    "https://github.com/akbartus/DeOldify-on-Browser",
+    "https://github.com/jantic/DeOldify",
+    ""
+  ]
+}
