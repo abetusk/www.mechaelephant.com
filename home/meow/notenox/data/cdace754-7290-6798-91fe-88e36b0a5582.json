@@ -1,0 +1,16 @@
+{
+  "id": "cdace754-7290-6798-91fe-88e36b0a5582",
+  "timestamp": 1786673065.883,
+  "keyword": [
+    "title:math",
+    "math",
+    "dynamic programming",
+    "bellman equation",
+    "banach fixed point"
+  ],
+  "extra": [],
+  "note": "Post on some mathematical underpinnings of dynamic programming.\n\nThe Bellman operator is the operator that works on the Bellman equation with the idea that a fixed point is the optimal equation because of the Banach fixed point theorem.\n",
+  "link": [
+    "https://iagoleal.com/posts/dynamic-programming/"
+  ]
+}

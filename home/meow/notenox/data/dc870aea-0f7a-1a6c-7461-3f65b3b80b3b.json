@@ -1,0 +1,21 @@
+{
+  "id": "dc870aea-0f7a-1a6c-7461-3f65b3b80b3b",
+  "timestamp": 1786673471.484,
+  "keyword": [
+    "title:math",
+    "math",
+    "mathematics",
+    "automatic differentiation"
+  ],
+  "extra": [],
+  "note": "Automatic differentiation links.\n\nThe sparse autodiff (also in another note) is probably the best. Wikipedia's article on the chain rule has the underpinnings of the what autodiff is actually trying to do.\n\nI'll have to review but I think the idea is that the Jacobian is the object we're trying to create. How we create it might go through a dynamic programming backpropagation of the equation network to get at it, so they're kind of separate. I suspect that the network can be changed into a multiplication of Jacobians but I'm having trouble seeing the details.",
+  "link": [
+    "https://rufflewind.com/2016-12-30/reverse-mode-automatic-differentiation",
+    "https://jingnanshi.com/blog/autodiff.html",
+    "https://iclr-blogposts.github.io/2025/blog/sparse-autodiff/",
+    "https://en.wikipedia.org/wiki/Chain_rule",
+    "https://stats.stackexchange.com/questions/224140/step-by-step-example-of-reverse-mode-automatic-differentiation",
+    "https://auto-ed.readthedocs.io/en/latest/mod3.html",
+    "https://www.ifis.uni-luebeck.de/~oezcep/teaching/WS2021/V07-automaticDifferentiation.pdf#2#2"
+  ]
+}

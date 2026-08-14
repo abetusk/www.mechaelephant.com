@@ -1687,6 +1687,22 @@
       "https://ourworldindata.org/a-history-of-global-living-conditions"
     ]
   },
+  "1c3cd501-0337-0806-f601-f1b9eb93c533": {
+    "id": "1c3cd501-0337-0806-f601-f1b9eb93c533",
+    "timestamp": 1786673155.995,
+    "keyword": [
+      "title:web",
+      "web",
+      "icann",
+      "domain names"
+    ],
+    "extra": [],
+    "note": "Apply for access to '.com' zone files from ICANN. They'll take a long time to process your request but eventually give you a multi gigabyte file that has every .com domain name in it, which you can use for local lookups.",
+    "link": [
+      "https://sive.rs/com",
+      "https://czds.icann.org"
+    ]
+  },
   "1c838eec-cce0-7e6d-c036-9c8274736e08": {
     "id": "1c838eec-cce0-7e6d-c036-9c8274736e08",
     "timestamp": 1732822827.795,
@@ -12118,6 +12134,22 @@
       "https://web.archive.org/web/20210903043115/https://www.youtube.com/watch?v=QB7qWQ9fn1k"
     ]
   },
+  "cdace754-7290-6798-91fe-88e36b0a5582": {
+    "id": "cdace754-7290-6798-91fe-88e36b0a5582",
+    "timestamp": 1786673065.883,
+    "keyword": [
+      "title:math",
+      "math",
+      "dynamic programming",
+      "bellman equation",
+      "banach fixed point"
+    ],
+    "extra": [],
+    "note": "Post on some mathematical underpinnings of dynamic programming.\n\nThe Bellman operator is the operator that works on the Bellman equation with the idea that a fixed point is the optimal equation because of the Banach fixed point theorem.\n",
+    "link": [
+      "https://iagoleal.com/posts/dynamic-programming/"
+    ]
+  },
   "cea2aa46-21af-9a31-f44b-92746a8ca703": {
     "id": "cea2aa46-21af-9a31-f44b-92746a8ca703",
     "timestamp": 1608224560.835,
@@ -12873,6 +12905,27 @@
     "note": "Gerald Sussman talks about evolvability over correctness for scalable, robust systems",
     "link": [
       "https://www.youtube.com/watch?v=HB5TrK7A4pI"
+    ]
+  },
+  "dc870aea-0f7a-1a6c-7461-3f65b3b80b3b": {
+    "id": "dc870aea-0f7a-1a6c-7461-3f65b3b80b3b",
+    "timestamp": 1786673471.484,
+    "keyword": [
+      "title:math",
+      "math",
+      "mathematics",
+      "automatic differentiation"
+    ],
+    "extra": [],
+    "note": "Automatic differentiation links.\n\nThe sparse autodiff (also in another note) is probably the best. Wikipedia's article on the chain rule has the underpinnings of the what autodiff is actually trying to do.\n\nI'll have to review but I think the idea is that the Jacobian is the object we're trying to create. How we create it might go through a dynamic programming backpropagation of the equation network to get at it, so they're kind of separate. I suspect that the network can be changed into a multiplication of Jacobians but I'm having trouble seeing the details.",
+    "link": [
+      "https://rufflewind.com/2016-12-30/reverse-mode-automatic-differentiation",
+      "https://jingnanshi.com/blog/autodiff.html",
+      "https://iclr-blogposts.github.io/2025/blog/sparse-autodiff/",
+      "https://en.wikipedia.org/wiki/Chain_rule",
+      "https://stats.stackexchange.com/questions/224140/step-by-step-example-of-reverse-mode-automatic-differentiation",
+      "https://auto-ed.readthedocs.io/en/latest/mod3.html",
+      "https://www.ifis.uni-luebeck.de/~oezcep/teaching/WS2021/V07-automaticDifferentiation.pdf#2#2"
     ]
   },
   "dce8a34f-f603-aa94-570d-267fbc8014f1": {
