@@ -12447,6 +12447,26 @@
       "https://neverworkintheory.org/2022/04/21/decline-of-sourceforge.html"
     ]
   },
+  "d33b210e-f955-52ed-47ae-efdae51ab4ea": {
+    "id": "d33b210e-f955-52ed-47ae-efdae51ab4ea",
+    "timestamp": 1787179736.733,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "tools",
+      "readline",
+      "linux",
+      "unix",
+      "command line",
+      "cli",
+      "repl"
+    ],
+    "extra": [],
+    "note": "rlwrap lets you get command history for programs that have a repl but don't have all the \"up arrow\" command history built in.\n\nTo use:\n\n```\nrlwrap ./repl-program\n```\n\nNow up/down arrow allows for command history. It has to make some assumptions and sit in front of the programs readline but it's surprising how it mostly \"just works\".\n\nStands for \"readline wrapper\".",
+    "link": [
+      "https://github.com/hanslub42/rlwrap"
+    ]
+  },
   "d3f636a8-4cfa-d360-6c44-0af927e0b853": {
     "id": "d3f636a8-4cfa-d360-6c44-0af927e0b853",
     "timestamp": 1636639993.193,
