@@ -1,0 +1,26 @@
+{
+  "id": "dc4b0498-2032-6f47-4ca5-d686c9680934",
+  "timestamp": 1787115839.368,
+  "keyword": [
+    "title:ai",
+    "ai",
+    "machine learning",
+    "backprop",
+    "continual backprop",
+    "deep learning",
+    "dl",
+    "ann",
+    "nn",
+    "neural network"
+  ],
+  "extra": [],
+  "note": "Richard Sutton is pushing for continual learning, which tries to maintain plasticity of the network even after training.\n\nIt sounds like one idea is to identify weights that don't contribute anything and then randomly re-initialize them. I think they have a valuation function that weights weights depending on how much their contribution is.\n\nOne presentation has different plots of 'dead units' (weights/nodes? that don't contribute anything), weight magnitude (average of weights) and effective rank. A little surprising is that the rank isn't full and only gets to be in the 25% to 50% region.\n\nThe continual backprop paper has a toy model that has a single layer with input as a binary digit, with some portion devoted to a slowly moving number (one flip every T iterations) and the remaining portion random noise. The hidden function is $y = \\sgn( \\sum w_i x_i)$, with weights drawn from $w_i \\in (-1,1)$. Gradient descent apparently does poorly on this type of function (note: gradient descent is very bad for this type of binary function with weights chosen +-1, this may or may not be close to REM).\n\n",
+  "link": [
+    "https://www.youtube.com/watch?v=p_zknyfV9fY",
+    "https://www.youtube.com/watch?v=xH7U7w9Qzlo",
+    "https://github.com/shibhansh/loss-of-plasticity",
+    "https://arxiv.org/abs/2108.06325",
+    "https://www.theoaklab.org/home",
+    "https://www.openmindresearch.org/#home-section"
+  ]
+}
