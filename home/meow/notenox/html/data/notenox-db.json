@@ -11334,6 +11334,22 @@
       "https://github.com/j-brooke/FracturedJson/wiki"
     ]
   },
+  "c1c71b28-c5a1-2f46-53c1-13edfcf81d07": {
+    "id": "c1c71b28-c5a1-2f46-53c1-13edfcf81d07",
+    "timestamp": 1787697764.629,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "tts",
+      "voice cloning"
+    ],
+    "extra": [],
+    "note": "PocketTTS-Raven",
+    "link": [
+      "https://pantel.is/projects/pocket-tts-raven/?b=1",
+      "https://github.com/pkalogiros/pocket-tts-raven"
+    ]
+  },
   "c1db14c5-81a5-0652-b8dd-e572028672ce": {
     "id": "c1db14c5-81a5-0652-b8dd-e572028672ce",
     "timestamp": 1694786882.98,
@@ -12869,6 +12885,20 @@
       "https://web.archive.org/web/20201222215625/https://www.ribbonfarm.com/2010/10/14/the-gervais-principle-iv-wonderful-human-beings/",
       "https://web.archive.org/web/20201125132438/https://www.ribbonfarm.com/2011/10/14/the-gervais-principle-v-heads-i-win-tails-you-lose/",
       "https://web.archive.org/web/20201121214903/https://www.ribbonfarm.com/2013/05/16/the-gervais-principle-vi-children-of-an-absent-god/"
+    ]
+  },
+  "da4ce0d1-8fe3-c71b-b0a3-af55f5960b88": {
+    "id": "da4ce0d1-8fe3-c71b-b0a3-af55f5960b88",
+    "timestamp": 1787697794.063,
+    "keyword": [
+      "title:music",
+      "music",
+      "music theory"
+    ],
+    "extra": [],
+    "note": "\"Music theory for programmers\"",
+    "link": [
+      "https://runjs.app/blog/music-theory-for-programmers"
     ]
   },
   "daa98b2c-54e7-2858-b666-6df43e2ac56b": {
@@ -14841,6 +14871,21 @@
       "https://archive.org/details/McGillLibrary-rbsc_piranesi_opere-varie_NE20525P5A41750-18848/rbsc_piranesi_opere-varie_NE20525P5A41750-new/page/n12/mode/1up",
       "https://archive.org/details/gri_33125010859888/page/n48/mode/thumb",
       "https://archive.org/details/ioannisbaptista00pira/page/n288/mode/thumb"
+    ]
+  },
+  "f98dfaea-b690-75fd-13ad-c4ae4118dc68": {
+    "id": "f98dfaea-b690-75fd-13ad-c4ae4118dc68",
+    "timestamp": 1787697713.063,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "game",
+      "programming"
+    ],
+    "extra": [],
+    "note": "\"I Built an AI Companion That Actually Plays With You\"",
+    "link": [
+      "https://pantel.is/projects/ai-gaming-companion/"
     ]
   },
   "f9cf44ad-e150-7a3f-d0c9-32330181f14b": {
