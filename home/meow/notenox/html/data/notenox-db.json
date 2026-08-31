@@ -2861,6 +2861,22 @@
       "https://newsletter.pessimistsarchive.org/p/that-war-of-the-worlds-panic-was"
     ]
   },
+  "2e9c5dfc-bc17-0f83-ccc7-aec9550d8134": {
+    "id": "2e9c5dfc-bc17-0f83-ccc7-aec9550d8134",
+    "timestamp": 1788187176.425,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "bezier",
+      "bezier curves",
+      "splines"
+    ],
+    "extra": [],
+    "note": "\"Curvature Beziers\"",
+    "link": [
+      "https://acko.net/blog/curvature-beziers/"
+    ]
+  },
   "2eaf17de-f3a8-453a-7f48-bf35c1a48ab7": {
     "id": "2eaf17de-f3a8-453a-7f48-bf35c1a48ab7",
     "timestamp": 1622653505.909,
@@ -9678,6 +9694,24 @@
     "link": [
       "https://pbs.twimg.com/media/FEHvJQdXsAA_C6D?format=jpg&name=large",
       "https://web.archive.org/web/20211114162357/https://pbs.twimg.com/media/FEHvJQdXsAA_C6D?format=jpg&name=large"
+    ]
+  },
+  "a5341502-3fc5-35fe-1f5e-7c5ffea77b1c": {
+    "id": "a5341502-3fc5-35fe-1f5e-7c5ffea77b1c",
+    "timestamp": 1788187133.086,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "diffusion",
+      "autoregression",
+      "nn",
+      "ann",
+      "bert"
+    ],
+    "extra": [],
+    "note": "\"How to Build a Diffusion Language Model\"",
+    "link": [
+      "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/"
     ]
   },
   "a538ef6b-7634-2a71-79a7-baae7fe48aa0": {
