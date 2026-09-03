@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/local/bin/node
 
 var xml2json = require('xml2json');
 
@@ -23,7 +23,4 @@ process.stdin.on('end', function () {
 });
 
 
-/*
-#!/usr/bin/env node
-*/
 

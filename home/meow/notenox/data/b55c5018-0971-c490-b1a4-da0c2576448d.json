@@ -14,6 +14,8 @@
   "note": "Welch Labs gives a high level overview of ResNet and some other ideas.\n\nResNet essentially \"skip\" layers by adding every other layer to two in front of it. I think this has the effect of allowing backpropagation to reach early layers without getting lost in noise. People were finding that deeper networks would get worse at training. By adding the skip connections, ResNets were born and there was a big jump in learning rate and success.\n\nThe video mentions that deeper networks approach white noise (the \"shattered gradients\" problem) and that the skip connections bypass this.\n\nThere's also an issue where the networks embed working memory \"registers\" into the image. I think there's a recent paper (2024) that talks about adding a temporary auxiliary space to provide a scratch space for the learning process (\"Vision Transformers Need Registers\").\n",
   "link": [
     "https://www.youtube.com/watch?v=QgH9sr7G13Q",
-    "https://arxiv.org/abs/2309.16588"
+    "https://arxiv.org/abs/2309.16588",
+    "https://www.youtube.com/watch?v=w1UsKanMatM",
+    "https://www.youtube.com/watch?v=C6tLw-rPQ2o"
   ]
 }
