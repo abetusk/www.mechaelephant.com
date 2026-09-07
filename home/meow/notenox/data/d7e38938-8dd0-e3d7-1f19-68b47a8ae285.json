@@ -1,0 +1,20 @@
+{
+  "id": "d7e38938-8dd0-e3d7-1f19-68b47a8ae285",
+  "timestamp": 1788742247.315,
+  "keyword": [
+    "title:mathematics",
+    "mathematics",
+    "math",
+    "dice",
+    "probability",
+    "game"
+  ],
+  "extra": [],
+  "note": "\"Go first dice\"\n\n> Each participant rolls a die. For there to be no possibility of a tie, no die can share a face number with another die—every face across all dice must be unique. For it to be fair, the distribution of numbers across all faces must be such that no die has an advantage over another die—the odds of rolling the highest number must be exactly the same for each die. The problem is in finding the combination of faces across five dice that satisfies these constraints. One difficulty of this is that each added player changes the whole equation—the odds get recalculated and new faces must be chosen. The secondary goal is to minimize the number of faces on the die.\n\n",
+  "link": [
+    "https://en.wikipedia.org/wiki/Go_First_Dice",
+    "http://gofirstdice.ericharshbarger.org/doku.php",
+    "https://news.ycombinator.com/item?id=49530807",
+    "https://www.mathartfun.com/dSpecial.html"
+  ]
+}

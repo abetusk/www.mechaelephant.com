@@ -6605,6 +6605,24 @@
       "https://www.a2k-coalition.org/"
     ]
   },
+  "73538c82-9086-d379-ecaf-009f0c73c7dc": {
+    "id": "73538c82-9086-d379-ecaf-009f0c73c7dc",
+    "timestamp": 1788741408.156,
+    "keyword": [
+      "title:business",
+      "business",
+      "companies",
+      "invisible companies",
+      "invisible champions"
+    ],
+    "extra": [],
+    "note": "\"Invisible companies\" are companies that are successful but are not widely known to the general public.\n\nAnother name, or possibly just related, is \"hidden champions\", coined by Hermann Simon. Conditions are:\n\n> Top three in global market for the companies specialization\n\n> Revenue below $5B\n\n> Low level public awareness\n\nThe original article talks about a stigma attached to hidden companies, but I suspect it's more about awareness of opportunities and general knowledge.\n\nHN has some good discussion. Some choice quotes:\n\n> If you spend any time trying to find such companies you'll see that for every invisible profitable company you'll find 20 invisible unprofitable disaster companies.\n\n> \"Oh you want to start a software consulting company b/c you like programming? That's like saying you want to start a pizza parlor b/c you like making pizza. Making the pizza is only 10% of the job.\"",
+    "link": [
+      "https://colossus.com/article/invisible-companies/",
+      "https://news.ycombinator.com/item?id=49521264",
+      "https://en.wikipedia.org/wiki/Hidden_champions"
+    ]
+  },
   "750cf1b1-bf78-4867-fdfb-a9cc329b0cb7": {
     "id": "750cf1b1-bf78-4867-fdfb-a9cc329b0cb7",
     "timestamp": 1774494689.416,
@@ -12806,6 +12824,26 @@
     "note": "Leland McInnes talks to Broad Institute about word embeddings. Specfically how some preprocssing, SVD and optimal transport can be used for the lions share of embeddings (without nn).",
     "link": [
       "https://www.youtube.com/watch?v=Z6s7PrfJlQ0&t=3084s"
+    ]
+  },
+  "d7e38938-8dd0-e3d7-1f19-68b47a8ae285": {
+    "id": "d7e38938-8dd0-e3d7-1f19-68b47a8ae285",
+    "timestamp": 1788742247.315,
+    "keyword": [
+      "title:mathematics",
+      "mathematics",
+      "math",
+      "dice",
+      "probability",
+      "game"
+    ],
+    "extra": [],
+    "note": "\"Go first dice\"\n\n> Each participant rolls a die. For there to be no possibility of a tie, no die can share a face number with another die—every face across all dice must be unique. For it to be fair, the distribution of numbers across all faces must be such that no die has an advantage over another die—the odds of rolling the highest number must be exactly the same for each die. The problem is in finding the combination of faces across five dice that satisfies these constraints. One difficulty of this is that each added player changes the whole equation—the odds get recalculated and new faces must be chosen. The secondary goal is to minimize the number of faces on the die.\n\n",
+    "link": [
+      "https://en.wikipedia.org/wiki/Go_First_Dice",
+      "http://gofirstdice.ericharshbarger.org/doku.php",
+      "https://news.ycombinator.com/item?id=49530807",
+      "https://www.mathartfun.com/dSpecial.html"
     ]
   },
   "d82d64e3-038e-279d-a73f-11741fcac321": {
