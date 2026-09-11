@@ -1,0 +1,20 @@
+{
+  "id": "7031920c-8ec2-7254-6073-719766ce4f39",
+  "timestamp": 1789135966.284,
+  "keyword": [
+    "title:programming",
+    "programming",
+    "math",
+    "lean",
+    "tutorial",
+    "theorem prover"
+  ],
+  "extra": [],
+  "note": "Lean resources, including ascii representations of unicode symbols it uses.",
+  "link": [
+    "https://github.com/leanprover/vscode-lean4/blob/master/lean4-unicode-input/src/abbreviations.json",
+    "https://lean-lang.org/learn/",
+    "https://leanprover-community.github.io/learn.html",
+    "https://github.com/leanprover-community/repl"
+  ]
+}
