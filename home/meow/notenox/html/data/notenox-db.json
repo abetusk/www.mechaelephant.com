@@ -11007,6 +11007,26 @@
     "note": "The ideal gas law has $P V = n R T$ with:\n$P$ - pressure\n$V$ - volume\n$n$ - number of particles\n$R$ - constant\n$T$ - temperature\nRearrange terms and you get $P = R \\rho T$, with $\\rho$ particle density (per unit volume). $\\rho T$ is very roughly energy density (maybe *kinetic* energy density) and with some hand-waiving, you get that pressure is pretty much defined to be proportional to energy per unit volume (amount of force exterted on a unit volume), giving us the formula.",
     "link": []
   },
+  "ba8ab84c-ee55-c5ab-f00f-4e3c092be1be": {
+    "id": "ba8ab84c-ee55-c5ab-f00f-4e3c092be1be",
+    "timestamp": 1789395566.756,
+    "keyword": [
+      "title:history",
+      "history",
+      "gdr",
+      "vietnam",
+      "1980s",
+      "coffee",
+      "cold war"
+    ],
+    "extra": [],
+    "note": "German Democratic Republic (East Germany) (GDR) had an embargo imposed on them from West Germany on coffee during the cold war. GDR mostly got by with importing and family connections for personal mail imports for coffee (article claims 1/5 is from family sending coffee through post).\n\nThe oil crisis and USA's loss of Vietnam war made coffee scarce and opened up a region that was more conducive to coffee bean growth. GDR invested heavily in coffee production in Vietnam but fell before the investment paid off (1990s started exporting in earnest but GDR fell that same year).\n\nBecause of the Vietnam war with USA, there was a shortage of men and women were incorporated into the workforce, with a focus on equality.\n\nVietnam's coffee trade is $3B+/year now.\n\nOther discussion talks about how relationships between GDR citizens and Vietnamese citizens was highly discouraged, including claims of deportation and coerced abortion.",
+    "link": [
+      "https://www.katjahoyer.uk/p/the-gdr-and-vietnam-from-fake-coffee",
+      "https://news.ycombinator.com/item?id=49649164",
+      "https://www.projekte.hu-berlin.de/de/migrationddr/migration-in-die-ddr-und-brd/projekte/vietnam/altes/abtreibung"
+    ]
+  },
   "bac14a81-55a1-260a-160b-7964f295ccb2": {
     "id": "bac14a81-55a1-260a-160b-7964f295ccb2",
     "timestamp": 1652132519.992,
