@@ -1,0 +1,18 @@
+{
+  "id": "12ddcc50-44d5-70f9-0536-213ea8e63596",
+  "timestamp": 1789743221.544,
+  "keyword": [
+    "title:programming",
+    "programming",
+    "dynamic programming",
+    "dp",
+    "plug dp",
+    "plugdp"
+  ],
+  "extra": [],
+  "note": "The example is tiling dominoes on a rectangle, solved using dynamic programming and called \"Plug DP\". This only works for narrow rectangles as there's an exponential blowup in states for one of the rectangle dimensions.\n\nThe idea is to represent the state as how many dominoes poke out of a horizontal partition. The partition is two horizontal lines with a unit vertical line connecting them.\n\nSo dp[i][j][mask] is all rows up to i-1 and partial row i up to column j. The mask is how many dominoes poke out at this [i][j] state and we can work out transitions appropriately.\n\nWhen the vertical line gets to the end, the whole line shifts down, and the bit mask is shifted by one, with the incoming bit the edge case of a cell neighboring the rectangle edge.\n\nWe've taken the columns, $c$, so the mask values can range from 0 to $2^{c}-1$. For narrow rectangles, this can be reasonable.",
+  "link": [
+    "https://codeforces.com/blog/entry/90841",
+    "https://oi-wiki.org/dp/plug/"
+  ]
+}

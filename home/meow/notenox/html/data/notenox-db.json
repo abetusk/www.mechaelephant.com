@@ -800,6 +800,24 @@
       "https://vitalik.eth.limo/general/2025/07/07/copyleft.html"
     ]
   },
+  "0e5338ef-6cbe-42cb-3af6-db0bfde32c53": {
+    "id": "0e5338ef-6cbe-42cb-3af6-db0bfde32c53",
+    "timestamp": 1789689783.129,
+    "keyword": [
+      "title:mathematics",
+      "mathematics",
+      "ai",
+      "editorial",
+      "math",
+      "luddite"
+    ],
+    "extra": [],
+    "note": "\"Why I didn't sign the Fields medalists' letter\" by Gowers (a fields medalist).\n\n\n\"The end of the age of heroes\".\n",
+    "link": [
+      "https://gowers.wordpress.com/2026/09/17/why-i-didnt-sign-the-fields-medallists-letter/",
+      "https://www.noahpinion.blog/p/the-end-of-the-age-of-heroes"
+    ]
+  },
   "0e68491f-b63b-5119-d733-a30b7914f0a1": {
     "id": "0e68491f-b63b-5119-d733-a30b7914f0a1",
     "timestamp": 1654435869.681,
@@ -1107,6 +1125,24 @@
     "link": [
       "https://www.infoq.com/presentations/dynamic-static-typing/",
       "https://web.archive.org/web/20210221101020/https://www.infoq.com/presentations/dynamic-static-typing/"
+    ]
+  },
+  "12ddcc50-44d5-70f9-0536-213ea8e63596": {
+    "id": "12ddcc50-44d5-70f9-0536-213ea8e63596",
+    "timestamp": 1789743221.544,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "dynamic programming",
+      "dp",
+      "plug dp",
+      "plugdp"
+    ],
+    "extra": [],
+    "note": "The example is tiling dominoes on a rectangle, solved using dynamic programming and called \"Plug DP\". This only works for narrow rectangles as there's an exponential blowup in states for one of the rectangle dimensions.\n\nThe idea is to represent the state as how many dominoes poke out of a horizontal partition. The partition is two horizontal lines with a unit vertical line connecting them.\n\nSo dp[i][j][mask] is all rows up to i-1 and partial row i up to column j. The mask is how many dominoes poke out at this [i][j] state and we can work out transitions appropriately.\n\nWhen the vertical line gets to the end, the whole line shifts down, and the bit mask is shifted by one, with the incoming bit the edge case of a cell neighboring the rectangle edge.\n\nWe've taken the columns, $c$, so the mask values can range from 0 to $2^{c}-1$. For narrow rectangles, this can be reasonable.",
+    "link": [
+      "https://codeforces.com/blog/entry/90841",
+      "https://oi-wiki.org/dp/plug/"
     ]
   },
   "131b2d69-bc99-49a7-8369-9abd9e2ec198": {
@@ -6122,6 +6158,24 @@
       "https://www.printables.com/model/2770-human-skull-anatomically-correct"
     ]
   },
+  "6a89f1f4-93ae-e16c-554c-1c7856ee1978": {
+    "id": "6a89f1f4-93ae-e16c-554c-1c7856ee1978",
+    "timestamp": 1789686531.31,
+    "keyword": [
+      "title:research",
+      "research",
+      "doi",
+      "paper",
+      "blog",
+      "writing"
+    ],
+    "extra": [],
+    "note": "\"How to get a DOI for your blog posts\"",
+    "link": [
+      "https://shkspr.mobi/blog/2026/09/how-to-get-a-doi-for-your-blog-posts/",
+      "https://rogue-scholar.org/overview"
+    ]
+  },
   "6b01676a-cd40-ef56-a69a-25d53b952280": {
     "id": "6b01676a-cd40-ef56-a69a-25d53b952280",
     "timestamp": 1765497730.219,
@@ -6175,6 +6229,19 @@
     "note": "'Project Hyperion' design competition for generation ships",
     "link": [
       "https://www.projecthyperion.org/"
+    ]
+  },
+  "6b9b2ea7-c1b8-12e7-5ca4-74ebaa4570e7": {
+    "id": "6b9b2ea7-c1b8-12e7-5ca4-74ebaa4570e7",
+    "timestamp": 1789686575.526,
+    "keyword": [
+      "title:misc",
+      "misc"
+    ],
+    "extra": [],
+    "note": "\"Things You're allowed to do\"",
+    "link": [
+      "https://milan.cvitkovic.net/things_youre_allowed_to_do/#appendix-sources-of-experts"
     ]
   },
   "6c0d1695-dcac-0b73-3a33-f8b891997fef": {
@@ -9453,6 +9520,22 @@
       "https://raphlinus.github.io/gpu/2020/09/05/stack-monoid.html",
       "https://news.ycombinator.com/item?id=24385095",
       "https://news.ycombinator.com/item?id=27164009"
+    ]
+  },
+  "a22ab8c4-ce07-b2a8-5dbc-1cdc5f97d1c4": {
+    "id": "a22ab8c4-ce07-b2a8-5dbc-1cdc5f97d1c4",
+    "timestamp": 1789686649.605,
+    "keyword": [
+      "title:music",
+      "music",
+      "music theory",
+      "course"
+    ],
+    "extra": [],
+    "note": "\"Music Theory for the 21st-Century Classroom\"\n\nThis is classical music theory, with rote memorization as the basic premise, not deeper understanding.",
+    "link": [
+      "https://musictheory.pugetsound.edu/mt21c/MusicTheory.html",
+      "https://news.ycombinator.com/item?id=49647134"
     ]
   },
   "a2f77d5d-2cef-02f4-2e4e-3edec5576bd7": {
