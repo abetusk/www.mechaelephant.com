@@ -1,0 +1,19 @@
+{
+  "id": "49d72fcd-fa72-7d18-80d6-f10a1915717b",
+  "timestamp": 1790693570.035,
+  "keyword": [
+    "title:ai",
+    "ai",
+    "transformers",
+    "tutorial"
+  ],
+  "extra": [],
+  "note": "Links on various transformer/ai tutorials.\n\n\"Transformers explained visually\"\n\n\"Illustrated transformer\"\n\n\"Hand on large language models\"\n\nWelch labs video on Deepseek transformer.",
+  "link": [
+    "https://poloclub.github.io/transformer-explainer/",
+    "https://jalammar.github.io/illustrated-transformer/",
+    "https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/B0F7JW92ML",
+    "https://news.ycombinator.com/item?id=49792342",
+    "https://www.youtube.com/watch?v=0VLAoVGf_74"
+  ]
+}

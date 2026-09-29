@@ -3337,6 +3337,21 @@
       "http://www.keystoneelectronics.net/ENG._DEPT/WEB_ORACLE/PDF/PDF%20CAT%20NO%20DRAWINGS/20000-29999/24881.PDF"
     ]
   },
+  "37e7efcc-88f1-faa3-322f-b4016942bf16": {
+    "id": "37e7efcc-88f1-faa3-322f-b4016942bf16",
+    "timestamp": 1790692939.132,
+    "keyword": [
+      "title:humor",
+      "humor",
+      "ai",
+      "satire"
+    ],
+    "extra": [],
+    "note": "\"Claude's load-bearing seams\"",
+    "link": [
+      "https://madradavid.com/claudes-load-bearing-seams/"
+    ]
+  },
   "37e80575-1d0b-9e1c-245b-21d5a7f5ccf8": {
     "id": "37e80575-1d0b-9e1c-245b-21d5a7f5ccf8",
     "timestamp": 1754926296.199,
@@ -4206,6 +4221,23 @@
       "https://web.archive.org/web/20211010120748/https://atdt.freeshell.org/k5/story_2009_3_12_33338_3000.html"
     ]
   },
+  "4531ec9c-ffe8-5bf3-f4b6-599a99ea5753": {
+    "id": "4531ec9c-ffe8-5bf3-f4b6-599a99ea5753",
+    "timestamp": 1790692915.786,
+    "keyword": [
+      "title:activism",
+      "activism",
+      "art",
+      "banksy",
+      "refugee",
+      "rescue"
+    ],
+    "extra": [],
+    "note": "Banksy funds refugee rescue boat operation in Mediterranean.",
+    "link": [
+      "https://londondaily.com/banksy-funds-refugee-rescue-boat-operating-in-mediterranean"
+    ]
+  },
   "45bdb24a-4735-60d1-a182-3ecb06d21853": {
     "id": "45bdb24a-4735-60d1-a182-3ecb06d21853",
     "timestamp": 1622823461.384,
@@ -4334,6 +4366,25 @@
       "https://github.com/lle/Gamify-PCB-Card",
       "https://www.youtube.com/watch?v=0xP9do7ryO8",
       "https://web.archive.org/web/20211019191310/https://www.youtube.com/watch?v=0xP9do7ryO8"
+    ]
+  },
+  "49d72fcd-fa72-7d18-80d6-f10a1915717b": {
+    "id": "49d72fcd-fa72-7d18-80d6-f10a1915717b",
+    "timestamp": 1790693570.035,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "transformers",
+      "tutorial"
+    ],
+    "extra": [],
+    "note": "Links on various transformer/ai tutorials.\n\n\"Transformers explained visually\"\n\n\"Illustrated transformer\"\n\n\"Hand on large language models\"\n\nWelch labs video on Deepseek transformer.",
+    "link": [
+      "https://poloclub.github.io/transformer-explainer/",
+      "https://jalammar.github.io/illustrated-transformer/",
+      "https://www.amazon.com/Hands-Large-Language-Models-Understanding/dp/B0F7JW92ML",
+      "https://news.ycombinator.com/item?id=49792342",
+      "https://www.youtube.com/watch?v=0VLAoVGf_74"
     ]
   },
   "4a0c577e-883e-7087-f899-444ad7844ce6": {
@@ -6346,6 +6397,23 @@
     "note": "'Islamic Scholars and the development of Physics and Mathematics ▲\n\nMathematics and physics were greatly developed by ancient Islamic scholars and scientists during the Golden Age of Islam, which spanned from the 8th to the 13th century.\n \nAl-Khwarizmi (c. 780-850): He is considered the father of algebra, a term derived from his book al-Kitab al-mukhtasar fi hisab al-jabr wa’l-muqabala (The Compendious Book on Calculation by Completion and Balancing). He also introduced the Arabic numerals and the decimal system to the Western world, and wrote influential works on astronomy, geography, and trigonometry.\n\nIbn al-Haytham (c. 965-1040): He is regarded as the father of modern optics, as he made significant contributions to the theory and practice of optics, vision, and light. He wrote the Kitab al-Manazir (Book of Optics), which was a landmark in the history of physics and psychology. He also studied the laws of reflection and refraction, the nature of colors, the structure of the eye, and the mechanism of vision. He also proposed the scientific method of experimentation and observation, and criticized Aristotle’s physics.\n\nOmar Khayyam (c. 1048-1131): He was a renowned poet, mathematician, astronomer, and philosopher. He is best known for his Rubaiyat, a collection of quatrains that express his views on life, love, and fate. He also contributed to algebra, geometry, number theory, and binomial theorem. He also calculated the length of the solar year with remarkable accuracy, and devised a calendar reform that was more accurate than the Gregorian calendar.\n\nAl-Biruni (c. 973-1048): He was a polymath who excelled in various fields of science, such as astronomy, mathematics, physics, geodesy, geography, geology, mineralogy, chemistry, pharmacology, anthropology, history, and linguistics. He wrote over 146 books on various topics, and is considered one of the greatest scholars of all time. \n\nHe measured the radius and circumference of the Earth using trigonometry, determined the specific gravity of various substances using hydrostatics, described the heliocentric model of the solar system, and studied the motion of planets and comets.\n\nAl-Farabi (c. 872-950): He was a philosopher, logician, musician, and scientist who wrote influential works on metaphysics, ethics, political philosophy, cosmology, psychology, music theory, and logic. He synthesized the ideas of Plato and Aristotle with Islamic theology, and developed his own system of classification of sciences. He also studied sound waves and musical harmony, and invented several musical instruments.\n\nThese contributions from ancient Islamic scholars laid the groundwork for the advancement of physics and mathematics in the subsequent centuries. Their works were translated and disseminated in Europe during the Middle Ages, playing a crucial role in the Renaissance and the development of modern science and mathematics.'",
     "link": [
       "https://x.com/PhysInHistory/status/1866550624038326731"
+    ]
+  },
+  "6cf8d2ff-325a-5921-0607-ffd332b007e6": {
+    "id": "6cf8d2ff-325a-5921-0607-ffd332b007e6",
+    "timestamp": 1790692096.178,
+    "keyword": [
+      "title:programming",
+      "programming",
+      "graphics",
+      "shaders",
+      "p5.js",
+      "gpu"
+    ],
+    "extra": [],
+    "note": "GPU programming in p5.js with compute shaders",
+    "link": [
+      "https://www.davepagurek.com/blog/p5-compute-shaders/"
     ]
   },
   "6cfe1bf0-8050-e882-dedf-c1bdfe2c5c4c": {
@@ -10813,6 +10881,26 @@
       "https://www.youtube.com/watch?v=C6tLw-rPQ2o"
     ]
   },
+  "b5679104-a750-46ba-91eb-ea13e5b6b111": {
+    "id": "b5679104-a750-46ba-91eb-ea13e5b6b111",
+    "timestamp": 1790692997.828,
+    "keyword": [
+      "title:game",
+      "game",
+      "programming",
+      "multiplayer",
+      "web",
+      "online",
+      "solitaire",
+      "card game"
+    ],
+    "extra": [],
+    "note": "\"Solitaire Alone Together\"\n\n\"Multiplayer\" solitaire game",
+    "link": [
+      "https://solitairealonetogether.com/",
+      "https://news.ycombinator.com/item?id=49794193"
+    ]
+  },
   "b599069c-f37e-5921-f1ff-780c22ded5a2": {
     "id": "b599069c-f37e-5921-f1ff-780c22ded5a2",
     "timestamp": 1783271444.478,
@@ -13183,6 +13271,22 @@
       "https://www.frontiersin.org/articles/10.3389/fimmu.2023.1150105/full",
       "https://mastodon.nl/@vickyvdtogt/110202237846457614",
       "https://news.ycombinator.com/item?id=35580684"
+    ]
+  },
+  "dbaf289f-3199-f86d-949f-1e4bc41439c6": {
+    "id": "dbaf289f-3199-f86d-949f-1e4bc41439c6",
+    "timestamp": 1790692794.993,
+    "keyword": [
+      "title:economics",
+      "economics",
+      "georgism",
+      "taxes",
+      "economy"
+    ],
+    "extra": [],
+    "note": "\"Does Georgism Work? Five Years Later\"\n\nTalks about a land value tax (LVT) in some US states and some places in the UK.\n\nSome selected snippets:\n\n> Overrated: winning online arguments\n\n> Underrated: doing policymakers’ homework for them\n\nArticle argues for land being a \"big deal\" (unfairly dismissed by detractors), costs are not passed onto tenants, among others.\n\nAlso argues that Georgism disappeared because of cars.",
+    "link": [
+      "https://www.astralcodexten.com/p/does-georgism-work-five-years-later"
     ]
   },
   "dbe78e95-8cf4-dccd-56cf-f1593668a579": {

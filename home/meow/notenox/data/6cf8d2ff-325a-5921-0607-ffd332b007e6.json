@@ -1,0 +1,17 @@
+{
+  "id": "6cf8d2ff-325a-5921-0607-ffd332b007e6",
+  "timestamp": 1790692096.178,
+  "keyword": [
+    "title:programming",
+    "programming",
+    "graphics",
+    "shaders",
+    "p5.js",
+    "gpu"
+  ],
+  "extra": [],
+  "note": "GPU programming in p5.js with compute shaders",
+  "link": [
+    "https://www.davepagurek.com/blog/p5-compute-shaders/"
+  ]
+}
