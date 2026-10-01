@@ -1,0 +1,20 @@
+{
+  "id": "f497eb94-5a84-3ff3-bef0-bbc2f1ccbba5",
+  "timestamp": 1790783544.539,
+  "keyword": [
+    "title:math",
+    "math",
+    "ai",
+    "mathematics",
+    "probability",
+    "percolation",
+    "phase transition"
+  ],
+  "extra": [],
+  "note": "No percolation at critical probability (d>=2). Anthropic solved.",
+  "link": [
+    "https://gilkalai.wordpress.com/2026/09/03/amazing-there-is-no-percolation-at-the-critical-probability-in-all-dimensions-solved-by-ai-via-a-conjecture-of-gady-kozma-and-shahaf-nitzan/",
+    "https://github.com/anthropics/formal-math/blob/795efb86f191735c5481675763537cfb4ff37e55/percolation/README.md",
+    "https://github.com/anthropics/formal-math/blob/795efb86f191735c5481675763537cfb4ff37e55/percolation/summary.pdf"
+  ]
+}

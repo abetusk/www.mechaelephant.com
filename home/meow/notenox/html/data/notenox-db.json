@@ -501,6 +501,20 @@
       "https://boredhoard.com/"
     ]
   },
+  "084a0d6b-8567-0df6-3b6f-32e0d6d637d6": {
+    "id": "084a0d6b-8567-0df6-3b6f-32e0d6d637d6",
+    "timestamp": 1790783352.075,
+    "keyword": [
+      "title:vocabulary",
+      "vocabulary"
+    ],
+    "extra": [],
+    "note": "boustrophedon : text written in alternating directions at each line. \"bous\" : ox, \"strophe : turn, e.g. \"turning like an ox [farming]\".",
+    "link": [
+      "https://en.wiktionary.org/wiki/boustrophedon",
+      "https://en.wikipedia.org/wiki/Boustrophedon"
+    ]
+  },
   "08a8f11c-e044-7641-0926-d1afceff2997": {
     "id": "08a8f11c-e044-7641-0926-d1afceff2997",
     "timestamp": 1758765604.496,
@@ -2297,6 +2311,24 @@
       "https://web.archive.org/web/20240602102141/https://twitter.com/x/migrate?tok=7b2265223a222f49445f41415f4361726d61636b2f7374617475732f31373936363232333337393633333839343132222c2274223a313731373332333730317d590e76b90d49be46bc67dbe791d04448"
     ]
   },
+  "25869ac2-91ae-1552-e91e-9f3bdd356a3f": {
+    "id": "25869ac2-91ae-1552-e91e-9f3bdd356a3f",
+    "timestamp": 1790783228.399,
+    "keyword": [
+      "title:economy",
+      "economy",
+      "jobs",
+      "blue collar work",
+      "white collar work",
+      "work",
+      "employment"
+    ],
+    "extra": [],
+    "note": "\"So you think you could be an electrician\"",
+    "link": [
+      "https://asteriskmag.com/issues/15/so-you-think-you-could-be-an-electrician"
+    ]
+  },
   "259bfd07-8c5b-2949-54ba-8753325c3342": {
     "id": "259bfd07-8c5b-2949-54ba-8753325c3342",
     "timestamp": 1694473032.49,
@@ -3550,6 +3582,21 @@
     "link": [
       "http://gtfs.org/best-practices/",
       "https://github.com/google/transit/blob/master/gtfs/spec/en/reference.md"
+    ]
+  },
+  "3a5c6cc2-954d-cc8b-1e8c-d642321c9e19": {
+    "id": "3a5c6cc2-954d-cc8b-1e8c-d642321c9e19",
+    "timestamp": 1790783456.866,
+    "keyword": [
+      "title:math",
+      "math",
+      "mathematics",
+      "ai"
+    ],
+    "extra": [],
+    "note": "vibemathed.com",
+    "link": [
+      "https://vibemathed.com"
     ]
   },
   "3a75e1d9-0423-a753-ad68-4124fe8a404e": {
@@ -14948,6 +14995,26 @@
     "link": [
       "https://www.youtube.com/watch?v=EZ05e7EMOLM",
       "https://web.archive.org/web/20220531054907/https://www.youtube.com/watch?v=EZ05e7EMOLM"
+    ]
+  },
+  "f497eb94-5a84-3ff3-bef0-bbc2f1ccbba5": {
+    "id": "f497eb94-5a84-3ff3-bef0-bbc2f1ccbba5",
+    "timestamp": 1790783544.539,
+    "keyword": [
+      "title:math",
+      "math",
+      "ai",
+      "mathematics",
+      "probability",
+      "percolation",
+      "phase transition"
+    ],
+    "extra": [],
+    "note": "No percolation at critical probability (d>=2). Anthropic solved.",
+    "link": [
+      "https://gilkalai.wordpress.com/2026/09/03/amazing-there-is-no-percolation-at-the-critical-probability-in-all-dimensions-solved-by-ai-via-a-conjecture-of-gady-kozma-and-shahaf-nitzan/",
+      "https://github.com/anthropics/formal-math/blob/795efb86f191735c5481675763537cfb4ff37e55/percolation/README.md",
+      "https://github.com/anthropics/formal-math/blob/795efb86f191735c5481675763537cfb4ff37e55/percolation/summary.pdf"
     ]
   },
   "f49ce7e3-8cfb-e876-37a9-83ef2faed0e2": {
