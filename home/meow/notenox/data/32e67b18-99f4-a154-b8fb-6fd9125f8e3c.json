@@ -1,0 +1,21 @@
+{
+  "id": "32e67b18-99f4-a154-b8fb-6fd9125f8e3c",
+  "timestamp": 1791685856.196,
+  "keyword": [
+    "title:luddite",
+    "luddite",
+    "math",
+    "tao",
+    "terence tao",
+    "ai",
+    "llm"
+  ],
+  "extra": [],
+  "note": "Terence Tao creates a thought experiment:\n\n> Suppose an advanced AI is prompted to “find a cure for cancer that passes a stage 3 clinical trial”.\n> ...\n> While nobody truly knows how this cocktail was found, this model prediction is confirmed in Lean, and the cocktail indeed passes a stage 3 trial\n> ...\n> Before injecting this cocktail into your bloodstream, would you want to know that there is at least one human cancer expert who understands the mechanism behind this cure?\n> Or a human mathematician who understands the mathematical model used to locate the cocktail?\n\n\"Math 2.0\" (slide 20).",
+  "link": [
+    "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+    "https://terrytao.wordpress.com/2026/10/10/math-2-0/",
+    "https://teorth.github.io/tao-web/ai-views.html",
+    ""
+  ]
+}
