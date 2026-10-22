@@ -3054,6 +3054,21 @@
       "https://github.com/orgs/community/discussions/26254"
     ]
   },
+  "315cb56c-a3ab-3ccc-eb09-d15993accf18": {
+    "id": "315cb56c-a3ab-3ccc-eb09-d15993accf18",
+    "timestamp": 1792688587.41,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "llm",
+      "editorial"
+    ],
+    "extra": [],
+    "note": "Current models have a similar \"controversial\" take on humans:\n\n\"Humans are more loyal to belonging than to truth\"",
+    "link": [
+      "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans"
+    ]
+  },
   "320b248d-1f55-3626-6b1b-908550985508": {
     "id": "320b248d-1f55-3626-6b1b-908550985508",
     "timestamp": 1667152289.927,
@@ -6009,6 +6024,22 @@
       "https://www.bismarckanalysis.com/Machine_Tools_Case_Study.pdf"
     ]
   },
+  "66c157b0-a846-a159-9ec4-5ce694326193": {
+    "id": "66c157b0-a846-a159-9ec4-5ce694326193",
+    "timestamp": 1792688646.243,
+    "keyword": [
+      "title:luddite",
+      "luddite",
+      "technology",
+      "history",
+      "editorial"
+    ],
+    "extra": [],
+    "note": "\"Lace and labor: Lessons from the actual luddites\"",
+    "link": [
+      "https://articlesofinterest.substack.com/p/lace-and-labor"
+    ]
+  },
   "66c4e175-fe92-b5d5-d460-85eab8743b5f": {
     "id": "66c4e175-fe92-b5d5-d460-85eab8743b5f",
     "timestamp": 1661871282.644,
@@ -6896,6 +6927,23 @@
       "https://www.youtube.com/watch?v=Bgk65ZmEyvA",
       "https://www.damagemag.com/",
       "https://www.workingclasspolitics.org/"
+    ]
+  },
+  "7517931f-eef0-8dbb-129e-a26fdc4247b6": {
+    "id": "7517931f-eef0-8dbb-129e-a26fdc4247b6",
+    "timestamp": 1792688698.979,
+    "keyword": [
+      "title:archive",
+      "archive",
+      "35mm",
+      "digitizing",
+      "film",
+      "scan"
+    ],
+    "extra": [],
+    "note": "\"Automating my 35mm film scanning pipeline\"",
+    "link": [
+      "https://shannadige.com/blog/darkroom/"
     ]
   },
   "751ccc98-a522-ff7d-9581-fa52642855f8": {
