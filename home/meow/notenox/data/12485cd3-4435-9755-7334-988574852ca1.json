@@ -1,0 +1,19 @@
+{
+  "id": "12485cd3-4435-9755-7334-988574852ca1",
+  "timestamp": 1793143626.822,
+  "keyword": [
+    "title:math",
+    "math",
+    "prony",
+    "fourier",
+    "compressed sensing",
+    "autoregression"
+  ],
+  "extra": [],
+  "note": "I'm not sure if it can be called compressed sensing but it's Prony's method or autoregressive models",
+  "link": [
+    "https://www.sithankanna.com/posts/prony-method.html",
+    "https://en.wikipedia.org/wiki/Prony%27s_method",
+    "https://en.wikipedia.org/wiki/Digital_signal_processing#Autoregression_analysis"
+  ]
+}
