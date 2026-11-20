@@ -4403,6 +4403,25 @@
       "https://web.archive.org/web/20230712210243/https://blog.adafruit.com/2023/07/12/when-open-becomes-opaque-the-changing-face-of-open-source-hardware-companies/"
     ]
   },
+  "46ffbecc-9793-1067-aee3-02f911406843": {
+    "id": "46ffbecc-9793-1067-aee3-02f911406843",
+    "timestamp": 1795145730.272,
+    "keyword": [
+      "title:ai",
+      "ai",
+      "mcp",
+      "libre",
+      "open",
+      "open source"
+    ],
+    "extra": [],
+    "note": "OpenCode, I think is a libre/free harness for agenst.\n\nMCP: Model Context Protocol, open standard for connecting AI applications and agents to external data sources, tools, etc.",
+    "link": [
+      "https://opencode.ai/product/browse",
+      "https://en.wikipedia.org/wiki/Model_Context_Protocol",
+      "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro"
+    ]
+  },
   "47f8e620-429a-22c0-6ea4-0232b8584d51": {
     "id": "47f8e620-429a-22c0-6ea4-0232b8584d51",
     "timestamp": 1644873074.062,
@@ -5014,6 +5033,20 @@
       "https://journals.aps.org/prx/pdf/10.1103/PhysRevX.14.031005"
     ]
   },
+  "54a581f9-6d5b-a43d-0e1d-1a8e0eef90d3": {
+    "id": "54a581f9-6d5b-a43d-0e1d-1a8e0eef90d3",
+    "timestamp": 1795145212.69,
+    "keyword": [
+      "title:electronics",
+      "garage door"
+    ],
+    "extra": [],
+    "note": "ratcloud llc sells garage door opener control kits",
+    "link": [
+      "https://blog.harrison.page/garage-door-spam/",
+      "https://ratcloud.llc/products/ratgdo32"
+    ]
+  },
   "5511b64c-0b3d-c0d3-b1cc-2eeefafdd574": {
     "id": "5511b64c-0b3d-c0d3-b1cc-2eeefafdd574",
     "timestamp": 1772315168.357,
@@ -5091,6 +5124,23 @@
     "note": "Upcoming key court cases",
     "link": [
       "https://constitutioncenter.org/blog/looking-ahead-a-supreme-court-preview-for-2023"
+    ]
+  },
+  "57179472-b3ce-98e7-5679-742168786f41": {
+    "id": "57179472-b3ce-98e7-5679-742168786f41",
+    "timestamp": 1795145805.537,
+    "keyword": [
+      "title:research",
+      "research",
+      "book",
+      "list",
+      "cs",
+      "computer science"
+    ],
+    "extra": [],
+    "note": "Book list for streetfighting computer scientsists.\n\n",
+    "link": [
+      "https://nick-black.com/dankwiki/index.php?title=Book_list_for_streetfighting_computer_scientists"
     ]
   },
   "572d2fa0-2b28-7ee3-b68c-3d9fedc6a77f": {
@@ -5616,6 +5666,20 @@
       "https://berthub.eu/articles/posts/how-tech-loses-out/",
       "https://web.archive.org/web/20210417142512/https://www.youtube.com/watch?v=PQccNdwm8Tw",
       "https://s3.amazonaws.com/s3.documentcloud.org/documents/69746/hart-smith-on-outsourcing.pdf"
+    ]
+  },
+  "5e1ae200-4660-b0f7-89fd-6f170c77f3bd": {
+    "id": "5e1ae200-4660-b0f7-89fd-6f170c77f3bd",
+    "timestamp": 1795145901.625,
+    "keyword": [
+      "title:prepper",
+      "prepper",
+      "diy"
+    ],
+    "extra": [],
+    "note": "Offline knowledge AI, maps and videos for survival and rebuilding",
+    "link": [
+      "https://github.com/Immortal-Protocols/lastbook"
     ]
   },
   "5e2ba5f0-cf81-0425-49af-9c285c8c3266": {
@@ -7229,6 +7293,20 @@
     "link": [
       "https://acoup.blog/2022/08/26/collections-why-no-roman-industrial-revolution/",
       "https://web.archive.org/web/20220826134006/https://acoup.blog/2022/08/26/collections-why-no-roman-industrial-revolution/"
+    ]
+  },
+  "7863ddaf-cabc-afea-3e7c-59800d5802f2": {
+    "id": "7863ddaf-cabc-afea-3e7c-59800d5802f2",
+    "timestamp": 1795145298.851,
+    "keyword": [
+      "title:music",
+      "music",
+      "nostalgia"
+    ],
+    "extra": [],
+    "note": "\"worst decade for music\"\n\nHas charts that clearly show peoples affinity for music peaks for the music produced in their adolescence. Interesting that further generations have a wider spread of across decades compared with generations previous.",
+    "link": [
+      "https://www.statsignificant.com/p/the-worst-trends-in-music-history"
     ]
   },
   "78a8dcc8-c657-e214-dab3-8c294442d9b7": {
@@ -11057,6 +11135,22 @@
       "https://zaratustra.itch.io/quantogram?width=32&height=32&image=demo_pacman.png"
     ]
   },
+  "b21f7a59-5e65-e7de-3138-74c51fe27f36": {
+    "id": "b21f7a59-5e65-e7de-3138-74c51fe27f36",
+    "timestamp": 1795145830.583,
+    "keyword": [
+      "title:tax",
+      "tax",
+      "lean",
+      "formal verification",
+      "government"
+    ],
+    "extra": [],
+    "note": "Formalizing US tax code (in Lean)",
+    "link": [
+      "https://lexifina.com/blog/formalizing-the-us-tax-code"
+    ]
+  },
   "b2a89f5b-30e7-7bb2-4b11-301078a3a603": {
     "id": "b2a89f5b-30e7-7bb2-4b11-301078a3a603",
     "timestamp": 1793741860.219,
@@ -11553,6 +11647,23 @@
       "https://twitter.com/janneformpls/status/1523691783758045185",
       "https://www.southwestjournal.com/news/city-hall/2015/06/council-committee-backs-measure-lifting-parking-requirements-along-transit-corridors/",
       "https://web.archive.org/web/20201029023818/https://www.southwestjournal.com/news/city-hall/2015/06/council-committee-backs-measure-lifting-parking-requirements-along-transit-corridors/"
+    ]
+  },
+  "bb61c48b-ad89-05bf-135d-f1d7fa6dc478": {
+    "id": "bb61c48b-ad89-05bf-135d-f1d7fa6dc478",
+    "timestamp": 1795145862.32,
+    "keyword": [
+      "title:browser",
+      "browser",
+      "x402",
+      "brave",
+      "api",
+      "payment"
+    ],
+    "extra": [],
+    "note": "x402 payments in Brave",
+    "link": [
+      "https://brave.com/blog/search-api-agentic-payments/"
     ]
   },
   "bb767919-1883-8188-d35a-2c393794e339": {
