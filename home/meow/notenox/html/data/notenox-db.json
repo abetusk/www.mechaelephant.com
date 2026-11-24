@@ -15097,6 +15097,25 @@
       "https://twitter.com/RWB93174525/status/1543825811253379072"
     ]
   },
+  "eeb993fe-ea8a-df02-7ccb-7fd538c95d18": {
+    "id": "eeb993fe-ea8a-df02-7ccb-7fd538c95d18",
+    "timestamp": 1795479681.105,
+    "keyword": [
+      "title:math",
+      "math",
+      "mathematics",
+      "complexity"
+    ],
+    "extra": [],
+    "note": "VP != VNP",
+    "link": [
+      "https://github.com/anthropics/formal-math",
+      "https://samidavies.wordpress.com/2017/04/02/the-algebraic-analog-of-p-vs-np/",
+      "https://dl.acm.org/doi/10.1145/800135.804419",
+      "https://www.scottaaronson.com/papers/pnp.pdf",
+      "https://arxiv.org/pdf/2406.06217"
+    ]
+  },
   "ef6a51cd-c534-d963-5072-9c561df5a536": {
     "id": "ef6a51cd-c534-d963-5072-9c561df5a536",
     "timestamp": 1673303254.711,
